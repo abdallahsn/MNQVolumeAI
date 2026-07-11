@@ -1,0 +1,5 @@
+extends: base.yaml
+symbol_filters:
+  - MNQM6
+tick_size: "0.25"
+exchange_timezone: America/Chicago

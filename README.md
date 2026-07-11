@@ -1,15 +1,17 @@
 # MNQVolumeAI
 
-Greenfield project shell for an MNQ Volume Profile AI research and trading-system build.
+Greenfield MNQ data foundation for an eventual Volume Profile / auction AI trading-system build.
 
-Current status: **Phase 0.5 bootstrap only**.
+Current status: **Phase 1 data foundation implemented**.
 
-This repository intentionally contains no trading implementation modules yet. Phase 0.5 establishes:
+Phase 1 implements only Databento MBO audit and canonical trade-tape extraction:
 
-- project-scoped Codex and Graphify instructions;
-- a structured research/planning corpus;
-- repository-scoped Codex Skills for dependency governance, research review, causality, feature design, validation, large-data engineering, and execution gates;
-- strict Graphify exclusions for raw market data and generated artifacts.
+- `action == "T"` is the sole executed-trade volume source.
+- `action == "F"` is audited but never included in canonical trade volume.
+- signed volume is `+size` for `side == "B"`, `-size` for `side == "A"`, and `0` with `unknown_aggressor=true` for `side == "N"`.
+- timestamps remain UTC internally; CME trading dates and RTH flags are derived with `America/Chicago`.
+- output is partitioned Parquet by `symbol` and `trading_date`.
+- no bars, Volume Profile features, CVD families beyond signed trade volume, labels, model training, backtesting, or live trading are implemented.
 
 ## Boundaries
 
@@ -19,8 +21,26 @@ Only inspected non-code research and planning documents may be copied into `docs
 
 ## Python Policy
 
-Use `uv` for package management. The project targets Python 3.12 and starts with no runtime dependencies. Developer tools such as Graphify are installed as isolated `uv tool` environments, not as project dependencies.
+Use `uv` for package management. The project targets Python `>=3.12,<3.13`.
 
-## Phase 1 Gate
+## CLI
 
-Do not begin Phase 1 data processing until [docs/phases/phase1_entry_gate.md](docs/phases/phase1_entry_gate.md) is GO.
+```bash
+~/.local/bin/uv run mnq-ai audit-mbo \
+  --input <INPUT_PARQUET_OR_DATASET> \
+  --config configs/mnq.yaml \
+  --output artifacts/phase1
+
+~/.local/bin/uv run mnq-ai build-trade-tape \
+  --input <INPUT_PARQUET_OR_DATASET> \
+  --config configs/mnq.yaml \
+  --output data/trade_tape \
+  --artifacts artifacts/phase1 \
+  --overwrite
+
+~/.local/bin/uv run mnq-ai validate-trade-tape \
+  --input data/trade_tape \
+  --manifest artifacts/phase1/phase1_manifest.json
+```
+
+Run schema-only and bounded smoke tests before attempting the full 179M-row fixture.

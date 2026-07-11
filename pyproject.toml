@@ -1,14 +1,57 @@
 [project]
-name = "mnqvolumeai"
-version = "0.0.0"
-description = "Greenfield MNQ Volume Profile AI research shell."
+name = "mnq-ai"
+version = "0.1.0"
+description = "Greenfield MNQ data foundation and trade-tape pipeline."
 readme = "README.md"
 requires-python = ">=3.12,<3.13"
-dependencies = []
+dependencies = [
+    "pyarrow>=25.0.0,<26.0.0",
+    "pyyaml>=6.0.3,<7.0.0",
+]
+
+[project.scripts]
+mnq-ai = "mnq_ai.cli:main"
+
+[build-system]
+requires = ["hatchling>=1.31.0,<2.0.0"]
+build-backend = "hatchling.build"
+
+[tool.hatch.build.targets.wheel]
+packages = ["src/mnq_ai"]
 
 [tool.uv]
-package = false
+package = true
 
-[tool.mnqvolumeai]
-phase = "0.5"
-runtime_status = "bootstrap-only"
+[tool.mnq_ai]
+phase = "1"
+runtime_status = "data-foundation"
+
+[dependency-groups]
+dev = [
+    "hatchling>=1.31.0,<2.0.0",
+    "mypy>=2.2.0,<2.3.0",
+    "pytest>=9.1.1,<10.0.0",
+    "ruff>=0.15.21,<0.16.0",
+]
+
+[tool.pytest.ini_options]
+pythonpath = ["src"]
+testpaths = ["tests"]
+
+[tool.ruff]
+line-length = 100
+target-version = "py312"
+
+[tool.ruff.lint]
+select = ["E", "F", "I", "B", "UP", "SIM"]
+ignore = ["E501"]
+
+[tool.mypy]
+python_version = "3.12"
+strict = true
+warn_return_any = true
+warn_unused_configs = true
+
+[[tool.mypy.overrides]]
+module = ["pyarrow", "pyarrow.*", "yaml"]
+ignore_missing_imports = true
