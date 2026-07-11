@@ -1,0 +1,27 @@
+{
+  "/Users/abdallah/Desktop/Trading/MNQVolumeAI/.codex/hooks.json": {
+    "mtime": 1783729295.1697245,
+    "ast_hash": "a33eb25247ab97626edb83774abc0320",
+    "semantic_hash": "a33eb25247ab97626edb83774abc0320"
+  },
+  "/Users/abdallah/Desktop/Trading/MNQVolumeAI/scripts/__init__.py": {
+    "mtime": 1783729295.171727,
+    "ast_hash": "ad147a73cf1f14b813bdebee9a15f896",
+    "semantic_hash": "ad147a73cf1f14b813bdebee9a15f896"
+  },
+  "/Users/abdallah/Desktop/Trading/MNQVolumeAI/scripts/validate_skills.py": {
+    "mtime": 1783729295.1709847,
+    "ast_hash": "0a4ed2ff69284917c0346de8eaeee960",
+    "semantic_hash": "0a4ed2ff69284917c0346de8eaeee960"
+  },
+  "/Users/abdallah/Desktop/Trading/MNQVolumeAI/tests/__init__.py": {
+    "mtime": 1783729295.1723855,
+    "ast_hash": "fdb84bbaf143a62c8234852a015a8b06",
+    "semantic_hash": "fdb84bbaf143a62c8234852a015a8b06"
+  },
+  "/Users/abdallah/Desktop/Trading/MNQVolumeAI/tests/test_validate_skills.py": {
+    "mtime": 1783729574.0970683,
+    "ast_hash": "bcfaa6c93c01caa2f81c6e251d87ffe4",
+    "semantic_hash": "bcfaa6c93c01caa2f81c6e251d87ffe4"
+  }
+}

@@ -1,0 +1,280 @@
+{
+  "communities": {
+    "0": [
+      "int",
+      "path",
+      "scripts_validate_skills",
+      "scripts_validate_skills_load_skill",
+      "scripts_validate_skills_main",
+      "scripts_validate_skills_parse_front_matter",
+      "scripts_validate_skills_skilldoc",
+      "scripts_validate_skills_validate",
+      "str",
+      "tests_test_validate_skills",
+      "tests_test_validate_skills_validateskillstests",
+      "tests_test_validate_skills_validateskillstests_test_missing_required_skill_is_reported",
+      "tests_test_validate_skills_validateskillstests_test_repository_skills_are_valid",
+      "tests_test_validate_skills_validateskillstests_test_secret_pattern_is_reported"
+    ],
+    "1": [
+      "agents_auction_feature_engineering",
+      "agents_dependency_governor",
+      "agents_execution_backtest_gate",
+      "agents_graphify",
+      "agents_mbo_data_causality",
+      "agents_out_of_core_data_engineering",
+      "agents_quant_model_validation",
+      "agents_quant_research_scout",
+      "docs_dependencies_dependency_policy",
+      "docs_research_algorithm_selection_policy",
+      "docs_research_phase0_5_skill_trigger_tests",
+      "readme_mnqvolumeai"
+    ],
+    "2": [
+      "docs_research_claims_registry",
+      "docs_research_papers_original_mnq_data_audit_plan",
+      "docs_research_papers_original_mnq_feature_contract",
+      "docs_research_papers_original_mnq_labeling_and_leakage_spec",
+      "docs_research_papers_original_mnq_model_and_calibration_spec",
+      "docs_research_papers_original_mnq_phase0_rebuild_cleanup_decision",
+      "docs_research_papers_original_mnq_phase1_implementation_tasks",
+      "docs_research_papers_original_mnq_risk_register",
+      "docs_research_papers_original_mnq_setup_engine_spec",
+      "docs_research_papers_original_mnq_vp_ai_master_plan",
+      "docs_research_papers_original_mnq_walk_forward_backtest_spec",
+      "docs_research_papers_original_volume_profile_research_en"
+    ],
+    "3": [
+      "arxiv_2403_09267_deep_limit_order_book_forecasting",
+      "arxiv_2405_18938_hlob",
+      "arxiv_2502_15757_tlob"
+    ],
+    "4": [
+      "arxiv_2510_15949_atlas_adaptive_trading_llm_agents",
+      "arxiv_2603_19944_large_language_models_stock_investing",
+      "arxiv_2603_20965_learning_to_aggregate_zero_shot_llm_agents"
+    ],
+    "5": [
+      "codex_hooks",
+      "codex_hooks_hooks",
+      "codex_hooks_hooks_pretooluse"
+    ],
+    "6": [
+      "arxiv_2503_09655_deep_reinforcement_learning_xlstm",
+      "arxiv_2603_21330_finrl_x"
+    ],
+    "7": [
+      "arxiv_2510_15612_sok_market_microstructure_depm",
+      "arxiv_2604_03888_polyswarm_multi_agent_llm_framework"
+    ],
+    "8": [
+      "scripts_init",
+      "scripts_init_rationale_1"
+    ],
+    "9": [
+      "tests_init",
+      "tests_init_rationale_1"
+    ],
+    "10": [
+      "arxiv_2306_05479_deep_attentive_survival_analysis"
+    ],
+    "11": [
+      "arxiv_2409_14157_price_predictability"
+    ],
+    "12": [
+      "arxiv_2603_14453_e_trends"
+    ],
+    "13": [
+      "arxiv_2603_16434_natural_language_to_executable_option_strategies"
+    ],
+    "14": [
+      "arxiv_2604_02035_reinforcement_learning_speculative_trading"
+    ],
+    "15": [
+      "arxiv_2604_02921_debiasing_llms_fine_tuning"
+    ],
+    "16": [
+      "arxiv_2604_10005_institutional_liquidity_prediction_markets"
+    ],
+    "17": [
+      "arxiv_2604_11477_oom_rl_market_driven_alignment"
+    ],
+    "18": [
+      "arxiv_2604_20949_early_detection_latent_microstructure_regimes"
+    ],
+    "19": [
+      "docs_research_readme"
+    ],
+    "20": [
+      "docs_research_research_catalog"
+    ],
+    "21": [
+      "docs_research_research_gaps"
+    ],
+    "22": [
+      "raw_github_com_stocksharp_stocksharp"
+    ],
+    "23": [
+      "raw_github_com_trademaster_ntu_trademaster"
+    ],
+    "24": [
+      "raw_github_com_dcajasn_riskfolio_lib"
+    ],
+    "25": [
+      "raw_github_com_nautechsystems_nautilus_trader"
+    ],
+    "26": [
+      "raw_arxiv_1803_06917"
+    ],
+    "27": [
+      "raw_arxiv_1811_10041"
+    ],
+    "28": [
+      "raw_arxiv_1907_06230"
+    ]
+  },
+  "cohesion": {
+    "0": 0.3076923076923077,
+    "1": 0.25757575757575757,
+    "2": 0.30303030303030304,
+    "3": 0.6666666666666666,
+    "4": 0.6666666666666666,
+    "5": 0.6666666666666666,
+    "6": 1.0,
+    "7": 1.0,
+    "8": 1.0,
+    "9": 1.0,
+    "10": 1.0,
+    "11": 1.0,
+    "12": 1.0,
+    "13": 1.0,
+    "14": 1.0,
+    "15": 1.0,
+    "16": 1.0,
+    "17": 1.0,
+    "18": 1.0,
+    "19": 1.0,
+    "20": 1.0,
+    "21": 1.0,
+    "22": 1.0,
+    "23": 1.0,
+    "24": 1.0,
+    "25": 1.0,
+    "26": 1.0,
+    "27": 1.0,
+    "28": 1.0
+  },
+  "gods": [
+    {
+      "id": "docs_research_claims_registry",
+      "label": "Claims Registry",
+      "degree": 11
+    },
+    {
+      "id": "scripts_validate_skills_validate",
+      "label": "validate()",
+      "degree": 9
+    },
+    {
+      "id": "readme_mnqvolumeai",
+      "label": "MNQVolumeAI Project README",
+      "degree": 8
+    },
+    {
+      "id": "docs_research_phase0_5_skill_trigger_tests",
+      "label": "Phase 0.5 Skill Trigger Tests",
+      "degree": 7
+    },
+    {
+      "id": "path",
+      "label": "Path",
+      "degree": 6
+    },
+    {
+      "id": "docs_research_papers_original_mnq_feature_contract",
+      "label": "MNQ Feature Contract",
+      "degree": 6
+    },
+    {
+      "id": "scripts_validate_skills_load_skill",
+      "label": "load_skill()",
+      "degree": 5
+    },
+    {
+      "id": "docs_research_papers_original_mnq_phase0_rebuild_cleanup_decision",
+      "label": "MNQ Phase 0 Rebuild And Cleanup Decision",
+      "degree": 5
+    },
+    {
+      "id": "scripts_validate_skills_parse_front_matter",
+      "label": "parse_front_matter()",
+      "degree": 4
+    },
+    {
+      "id": "scripts_validate_skills_main",
+      "label": "main()",
+      "degree": 4
+    }
+  ],
+  "surprises": [
+    {
+      "source": "Phase 0.5 Skill Trigger Tests",
+      "target": "mbo-data-causality Skill",
+      "source_files": [
+        "docs/phases/phase0_5_skill_trigger_tests.md",
+        ".agents/skills/mbo-data-causality/SKILL.md"
+      ],
+      "confidence": "EXTRACTED",
+      "relation": "references",
+      "why": "connects across different repos/directories; peripheral node `mbo-data-causality Skill` unexpectedly reaches hub `Phase 0.5 Skill Trigger Tests`"
+    },
+    {
+      "source": "MNQVolumeAI Project README",
+      "target": "mbo-data-causality Skill",
+      "source_files": [
+        "README.md",
+        ".agents/skills/mbo-data-causality/SKILL.md"
+      ],
+      "confidence": "EXTRACTED",
+      "relation": "references",
+      "why": "connects across different repos/directories; peripheral node `mbo-data-causality Skill` unexpectedly reaches hub `MNQVolumeAI Project README`"
+    },
+    {
+      "source": "Phase 0.5 Skill Trigger Tests",
+      "target": "auction-feature-engineering Skill",
+      "source_files": [
+        "docs/phases/phase0_5_skill_trigger_tests.md",
+        ".agents/skills/auction-feature-engineering/SKILL.md"
+      ],
+      "confidence": "EXTRACTED",
+      "relation": "references",
+      "why": "connects across different repos/directories; peripheral node `auction-feature-engineering Skill` unexpectedly reaches hub `Phase 0.5 Skill Trigger Tests`"
+    },
+    {
+      "source": "MNQVolumeAI Project README",
+      "target": "auction-feature-engineering Skill",
+      "source_files": [
+        "README.md",
+        ".agents/skills/auction-feature-engineering/SKILL.md"
+      ],
+      "confidence": "EXTRACTED",
+      "relation": "references",
+      "why": "connects across different repos/directories; peripheral node `auction-feature-engineering Skill` unexpectedly reaches hub `MNQVolumeAI Project README`"
+    },
+    {
+      "source": "Phase 0.5 Skill Trigger Tests",
+      "target": "quant-model-validation Skill",
+      "source_files": [
+        "docs/phases/phase0_5_skill_trigger_tests.md",
+        ".agents/skills/quant-model-validation/SKILL.md"
+      ],
+      "confidence": "EXTRACTED",
+      "relation": "references",
+      "why": "connects across different repos/directories; peripheral node `quant-model-validation Skill` unexpectedly reaches hub `Phase 0.5 Skill Trigger Tests`"
+    }
+  ],
+  "tokens": {
+    "input": 61072,
+    "output": 8096
+  }
+}

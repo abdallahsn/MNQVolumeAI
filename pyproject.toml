@@ -1,0 +1,14 @@
+[project]
+name = "mnqvolumeai"
+version = "0.0.0"
+description = "Greenfield MNQ Volume Profile AI research shell."
+readme = "README.md"
+requires-python = ">=3.12,<3.13"
+dependencies = []
+
+[tool.uv]
+package = false
+
+[tool.mnqvolumeai]
+phase = "0.5"
+runtime_status = "bootstrap-only"

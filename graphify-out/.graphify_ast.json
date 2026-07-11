@@ -1,0 +1,502 @@
+{
+  "nodes": [
+    {
+      "id": "pkg_mnqvolumeai",
+      "label": "mnqvolumeai",
+      "file_type": "code",
+      "type": "package",
+      "ecosystem": "python",
+      "source_file": "pyproject.toml",
+      "source_location": "L1",
+      "version": "0.0.0",
+      "_origin": "ast"
+    },
+    {
+      "id": "scripts_init",
+      "label": "__init__.py",
+      "file_type": "code",
+      "source_file": "scripts/__init__.py",
+      "source_location": "L1",
+      "_origin": "ast"
+    },
+    {
+      "id": "scripts_init_rationale_1",
+      "label": "Utility scripts for MNQVolumeAI.",
+      "file_type": "rationale",
+      "source_file": "scripts/__init__.py",
+      "source_location": "L1",
+      "_origin": "ast"
+    },
+    {
+      "id": "scripts_validate_skills",
+      "label": "validate_skills.py",
+      "file_type": "code",
+      "source_file": "scripts/validate_skills.py",
+      "source_location": "L1",
+      "_origin": "ast"
+    },
+    {
+      "id": "scripts_validate_skills_skilldoc",
+      "label": "SkillDoc",
+      "file_type": "code",
+      "source_file": "scripts/validate_skills.py",
+      "source_location": "L42",
+      "_origin": "ast"
+    },
+    {
+      "id": "scripts_validate_skills_parse_front_matter",
+      "label": "parse_front_matter()",
+      "file_type": "code",
+      "source_file": "scripts/validate_skills.py",
+      "source_location": "L49",
+      "_origin": "ast"
+    },
+    {
+      "id": "path",
+      "label": "Path",
+      "file_type": "code",
+      "source_file": "",
+      "source_location": "",
+      "_origin": "ast"
+    },
+    {
+      "id": "scripts_validate_skills_load_skill",
+      "label": "load_skill()",
+      "file_type": "code",
+      "source_file": "scripts/validate_skills.py",
+      "source_location": "L75",
+      "_origin": "ast"
+    },
+    {
+      "id": "scripts_validate_skills_validate",
+      "label": "validate()",
+      "file_type": "code",
+      "source_file": "scripts/validate_skills.py",
+      "source_location": "L86",
+      "_origin": "ast"
+    },
+    {
+      "id": "scripts_validate_skills_main",
+      "label": "main()",
+      "file_type": "code",
+      "source_file": "scripts/validate_skills.py",
+      "source_location": "L147",
+      "_origin": "ast"
+    },
+    {
+      "id": "tests_init",
+      "label": "__init__.py",
+      "file_type": "code",
+      "source_file": "tests/__init__.py",
+      "source_location": "L1",
+      "_origin": "ast"
+    },
+    {
+      "id": "tests_init_rationale_1",
+      "label": "Tests for MNQVolumeAI bootstrap utilities.",
+      "file_type": "rationale",
+      "source_file": "tests/__init__.py",
+      "source_location": "L1",
+      "_origin": "ast"
+    },
+    {
+      "id": "tests_test_validate_skills",
+      "label": "test_validate_skills.py",
+      "file_type": "code",
+      "source_file": "tests/test_validate_skills.py",
+      "source_location": "L1",
+      "_origin": "ast"
+    },
+    {
+      "id": "tests_test_validate_skills_validateskillstests",
+      "label": "ValidateSkillsTests",
+      "file_type": "code",
+      "source_file": "tests/test_validate_skills.py",
+      "source_location": "L11",
+      "_origin": "ast"
+    },
+    {
+      "id": "tests_test_validate_skills_validateskillstests_test_repository_skills_are_valid",
+      "label": ".test_repository_skills_are_valid()",
+      "file_type": "code",
+      "source_file": "tests/test_validate_skills.py",
+      "source_location": "L12",
+      "_origin": "ast"
+    },
+    {
+      "id": "tests_test_validate_skills_validateskillstests_test_missing_required_skill_is_reported",
+      "label": ".test_missing_required_skill_is_reported()",
+      "file_type": "code",
+      "source_file": "tests/test_validate_skills.py",
+      "source_location": "L16",
+      "_origin": "ast"
+    },
+    {
+      "id": "tests_test_validate_skills_validateskillstests_test_secret_pattern_is_reported",
+      "label": ".test_secret_pattern_is_reported()",
+      "file_type": "code",
+      "source_file": "tests/test_validate_skills.py",
+      "source_location": "L26",
+      "_origin": "ast"
+    }
+  ],
+  "edges": [
+    {
+      "source": "scripts_init_rationale_1",
+      "target": "scripts_init",
+      "relation": "rationale_for",
+      "confidence": "EXTRACTED",
+      "source_file": "scripts/__init__.py",
+      "source_location": "L1",
+      "weight": 1.0
+    },
+    {
+      "source": "scripts_validate_skills",
+      "target": "argparse",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "scripts/validate_skills.py",
+      "source_location": "L6",
+      "weight": 1.0
+    },
+    {
+      "source": "scripts_validate_skills",
+      "target": "re",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "scripts/validate_skills.py",
+      "source_location": "L7",
+      "weight": 1.0
+    },
+    {
+      "source": "scripts_validate_skills",
+      "target": "sys",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "scripts/validate_skills.py",
+      "source_location": "L8",
+      "weight": 1.0
+    },
+    {
+      "source": "scripts_validate_skills",
+      "target": "dataclasses",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "scripts/validate_skills.py",
+      "source_location": "L9",
+      "weight": 1.0
+    },
+    {
+      "source": "scripts_validate_skills",
+      "target": "pathlib",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "scripts/validate_skills.py",
+      "source_location": "L10",
+      "weight": 1.0
+    },
+    {
+      "source": "scripts_validate_skills",
+      "target": "scripts_validate_skills_skilldoc",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "scripts/validate_skills.py",
+      "source_location": "L42",
+      "weight": 1.0
+    },
+    {
+      "source": "scripts_validate_skills",
+      "target": "scripts_validate_skills_parse_front_matter",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "scripts/validate_skills.py",
+      "source_location": "L49",
+      "weight": 1.0
+    },
+    {
+      "source": "scripts_validate_skills_parse_front_matter",
+      "target": "path",
+      "relation": "references",
+      "context": "parameter_type",
+      "confidence": "EXTRACTED",
+      "source_file": "scripts/validate_skills.py",
+      "source_location": "L49",
+      "weight": 1.0
+    },
+    {
+      "source": "scripts_validate_skills",
+      "target": "scripts_validate_skills_load_skill",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "scripts/validate_skills.py",
+      "source_location": "L75",
+      "weight": 1.0
+    },
+    {
+      "source": "scripts_validate_skills_load_skill",
+      "target": "path",
+      "relation": "references",
+      "context": "parameter_type",
+      "confidence": "EXTRACTED",
+      "source_file": "scripts/validate_skills.py",
+      "source_location": "L75",
+      "weight": 1.0
+    },
+    {
+      "source": "scripts_validate_skills_load_skill",
+      "target": "scripts_validate_skills_skilldoc",
+      "relation": "references",
+      "context": "return_type",
+      "confidence": "EXTRACTED",
+      "source_file": "scripts/validate_skills.py",
+      "source_location": "L75",
+      "weight": 1.0
+    },
+    {
+      "source": "scripts_validate_skills",
+      "target": "scripts_validate_skills_validate",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "scripts/validate_skills.py",
+      "source_location": "L86",
+      "weight": 1.0
+    },
+    {
+      "source": "scripts_validate_skills_validate",
+      "target": "path",
+      "relation": "references",
+      "context": "parameter_type",
+      "confidence": "EXTRACTED",
+      "source_file": "scripts/validate_skills.py",
+      "source_location": "L86",
+      "weight": 1.0
+    },
+    {
+      "source": "scripts_validate_skills",
+      "target": "scripts_validate_skills_main",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "scripts/validate_skills.py",
+      "source_location": "L147",
+      "weight": 1.0
+    },
+    {
+      "source": "scripts_validate_skills_load_skill",
+      "target": "scripts_validate_skills_parse_front_matter",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "scripts/validate_skills.py",
+      "source_location": "L76",
+      "weight": 1.0
+    },
+    {
+      "source": "scripts_validate_skills_load_skill",
+      "target": "scripts_validate_skills_skilldoc",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "scripts/validate_skills.py",
+      "source_location": "L83",
+      "weight": 1.0
+    },
+    {
+      "source": "scripts_validate_skills_validate",
+      "target": "scripts_validate_skills_load_skill",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "scripts/validate_skills.py",
+      "source_location": "L105",
+      "weight": 1.0
+    },
+    {
+      "source": "scripts_validate_skills_main",
+      "target": "scripts_validate_skills_validate",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "scripts/validate_skills.py",
+      "source_location": "L151",
+      "weight": 1.0
+    },
+    {
+      "source": "tests_init_rationale_1",
+      "target": "tests_init",
+      "relation": "rationale_for",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/__init__.py",
+      "source_location": "L1",
+      "weight": 1.0
+    },
+    {
+      "source": "tests_test_validate_skills",
+      "target": "shutil",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/test_validate_skills.py",
+      "source_location": "L3",
+      "weight": 1.0
+    },
+    {
+      "source": "tests_test_validate_skills",
+      "target": "tempfile",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/test_validate_skills.py",
+      "source_location": "L4",
+      "weight": 1.0
+    },
+    {
+      "source": "tests_test_validate_skills",
+      "target": "unittest",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/test_validate_skills.py",
+      "source_location": "L5",
+      "weight": 1.0
+    },
+    {
+      "source": "tests_test_validate_skills",
+      "target": "pathlib",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/test_validate_skills.py",
+      "source_location": "L6",
+      "weight": 1.0
+    },
+    {
+      "source": "tests_test_validate_skills",
+      "target": "scripts_validate_skills",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/test_validate_skills.py",
+      "source_location": "L8",
+      "weight": 1.0
+    },
+    {
+      "source": "tests_test_validate_skills",
+      "target": "tests_test_validate_skills_validateskillstests",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/test_validate_skills.py",
+      "source_location": "L11",
+      "weight": 1.0
+    },
+    {
+      "source": "tests_test_validate_skills_validateskillstests",
+      "target": "tests_test_validate_skills_validateskillstests_test_repository_skills_are_valid",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/test_validate_skills.py",
+      "source_location": "L12",
+      "weight": 1.0
+    },
+    {
+      "source": "tests_test_validate_skills_validateskillstests",
+      "target": "tests_test_validate_skills_validateskillstests_test_missing_required_skill_is_reported",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/test_validate_skills.py",
+      "source_location": "L16",
+      "weight": 1.0
+    },
+    {
+      "source": "tests_test_validate_skills_validateskillstests",
+      "target": "tests_test_validate_skills_validateskillstests_test_secret_pattern_is_reported",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/test_validate_skills.py",
+      "source_location": "L26",
+      "weight": 1.0
+    },
+    {
+      "source": "tests_test_validate_skills",
+      "target": "scripts_validate_skills_validate",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/test_validate_skills.py",
+      "source_location": "L8",
+      "weight": 1.0
+    },
+    {
+      "source": "tests_test_validate_skills_validateskillstests_test_repository_skills_are_valid",
+      "target": "path",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "INFERRED",
+      "confidence_score": 0.8,
+      "source_file": "tests/test_validate_skills.py",
+      "source_location": "L13",
+      "weight": 1.0
+    },
+    {
+      "source": "tests_test_validate_skills_validateskillstests_test_repository_skills_are_valid",
+      "target": "scripts_validate_skills_validate",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "tests/test_validate_skills.py",
+      "source_location": "L14",
+      "weight": 1.0
+    },
+    {
+      "source": "tests_test_validate_skills_validateskillstests_test_missing_required_skill_is_reported",
+      "target": "path",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "INFERRED",
+      "confidence_score": 0.8,
+      "source_file": "tests/test_validate_skills.py",
+      "source_location": "L17",
+      "weight": 1.0
+    },
+    {
+      "source": "tests_test_validate_skills_validateskillstests_test_missing_required_skill_is_reported",
+      "target": "scripts_validate_skills_validate",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "tests/test_validate_skills.py",
+      "source_location": "L23",
+      "weight": 1.0
+    },
+    {
+      "source": "tests_test_validate_skills_validateskillstests_test_secret_pattern_is_reported",
+      "target": "path",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "INFERRED",
+      "confidence_score": 0.8,
+      "source_file": "tests/test_validate_skills.py",
+      "source_location": "L27",
+      "weight": 1.0
+    },
+    {
+      "source": "tests_test_validate_skills_validateskillstests_test_secret_pattern_is_reported",
+      "target": "scripts_validate_skills_validate",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "tests/test_validate_skills.py",
+      "source_location": "L34",
+      "weight": 1.0
+    }
+  ],
+  "input_tokens": 0,
+  "output_tokens": 0
+}

@@ -1,0 +1,47 @@
+# Market data and generated datasets
+data/
+datasets/
+raw_data/
+artifacts/data/
+artifacts/models/
+models/
+checkpoints/
+
+# Python environments and caches
+.venv/
+venv/
+__pycache__/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Large columnar/binary data
+*.parquet
+*.feather
+*.arrow
+*.ipc
+*.db
+*.duckdb
+*.sqlite
+*.sqlite3
+*.pkl
+*.pickle
+*.joblib
+*.onnx
+*.pt
+*.pth
+*.ckpt
+*.npy
+*.npz
+
+# Secrets and local environment files
+*.env
+.env*
+*.pem
+*.key
+*.p12
+*.pfx
+
+# Graphify cache/cost internals
+graphify-out/cost.json
+graphify-out/cache/

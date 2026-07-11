@@ -1,0 +1,54 @@
+# Python and local environments
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Secrets and local machine state
+.env
+.env*
+!.env.example
+*.pem
+*.key
+*.p12
+*.pfx
+
+# Large market-data and generated artifacts
+data/
+datasets/
+raw_data/
+artifacts/*
+!artifacts/.gitkeep
+models/
+checkpoints/
+*.parquet
+*.feather
+*.arrow
+*.ipc
+*.db
+*.duckdb
+*.sqlite
+*.sqlite3
+*.pkl
+*.pickle
+*.joblib
+*.onnx
+*.pt
+*.pth
+*.ckpt
+*.npy
+*.npz
+
+# Graphify: keep useful graph outputs, ignore caches/costs
+graphify-out/cache/
+graphify-out/cost.json
+graphify-out/.graphify_python
+graphify-out/.needs_update
+
+# OS/editor noise
+.DS_Store
+.idea/
+.vscode/
