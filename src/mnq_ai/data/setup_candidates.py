@@ -20,6 +20,7 @@ from mnq_ai.config import Phase1Config
 from mnq_ai.data.schemas import TIMESTAMP_NS_UTC, file_size_bytes, timestamp_array_to_ns
 from mnq_ai.exceptions import OutputValidationError, SchemaValidationError
 from mnq_ai.setups.failed_fvg import Bar, FailedFVGConfig, FailedFVGSetupEngine, SetupCandidate
+from mnq_ai.setups.qep_technical import QEPTechnicalConfig, QEPTechnicalSetupEngine
 
 FAILED_FVG_INPUT_COLUMNS = [
     "ts_event",
@@ -75,6 +76,19 @@ class FailedFVGCandidateRunResult:
     elapsed_seconds: float
 
 
+@dataclass(frozen=True)
+class QEPTechnicalCandidateRunResult:
+    """Result summary for QEP technical setup-candidate generation."""
+
+    manifest_path: Path
+    output_root: Path
+    artifact_root: Path
+    input_rows: int
+    m30_bar_count: int
+    candidate_count: int
+    elapsed_seconds: float
+
+
 def build_failed_fvg_candidates(
     *,
     trade_tape_path: Path,
@@ -120,6 +134,53 @@ def build_failed_fvg_candidates(
         artifact_root=artifact_root,
         input_rows=bars.input_rows,
         h1_bar_count=len(bars.h1_bars),
+        m30_bar_count=len(bars.m30_bars),
+        candidate_count=len(candidates),
+        elapsed_seconds=time.perf_counter() - start,
+    )
+
+
+def build_qep_technical_candidates(
+    *,
+    trade_tape_path: Path,
+    output_root: Path,
+    artifact_root: Path,
+    config: Phase1Config,
+    qep_config: QEPTechnicalConfig | None = None,
+) -> QEPTechnicalCandidateRunResult:
+    """Build QEP technical setup candidates from the canonical action-T trade tape."""
+
+    start = time.perf_counter()
+    config = config.validated()
+    output_root = Path(output_root)
+    artifact_root = Path(artifact_root)
+    staging_root = _prepare_output(output_root, config)
+    artifact_root.mkdir(parents=True, exist_ok=True)
+
+    engine_config = qep_config or QEPTechnicalConfig(tick_size=config.tick_size)
+    bars = TradeTapeBarBuilder(config).build(trade_tape_path)
+    candidates = QEPTechnicalSetupEngine(engine_config).generate(m30_bars=bars.m30_bars)
+    table = _candidate_table(candidates)
+    pq.write_table(table, staging_root / "setup_candidates.parquet", compression=_compression(config))
+    _finalize_output(staging_root, output_root)
+    manifest = _qep_manifest(
+        trade_tape_path=trade_tape_path,
+        output_root=output_root,
+        artifact_root=artifact_root,
+        config=config,
+        qep_config=engine_config,
+        bars=bars,
+        candidates=candidates,
+        elapsed_seconds=round(time.perf_counter() - start, 6),
+    )
+    manifest_path = artifact_root / "qep_technical_manifest.json"
+    manifest_path.write_text(json.dumps(manifest, indent=2, sort_keys=True, default=str), encoding="utf-8")
+    _write_qep_summary(artifact_root / "qep_technical_summary.md", manifest)
+    return QEPTechnicalCandidateRunResult(
+        manifest_path=manifest_path,
+        output_root=output_root,
+        artifact_root=artifact_root,
+        input_rows=bars.input_rows,
         m30_bar_count=len(bars.m30_bars),
         candidate_count=len(candidates),
         elapsed_seconds=time.perf_counter() - start,
@@ -356,6 +417,59 @@ def _manifest(
     return payload
 
 
+def _qep_manifest(
+    *,
+    trade_tape_path: Path,
+    output_root: Path,
+    artifact_root: Path,
+    config: Phase1Config,
+    qep_config: QEPTechnicalConfig,
+    bars: BuiltBars,
+    candidates: list[SetupCandidate],
+    elapsed_seconds: float,
+) -> dict[str, Any]:
+    output_file = output_root / "setup_candidates.parquet"
+    payload: dict[str, Any] = {
+        "phase": "1_setup_candidates",
+        "status": "complete",
+        "setup_type": "QEP_TECHNICAL",
+        "generated_at": datetime.now(UTC).isoformat(),
+        "trade_tape_path": str(trade_tape_path),
+        "output_root": str(output_root),
+        "artifact_root": str(artifact_root),
+        "input_columns": list(FAILED_FVG_INPUT_COLUMNS),
+        "forbidden_inputs": ["depth", "order_book_imbalance", "microprice", "queue_position"],
+        "input_rows": bars.input_rows,
+        "m30_bar_count": len(bars.m30_bars),
+        "candidate_count": len(candidates),
+        "output_files": [{"path": output_file.name, "bytes": output_file.stat().st_size}],
+        "input_byte_size": file_size_bytes(trade_tape_path),
+        "output_byte_size": output_file.stat().st_size,
+        "elapsed_seconds": elapsed_seconds,
+        "config": {
+            "batch_size": config.batch_size,
+            "tick_size": str(config.tick_size),
+            "compression": config.compression,
+            "overwrite": config.overwrite,
+        },
+        "qep_technical_config": {
+            "m30_bar_duration_seconds": int(qep_config.m30_bar_duration.total_seconds()),
+            "rsi_period": qep_config.rsi_period,
+            "macd_fast": qep_config.macd_fast,
+            "macd_slow": qep_config.macd_slow,
+            "macd_signal": qep_config.macd_signal,
+            "atr_window": qep_config.atr_window,
+            "atr_stop_mult": str(qep_config.atr_stop_mult),
+            "stop_buffer_ticks": qep_config.stop_buffer_ticks,
+            "take_profit_r": [str(item) for item in qep_config.take_profit_r],
+            "max_holding_bars": qep_config.max_holding_bars,
+            "setup_version": qep_config.setup_version,
+        },
+    }
+    payload["aggregate_checksum"] = _checksum(payload)
+    return payload
+
+
 def _write_summary(path: Path, manifest: dict[str, Any]) -> None:
     lines = [
         "# Failed FVG Candidate Summary",
@@ -363,6 +477,20 @@ def _write_summary(path: Path, manifest: dict[str, Any]) -> None:
         f"- `generated_at`: {manifest['generated_at']}",
         f"- `input_rows`: {manifest['input_rows']}",
         f"- `h1_bar_count`: {manifest['h1_bar_count']}",
+        f"- `m30_bar_count`: {manifest['m30_bar_count']}",
+        f"- `candidate_count`: {manifest['candidate_count']}",
+        f"- `output_root`: {manifest['output_root']}",
+        f"- `elapsed_seconds`: {manifest['elapsed_seconds']}",
+    ]
+    path.write_text("\n".join(lines) + "\n", encoding="utf-8")
+
+
+def _write_qep_summary(path: Path, manifest: dict[str, Any]) -> None:
+    lines = [
+        "# QEP Technical Candidate Summary",
+        "",
+        f"- `generated_at`: {manifest['generated_at']}",
+        f"- `input_rows`: {manifest['input_rows']}",
         f"- `m30_bar_count`: {manifest['m30_bar_count']}",
         f"- `candidate_count`: {manifest['candidate_count']}",
         f"- `output_root`: {manifest['output_root']}",

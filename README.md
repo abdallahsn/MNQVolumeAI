@@ -2,9 +2,9 @@
 
 Greenfield MNQ data foundation for an eventual Volume Profile / auction AI trading-system build.
 
-Current status: **Phase 1 data foundation, deterministic Failed FVG setup-candidate generation, and Phase 2 execution-gate labeling implemented**.
+Current status: **Phase 1 data foundation, deterministic Failed FVG and QEP technical setup-candidate generation, and Phase 2 execution-gate labeling implemented**.
 
-The implemented pipeline provides Databento MBO audit, canonical trade-tape extraction, a server-runnable Failed FVG candidate builder, and a deterministic first-barrier execution-label gate:
+The implemented pipeline provides Databento MBO audit, canonical trade-tape extraction, server-runnable setup candidate builders, and a deterministic first-barrier execution-label gate:
 
 - `action == "T"` is the sole executed-trade volume source.
 - `action == "F"` is audited but never included in canonical trade volume.
@@ -12,6 +12,7 @@ The implemented pipeline provides Databento MBO audit, canonical trade-tape extr
 - timestamps remain UTC internally; CME trading dates and RTH flags are derived with `America/Chicago`.
 - output is partitioned Parquet by `symbol` and `trading_date`.
 - Failed FVG setup candidates are built from causal OHLCV bars derived from the canonical trade tape.
+- QEP technical setup candidates translate the executable RSI/MACD/ATR core of the supplied MT5 EA into causal Python; placeholder RL, Elliott Wave, harmonic-pattern, and crypto modules are not implemented.
 - Phase 2 labels candidates by the first executed trade that reaches stop or target after the candidate entry timestamp.
 - Phase 2 applies configurable commission, entry slippage, stop slippage, max-hold exit slippage, and entry latency assumptions.
 - no Volume Profile features, VWAP/CVD feature families beyond signed trade volume, model training, calibrated probabilities, backtesting, or live trading are implemented.
@@ -72,6 +73,13 @@ uv run pytest
   --artifacts artifacts/setup_candidates \
   --overwrite
 
+~/.local/bin/uv run mnq-ai build-qep-technical-candidates \
+  --trade-tape data/trade_tape \
+  --config configs/mnq.yaml \
+  --output data/qep_technical_candidates \
+  --artifacts artifacts/qep_technical_candidates \
+  --overwrite
+
 ~/.local/bin/uv run mnq-ai build-phase2-labels \
   --trade-tape data/trade_tape \
   --setup-candidates data/setup_candidates/setup_candidates.parquet \
@@ -117,6 +125,28 @@ Expected outputs:
 - `artifacts\phase2_gate_5days\phase2_gate_summary.md`
 
 The Phase 2 manifest intentionally reports `gate_recommendation: NO-GO`. This is correct for the current five-day engineering fixture because it has not passed walk-forward validation, paper-trading parity, doubled-cost stress, or production release checks.
+
+### QEP Technical Five-Day Fixture
+
+Build deterministic QEP technical candidates from the same five-day trade tape:
+
+```powershell
+$env:PYTHONUTF8="1"; uv run mnq-ai build-qep-technical-candidates --trade-tape data\trade_tape_phase1_5days --config configs\mnq.yaml --output data\qep_technical_candidates_5days --artifacts artifacts\qep_technical_candidates_5days --rsi-period 14 --macd-fast 12 --macd-slow 26 --macd-signal 9 --atr-window 14 --atr-stop-mult 2 --take-profit-r "1.5,3,4.5" --max-holding-bars 12 --overwrite
+```
+
+Expected outputs:
+
+- `data\qep_technical_candidates_5days\setup_candidates.parquet`
+- `artifacts\qep_technical_candidates_5days\qep_technical_manifest.json`
+- `artifacts\qep_technical_candidates_5days\qep_technical_summary.md`
+
+Then label the QEP candidates through the same Phase 2 execution gate:
+
+```powershell
+$env:PYTHONUTF8="1"; uv run mnq-ai build-phase2-labels --trade-tape data\trade_tape_phase1_5days --setup-candidates data\qep_technical_candidates_5days\setup_candidates.parquet --config configs\mnq.yaml --output data\qep_phase2_labels_5days --artifacts artifacts\qep_phase2_gate_5days --commission-per-side 0.35 --entry-slippage-ticks 1 --stop-slippage-ticks 1 --time-exit-slippage-ticks 1 --point-value 2 --overwrite
+```
+
+This is a research translation of the EA's RSI/MACD/ATR decision core only. It does not use the EA's placeholder RL, synthetic confidence, sentiment, Elliott Wave, harmonic-pattern, or crypto-volatility modules.
 
 ## Diagnostic Failed FVG Chart
 

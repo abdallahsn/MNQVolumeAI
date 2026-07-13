@@ -10,11 +10,12 @@ from pathlib import Path
 from mnq_ai.config import Phase1Config
 from mnq_ai.data.execution_gate import Phase2ExecutionConfig, build_phase2_labels
 from mnq_ai.data.manifests import validate_trade_tape
-from mnq_ai.data.setup_candidates import build_failed_fvg_candidates
+from mnq_ai.data.setup_candidates import build_failed_fvg_candidates, build_qep_technical_candidates
 from mnq_ai.data.trade_extractor import Phase1TradeExtractor
 from mnq_ai.exceptions import MNQAIError
 from mnq_ai.logging_config import configure_logging
 from mnq_ai.setups.failed_fvg import FailedFVGConfig
+from mnq_ai.setups.qep_technical import QEPTechnicalConfig
 
 
 def main(argv: list[str] | None = None) -> int:
@@ -53,7 +54,7 @@ def main(argv: list[str] | None = None) -> int:
         if args.command == "build-failed-fvg-candidates":
             config = _config_from_args(args, input_path=args.trade_tape, output_root=args.output, artifact_root=args.artifacts)
             configure_logging(config.logging_level)
-            candidate_result = build_failed_fvg_candidates(
+            failed_result = build_failed_fvg_candidates(
                 trade_tape_path=Path(args.trade_tape),
                 output_root=Path(args.output),
                 artifact_root=Path(args.artifacts),
@@ -70,9 +71,37 @@ def main(argv: list[str] | None = None) -> int:
             )
             print(
                 "failed fvg candidates complete: "
-                f"candidates={candidate_result.candidate_count} h1_bars={candidate_result.h1_bar_count} "
-                f"m30_bars={candidate_result.m30_bar_count} output={candidate_result.output_root} "
-                f"manifest={candidate_result.manifest_path}"
+                f"candidates={failed_result.candidate_count} h1_bars={failed_result.h1_bar_count} "
+                f"m30_bars={failed_result.m30_bar_count} output={failed_result.output_root} "
+                f"manifest={failed_result.manifest_path}"
+            )
+            return 0
+        if args.command == "build-qep-technical-candidates":
+            config = _config_from_args(args, input_path=args.trade_tape, output_root=args.output, artifact_root=args.artifacts)
+            configure_logging(config.logging_level)
+            qep_result = build_qep_technical_candidates(
+                trade_tape_path=Path(args.trade_tape),
+                output_root=Path(args.output),
+                artifact_root=Path(args.artifacts),
+                config=config,
+                qep_config=QEPTechnicalConfig(
+                    tick_size=config.tick_size,
+                    rsi_period=args.rsi_period,
+                    macd_fast=args.macd_fast,
+                    macd_slow=args.macd_slow,
+                    macd_signal=args.macd_signal,
+                    atr_window=args.atr_window,
+                    atr_stop_mult=Decimal(args.atr_stop_mult),
+                    stop_buffer_ticks=args.stop_buffer_ticks,
+                    take_profit_r=_decimal_tuple(args.take_profit_r),
+                    max_holding_bars=args.max_holding_bars,
+                ),
+            )
+            print(
+                "qep technical candidates complete: "
+                f"candidates={qep_result.candidate_count} "
+                f"m30_bars={qep_result.m30_bar_count} output={qep_result.output_root} "
+                f"manifest={qep_result.manifest_path}"
             )
             return 0
         if args.command == "build-phase2-labels":
@@ -145,6 +174,25 @@ def _parser() -> argparse.ArgumentParser:
     failed_fvg.add_argument("--stop-buffer-ticks", type=int, default=0, help="Stop buffer in ticks")
     failed_fvg.add_argument("--max-holding-bars", type=int, default=12, help="Maximum holding time in M30 bars")
 
+    qep = subparsers.add_parser(
+        "build-qep-technical-candidates",
+        help="Build deterministic QEP RSI/MACD/ATR setup candidates from a trade tape",
+    )
+    qep.add_argument("--trade-tape", required=True, help="Canonical trade-tape Parquet file or dataset directory")
+    qep.add_argument("--config", required=True, help="YAML config path")
+    qep.add_argument("--output", required=True, help="Output directory for setup_candidates.parquet")
+    qep.add_argument("--artifacts", required=True, help="Artifact report directory")
+    qep.add_argument("--overwrite", action="store_true", help="Overwrite existing candidate output")
+    qep.add_argument("--rsi-period", type=int, default=14, help="Trailing bars for RSI")
+    qep.add_argument("--macd-fast", type=int, default=12, help="Fast EMA period for MACD")
+    qep.add_argument("--macd-slow", type=int, default=26, help="Slow EMA period for MACD")
+    qep.add_argument("--macd-signal", type=int, default=9, help="Signal EMA period for MACD")
+    qep.add_argument("--atr-window", type=int, default=14, help="Trailing bars for ATR stop distance")
+    qep.add_argument("--atr-stop-mult", default="2", help="ATR multiple for stop distance")
+    qep.add_argument("--stop-buffer-ticks", type=int, default=0, help="Stop buffer in ticks")
+    qep.add_argument("--take-profit-r", default="1.5,3,4.5", help="Comma-separated R targets")
+    qep.add_argument("--max-holding-bars", type=int, default=12, help="Maximum holding time in M30 bars")
+
     phase2 = subparsers.add_parser(
         "build-phase2-labels",
         help="Build first-barrier execution labels and fail-closed Phase 2 gate artifacts",
@@ -177,6 +225,13 @@ def _config_from_args(
         output_root=output_root,
         artifact_root=artifact_root,
     ).with_overrides(overwrite=args.overwrite or None)
+
+
+def _decimal_tuple(value: str) -> tuple[Decimal, Decimal, Decimal]:
+    parts = [part.strip() for part in value.split(",") if part.strip()]
+    if len(parts) != 3:
+        raise ValueError("--take-profit-r must contain exactly three comma-separated values")
+    return (Decimal(parts[0]), Decimal(parts[1]), Decimal(parts[2]))
 
 
 if __name__ == "__main__":

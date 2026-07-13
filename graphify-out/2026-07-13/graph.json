@@ -43,7 +43,7 @@
       "label": "FVG",
       "file_type": "code",
       "source_file": "scripts/Fail FVG.py",
-      "source_location": "L103",
+      "source_location": "L115",
       "id": "scripts_fail_fvg_fvg",
       "community": 68,
       "norm_label": "fvg"
@@ -52,7 +52,7 @@
       "label": ".mid()",
       "file_type": "code",
       "source_file": "scripts/Fail FVG.py",
-      "source_location": "L112",
+      "source_location": "L124",
       "id": "scripts_fail_fvg_fvg_mid",
       "community": 68,
       "norm_label": ".mid()"
@@ -61,7 +61,7 @@
       "label": "float",
       "file_type": "code",
       "source_file": "scripts/Fail FVG.py",
-      "source_location": "L112",
+      "source_location": "L124",
       "id": "scripts_fail_fvg_py_float",
       "community": 68,
       "norm_label": "float"
@@ -70,7 +70,7 @@
       "label": "Signal",
       "file_type": "code",
       "source_file": "scripts/Fail FVG.py",
-      "source_location": "L117",
+      "source_location": "L129",
       "id": "scripts_fail_fvg_signal",
       "community": 68,
       "norm_label": "signal"
@@ -79,16 +79,25 @@
       "label": "TradeResult",
       "file_type": "code",
       "source_file": "scripts/Fail FVG.py",
-      "source_location": "L129",
+      "source_location": "L141",
       "id": "scripts_fail_fvg_traderesult",
       "community": 68,
       "norm_label": "traderesult"
     },
     {
+      "label": "VolatilityRegimeConfig",
+      "file_type": "code",
+      "source_file": "scripts/Fail FVG.py",
+      "source_location": "L152",
+      "id": "scripts_fail_fvg_volatilityregimeconfig",
+      "community": 68,
+      "norm_label": "volatilityregimeconfig"
+    },
+    {
       "label": "parse_args()",
       "file_type": "code",
       "source_file": "scripts/Fail FVG.py",
-      "source_location": "L139",
+      "source_location": "L201",
       "id": "scripts_fail_fvg_parse_args",
       "community": 68,
       "norm_label": "parse_args()"
@@ -97,7 +106,7 @@
       "label": "Namespace",
       "file_type": "code",
       "source_file": "scripts/Fail FVG.py",
-      "source_location": "L139",
+      "source_location": "L201",
       "id": "scripts_fail_fvg_py_namespace",
       "community": 68,
       "norm_label": "namespace"
@@ -106,7 +115,7 @@
       "label": "month_from_path()",
       "file_type": "code",
       "source_file": "scripts/Fail FVG.py",
-      "source_location": "L194",
+      "source_location": "L273",
       "id": "scripts_fail_fvg_month_from_path",
       "community": 68,
       "norm_label": "month_from_path()"
@@ -115,7 +124,7 @@
       "label": "Path",
       "file_type": "code",
       "source_file": "scripts/Fail FVG.py",
-      "source_location": "L194",
+      "source_location": "L273",
       "id": "scripts_fail_fvg_py_path",
       "community": 68,
       "norm_label": "path"
@@ -124,7 +133,7 @@
       "label": "str",
       "file_type": "code",
       "source_file": "scripts/Fail FVG.py",
-      "source_location": "L194",
+      "source_location": "L273",
       "id": "scripts_fail_fvg_py_str",
       "community": 68,
       "norm_label": "str"
@@ -133,7 +142,7 @@
       "label": "load_trade_data()",
       "file_type": "code",
       "source_file": "scripts/Fail FVG.py",
-      "source_location": "L203",
+      "source_location": "L282",
       "id": "scripts_fail_fvg_load_trade_data",
       "community": 68,
       "norm_label": "load_trade_data()"
@@ -142,7 +151,7 @@
       "label": "DataFrame",
       "file_type": "code",
       "source_file": "scripts/Fail FVG.py",
-      "source_location": "L203",
+      "source_location": "L282",
       "id": "scripts_fail_fvg_py_dataframe",
       "community": 68,
       "norm_label": "dataframe"
@@ -151,16 +160,43 @@
       "label": "build_bars()",
       "file_type": "code",
       "source_file": "scripts/Fail FVG.py",
-      "source_location": "L247",
+      "source_location": "L326",
       "id": "scripts_fail_fvg_build_bars",
       "community": 68,
       "norm_label": "build_bars()"
     },
     {
+      "label": "build_daily_volatility_regimes()",
+      "file_type": "code",
+      "source_file": "scripts/Fail FVG.py",
+      "source_location": "L343",
+      "id": "scripts_fail_fvg_build_daily_volatility_regimes",
+      "community": 68,
+      "norm_label": "build_daily_volatility_regimes()"
+    },
+    {
+      "label": "bool",
+      "file_type": "code",
+      "source_file": "scripts/Fail FVG.py",
+      "source_location": "L343",
+      "id": "scripts_fail_fvg_py_bool",
+      "community": 68,
+      "norm_label": "bool"
+    },
+    {
+      "label": "object",
+      "file_type": "code",
+      "source_file": "scripts/Fail FVG.py",
+      "source_location": "L343",
+      "id": "scripts_fail_fvg_py_object",
+      "community": 68,
+      "norm_label": "object"
+    },
+    {
       "label": "build_h1_fvgs()",
       "file_type": "code",
       "source_file": "scripts/Fail FVG.py",
-      "source_location": "L264",
+      "source_location": "L379",
       "id": "scripts_fail_fvg_build_h1_fvgs",
       "community": 68,
       "norm_label": "build_h1_fvgs()"
@@ -169,7 +205,7 @@
       "label": "is_in_session()",
       "file_type": "code",
       "source_file": "scripts/Fail FVG.py",
-      "source_location": "L304",
+      "source_location": "L419",
       "id": "scripts_fail_fvg_is_in_session",
       "community": 68,
       "norm_label": "is_in_session()"
@@ -178,25 +214,16 @@
       "label": "Timestamp",
       "file_type": "code",
       "source_file": "scripts/Fail FVG.py",
-      "source_location": "L304",
+      "source_location": "L419",
       "id": "scripts_fail_fvg_py_timestamp",
       "community": 68,
       "norm_label": "timestamp"
     },
     {
-      "label": "bool",
-      "file_type": "code",
-      "source_file": "scripts/Fail FVG.py",
-      "source_location": "L304",
-      "id": "scripts_fail_fvg_py_bool",
-      "community": 68,
-      "norm_label": "bool"
-    },
-    {
       "label": "overlaps_zone()",
       "file_type": "code",
       "source_file": "scripts/Fail FVG.py",
-      "source_location": "L310",
+      "source_location": "L425",
       "id": "scripts_fail_fvg_overlaps_zone",
       "community": 68,
       "norm_label": "overlaps_zone()"
@@ -205,7 +232,7 @@
       "label": "Series",
       "file_type": "code",
       "source_file": "scripts/Fail FVG.py",
-      "source_location": "L310",
+      "source_location": "L425",
       "id": "series",
       "community": 68,
       "norm_label": "series"
@@ -214,7 +241,7 @@
       "label": "detect_failed_fvg_signal()",
       "file_type": "code",
       "source_file": "scripts/Fail FVG.py",
-      "source_location": "L314",
+      "source_location": "L429",
       "id": "scripts_fail_fvg_detect_failed_fvg_signal",
       "community": 68,
       "norm_label": "detect_failed_fvg_signal()"
@@ -223,7 +250,7 @@
       "label": "calculate_contracts()",
       "file_type": "code",
       "source_file": "scripts/Fail FVG.py",
-      "source_location": "L384",
+      "source_location": "L500",
       "id": "scripts_fail_fvg_calculate_contracts",
       "community": 68,
       "norm_label": "calculate_contracts()"
@@ -232,7 +259,7 @@
       "label": "int",
       "file_type": "code",
       "source_file": "scripts/Fail FVG.py",
-      "source_location": "L384",
+      "source_location": "L500",
       "id": "scripts_fail_fvg_py_int",
       "community": 68,
       "norm_label": "int"
@@ -241,7 +268,7 @@
       "label": "execute_trade()",
       "file_type": "code",
       "source_file": "scripts/Fail FVG.py",
-      "source_location": "L410",
+      "source_location": "L527",
       "id": "scripts_fail_fvg_execute_trade",
       "community": 68,
       "norm_label": "execute_trade()"
@@ -250,25 +277,16 @@
       "label": "empty_summary()",
       "file_type": "code",
       "source_file": "scripts/Fail FVG.py",
-      "source_location": "L485",
+      "source_location": "L603",
       "id": "scripts_fail_fvg_empty_summary",
       "community": 68,
       "norm_label": "empty_summary()"
     },
     {
-      "label": "object",
-      "file_type": "code",
-      "source_file": "scripts/Fail FVG.py",
-      "source_location": "L485",
-      "id": "scripts_fail_fvg_py_object",
-      "community": 68,
-      "norm_label": "object"
-    },
-    {
       "label": "backtest_file()",
       "file_type": "code",
       "source_file": "scripts/Fail FVG.py",
-      "source_location": "L503",
+      "source_location": "L624",
       "id": "scripts_fail_fvg_backtest_file",
       "community": 68,
       "norm_label": "backtest_file()"
@@ -277,7 +295,7 @@
       "label": "save_outputs()",
       "file_type": "code",
       "source_file": "scripts/Fail FVG.py",
-      "source_location": "L693",
+      "source_location": "L844",
       "id": "scripts_fail_fvg_save_outputs",
       "community": 68,
       "norm_label": "save_outputs()"
@@ -286,7 +304,7 @@
       "label": "write_trade_chart()",
       "file_type": "code",
       "source_file": "scripts/Fail FVG.py",
-      "source_location": "L709",
+      "source_location": "L860",
       "id": "scripts_fail_fvg_write_trade_chart",
       "community": 68,
       "norm_label": "write_trade_chart()"
@@ -295,7 +313,7 @@
       "label": "chart_output_path()",
       "file_type": "code",
       "source_file": "scripts/Fail FVG.py",
-      "source_location": "L850",
+      "source_location": "L1005",
       "id": "scripts_fail_fvg_chart_output_path",
       "community": 68,
       "norm_label": "chart_output_path()"
@@ -304,7 +322,7 @@
       "label": "print_summary()",
       "file_type": "code",
       "source_file": "scripts/Fail FVG.py",
-      "source_location": "L864",
+      "source_location": "L1019",
       "id": "scripts_fail_fvg_print_summary",
       "community": 68,
       "norm_label": "print_summary()"
@@ -313,7 +331,7 @@
       "label": "main()",
       "file_type": "code",
       "source_file": "scripts/Fail FVG.py",
-      "source_location": "L880",
+      "source_location": "L1035",
       "id": "scripts_fail_fvg_main",
       "community": 68,
       "norm_label": "main()"
@@ -738,7 +756,7 @@
       "source_file": "src/mnq_ai/config.py",
       "source_location": "L44",
       "id": "mnq_ai_config_phase1config_from_yaml",
-      "community": 4,
+      "community": 1,
       "norm_label": ".from_yaml()"
     },
     {
@@ -747,7 +765,7 @@
       "source_file": "src/mnq_ai/config.py",
       "source_location": "L44",
       "id": "src_mnq_ai_config_py_str",
-      "community": 4,
+      "community": 1,
       "norm_label": "str"
     },
     {
@@ -756,7 +774,7 @@
       "source_file": "src/mnq_ai/config.py",
       "source_location": "L44",
       "id": "src_mnq_ai_config_py_path",
-      "community": 4,
+      "community": 1,
       "norm_label": "path"
     },
     {
@@ -765,7 +783,7 @@
       "source_file": "src/mnq_ai/config.py",
       "source_location": "L67",
       "id": "mnq_ai_config_phase1config_from_mapping",
-      "community": 4,
+      "community": 1,
       "norm_label": ".from_mapping()"
     },
     {
@@ -774,7 +792,7 @@
       "source_file": "src/mnq_ai/config.py",
       "source_location": "L67",
       "id": "any",
-      "community": 4,
+      "community": 1,
       "norm_label": "any"
     },
     {
@@ -783,7 +801,7 @@
       "source_file": "src/mnq_ai/config.py",
       "source_location": "L92",
       "id": "mnq_ai_config_phase1config_with_overrides",
-      "community": 4,
+      "community": 1,
       "norm_label": ".with_overrides()"
     },
     {
@@ -792,7 +810,7 @@
       "source_file": "src/mnq_ai/config.py",
       "source_location": "L92",
       "id": "src_mnq_ai_config_py_bool",
-      "community": 4,
+      "community": 1,
       "norm_label": "bool"
     },
     {
@@ -801,7 +819,7 @@
       "source_file": "src/mnq_ai/config.py",
       "source_location": "L113",
       "id": "mnq_ai_config_phase1config_validated",
-      "community": 4,
+      "community": 1,
       "norm_label": ".validated()"
     },
     {
@@ -810,7 +828,7 @@
       "source_file": "src/mnq_ai/config.py",
       "source_location": "L139",
       "id": "mnq_ai_config_load_yaml_with_extends",
-      "community": 4,
+      "community": 1,
       "norm_label": "_load_yaml_with_extends()"
     },
     {
@@ -819,7 +837,7 @@
       "source_file": "src/mnq_ai/config.py",
       "source_location": "L150",
       "id": "mnq_ai_config_read_yaml",
-      "community": 4,
+      "community": 1,
       "norm_label": "_read_yaml()"
     },
     {
@@ -828,7 +846,7 @@
       "source_file": "src/mnq_ai/config.py",
       "source_location": "L158",
       "id": "mnq_ai_config_parse_hms",
-      "community": 4,
+      "community": 1,
       "norm_label": "_parse_hms()"
     },
     {
@@ -837,7 +855,7 @@
       "source_file": "src/mnq_ai/config.py",
       "source_location": "L158",
       "id": "src_mnq_ai_config_py_int",
-      "community": 4,
+      "community": 1,
       "norm_label": "int"
     },
     {
@@ -864,7 +882,7 @@
       "source_file": "src/mnq_ai/config.py",
       "source_location": "L52",
       "id": "mnq_ai_config_rationale_52",
-      "community": 4,
+      "community": 1,
       "norm_label": "load a config file, following a single optional ``extends`` reference."
     },
     {
@@ -873,7 +891,7 @@
       "source_file": "src/mnq_ai/config.py",
       "source_location": "L68",
       "id": "mnq_ai_config_rationale_68",
-      "community": 4,
+      "community": 1,
       "norm_label": "build and validate config from a mapping."
     },
     {
@@ -882,7 +900,7 @@
       "source_file": "src/mnq_ai/config.py",
       "source_location": "L100",
       "id": "mnq_ai_config_rationale_100",
-      "community": 4,
+      "community": 1,
       "norm_label": "return a validated copy with common cli overrides."
     },
     {
@@ -891,7 +909,7 @@
       "source_file": "src/mnq_ai/config.py",
       "source_location": "L114",
       "id": "mnq_ai_config_rationale_114",
-      "community": 4,
+      "community": 1,
       "norm_label": "fail closed on invalid configuration."
     },
     {
@@ -945,7 +963,7 @@
       "source_file": "src/mnq_ai/exceptions.py",
       "source_location": "L10",
       "id": "mnq_ai_exceptions_configurationerror",
-      "community": 4,
+      "community": 1,
       "norm_label": "configurationerror"
     },
     {
@@ -999,7 +1017,7 @@
       "source_file": "src/mnq_ai/exceptions.py",
       "source_location": "L11",
       "id": "mnq_ai_exceptions_rationale_11",
-      "community": 4,
+      "community": 1,
       "norm_label": "raised when configuration is missing or invalid."
     },
     {
@@ -5147,7 +5165,7 @@
       "file_type": "code",
       "source_file": "src/mnq_ai/config.py",
       "source_location": "L92",
-      "community": 4,
+      "community": 1,
       "norm_label": "bool",
       "id": "bool"
     },
@@ -6119,6 +6137,16 @@
       "relation": "contains",
       "confidence": "EXTRACTED",
       "source_file": "scripts/Fail FVG.py",
+      "source_location": "L343",
+      "weight": 1.0,
+      "source": "scripts_fail_fvg",
+      "target": "scripts_fail_fvg_build_daily_volatility_regimes",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "scripts/Fail FVG.py",
       "source_location": "L253",
       "weight": 1.0,
       "confidence_score": 1.0,
@@ -6141,9 +6169,9 @@
       "source_file": "scripts/Fail FVG.py",
       "source_location": "L850",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "scripts_fail_fvg",
-      "target": "scripts_fail_fvg_chart_output_path",
-      "confidence_score": 1.0
+      "target": "scripts_fail_fvg_chart_output_path"
     },
     {
       "relation": "contains",
@@ -6289,11 +6317,21 @@
       "relation": "contains",
       "confidence": "EXTRACTED",
       "source_file": "scripts/Fail FVG.py",
-      "source_location": "L709",
+      "source_location": "L152",
       "weight": 1.0,
       "source": "scripts_fail_fvg",
-      "target": "scripts_fail_fvg_write_trade_chart",
+      "target": "scripts_fail_fvg_volatilityregimeconfig",
       "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "scripts/Fail FVG.py",
+      "source_location": "L709",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "scripts_fail_fvg",
+      "target": "scripts_fail_fvg_write_trade_chart"
     },
     {
       "relation": "references",
@@ -6354,6 +6392,28 @@
       "context": "parameter_type",
       "confidence": "EXTRACTED",
       "source_file": "scripts/Fail FVG.py",
+      "source_location": "L624",
+      "weight": 1.0,
+      "source": "scripts_fail_fvg_backtest_file",
+      "target": "scripts_fail_fvg_py_float",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "context": "generic_arg",
+      "confidence": "EXTRACTED",
+      "source_file": "scripts/Fail FVG.py",
+      "source_location": "L343",
+      "weight": 1.0,
+      "source": "scripts_fail_fvg_build_daily_volatility_regimes",
+      "target": "scripts_fail_fvg_py_float",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "context": "parameter_type",
+      "confidence": "EXTRACTED",
+      "source_file": "scripts/Fail FVG.py",
       "source_location": "L373",
       "weight": 1.0,
       "confidence_score": 1.0,
@@ -6392,6 +6452,39 @@
       "confidence_score": 1.0,
       "source": "scripts_fail_fvg_execute_trade",
       "target": "scripts_fail_fvg_traderesult"
+    },
+    {
+      "relation": "references",
+      "context": "generic_arg",
+      "confidence": "EXTRACTED",
+      "source_file": "scripts/Fail FVG.py",
+      "source_location": "L343",
+      "weight": 1.0,
+      "source": "scripts_fail_fvg_build_daily_volatility_regimes",
+      "target": "scripts_fail_fvg_volatilityregimeconfig",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "context": "parameter_type",
+      "confidence": "EXTRACTED",
+      "source_file": "scripts/Fail FVG.py",
+      "source_location": "L429",
+      "weight": 1.0,
+      "source": "scripts_fail_fvg_detect_failed_fvg_signal",
+      "target": "scripts_fail_fvg_volatilityregimeconfig",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "context": "parameter_type",
+      "confidence": "EXTRACTED",
+      "source_file": "scripts/Fail FVG.py",
+      "source_location": "L527",
+      "weight": 1.0,
+      "source": "scripts_fail_fvg_execute_trade",
+      "target": "scripts_fail_fvg_volatilityregimeconfig",
+      "confidence_score": 1.0
     },
     {
       "relation": "calls",
@@ -6433,9 +6526,9 @@
       "source_file": "scripts/Fail FVG.py",
       "source_location": "L861",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "scripts_fail_fvg_chart_output_path",
-      "target": "scripts_fail_fvg_month_from_path",
-      "confidence_score": 1.0
+      "target": "scripts_fail_fvg_month_from_path"
     },
     {
       "relation": "calls",
@@ -6477,9 +6570,9 @@
       "source_file": "scripts/Fail FVG.py",
       "source_location": "L825",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "scripts_fail_fvg_write_trade_chart",
-      "target": "scripts_fail_fvg_month_from_path",
-      "confidence_score": 1.0
+      "target": "scripts_fail_fvg_month_from_path"
     },
     {
       "relation": "references",
@@ -6499,9 +6592,9 @@
       "source_file": "scripts/Fail FVG.py",
       "source_location": "L850",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "scripts_fail_fvg_chart_output_path",
-      "target": "scripts_fail_fvg_py_path",
-      "confidence_score": 1.0
+      "target": "scripts_fail_fvg_py_path"
     },
     {
       "relation": "references",
@@ -6554,9 +6647,9 @@
       "source_file": "scripts/Fail FVG.py",
       "source_location": "L709",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "scripts_fail_fvg_write_trade_chart",
-      "target": "scripts_fail_fvg_py_path",
-      "confidence_score": 1.0
+      "target": "scripts_fail_fvg_py_path"
     },
     {
       "relation": "references",
@@ -6576,9 +6669,9 @@
       "source_file": "scripts/Fail FVG.py",
       "source_location": "L850",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "scripts_fail_fvg_chart_output_path",
-      "target": "scripts_fail_fvg_py_str",
-      "confidence_score": 1.0
+      "target": "scripts_fail_fvg_py_str"
     },
     {
       "relation": "references",
@@ -6631,9 +6724,9 @@
       "source_file": "scripts/Fail FVG.py",
       "source_location": "L709",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "scripts_fail_fvg_write_trade_chart",
-      "target": "scripts_fail_fvg_py_str",
-      "confidence_score": 1.0
+      "target": "scripts_fail_fvg_py_str"
     },
     {
       "relation": "calls",
@@ -6664,9 +6757,9 @@
       "source_file": "scripts/Fail FVG.py",
       "source_location": "L724",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "scripts_fail_fvg_write_trade_chart",
-      "target": "scripts_fail_fvg_load_trade_data",
-      "confidence_score": 1.0
+      "target": "scripts_fail_fvg_load_trade_data"
     },
     {
       "relation": "calls",
@@ -6689,6 +6782,17 @@
       "confidence_score": 1.0,
       "source": "scripts_fail_fvg_build_bars",
       "target": "scripts_fail_fvg_py_dataframe"
+    },
+    {
+      "relation": "references",
+      "context": "parameter_type",
+      "confidence": "EXTRACTED",
+      "source_file": "scripts/Fail FVG.py",
+      "source_location": "L343",
+      "weight": 1.0,
+      "source": "scripts_fail_fvg_build_daily_volatility_regimes",
+      "target": "scripts_fail_fvg_py_dataframe",
+      "confidence_score": 1.0
     },
     {
       "relation": "references",
@@ -6752,9 +6856,9 @@
       "source_file": "scripts/Fail FVG.py",
       "source_location": "L733",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "scripts_fail_fvg_write_trade_chart",
-      "target": "scripts_fail_fvg_py_dataframe",
-      "confidence_score": 1.0
+      "target": "scripts_fail_fvg_py_dataframe"
     },
     {
       "relation": "calls",
@@ -6774,9 +6878,119 @@
       "source_file": "scripts/Fail FVG.py",
       "source_location": "L728",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "scripts_fail_fvg_write_trade_chart",
-      "target": "scripts_fail_fvg_build_bars",
+      "target": "scripts_fail_fvg_build_bars"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "scripts/Fail FVG.py",
+      "source_location": "L652",
+      "weight": 1.0,
+      "source": "scripts_fail_fvg_backtest_file",
+      "target": "scripts_fail_fvg_build_daily_volatility_regimes",
       "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "context": "parameter_type",
+      "confidence": "EXTRACTED",
+      "source_file": "scripts/Fail FVG.py",
+      "source_location": "L343",
+      "weight": 1.0,
+      "source": "scripts_fail_fvg_build_daily_volatility_regimes",
+      "target": "scripts_fail_fvg_py_bool",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "context": "generic_arg",
+      "confidence": "EXTRACTED",
+      "source_file": "scripts/Fail FVG.py",
+      "source_location": "L343",
+      "weight": 1.0,
+      "source": "scripts_fail_fvg_build_daily_volatility_regimes",
+      "target": "scripts_fail_fvg_py_object",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "context": "parameter_type",
+      "confidence": "EXTRACTED",
+      "source_file": "scripts/Fail FVG.py",
+      "source_location": "L624",
+      "weight": 1.0,
+      "source": "scripts_fail_fvg_backtest_file",
+      "target": "scripts_fail_fvg_py_bool",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "context": "return_type",
+      "confidence": "EXTRACTED",
+      "source_file": "scripts/Fail FVG.py",
+      "source_location": "L293",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "scripts_fail_fvg_is_in_session",
+      "target": "scripts_fail_fvg_py_bool"
+    },
+    {
+      "relation": "references",
+      "context": "return_type",
+      "confidence": "EXTRACTED",
+      "source_file": "scripts/Fail FVG.py",
+      "source_location": "L299",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "scripts_fail_fvg_overlaps_zone",
+      "target": "scripts_fail_fvg_py_bool"
+    },
+    {
+      "relation": "references",
+      "context": "generic_arg",
+      "confidence": "EXTRACTED",
+      "source_file": "scripts/Fail FVG.py",
+      "source_location": "L492",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "scripts_fail_fvg_backtest_file",
+      "target": "scripts_fail_fvg_py_object"
+    },
+    {
+      "relation": "references",
+      "context": "generic_arg",
+      "confidence": "EXTRACTED",
+      "source_file": "scripts/Fail FVG.py",
+      "source_location": "L474",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "scripts_fail_fvg_empty_summary",
+      "target": "scripts_fail_fvg_py_object"
+    },
+    {
+      "relation": "references",
+      "context": "generic_arg",
+      "confidence": "EXTRACTED",
+      "source_file": "scripts/Fail FVG.py",
+      "source_location": "L682",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "scripts_fail_fvg_save_outputs",
+      "target": "scripts_fail_fvg_py_object"
+    },
+    {
+      "relation": "references",
+      "context": "generic_arg",
+      "confidence": "EXTRACTED",
+      "source_file": "scripts/Fail FVG.py",
+      "source_location": "L709",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "scripts_fail_fvg_write_trade_chart",
+      "target": "scripts_fail_fvg_py_object"
     },
     {
       "relation": "calls",
@@ -6802,17 +7016,6 @@
     },
     {
       "relation": "references",
-      "context": "return_type",
-      "confidence": "EXTRACTED",
-      "source_file": "scripts/Fail FVG.py",
-      "source_location": "L293",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "scripts_fail_fvg_is_in_session",
-      "target": "scripts_fail_fvg_py_bool"
-    },
-    {
-      "relation": "references",
       "context": "parameter_type",
       "confidence": "EXTRACTED",
       "source_file": "scripts/Fail FVG.py",
@@ -6832,17 +7035,6 @@
       "confidence_score": 1.0,
       "source": "scripts_fail_fvg_detect_failed_fvg_signal",
       "target": "scripts_fail_fvg_py_timestamp"
-    },
-    {
-      "relation": "references",
-      "context": "return_type",
-      "confidence": "EXTRACTED",
-      "source_file": "scripts/Fail FVG.py",
-      "source_location": "L299",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "scripts_fail_fvg_overlaps_zone",
-      "target": "scripts_fail_fvg_py_bool"
     },
     {
       "relation": "calls",
@@ -6917,9 +7109,9 @@
       "source_file": "scripts/Fail FVG.py",
       "source_location": "L850",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "scripts_fail_fvg_chart_output_path",
-      "target": "scripts_fail_fvg_py_int",
-      "confidence_score": 1.0
+      "target": "scripts_fail_fvg_py_int"
     },
     {
       "relation": "references",
@@ -6955,17 +7147,6 @@
       "target": "scripts_fail_fvg_empty_summary"
     },
     {
-      "relation": "references",
-      "context": "generic_arg",
-      "confidence": "EXTRACTED",
-      "source_file": "scripts/Fail FVG.py",
-      "source_location": "L474",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "scripts_fail_fvg_empty_summary",
-      "target": "scripts_fail_fvg_py_object"
-    },
-    {
       "relation": "calls",
       "context": "call",
       "confidence": "EXTRACTED",
@@ -6975,39 +7156,6 @@
       "confidence_score": 1.0,
       "source": "scripts_fail_fvg_main",
       "target": "scripts_fail_fvg_empty_summary"
-    },
-    {
-      "relation": "references",
-      "context": "generic_arg",
-      "confidence": "EXTRACTED",
-      "source_file": "scripts/Fail FVG.py",
-      "source_location": "L492",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "scripts_fail_fvg_backtest_file",
-      "target": "scripts_fail_fvg_py_object"
-    },
-    {
-      "relation": "references",
-      "context": "generic_arg",
-      "confidence": "EXTRACTED",
-      "source_file": "scripts/Fail FVG.py",
-      "source_location": "L682",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "scripts_fail_fvg_save_outputs",
-      "target": "scripts_fail_fvg_py_object"
-    },
-    {
-      "relation": "references",
-      "context": "generic_arg",
-      "confidence": "EXTRACTED",
-      "source_file": "scripts/Fail FVG.py",
-      "source_location": "L709",
-      "weight": 1.0,
-      "source": "scripts_fail_fvg_write_trade_chart",
-      "target": "scripts_fail_fvg_py_object",
-      "confidence_score": 1.0
     },
     {
       "relation": "calls",
@@ -7038,9 +7186,9 @@
       "source_file": "scripts/Fail FVG.py",
       "source_location": "L915",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "scripts_fail_fvg_main",
-      "target": "scripts_fail_fvg_write_trade_chart",
-      "confidence_score": 1.0
+      "target": "scripts_fail_fvg_write_trade_chart"
     },
     {
       "relation": "calls",
@@ -7049,9 +7197,9 @@
       "source_file": "scripts/Fail FVG.py",
       "source_location": "L909",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "scripts_fail_fvg_main",
-      "target": "scripts_fail_fvg_chart_output_path",
-      "confidence_score": 1.0
+      "target": "scripts_fail_fvg_chart_output_path"
     },
     {
       "relation": "calls",
@@ -13263,9 +13411,9 @@
       "source_file": "README.md",
       "source_location": "L121",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "readme_mnqvolumeai",
-      "target": "readme_diagnostic_failed_fvg_chart",
-      "confidence_score": 1.0
+      "target": "readme_diagnostic_failed_fvg_chart"
     },
     {
       "relation": "contains",
@@ -16979,5 +17127,5 @@
     }
   ],
   "hyperedges": [],
-  "built_at_commit": "d3f9f515038f9d0d8c24a924253b29a61371e6d7"
+  "built_at_commit": "88e8b9ed7bb25331b5e262b96fc0d0933699567d"
 }
