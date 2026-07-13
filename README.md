@@ -126,6 +126,8 @@ The Phase 2 manifest intentionally reports `gate_recommendation: NO-GO`. This is
 uv run python "scripts\Fail FVG.py" "C:\Users\Administrator\PycharmProjects\MNQVolumeAI\data\trade_tape\MNQ_clean_20260406_20260410.parquet" --output-dir artifacts\fail_fvg_mnq_clean_5days --chart-output artifacts\fail_fvg_mnq_clean_5days\fail_fvg_trades_chart.html --point-value 2 --cost 2.50 --slip 2.50 --market-tz America/New_York --log-level INFO
 ```
 
+By default, this runner adapts its diagnostic parameters by prior-day volatility regime. The current day's parameters are selected from the previous completed day's range versus the trailing median range, avoiding same-day high/low lookahead. Use `--disable-volatility-regimes` to force the original static parameters.
+
 Expected outputs:
 
 - `artifacts\fail_fvg_mnq_clean_5days\fail_fvg_trades.csv`

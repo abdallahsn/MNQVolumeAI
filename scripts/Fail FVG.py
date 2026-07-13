@@ -80,6 +80,15 @@ TRADE_COLUMNS = [
     "close_vs_zone",
     "effort_range_ratio",
     "effort_volume_ratio",
+    "volatility_regime",
+    "volatility_ratio",
+    "regime_fvg_window_min",
+    "regime_vol_price_mult",
+    "regime_vol_volume_mult",
+    "regime_stop_buffer_points",
+    "regime_take_profit_r",
+    "regime_max_hold_bars",
+    "regime_risk_pct",
 ]
 
 SUMMARY_COLUMNS = [
@@ -96,6 +105,9 @@ SUMMARY_COLUMNS = [
     "skipped_missing_entry",
     "skipped_no_contracts",
     "skipped_invalid_risk",
+    "low_vol_trades",
+    "normal_vol_trades",
+    "high_vol_trades",
 ]
 
 
@@ -134,6 +146,56 @@ class TradeResult:
     exit_time: pd.Timestamp
     exit_pos: int
     target: float
+
+
+@dataclass(frozen=True)
+class VolatilityRegimeConfig:
+    name: str
+    fvg_window_min: int
+    vol_price_mult: float
+    vol_volume_mult: float
+    stop_buffer_points: float
+    take_profit_r: float
+    max_hold_bars: int
+    risk_pct: float
+
+
+VOLATILITY_REGIME_CONFIGS = {
+    "LOW": VolatilityRegimeConfig(
+        name="LOW",
+        fvg_window_min=60,
+        vol_price_mult=1.10,
+        vol_volume_mult=1.15,
+        stop_buffer_points=0.0,
+        take_profit_r=3.0,
+        max_hold_bars=8,
+        risk_pct=0.020,
+    ),
+    "NORMAL": VolatilityRegimeConfig(
+        name="NORMAL",
+        fvg_window_min=FVG_WINDOW_MIN,
+        vol_price_mult=VOL_PRICE_MULT,
+        vol_volume_mult=VOL_VOLUME_MULT,
+        stop_buffer_points=STOP_BUFFER_POINTS,
+        take_profit_r=TAKE_PROFIT_R,
+        max_hold_bars=MAX_HOLD_BARS,
+        risk_pct=RISK_PCT,
+    ),
+    "HIGH": VolatilityRegimeConfig(
+        name="HIGH",
+        fvg_window_min=120,
+        vol_price_mult=1.35,
+        vol_volume_mult=1.50,
+        stop_buffer_points=1.0,
+        take_profit_r=4.5,
+        max_hold_bars=16,
+        risk_pct=0.015,
+    ),
+}
+DEFAULT_VOLATILITY_REGIME = VOLATILITY_REGIME_CONFIGS["NORMAL"]
+LOW_VOL_RATIO = 0.75
+HIGH_VOL_RATIO = 1.25
+VOLATILITY_LOOKBACK_DAYS = 20
 
 
 def parse_args() -> argparse.Namespace:
@@ -182,6 +244,23 @@ def parse_args() -> argparse.Namespace:
         "--market-tz",
         default=MARKET_TZ,
         help="Timezone used for session filtering.",
+    )
+    parser.add_argument(
+        "--disable-volatility-regimes",
+        action="store_true",
+        help="Use one static parameter set instead of prior-day volatility regimes.",
+    )
+    parser.add_argument(
+        "--low-vol-ratio",
+        type=float,
+        default=LOW_VOL_RATIO,
+        help="Prior-day range / trailing median threshold below which LOW regime is used.",
+    )
+    parser.add_argument(
+        "--high-vol-ratio",
+        type=float,
+        default=HIGH_VOL_RATIO,
+        help="Prior-day range / trailing median threshold above which HIGH regime is used.",
     )
     parser.add_argument(
         "--log-level",
@@ -261,6 +340,42 @@ def build_bars(trades: pd.DataFrame) -> tuple[pd.DataFrame, pd.DataFrame]:
     return h1, m30
 
 
+def build_daily_volatility_regimes(
+    m30: pd.DataFrame,
+    *,
+    enabled: bool,
+    low_vol_ratio: float,
+    high_vol_ratio: float,
+) -> dict[object, tuple[VolatilityRegimeConfig, float | None]]:
+    if not enabled or m30.empty:
+        return {}
+    if low_vol_ratio <= 0 or high_vol_ratio <= low_vol_ratio:
+        raise ValueError("--high-vol-ratio must be greater than --low-vol-ratio, and both must be positive")
+
+    daily = m30.resample("1D").agg({"h": "max", "l": "min"})
+    daily["range"] = daily["h"] - daily["l"]
+    daily = daily.dropna(subset=["range"])
+    prior_range = daily["range"].shift(1)
+    trailing_median = daily["range"].shift(1).rolling(VOLATILITY_LOOKBACK_DAYS, min_periods=1).median()
+
+    regimes: dict[object, tuple[VolatilityRegimeConfig, float | None]] = {}
+    for day, previous_range in prior_range.items():
+        day_key = day.date()
+        baseline = trailing_median.loc[day]
+        if not np.isfinite(previous_range) or not np.isfinite(baseline) or float(baseline) <= 0:
+            regimes[day_key] = (DEFAULT_VOLATILITY_REGIME, None)
+            continue
+        ratio = float(previous_range) / float(baseline)
+        if ratio <= low_vol_ratio:
+            regime = VOLATILITY_REGIME_CONFIGS["LOW"]
+        elif ratio >= high_vol_ratio:
+            regime = VOLATILITY_REGIME_CONFIGS["HIGH"]
+        else:
+            regime = DEFAULT_VOLATILITY_REGIME
+        regimes[day_key] = (regime, ratio)
+    return regimes
+
+
 def build_h1_fvgs(h1: pd.DataFrame) -> list[FVG]:
     fvgs: list[FVG] = []
     for i in range(2, len(h1)):
@@ -316,6 +431,7 @@ def detect_failed_fvg_signal(
     signal_time: pd.Timestamp,
     active_fvgs: Iterable[FVG],
     used_fvg_ids: set[str],
+    regime: VolatilityRegimeConfig,
 ) -> Signal | None:
     candle_range = float(candle["range"])
     atr20 = float(candle["atr20"])
@@ -333,7 +449,7 @@ def detect_failed_fvg_signal(
 
     effort_range_ratio = candle_range / atr20
     effort_volume_ratio = volume / volume_sma20
-    if effort_range_ratio <= VOL_PRICE_MULT or effort_volume_ratio <= VOL_VOLUME_MULT:
+    if effort_range_ratio <= regime.vol_price_mult or effort_volume_ratio <= regime.vol_volume_mult:
         return None
 
     close = float(candle["c"])
@@ -343,7 +459,7 @@ def detect_failed_fvg_signal(
             continue
         if fvg.available_at > signal_time:
             continue
-        if signal_time - fvg.available_at > pd.Timedelta(minutes=FVG_WINDOW_MIN):
+        if signal_time - fvg.available_at > pd.Timedelta(minutes=regime.fvg_window_min):
             continue
         if not overlaps_zone(candle, fvg):
             continue
@@ -386,6 +502,7 @@ def calculate_contracts(
     day_start_balance: float,
     daily_loss_pct: float,
     risk_points: float,
+    risk_pct: float,
 ) -> int:
     if balance <= 0 or day_start_balance <= 0 or risk_points <= 0:
         return 0
@@ -395,7 +512,7 @@ def calculate_contracts(
         return 0
 
     risk_cash = min(
-        balance * RISK_PCT,
+        balance * risk_pct,
         remaining_daily_risk * day_start_balance * DAILY_SAFETY_MARGIN,
     )
     loss_per_contract = risk_points * POINT_VALUE + COST + SLIP
@@ -414,14 +531,15 @@ def execute_trade(
     stop: float,
     direction: str,
     contracts: int,
+    regime: VolatilityRegimeConfig,
 ) -> TradeResult:
     risk_points = abs(entry - stop)
     if direction == "LONG":
-        target = entry + (risk_points * TAKE_PROFIT_R)
+        target = entry + (risk_points * regime.take_profit_r)
     else:
-        target = entry - (risk_points * TAKE_PROFIT_R)
+        target = entry - (risk_points * regime.take_profit_r)
 
-    end_pos = min(len(m30), entry_pos + MAX_HOLD_BARS)
+    end_pos = min(len(m30), entry_pos + regime.max_hold_bars)
     future = m30.iloc[entry_pos:end_pos]
     if future.empty:
         raise ValueError("execute_trade called without future bars after entry")
@@ -497,10 +615,19 @@ def empty_summary(file_path: Path, month: str) -> dict[str, object]:
         "skipped_missing_entry": 0,
         "skipped_no_contracts": 0,
         "skipped_invalid_risk": 0,
+        "low_vol_trades": 0,
+        "normal_vol_trades": 0,
+        "high_vol_trades": 0,
     }
 
 
-def backtest_file(file_path: Path) -> tuple[list[dict[str, object]], dict[str, object]]:
+def backtest_file(
+    file_path: Path,
+    *,
+    use_volatility_regimes: bool,
+    low_vol_ratio: float,
+    high_vol_ratio: float,
+) -> tuple[list[dict[str, object]], dict[str, object]]:
     month = month_from_path(file_path)
     summary = empty_summary(file_path, month)
 
@@ -522,6 +649,12 @@ def backtest_file(file_path: Path) -> tuple[list[dict[str, object]], dict[str, o
     if not fvgs:
         LOGGER.info("%s: no H1 FVGs found", month)
         return [], summary
+    volatility_regimes = build_daily_volatility_regimes(
+        m30,
+        enabled=use_volatility_regimes,
+        low_vol_ratio=low_vol_ratio,
+        high_vol_ratio=high_vol_ratio,
+    )
 
     balance = INITIAL
     peak = INITIAL
@@ -572,23 +705,27 @@ def backtest_file(file_path: Path) -> tuple[list[dict[str, object]], dict[str, o
             continue
 
         candle = m30.iloc[j]
+        regime, regime_ratio = volatility_regimes.get(
+            signal_time.date(),
+            (DEFAULT_VOLATILITY_REGIME, None),
+        )
         active_fvgs = [
             fvg
             for fvg in fvgs
             if fvg.available_at <= signal_time
-            and signal_time - fvg.available_at <= pd.Timedelta(minutes=FVG_WINDOW_MIN)
+            and signal_time - fvg.available_at <= pd.Timedelta(minutes=regime.fvg_window_min)
         ]
-        signal = detect_failed_fvg_signal(candle, signal_time, active_fvgs, used_fvg_ids)
+        signal = detect_failed_fvg_signal(candle, signal_time, active_fvgs, used_fvg_ids, regime)
         if signal is None:
             j += 1
             continue
 
         entry = float(m30.iloc[entry_pos]["o"])
         if signal.direction == "SHORT":
-            stop = float(candle["h"]) + STOP_BUFFER_POINTS
+            stop = float(candle["h"]) + regime.stop_buffer_points
             risk_points = stop - entry
         else:
-            stop = float(candle["l"]) - STOP_BUFFER_POINTS
+            stop = float(candle["l"]) - regime.stop_buffer_points
             risk_points = entry - stop
 
         if risk_points <= 0 or not np.isfinite(risk_points):
@@ -601,6 +738,7 @@ def backtest_file(file_path: Path) -> tuple[list[dict[str, object]], dict[str, o
             day_start_balance=day_start_balance,
             daily_loss_pct=daily_loss_pct,
             risk_points=risk_points,
+            risk_pct=regime.risk_pct,
         )
         if contracts <= 0:
             skipped_no_contracts += 1
@@ -614,6 +752,7 @@ def backtest_file(file_path: Path) -> tuple[list[dict[str, object]], dict[str, o
             stop=stop,
             direction=signal.direction,
             contracts=contracts,
+            regime=regime,
         )
 
         used_fvg_ids.add(signal.fvg.fvg_id)
@@ -655,6 +794,15 @@ def backtest_file(file_path: Path) -> tuple[list[dict[str, object]], dict[str, o
                 "close_vs_zone": round(signal.close_vs_zone, 4),
                 "effort_range_ratio": round(signal.effort_range_ratio, 4),
                 "effort_volume_ratio": round(signal.effort_volume_ratio, 4),
+                "volatility_regime": regime.name,
+                "volatility_ratio": None if regime_ratio is None else round(regime_ratio, 4),
+                "regime_fvg_window_min": regime.fvg_window_min,
+                "regime_vol_price_mult": regime.vol_price_mult,
+                "regime_vol_volume_mult": regime.vol_volume_mult,
+                "regime_stop_buffer_points": regime.stop_buffer_points,
+                "regime_take_profit_r": regime.take_profit_r,
+                "regime_max_hold_bars": regime.max_hold_bars,
+                "regime_risk_pct": regime.risk_pct,
             }
         )
 
@@ -677,6 +825,9 @@ def backtest_file(file_path: Path) -> tuple[list[dict[str, object]], dict[str, o
                 "return_pct": round(net_pnl / INITIAL * 100.0, 2),
                 "max_drawdown_pct": round((max_drawdown / peak * 100.0) if peak > 0 else 0.0, 2),
                 "max_daily_dd_pct": round(max_daily_dd * 100.0, 2),
+                "low_vol_trades": int((out["volatility_regime"] == "LOW").sum()),
+                "normal_vol_trades": int((out["volatility_regime"] == "NORMAL").sum()),
+                "high_vol_trades": int((out["volatility_regime"] == "HIGH").sum()),
             }
         )
 
@@ -786,6 +937,10 @@ def write_trade_chart(
             f"Contracts: {int(row['contracts'])}<br>"
             f"Risk: {float(row['risk_points']):.2f}<br>"
             f"Target: {float(row['target']):.2f}<br>"
+            f"Regime: {row['volatility_regime']}<br>"
+            f"Vol ratio: {row['volatility_ratio']}<br>"
+            f"TP R: {float(row['regime_take_profit_r']):.2f}<br>"
+            f"Max hold bars: {int(row['regime_max_hold_bars'])}<br>"
             f"Signal: {row['signal']}"
         )
 
@@ -898,7 +1053,12 @@ def main() -> None:
 
     for file_path in files:
         try:
-            trades, summary = backtest_file(file_path)
+            trades, summary = backtest_file(
+                file_path,
+                use_volatility_regimes=not args.disable_volatility_regimes,
+                low_vol_ratio=args.low_vol_ratio,
+                high_vol_ratio=args.high_vol_ratio,
+            )
         except Exception as exc:
             LOGGER.exception("Failed processing %s: %s", file_path, exc)
             month = month_from_path(file_path)

@@ -1,16 +1,16 @@
 # Graph Report - MNQVolumeAI  (2026-07-13)
 
 ## Corpus Check
-- 73 files · ~50,226 words
+- 73 files · ~50,619 words
 - Verdict: corpus is large enough that graph structure adds value.
 
 ## Summary
-- 654 nodes · 1055 edges · 69 communities (32 shown, 37 thin omitted)
+- 656 nodes · 1067 edges · 68 communities (31 shown, 37 thin omitted)
 - Extraction: 92% EXTRACTED · 8% INFERRED · 0% AMBIGUOUS · INFERRED: 81 edges (avg confidence: 0.63)
 - Token cost: 0 input · 0 output
 
 ## Graph Freshness
-- Built from commit: `d3f9f515`
+- Built from commit: `88e8b9ed`
 - Run `git rev-parse HEAD` and compare to check if the graph is stale.
 - Run `graphify update .` after code changes (no API cost).
 
@@ -19,7 +19,6 @@
 - [[_COMMUNITY_Skill and Algorithm Policies|Skill and Algorithm Policies]]
 - [[_COMMUNITY_MNQ Project Specifications|MNQ Project Specifications]]
 - [[_COMMUNITY_Limit Order Book Forecasting|Limit Order Book Forecasting]]
-- [[_COMMUNITY_LLM Agents for Trading|LLM Agents for Trading]]
 - [[_COMMUNITY_Hook Utilities|Hook Utilities]]
 - [[_COMMUNITY_Reinforcement Learning Trading|Reinforcement Learning Trading]]
 - [[_COMMUNITY_Decentralized Market Microstructure|Decentralized Market Microstructure]]
@@ -87,12 +86,12 @@
 ## God Nodes (most connected - your core abstractions)
 1. `Decimal` - 24 edges
 2. `Phase1Config` - 21 edges
-3. `MNQ Volume Profile AI Master Plan` - 18 edges
-4. `FailedFVGConfig` - 17 edges
-5. `Comprehensive Research Report: Volume Profile Analysis in Financial Markets` - 17 edges
-6. `ConfigurationError` - 16 edges
-7. `MNQVolumeAI` - 16 edges
-8. `backtest_file()` - 15 edges
+3. `backtest_file()` - 18 edges
+4. `MNQ Volume Profile AI Master Plan` - 18 edges
+5. `FailedFVGConfig` - 17 edges
+6. `Comprehensive Research Report: Volume Profile Analysis in Financial Markets` - 17 edges
+7. `ConfigurationError` - 16 edges
+8. `MNQVolumeAI` - 16 edges
 9. `Bar` - 15 edges
 10. `MNQ Volume Profile AI Master Plan` - 15 edges
 
@@ -114,15 +113,15 @@
 - 1-file cycle: `tests/test_phase2_execution_gate.py -> tests/test_phase2_execution_gate.py`
 - 1-file cycle: `tests/test_failed_fvg_setup_engine.py -> tests/test_failed_fvg_setup_engine.py`
 
-## Communities (69 total, 37 thin omitted)
+## Communities (68 total, 37 thin omitted)
 
 ### Community 0 - "Skill Validation and Parsing"
 Cohesion: 0.06
 Nodes (42): auction-feature-engineering Skill, dependency-governor Skill, execution-backtest-gate Skill, mbo-data-causality Skill, out-of-core-data-engineering Skill, quant-model-validation Skill, quant-research-scout Skill, Ablation Requirement (+34 more)
 
 ### Community 1 - "Skill and Algorithm Policies"
-Cohesion: 0.08
-Nodes (48): ArgumentParser, Exception, float, _config_from_args(), main(), _parser(), Command-line interface for MNQ research pipeline jobs., Run the ``mnq-ai`` CLI. (+40 more)
+Cohesion: 0.06
+Nodes (63): Any, ArgumentParser, bool, Exception, float, _config_from_args(), main(), _parser() (+55 more)
 
 ### Community 2 - "MNQ Project Specifications"
 Cohesion: 0.08
@@ -131,10 +130,6 @@ Nodes (24): For /graphify add and --watch, For /graphify query, For the commit h
 ### Community 3 - "Limit Order Book Forecasting"
 Cohesion: 0.11
 Nodes (26): MNQ Volume Profile AI Master Plan, Acceptance Criteria By Phase, Current Architecture Inventory, Current Issues And Risks, Data Readiness Assessment, Deleted but required before implementation, Deleted or generated paths that should not block the rebuild, Dependency Graph (+18 more)
-
-### Community 4 - "LLM Agents for Trading"
-Cohesion: 0.23
-Nodes (15): Any, bool, _load_yaml_with_extends(), _parse_hms(), Return a validated copy with common CLI overrides., Fail closed on invalid configuration., Load a config file, following a single optional ``extends`` reference., Build and validate config from a mapping. (+7 more)
 
 ### Community 5 - "Hook Utilities"
 Cohesion: 0.14
@@ -238,7 +233,7 @@ Nodes (12): _candidate(), datetime, float, int, object, Path, str, test_phase2_e
 
 ### Community 68 - "Community 68"
 Cohesion: 0.18
-Nodes (30): backtest_file(), build_bars(), build_h1_fvgs(), calculate_contracts(), chart_output_path(), detect_failed_fvg_signal(), empty_summary(), execute_trade() (+22 more)
+Nodes (32): backtest_file(), build_bars(), build_daily_volatility_regimes(), build_h1_fvgs(), calculate_contracts(), chart_output_path(), detect_failed_fvg_signal(), empty_summary() (+24 more)
 
 ## Knowledge Gaps
 - **200 isolated node(s):** `PreToolUse`, `Namespace`, `Namespace`, `Timestamp`, `int` (+195 more)
@@ -248,7 +243,7 @@ Nodes (30): backtest_file(), build_bars(), build_h1_fvgs(), calculate_contracts(
 ## Suggested Questions
 _Questions this graph is uniquely positioned to answer:_
 
-- **Why does `Decimal` connect `Reinforcement Learning for Trading` to `Skill and Algorithm Policies`, `LLM Agents for Trading`?**
+- **Why does `Decimal` connect `Reinforcement Learning for Trading` to `Skill and Algorithm Policies`?**
   _High betweenness centrality (0.021) - this node is a cross-community bridge._
 - **Why does `MNQ Volume Profile AI Master Plan` connect `Limit Order Book Forecasting` to `Community 11`, `LSTM Trend Forecasting`, `Reinforcement Learning Trading`?**
   _High betweenness centrality (0.016) - this node is a cross-community bridge._
@@ -260,5 +255,5 @@ _Questions this graph is uniquely positioned to answer:_
   _`Phase1Config` has 15 INFERRED edges - model-reasoned connections that need verification._
 - **Are the 13 inferred relationships involving `FailedFVGConfig` (e.g. with `ArgumentParser` and `main()`) actually correct?**
   _`FailedFVGConfig` has 13 INFERRED edges - model-reasoned connections that need verification._
-- **Are the 3 inferred relationships involving `Comprehensive Research Report: Volume Profile Analysis in Financial Markets` (e.g. with `MNQ Volume Profile AI Master Plan` and `mnq_labeling_and_leakage_spec.md`) actually correct?**
-  _`Comprehensive Research Report: Volume Profile Analysis in Financial Markets` has 3 INFERRED edges - model-reasoned connections that need verification._
+- **What connects `PreToolUse`, `Namespace`, `Utility scripts for MNQVolumeAI.` to the rest of the system?**
+  _232 weakly-connected nodes found - possible documentation gaps or missing edges._
