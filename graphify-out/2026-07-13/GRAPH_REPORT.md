@@ -1,12 +1,12 @@
 # Graph Report - MNQVolumeAI  (2026-07-13)
 
 ## Corpus Check
-- 69 files · ~44,942 words
+- 69 files · ~44,859 words
 - Verdict: corpus is large enough that graph structure adds value.
 
 ## Summary
-- 567 nodes · 839 edges · 65 communities (28 shown, 37 thin omitted)
-- Extraction: 92% EXTRACTED · 8% INFERRED · 0% AMBIGUOUS · INFERRED: 65 edges (avg confidence: 0.64)
+- 565 nodes · 833 edges · 66 communities (29 shown, 37 thin omitted)
+- Extraction: 93% EXTRACTED · 7% INFERRED · 0% AMBIGUOUS · INFERRED: 62 edges (avg confidence: 0.63)
 - Token cost: 0 input · 0 output
 
 ## Graph Freshness
@@ -26,6 +26,7 @@
 - [[_COMMUNITY_MNQVolumeAI Utility Scripts|MNQVolumeAI Utility Scripts]]
 - [[_COMMUNITY_MNQVolumeAI Test Utilities|MNQVolumeAI Test Utilities]]
 - [[_COMMUNITY_Survival Analysis in Order Books|Survival Analysis in Order Books]]
+- [[_COMMUNITY_Price Prediction with Deep Learning|Price Prediction with Deep Learning]]
 - [[_COMMUNITY_LSTM Trend Forecasting|LSTM Trend Forecasting]]
 - [[_COMMUNITY_Natural Language to Option Strategies|Natural Language to Option Strategies]]
 - [[_COMMUNITY_Reinforcement Learning for Trading|Reinforcement Learning for Trading]]
@@ -81,7 +82,7 @@
 - [[_COMMUNITY_Community 65|Community 65]]
 
 ## God Nodes (most connected - your core abstractions)
-1. `Decimal` - 21 edges
+1. `Decimal` - 20 edges
 2. `Phase1Config` - 19 edges
 3. `MNQ Volume Profile AI Master Plan` - 18 edges
 4. `Comprehensive Research Report: Volume Profile Analysis in Financial Markets` - 17 edges
@@ -90,7 +91,7 @@
 7. `Phase 0.5 Skill Trigger Tests` - 15 edges
 8. `Bar` - 14 edges
 9. `MNQVolumeAI` - 14 edges
-10. `FailedFVGSetupEngine` - 13 edges
+10. `MNQAIError` - 12 edges
 
 ## Surprising Connections (you probably didn't know these)
 - `test_config_validates_tick_and_timezone()` --calls--> `Decimal`  [INFERRED]
@@ -108,7 +109,7 @@
 - 1-file cycle: `src/mnq_ai/setups/failed_fvg.py -> src/mnq_ai/setups/failed_fvg.py`
 - 1-file cycle: `tests/test_failed_fvg_setup_engine.py -> tests/test_failed_fvg_setup_engine.py`
 
-## Communities (65 total, 37 thin omitted)
+## Communities (66 total, 37 thin omitted)
 
 ### Community 0 - "Skill Validation and Parsing"
 Cohesion: 0.07
@@ -123,8 +124,8 @@ Cohesion: 0.08
 Nodes (24): For /graphify add and --watch, For /graphify query, For the commit hook and native CLAUDE.md integration, For --update and --cluster-only, /graphify, Honesty Rules, Interpreter guard for subcommands, Part A - Structural extraction for code files (+16 more)
 
 ### Community 3 - "Limit Order Book Forecasting"
-Cohesion: 0.07
-Nodes (39): MNQ Volume Profile AI Master Plan, Acceptance Criteria, Checks, Chunking Strategy, MBO Trade Semantics, MNQ Data Audit Plan, Objectives, Price and size checks (+31 more)
+Cohesion: 0.11
+Nodes (26): MNQ Volume Profile AI Master Plan, Acceptance Criteria By Phase, Current Architecture Inventory, Current Issues And Risks, Data Readiness Assessment, Deleted but required before implementation, Deleted or generated paths that should not block the rebuild, Dependency Graph (+18 more)
 
 ### Community 4 - "LLM Agents for Trading"
 Cohesion: 0.16
@@ -154,6 +155,10 @@ Nodes (20): Engineering Rules, graphify, Mandatory Project Skills, Phase 1 Data 
 Cohesion: 0.26
 Nodes (12): int, Path, load_skill(), main(), parse_front_matter(), int, Path, str (+4 more)
 
+### Community 11 - "Price Prediction with Deep Learning"
+Cohesion: 0.23
+Nodes (13): Acceptance Criteria, Checks, Chunking Strategy, MBO Trade Semantics, MNQ Data Audit Plan, Objectives, Price and size checks, Required Audit Outputs (+5 more)
+
 ### Community 12 - "LSTM Trend Forecasting"
 Cohesion: 0.12
 Nodes (25): MNQ Phase 0 Rebuild And Cleanup Decision, MNQ Phase 1 Implementation Tasks, Current Finding, Exact Next Patch After Approval, Files Not To Edit In The First Implementation Patch, MNQ Phase 0 Rebuild And Cleanup Decision, Recommended Decision, Stop/Go (+17 more)
@@ -164,7 +169,7 @@ Nodes (10): MNQ Deterministic Setup Engine Specification, Acceptance Criteria, C
 
 ### Community 14 - "Reinforcement Learning for Trading"
 Cohesion: 0.10
-Nodes (38): Decimal, EntrySide, FVGType, Bar, build_h1_fvgs(), FailedFVGConfig, FailedFVGSetupEngine, FVG (+30 more)
+Nodes (36): Decimal, EntrySide, FVGType, Bar, build_h1_fvgs(), FailedFVGConfig, FailedFVGSetupEngine, FVG (+28 more)
 
 ### Community 15 - "LLM Debiasing Techniques"
 Cohesion: 0.38
@@ -228,12 +233,12 @@ _Questions this graph is uniquely positioned to answer:_
 
 - **Why does `Decimal` connect `Reinforcement Learning for Trading` to `Skill and Algorithm Policies`, `LLM Agents for Trading`?**
   _High betweenness centrality (0.023) - this node is a cross-community bridge._
-- **Why does `MNQ Volume Profile AI Master Plan` connect `Limit Order Book Forecasting` to `LSTM Trend Forecasting`, `Reinforcement Learning Trading`?**
+- **Why does `MNQ Volume Profile AI Master Plan` connect `Limit Order Book Forecasting` to `Price Prediction with Deep Learning`, `LSTM Trend Forecasting`, `Reinforcement Learning Trading`?**
   _High betweenness centrality (0.022) - this node is a cross-community bridge._
 - **Why does `Comprehensive Research Report: Volume Profile Analysis in Financial Markets` connect `Reinforcement Learning Trading` to `Limit Order Book Forecasting`, `LSTM Trend Forecasting`, `Research Gaps Identification`?**
   _High betweenness centrality (0.020) - this node is a cross-community bridge._
-- **Are the 7 inferred relationships involving `Decimal` (e.g. with `.from_mapping()` and `_bar()`) actually correct?**
-  _`Decimal` has 7 INFERRED edges - model-reasoned connections that need verification._
+- **Are the 6 inferred relationships involving `Decimal` (e.g. with `.from_mapping()` and `_bar()`) actually correct?**
+  _`Decimal` has 6 INFERRED edges - model-reasoned connections that need verification._
 - **Are the 13 inferred relationships involving `Phase1Config` (e.g. with `ArgumentParser` and `float`) actually correct?**
   _`Phase1Config` has 13 INFERRED edges - model-reasoned connections that need verification._
 - **Are the 3 inferred relationships involving `Comprehensive Research Report: Volume Profile Analysis in Financial Markets` (e.g. with `MNQ Volume Profile AI Master Plan` and `mnq_labeling_and_leakage_spec.md`) actually correct?**
