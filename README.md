@@ -148,6 +148,14 @@ $env:PYTHONUTF8="1"; uv run mnq-ai build-phase2-labels --trade-tape data\trade_t
 
 This is a research translation of the EA's RSI/MACD/ATR decision core only. It does not use the EA's placeholder RL, synthetic confidence, sentiment, Elliott Wave, harmonic-pattern, or crypto-volatility modules.
 
+Generate a QEP failure-mode diagnostic report from the Phase 2 labels:
+
+```powershell
+uv run python scripts\qep_failure_report.py --labels data\qep_phase2_labels_5days\setup_labels.parquet --output artifacts\qep_phase2_gate_5days\qep_failure_report.md --m30-bar-count 226 --print
+```
+
+The report summarizes hit rate, net R, exit reasons, side counts, candidate density, and dominant failure modes such as overtrading, weak target conversion, and MAX_HOLD-heavy exits.
+
 ## Diagnostic Failed FVG Chart
 
 `scripts\Fail FVG.py` is a standalone diagnostic runner. It is not the official Phase 2 gate, but it can draw each simulated trade on M30 candles with entry, exit, FVG zone, PnL, and gross points.

@@ -30,8 +30,8 @@
     "semantic_hash": "7dc32af03867cac46691ddc4f5d4ed27"
   },
   "/Users/abdallah/Desktop/Trading/MNQVolumeAI/src/mnq_ai/cli.py": {
-    "mtime": 1783954252.690634,
-    "ast_hash": "aa68162b120e1f616c9ee9ab54ca2f76",
+    "mtime": 1783959069.6236322,
+    "ast_hash": "29ec85c2945330117b1d94d37bb2e138",
     "semantic_hash": ""
   },
   "/Users/abdallah/Desktop/Trading/MNQVolumeAI/src/mnq_ai/config.py": {
@@ -160,8 +160,8 @@
     "semantic_hash": ""
   },
   "/Users/abdallah/Desktop/Trading/MNQVolumeAI/README.md": {
-    "mtime": 1783957580.1049345,
-    "ast_hash": "428e5a951c2b955c8241462e2a013405",
+    "mtime": 1783959001.2986841,
+    "ast_hash": "c10bae475e672d8755a42c65de3acff3",
     "semantic_hash": ""
   },
   "/Users/abdallah/Desktop/Trading/MNQVolumeAI/configs/base.yaml": {
@@ -492,6 +492,21 @@
   "/Users/abdallah/Desktop/Trading/MNQVolumeAI/scripts/Fail FVG.py": {
     "mtime": 1783957552.8452177,
     "ast_hash": "c55768a61ce98138ddbc4083bd9c7809",
+    "semantic_hash": ""
+  },
+  "/Users/abdallah/Desktop/Trading/MNQVolumeAI/src/mnq_ai/setups/qep_technical.py": {
+    "mtime": 1783959069.6207433,
+    "ast_hash": "f083ef8508ae7b8674f13a0dd4ada966",
+    "semantic_hash": ""
+  },
+  "/Users/abdallah/Desktop/Trading/MNQVolumeAI/tests/test_qep_technical_candidate_pipeline.py": {
+    "mtime": 1783958786.3898625,
+    "ast_hash": "7934c279f992fb1ad9ae2b2a5a419c98",
+    "semantic_hash": ""
+  },
+  "/Users/abdallah/Desktop/Trading/MNQVolumeAI/tests/test_qep_technical_setup_engine.py": {
+    "mtime": 1783959069.614975,
+    "ast_hash": "c37342fefea834a576b90c65f1f90d11",
     "semantic_hash": ""
   }
 }

@@ -535,6 +535,168 @@
       "norm_label": "main()"
     },
     {
+      "label": "qep_failure_report.py",
+      "file_type": "code",
+      "source_file": "scripts/qep_failure_report.py",
+      "source_location": "L1",
+      "id": "scripts_qep_failure_report",
+      "community": 70,
+      "norm_label": "qep_failure_report.py"
+    },
+    {
+      "label": "build_report()",
+      "file_type": "code",
+      "source_file": "scripts/qep_failure_report.py",
+      "source_location": "L22",
+      "id": "scripts_qep_failure_report_build_report",
+      "community": 70,
+      "norm_label": "build_report()"
+    },
+    {
+      "label": "Path",
+      "file_type": "code",
+      "source_file": "scripts/qep_failure_report.py",
+      "source_location": "L22",
+      "id": "scripts_qep_failure_report_py_path",
+      "community": 70,
+      "norm_label": "path"
+    },
+    {
+      "label": "int",
+      "file_type": "code",
+      "source_file": "scripts/qep_failure_report.py",
+      "source_location": "L22",
+      "id": "scripts_qep_failure_report_py_int",
+      "community": 70,
+      "norm_label": "int"
+    },
+    {
+      "label": "str",
+      "file_type": "code",
+      "source_file": "scripts/qep_failure_report.py",
+      "source_location": "L22",
+      "id": "scripts_qep_failure_report_py_str",
+      "community": 70,
+      "norm_label": "str"
+    },
+    {
+      "label": "Any",
+      "file_type": "code",
+      "source_file": "scripts/qep_failure_report.py",
+      "source_location": "L22",
+      "id": "scripts_qep_failure_report_py_any",
+      "community": 70,
+      "norm_label": "any"
+    },
+    {
+      "label": "summarize_labels()",
+      "file_type": "code",
+      "source_file": "scripts/qep_failure_report.py",
+      "source_location": "L32",
+      "id": "scripts_qep_failure_report_summarize_labels",
+      "community": 70,
+      "norm_label": "summarize_labels()"
+    },
+    {
+      "label": "render_markdown()",
+      "file_type": "code",
+      "source_file": "scripts/qep_failure_report.py",
+      "source_location": "L70",
+      "id": "scripts_qep_failure_report_render_markdown",
+      "community": 70,
+      "norm_label": "render_markdown()"
+    },
+    {
+      "label": "_read_labels()",
+      "file_type": "code",
+      "source_file": "scripts/qep_failure_report.py",
+      "source_location": "L99",
+      "id": "scripts_qep_failure_report_read_labels",
+      "community": 70,
+      "norm_label": "_read_labels()"
+    },
+    {
+      "label": "_diagnose()",
+      "file_type": "code",
+      "source_file": "scripts/qep_failure_report.py",
+      "source_location": "L109",
+      "id": "scripts_qep_failure_report_diagnose",
+      "community": 70,
+      "norm_label": "_diagnose()"
+    },
+    {
+      "label": "_bucket_stats()",
+      "file_type": "code",
+      "source_file": "scripts/qep_failure_report.py",
+      "source_location": "L132",
+      "id": "scripts_qep_failure_report_bucket_stats",
+      "community": 70,
+      "norm_label": "_bucket_stats()"
+    },
+    {
+      "label": "float",
+      "file_type": "code",
+      "source_file": "scripts/qep_failure_report.py",
+      "source_location": "L132",
+      "id": "scripts_qep_failure_report_py_float",
+      "community": 70,
+      "norm_label": "float"
+    },
+    {
+      "label": "_ratio()",
+      "file_type": "code",
+      "source_file": "scripts/qep_failure_report.py",
+      "source_location": "L143",
+      "id": "scripts_qep_failure_report_ratio",
+      "community": 70,
+      "norm_label": "_ratio()"
+    },
+    {
+      "label": "_round()",
+      "file_type": "code",
+      "source_file": "scripts/qep_failure_report.py",
+      "source_location": "L149",
+      "id": "scripts_qep_failure_report_round",
+      "community": 70,
+      "norm_label": "_round()"
+    },
+    {
+      "label": "_parser()",
+      "file_type": "code",
+      "source_file": "scripts/qep_failure_report.py",
+      "source_location": "L153",
+      "id": "scripts_qep_failure_report_parser",
+      "community": 70,
+      "norm_label": "_parser()"
+    },
+    {
+      "label": "ArgumentParser",
+      "file_type": "code",
+      "source_file": "scripts/qep_failure_report.py",
+      "source_location": "L153",
+      "id": "scripts_qep_failure_report_py_argumentparser",
+      "community": 70,
+      "norm_label": "argumentparser"
+    },
+    {
+      "label": "main()",
+      "file_type": "code",
+      "source_file": "scripts/qep_failure_report.py",
+      "source_location": "L162",
+      "id": "scripts_qep_failure_report_main",
+      "community": 70,
+      "norm_label": "main()"
+    },
+    {
+      "label": "Build a QEP failure report from Phase 2 labels.",
+      "file_type": "rationale",
+      "source_file": "scripts/qep_failure_report.py",
+      "source_location": "L23",
+      "id": "scripts_qep_failure_report_rationale_23",
+      "community": 70,
+      "norm_label": "build a qep failure report from phase 2 labels."
+    },
+    {
       "label": "validate_skills.py",
       "file_type": "code",
       "source_file": "scripts/validate_skills.py",
@@ -683,7 +845,7 @@
       "file_type": "code",
       "source_file": "src/mnq_ai/cli.py",
       "source_location": "L140",
-      "id": "argumentparser",
+      "id": "src_mnq_ai_cli_py_argumentparser",
       "community": 4,
       "norm_label": "argumentparser"
     },
@@ -809,7 +971,7 @@
       "file_type": "code",
       "source_file": "src/mnq_ai/config.py",
       "source_location": "L67",
-      "id": "any",
+      "id": "src_mnq_ai_config_py_any",
       "community": 1,
       "norm_label": "any"
     },
@@ -963,7 +1125,7 @@
       "source_file": "src/mnq_ai/exceptions.py",
       "source_location": "L6",
       "id": "mnq_ai_exceptions_mnqaierror",
-      "community": 1,
+      "community": 4,
       "norm_label": "mnqaierror"
     },
     {
@@ -1026,7 +1188,7 @@
       "source_file": "src/mnq_ai/exceptions.py",
       "source_location": "L7",
       "id": "mnq_ai_exceptions_rationale_7",
-      "community": 1,
+      "community": 4,
       "norm_label": "base class for project-specific exceptions."
     },
     {
@@ -2261,6 +2423,105 @@
       "id": "tests_test_phase2_execution_gate_py_datetime",
       "community": 67,
       "norm_label": "datetime"
+    },
+    {
+      "label": "test_qep_failure_report.py",
+      "file_type": "code",
+      "source_file": "tests/test_qep_failure_report.py",
+      "source_location": "L1",
+      "id": "tests_test_qep_failure_report",
+      "community": 70,
+      "norm_label": "test_qep_failure_report.py"
+    },
+    {
+      "label": "test_qep_failure_report_identifies_overtrading_and_max_hold_failure()",
+      "file_type": "code",
+      "source_file": "tests/test_qep_failure_report.py",
+      "source_location": "L13",
+      "id": "tests_test_qep_failure_report_test_qep_failure_report_identifies_overtrading_and_max_hold_failure",
+      "community": 70,
+      "norm_label": "test_qep_failure_report_identifies_overtrading_and_max_hold_failure()"
+    },
+    {
+      "label": "Path",
+      "file_type": "code",
+      "source_file": "tests/test_qep_failure_report.py",
+      "source_location": "L13",
+      "id": "tests_test_qep_failure_report_py_path",
+      "community": 70,
+      "norm_label": "path"
+    },
+    {
+      "label": "_write_labels()",
+      "file_type": "code",
+      "source_file": "tests/test_qep_failure_report.py",
+      "source_location": "L32",
+      "id": "tests_test_qep_failure_report_write_labels",
+      "community": 70,
+      "norm_label": "_write_labels()"
+    },
+    {
+      "label": "_label()",
+      "file_type": "code",
+      "source_file": "tests/test_qep_failure_report.py",
+      "source_location": "L44",
+      "id": "tests_test_qep_failure_report_label",
+      "community": 70,
+      "norm_label": "_label()"
+    },
+    {
+      "label": "str",
+      "file_type": "code",
+      "source_file": "tests/test_qep_failure_report.py",
+      "source_location": "L44",
+      "id": "tests_test_qep_failure_report_py_str",
+      "community": 70,
+      "norm_label": "str"
+    },
+    {
+      "label": "datetime",
+      "file_type": "code",
+      "source_file": "tests/test_qep_failure_report.py",
+      "source_location": "L44",
+      "id": "tests_test_qep_failure_report_py_datetime",
+      "community": 70,
+      "norm_label": "datetime"
+    },
+    {
+      "label": "bool",
+      "file_type": "code",
+      "source_file": "tests/test_qep_failure_report.py",
+      "source_location": "L44",
+      "id": "tests_test_qep_failure_report_py_bool",
+      "community": 70,
+      "norm_label": "bool"
+    },
+    {
+      "label": "float",
+      "file_type": "code",
+      "source_file": "tests/test_qep_failure_report.py",
+      "source_location": "L44",
+      "id": "tests_test_qep_failure_report_py_float",
+      "community": 70,
+      "norm_label": "float"
+    },
+    {
+      "label": "object",
+      "file_type": "code",
+      "source_file": "tests/test_qep_failure_report.py",
+      "source_location": "L44",
+      "id": "tests_test_qep_failure_report_py_object",
+      "community": 70,
+      "norm_label": "object"
+    },
+    {
+      "label": "_ts()",
+      "file_type": "code",
+      "source_file": "tests/test_qep_failure_report.py",
+      "source_location": "L89",
+      "id": "tests_test_qep_failure_report_ts",
+      "community": 70,
+      "norm_label": "_ts()"
     },
     {
       "label": "test_qep_technical_candidate_pipeline.py",
@@ -3571,7 +3832,7 @@
       "label": "Diagnostic Failed FVG Chart",
       "file_type": "document",
       "source_file": "README.md",
-      "source_location": "L151",
+      "source_location": "L159",
       "id": "readme_diagnostic_failed_fvg_chart",
       "community": 0,
       "norm_label": "diagnostic failed fvg chart"
@@ -4410,7 +4671,7 @@
       "source_file": "docs/research/papers/original/mnq_model_and_calibration_spec.md",
       "source_location": "L1",
       "id": "original_mnq_model_and_calibration_spec",
-      "community": 12,
+      "community": 71,
       "norm_label": "mnq_model_and_calibration_spec.md"
     },
     {
@@ -4419,7 +4680,7 @@
       "source_file": "docs/research/papers/original/mnq_model_and_calibration_spec.md",
       "source_location": "L1",
       "id": "original_mnq_model_and_calibration_spec_mnq_model_and_calibration_specification",
-      "community": 12,
+      "community": 71,
       "norm_label": "mnq model and calibration specification"
     },
     {
@@ -4428,7 +4689,7 @@
       "source_file": "docs/research/papers/original/mnq_model_and_calibration_spec.md",
       "source_location": "L5",
       "id": "original_mnq_model_and_calibration_spec_model_role",
-      "community": 12,
+      "community": 71,
       "norm_label": "model role"
     },
     {
@@ -4437,7 +4698,7 @@
       "source_file": "docs/research/papers/original/mnq_model_and_calibration_spec.md",
       "source_location": "L21",
       "id": "original_mnq_model_and_calibration_spec_initial_model_set",
-      "community": 12,
+      "community": 71,
       "norm_label": "initial model set"
     },
     {
@@ -4446,7 +4707,7 @@
       "source_file": "docs/research/papers/original/mnq_model_and_calibration_spec.md",
       "source_location": "L34",
       "id": "original_mnq_model_and_calibration_spec_feature_inputs",
-      "community": 12,
+      "community": 71,
       "norm_label": "feature inputs"
     },
     {
@@ -4455,7 +4716,7 @@
       "source_file": "docs/research/papers/original/mnq_model_and_calibration_spec.md",
       "source_location": "L56",
       "id": "original_mnq_model_and_calibration_spec_calibration",
-      "community": 12,
+      "community": 71,
       "norm_label": "calibration"
     },
     {
@@ -4464,7 +4725,7 @@
       "source_file": "docs/research/papers/original/mnq_model_and_calibration_spec.md",
       "source_location": "L68",
       "id": "original_mnq_model_and_calibration_spec_class_imbalance",
-      "community": 12,
+      "community": 71,
       "norm_label": "class imbalance"
     },
     {
@@ -4473,7 +4734,7 @@
       "source_file": "docs/research/papers/original/mnq_model_and_calibration_spec.md",
       "source_location": "L80",
       "id": "original_mnq_model_and_calibration_spec_artifact_contract",
-      "community": 12,
+      "community": 71,
       "norm_label": "artifact contract"
     },
     {
@@ -4482,7 +4743,7 @@
       "source_file": "docs/research/papers/original/mnq_model_and_calibration_spec.md",
       "source_location": "L110",
       "id": "original_mnq_model_and_calibration_spec_decision_thresholds",
-      "community": 12,
+      "community": 71,
       "norm_label": "decision thresholds"
     },
     {
@@ -4491,7 +4752,7 @@
       "source_file": "docs/research/papers/original/mnq_model_and_calibration_spec.md",
       "source_location": "L122",
       "id": "original_mnq_model_and_calibration_spec_acceptance_criteria",
-      "community": 12,
+      "community": 71,
       "norm_label": "acceptance criteria"
     },
     {
@@ -5519,6 +5780,24 @@
       "id": "research_research_gaps_research_gaps",
       "community": 47,
       "norm_label": "research gaps"
+    },
+    {
+      "label": "ArgumentParser",
+      "file_type": "code",
+      "source_file": "src/mnq_ai/cli.py",
+      "source_location": "L140",
+      "community": 4,
+      "norm_label": "argumentparser",
+      "id": "argumentparser"
+    },
+    {
+      "label": "Any",
+      "file_type": "code",
+      "source_file": "src/mnq_ai/config.py",
+      "source_location": "L67",
+      "community": 1,
+      "norm_label": "any",
+      "id": "any"
     },
     {
       "label": "Run the ``mnq-ai`` CLI.",
@@ -8268,6 +8547,523 @@
     {
       "relation": "contains",
       "confidence": "EXTRACTED",
+      "source_file": "scripts/qep_failure_report.py",
+      "source_location": "L132",
+      "weight": 1.0,
+      "source": "scripts_qep_failure_report",
+      "target": "scripts_qep_failure_report_bucket_stats",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "scripts/qep_failure_report.py",
+      "source_location": "L22",
+      "weight": 1.0,
+      "source": "scripts_qep_failure_report",
+      "target": "scripts_qep_failure_report_build_report",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "scripts/qep_failure_report.py",
+      "source_location": "L109",
+      "weight": 1.0,
+      "source": "scripts_qep_failure_report",
+      "target": "scripts_qep_failure_report_diagnose",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "scripts/qep_failure_report.py",
+      "source_location": "L162",
+      "weight": 1.0,
+      "source": "scripts_qep_failure_report",
+      "target": "scripts_qep_failure_report_main",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "scripts/qep_failure_report.py",
+      "source_location": "L153",
+      "weight": 1.0,
+      "source": "scripts_qep_failure_report",
+      "target": "scripts_qep_failure_report_parser",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "scripts/qep_failure_report.py",
+      "source_location": "L143",
+      "weight": 1.0,
+      "source": "scripts_qep_failure_report",
+      "target": "scripts_qep_failure_report_ratio",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "scripts/qep_failure_report.py",
+      "source_location": "L99",
+      "weight": 1.0,
+      "source": "scripts_qep_failure_report",
+      "target": "scripts_qep_failure_report_read_labels",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "scripts/qep_failure_report.py",
+      "source_location": "L70",
+      "weight": 1.0,
+      "source": "scripts_qep_failure_report",
+      "target": "scripts_qep_failure_report_render_markdown",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "scripts/qep_failure_report.py",
+      "source_location": "L149",
+      "weight": 1.0,
+      "source": "scripts_qep_failure_report",
+      "target": "scripts_qep_failure_report_round",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "scripts/qep_failure_report.py",
+      "source_location": "L32",
+      "weight": 1.0,
+      "source": "scripts_qep_failure_report",
+      "target": "scripts_qep_failure_report_summarize_labels",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/test_qep_failure_report.py",
+      "source_location": "L10",
+      "weight": 1.0,
+      "source": "tests_test_qep_failure_report",
+      "target": "scripts_qep_failure_report",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "context": "generic_arg",
+      "confidence": "EXTRACTED",
+      "source_file": "scripts/qep_failure_report.py",
+      "source_location": "L22",
+      "weight": 1.0,
+      "source": "scripts_qep_failure_report_build_report",
+      "target": "scripts_qep_failure_report_py_any",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "context": "parameter_type",
+      "confidence": "EXTRACTED",
+      "source_file": "scripts/qep_failure_report.py",
+      "source_location": "L22",
+      "weight": 1.0,
+      "source": "scripts_qep_failure_report_build_report",
+      "target": "scripts_qep_failure_report_py_int",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "context": "parameter_type",
+      "confidence": "EXTRACTED",
+      "source_file": "scripts/qep_failure_report.py",
+      "source_location": "L22",
+      "weight": 1.0,
+      "source": "scripts_qep_failure_report_build_report",
+      "target": "scripts_qep_failure_report_py_path",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "context": "generic_arg",
+      "confidence": "EXTRACTED",
+      "source_file": "scripts/qep_failure_report.py",
+      "source_location": "L22",
+      "weight": 1.0,
+      "source": "scripts_qep_failure_report_build_report",
+      "target": "scripts_qep_failure_report_py_str",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "scripts/qep_failure_report.py",
+      "source_location": "L25",
+      "weight": 1.0,
+      "source": "scripts_qep_failure_report_build_report",
+      "target": "scripts_qep_failure_report_read_labels",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "scripts/qep_failure_report.py",
+      "source_location": "L28",
+      "weight": 1.0,
+      "source": "scripts_qep_failure_report_build_report",
+      "target": "scripts_qep_failure_report_render_markdown",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "scripts/qep_failure_report.py",
+      "source_location": "L26",
+      "weight": 1.0,
+      "source": "scripts_qep_failure_report_build_report",
+      "target": "scripts_qep_failure_report_summarize_labels",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "scripts/qep_failure_report.py",
+      "source_location": "L164",
+      "weight": 1.0,
+      "source": "scripts_qep_failure_report_main",
+      "target": "scripts_qep_failure_report_build_report",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "rationale_for",
+      "confidence": "EXTRACTED",
+      "source_file": "scripts/qep_failure_report.py",
+      "source_location": "L23",
+      "weight": 1.0,
+      "source": "scripts_qep_failure_report_rationale_23",
+      "target": "scripts_qep_failure_report_build_report",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/test_qep_failure_report.py",
+      "source_location": "L10",
+      "weight": 1.0,
+      "source": "tests_test_qep_failure_report",
+      "target": "scripts_qep_failure_report_build_report",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/test_qep_failure_report.py",
+      "source_location": "L18",
+      "weight": 1.0,
+      "source": "tests_test_qep_failure_report_test_qep_failure_report_identifies_overtrading_and_max_hold_failure",
+      "target": "scripts_qep_failure_report_build_report",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "context": "parameter_type",
+      "confidence": "EXTRACTED",
+      "source_file": "scripts/qep_failure_report.py",
+      "source_location": "L99",
+      "weight": 1.0,
+      "source": "scripts_qep_failure_report_read_labels",
+      "target": "scripts_qep_failure_report_py_path",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "context": "generic_arg",
+      "confidence": "EXTRACTED",
+      "source_file": "scripts/qep_failure_report.py",
+      "source_location": "L132",
+      "weight": 1.0,
+      "source": "scripts_qep_failure_report_bucket_stats",
+      "target": "scripts_qep_failure_report_py_int",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "context": "return_type",
+      "confidence": "EXTRACTED",
+      "source_file": "scripts/qep_failure_report.py",
+      "source_location": "L162",
+      "weight": 1.0,
+      "source": "scripts_qep_failure_report_main",
+      "target": "scripts_qep_failure_report_py_int",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "context": "parameter_type",
+      "confidence": "EXTRACTED",
+      "source_file": "scripts/qep_failure_report.py",
+      "source_location": "L143",
+      "weight": 1.0,
+      "source": "scripts_qep_failure_report_ratio",
+      "target": "scripts_qep_failure_report_py_int",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "context": "parameter_type",
+      "confidence": "EXTRACTED",
+      "source_file": "scripts/qep_failure_report.py",
+      "source_location": "L32",
+      "weight": 1.0,
+      "source": "scripts_qep_failure_report_summarize_labels",
+      "target": "scripts_qep_failure_report_py_int",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "context": "generic_arg",
+      "confidence": "EXTRACTED",
+      "source_file": "scripts/qep_failure_report.py",
+      "source_location": "L132",
+      "weight": 1.0,
+      "source": "scripts_qep_failure_report_bucket_stats",
+      "target": "scripts_qep_failure_report_py_str",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "context": "generic_arg",
+      "confidence": "EXTRACTED",
+      "source_file": "scripts/qep_failure_report.py",
+      "source_location": "L109",
+      "weight": 1.0,
+      "source": "scripts_qep_failure_report_diagnose",
+      "target": "scripts_qep_failure_report_py_str",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "context": "generic_arg",
+      "confidence": "EXTRACTED",
+      "source_file": "scripts/qep_failure_report.py",
+      "source_location": "L162",
+      "weight": 1.0,
+      "source": "scripts_qep_failure_report_main",
+      "target": "scripts_qep_failure_report_py_str",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "context": "generic_arg",
+      "confidence": "EXTRACTED",
+      "source_file": "scripts/qep_failure_report.py",
+      "source_location": "L99",
+      "weight": 1.0,
+      "source": "scripts_qep_failure_report_read_labels",
+      "target": "scripts_qep_failure_report_py_str",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "context": "return_type",
+      "confidence": "EXTRACTED",
+      "source_file": "scripts/qep_failure_report.py",
+      "source_location": "L70",
+      "weight": 1.0,
+      "source": "scripts_qep_failure_report_render_markdown",
+      "target": "scripts_qep_failure_report_py_str",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "context": "generic_arg",
+      "confidence": "EXTRACTED",
+      "source_file": "scripts/qep_failure_report.py",
+      "source_location": "L32",
+      "weight": 1.0,
+      "source": "scripts_qep_failure_report_summarize_labels",
+      "target": "scripts_qep_failure_report_py_str",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "context": "generic_arg",
+      "confidence": "EXTRACTED",
+      "source_file": "scripts/qep_failure_report.py",
+      "source_location": "L109",
+      "weight": 1.0,
+      "source": "scripts_qep_failure_report_diagnose",
+      "target": "scripts_qep_failure_report_py_any",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "context": "generic_arg",
+      "confidence": "EXTRACTED",
+      "source_file": "scripts/qep_failure_report.py",
+      "source_location": "L99",
+      "weight": 1.0,
+      "source": "scripts_qep_failure_report_read_labels",
+      "target": "scripts_qep_failure_report_py_any",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "context": "generic_arg",
+      "confidence": "EXTRACTED",
+      "source_file": "scripts/qep_failure_report.py",
+      "source_location": "L70",
+      "weight": 1.0,
+      "source": "scripts_qep_failure_report_render_markdown",
+      "target": "scripts_qep_failure_report_py_any",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "context": "generic_arg",
+      "confidence": "EXTRACTED",
+      "source_file": "scripts/qep_failure_report.py",
+      "source_location": "L32",
+      "weight": 1.0,
+      "source": "scripts_qep_failure_report_summarize_labels",
+      "target": "scripts_qep_failure_report_py_any",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "scripts/qep_failure_report.py",
+      "source_location": "L63",
+      "weight": 1.0,
+      "source": "scripts_qep_failure_report_summarize_labels",
+      "target": "scripts_qep_failure_report_bucket_stats",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "scripts/qep_failure_report.py",
+      "source_location": "L66",
+      "weight": 1.0,
+      "source": "scripts_qep_failure_report_summarize_labels",
+      "target": "scripts_qep_failure_report_diagnose",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "scripts/qep_failure_report.py",
+      "source_location": "L56",
+      "weight": 1.0,
+      "source": "scripts_qep_failure_report_summarize_labels",
+      "target": "scripts_qep_failure_report_ratio",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "scripts/qep_failure_report.py",
+      "source_location": "L60",
+      "weight": 1.0,
+      "source": "scripts_qep_failure_report_summarize_labels",
+      "target": "scripts_qep_failure_report_round",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "context": "generic_arg",
+      "confidence": "EXTRACTED",
+      "source_file": "scripts/qep_failure_report.py",
+      "source_location": "L132",
+      "weight": 1.0,
+      "source": "scripts_qep_failure_report_bucket_stats",
+      "target": "scripts_qep_failure_report_py_float",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "scripts/qep_failure_report.py",
+      "source_location": "L136",
+      "weight": 1.0,
+      "source": "scripts_qep_failure_report_bucket_stats",
+      "target": "scripts_qep_failure_report_round",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "context": "return_type",
+      "confidence": "EXTRACTED",
+      "source_file": "scripts/qep_failure_report.py",
+      "source_location": "L143",
+      "weight": 1.0,
+      "source": "scripts_qep_failure_report_ratio",
+      "target": "scripts_qep_failure_report_py_float",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "context": "return_type",
+      "confidence": "EXTRACTED",
+      "source_file": "scripts/qep_failure_report.py",
+      "source_location": "L149",
+      "weight": 1.0,
+      "source": "scripts_qep_failure_report_round",
+      "target": "scripts_qep_failure_report_py_float",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "scripts/qep_failure_report.py",
+      "source_location": "L146",
+      "weight": 1.0,
+      "source": "scripts_qep_failure_report_ratio",
+      "target": "scripts_qep_failure_report_round",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "scripts/qep_failure_report.py",
+      "source_location": "L163",
+      "weight": 1.0,
+      "source": "scripts_qep_failure_report_main",
+      "target": "scripts_qep_failure_report_parser",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "context": "return_type",
+      "confidence": "EXTRACTED",
+      "source_file": "scripts/qep_failure_report.py",
+      "source_location": "L153",
+      "weight": 1.0,
+      "source": "scripts_qep_failure_report_parser",
+      "target": "scripts_qep_failure_report_py_argumentparser",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
       "source_file": "scripts/validate_skills.py",
       "source_location": "L74",
       "weight": 1.0,
@@ -8616,9 +9412,9 @@
       "source_file": "src/mnq_ai/cli.py",
       "source_location": "L230",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "mnq_ai_cli",
-      "target": "mnq_ai_cli_decimal_tuple",
-      "confidence_score": 1.0
+      "target": "mnq_ai_cli_decimal_tuple"
     },
     {
       "relation": "contains",
@@ -8680,9 +9476,9 @@
       "source_file": "src/mnq_ai/cli.py",
       "source_location": "L7",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "mnq_ai_cli",
-      "target": "src_mnq_ai_cli_py_decimal",
-      "confidence_score": 1.0
+      "target": "src_mnq_ai_cli_py_decimal"
     },
     {
       "relation": "rationale_for",
@@ -8723,9 +9519,9 @@
       "source_file": "tests/test_qep_technical_candidate_pipeline.py",
       "source_location": "L10",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "tests_test_qep_technical_candidate_pipeline",
-      "target": "mnq_ai_cli",
-      "confidence_score": 1.0
+      "target": "mnq_ai_cli"
     },
     {
       "relation": "calls",
@@ -8756,9 +9552,9 @@
       "source_file": "src/mnq_ai/cli.py",
       "source_location": "L96",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "mnq_ai_cli_main",
-      "target": "mnq_ai_cli_decimal_tuple",
-      "confidence_score": 1.0
+      "target": "mnq_ai_cli_decimal_tuple"
     },
     {
       "relation": "calls",
@@ -8811,9 +9607,9 @@
       "source_file": "src/mnq_ai/cli.py",
       "source_location": "L64",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "mnq_ai_cli_main",
-      "target": "src_mnq_ai_cli_py_decimal",
-      "confidence_score": 1.0
+      "target": "src_mnq_ai_cli_py_decimal"
     },
     {
       "relation": "references",
@@ -8873,9 +9669,9 @@
       "source_file": "src/mnq_ai/cli.py",
       "source_location": "L22",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "mnq_ai_cli_rationale_22",
-      "target": "mnq_ai_cli_main",
-      "confidence_score": 1.0
+      "target": "mnq_ai_cli_main"
     },
     {
       "relation": "references",
@@ -8895,9 +9691,9 @@
       "source_file": "src/mnq_ai/cli.py",
       "source_location": "L230",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "mnq_ai_cli_decimal_tuple",
-      "target": "src_mnq_ai_cli_py_str",
-      "confidence_score": 1.0
+      "target": "src_mnq_ai_cli_py_str"
     },
     {
       "relation": "uses",
@@ -8935,9 +9731,9 @@
       "source_file": "src/mnq_ai/cli.py",
       "source_location": "L18",
       "weight": 0.8,
+      "confidence_score": 0.5,
       "source": "src_mnq_ai_cli_py_str",
-      "target": "setups_qep_technical_qeptechnicalconfig",
-      "confidence_score": 0.5
+      "target": "setups_qep_technical_qeptechnicalconfig"
     },
     {
       "relation": "uses",
@@ -8975,9 +9771,9 @@
       "source_file": "src/mnq_ai/cli.py",
       "source_location": "L18",
       "weight": 0.8,
+      "confidence_score": 0.5,
       "source": "src_mnq_ai_cli_py_int",
-      "target": "setups_qep_technical_qeptechnicalconfig",
-      "confidence_score": 0.5
+      "target": "setups_qep_technical_qeptechnicalconfig"
     },
     {
       "relation": "references",
@@ -8991,34 +9787,45 @@
       "target": "argumentparser"
     },
     {
-      "relation": "uses",
-      "confidence": "INFERRED",
+      "relation": "references",
+      "context": "return_type",
+      "confidence": "EXTRACTED",
       "source_file": "src/mnq_ai/cli.py",
-      "source_location": "L9",
-      "weight": 0.8,
-      "confidence_score": 0.5,
-      "source": "argumentparser",
-      "target": "mnq_ai_config_phase1config"
+      "source_location": "L140",
+      "weight": 1.0,
+      "source": "mnq_ai_cli_parser",
+      "target": "src_mnq_ai_cli_py_argumentparser",
+      "confidence_score": 1.0
     },
     {
       "relation": "uses",
       "confidence": "INFERRED",
       "source_file": "src/mnq_ai/cli.py",
-      "source_location": "L12",
+      "source_location": "L10",
       "weight": 0.8,
-      "confidence_score": 0.5,
-      "source": "argumentparser",
-      "target": "mnq_ai_exceptions_mnqaierror"
+      "source": "src_mnq_ai_cli_py_argumentparser",
+      "target": "mnq_ai_config_phase1config",
+      "confidence_score": 0.5
     },
     {
       "relation": "uses",
       "confidence": "INFERRED",
       "source_file": "src/mnq_ai/cli.py",
-      "source_location": "L16",
+      "source_location": "L15",
       "weight": 0.8,
-      "confidence_score": 0.5,
-      "source": "argumentparser",
-      "target": "setups_failed_fvg_failedfvgconfig"
+      "source": "src_mnq_ai_cli_py_argumentparser",
+      "target": "mnq_ai_exceptions_mnqaierror",
+      "confidence_score": 0.5
+    },
+    {
+      "relation": "uses",
+      "confidence": "INFERRED",
+      "source_file": "src/mnq_ai/cli.py",
+      "source_location": "L17",
+      "weight": 0.8,
+      "source": "src_mnq_ai_cli_py_argumentparser",
+      "target": "setups_failed_fvg_failedfvgconfig",
+      "confidence_score": 0.5
     },
     {
       "relation": "uses",
@@ -9026,7 +9833,7 @@
       "source_file": "src/mnq_ai/cli.py",
       "source_location": "L18",
       "weight": 0.8,
-      "source": "argumentparser",
+      "source": "src_mnq_ai_cli_py_argumentparser",
       "target": "setups_qep_technical_qeptechnicalconfig",
       "confidence_score": 0.5
     },
@@ -9099,9 +9906,9 @@
       "source_file": "src/mnq_ai/cli.py",
       "source_location": "L18",
       "weight": 0.8,
+      "confidence_score": 0.5,
       "source": "src_mnq_ai_cli_py_namespace",
-      "target": "setups_qep_technical_qeptechnicalconfig",
-      "confidence_score": 0.5
+      "target": "setups_qep_technical_qeptechnicalconfig"
     },
     {
       "relation": "uses",
@@ -9139,9 +9946,9 @@
       "source_file": "src/mnq_ai/cli.py",
       "source_location": "L18",
       "weight": 0.8,
+      "confidence_score": 0.5,
       "source": "src_mnq_ai_cli_py_phase1config",
-      "target": "setups_qep_technical_qeptechnicalconfig",
-      "confidence_score": 0.5
+      "target": "setups_qep_technical_qeptechnicalconfig"
     },
     {
       "relation": "references",
@@ -9150,9 +9957,9 @@
       "source_file": "src/mnq_ai/cli.py",
       "source_location": "L230",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "mnq_ai_cli_decimal_tuple",
-      "target": "src_mnq_ai_cli_py_decimal",
-      "confidence_score": 1.0
+      "target": "src_mnq_ai_cli_py_decimal"
     },
     {
       "relation": "uses",
@@ -9160,9 +9967,9 @@
       "source_file": "src/mnq_ai/cli.py",
       "source_location": "L10",
       "weight": 0.8,
+      "confidence_score": 0.5,
       "source": "src_mnq_ai_cli_py_decimal",
-      "target": "mnq_ai_config_phase1config",
-      "confidence_score": 0.5
+      "target": "mnq_ai_config_phase1config"
     },
     {
       "relation": "uses",
@@ -9170,9 +9977,9 @@
       "source_file": "src/mnq_ai/cli.py",
       "source_location": "L15",
       "weight": 0.8,
+      "confidence_score": 0.5,
       "source": "src_mnq_ai_cli_py_decimal",
-      "target": "mnq_ai_exceptions_mnqaierror",
-      "confidence_score": 0.5
+      "target": "mnq_ai_exceptions_mnqaierror"
     },
     {
       "relation": "uses",
@@ -9180,9 +9987,9 @@
       "source_file": "src/mnq_ai/cli.py",
       "source_location": "L17",
       "weight": 0.8,
+      "confidence_score": 0.5,
       "source": "src_mnq_ai_cli_py_decimal",
-      "target": "setups_failed_fvg_failedfvgconfig",
-      "confidence_score": 0.5
+      "target": "setups_failed_fvg_failedfvgconfig"
     },
     {
       "relation": "uses",
@@ -9190,9 +9997,9 @@
       "source_file": "src/mnq_ai/cli.py",
       "source_location": "L18",
       "weight": 0.8,
+      "confidence_score": 0.5,
       "source": "src_mnq_ai_cli_py_decimal",
-      "target": "setups_qep_technical_qeptechnicalconfig",
-      "confidence_score": 0.5
+      "target": "setups_qep_technical_qeptechnicalconfig"
     },
     {
       "relation": "imports_from",
@@ -9320,6 +10127,16 @@
       "confidence_score": 1.0,
       "source": "tests_test_phase1_trade_extractor",
       "target": "mnq_ai_config"
+    },
+    {
+      "relation": "uses",
+      "confidence": "INFERRED",
+      "source_file": "src/mnq_ai/cli.py",
+      "source_location": "L9",
+      "weight": 0.8,
+      "confidence_score": 0.5,
+      "source": "argumentparser",
+      "target": "mnq_ai_config_phase1config"
     },
     {
       "relation": "uses",
@@ -9704,6 +10521,17 @@
       "target": "mnq_ai_exceptions_configurationerror"
     },
     {
+      "relation": "references",
+      "context": "generic_arg",
+      "confidence": "EXTRACTED",
+      "source_file": "src/mnq_ai/config.py",
+      "source_location": "L67",
+      "weight": 1.0,
+      "source": "mnq_ai_config_phase1config_from_mapping",
+      "target": "src_mnq_ai_config_py_any",
+      "confidence_score": 1.0
+    },
+    {
       "relation": "rationale_for",
       "confidence": "EXTRACTED",
       "source_file": "src/mnq_ai/config.py",
@@ -9714,25 +10542,15 @@
       "target": "mnq_ai_config_phase1config_from_mapping"
     },
     {
-      "relation": "uses",
-      "confidence": "INFERRED",
-      "source_file": "src/mnq_ai/config.py",
-      "source_location": "L14",
-      "weight": 0.8,
-      "confidence_score": 0.5,
-      "source": "any",
-      "target": "mnq_ai_exceptions_configurationerror"
-    },
-    {
       "relation": "references",
       "context": "generic_arg",
       "confidence": "EXTRACTED",
       "source_file": "src/mnq_ai/config.py",
       "source_location": "L139",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "mnq_ai_config_load_yaml_with_extends",
-      "target": "any"
+      "target": "src_mnq_ai_config_py_any",
+      "confidence_score": 1.0
     },
     {
       "relation": "references",
@@ -9741,9 +10559,19 @@
       "source_file": "src/mnq_ai/config.py",
       "source_location": "L150",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "mnq_ai_config_read_yaml",
-      "target": "any"
+      "target": "src_mnq_ai_config_py_any",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "uses",
+      "confidence": "INFERRED",
+      "source_file": "src/mnq_ai/config.py",
+      "source_location": "L14",
+      "weight": 0.8,
+      "source": "src_mnq_ai_config_py_any",
+      "target": "mnq_ai_exceptions_configurationerror",
+      "confidence_score": 0.5
     },
     {
       "relation": "references",
@@ -9831,6 +10659,17 @@
       "target": "mnq_ai_config_phase1config_validated"
     },
     {
+      "relation": "references",
+      "context": "generic_arg",
+      "confidence": "EXTRACTED",
+      "source_file": "src/mnq_ai/config.py",
+      "source_location": "L139",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "mnq_ai_config_load_yaml_with_extends",
+      "target": "any"
+    },
+    {
       "relation": "calls",
       "context": "call",
       "confidence": "EXTRACTED",
@@ -9840,6 +10679,17 @@
       "confidence_score": 1.0,
       "source": "mnq_ai_config_load_yaml_with_extends",
       "target": "mnq_ai_config_read_yaml"
+    },
+    {
+      "relation": "references",
+      "context": "generic_arg",
+      "confidence": "EXTRACTED",
+      "source_file": "src/mnq_ai/config.py",
+      "source_location": "L150",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "mnq_ai_config_read_yaml",
+      "target": "any"
     },
     {
       "relation": "calls",
@@ -9988,6 +10838,16 @@
       "target": "mnq_ai_exceptions"
     },
     {
+      "relation": "uses",
+      "confidence": "INFERRED",
+      "source_file": "src/mnq_ai/cli.py",
+      "source_location": "L12",
+      "weight": 0.8,
+      "confidence_score": 0.5,
+      "source": "argumentparser",
+      "target": "mnq_ai_exceptions_mnqaierror"
+    },
+    {
       "relation": "inherits",
       "confidence": "EXTRACTED",
       "source_file": "src/mnq_ai/exceptions.py",
@@ -10128,6 +10988,16 @@
       "confidence_score": 1.0,
       "source": "tests_test_phase1_trade_extractor",
       "target": "exception"
+    },
+    {
+      "relation": "uses",
+      "confidence": "INFERRED",
+      "source_file": "src/mnq_ai/config.py",
+      "source_location": "L14",
+      "weight": 0.8,
+      "confidence_score": 0.5,
+      "source": "any",
+      "target": "mnq_ai_exceptions_configurationerror"
     },
     {
       "relation": "uses",
@@ -10449,9 +11319,9 @@
       "source_file": "src/mnq_ai/setups/failed_fvg.py",
       "source_location": "L11",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "setups_failed_fvg",
-      "target": "src_mnq_ai_setups_failed_fvg_py_decimal",
-      "confidence_score": 1.0
+      "target": "src_mnq_ai_setups_failed_fvg_py_decimal"
     },
     {
       "relation": "rationale_for",
@@ -10469,9 +11339,9 @@
       "source_file": "src/mnq_ai/setups/qep_technical.py",
       "source_location": "L15",
       "weight": 0.8,
+      "confidence_score": 0.5,
       "source": "bar",
-      "target": "setups_failed_fvg_bar",
-      "confidence_score": 0.5
+      "target": "setups_failed_fvg_bar"
     },
     {
       "relation": "uses",
@@ -10479,9 +11349,9 @@
       "source_file": "src/mnq_ai/setups/qep_technical.py",
       "source_location": "L15",
       "weight": 0.8,
+      "confidence_score": 0.5,
       "source": "setupcandidate",
-      "target": "setups_failed_fvg_bar",
-      "confidence_score": 0.5
+      "target": "setups_failed_fvg_bar"
     },
     {
       "relation": "method",
@@ -10586,9 +11456,9 @@
       "source_file": "src/mnq_ai/setups/qep_technical.py",
       "source_location": "L15",
       "weight": 0.8,
+      "confidence_score": 0.5,
       "source": "setups_qep_technical_qeptechnicalconfig",
-      "target": "setups_failed_fvg_bar",
-      "confidence_score": 0.5
+      "target": "setups_failed_fvg_bar"
     },
     {
       "relation": "uses",
@@ -10596,9 +11466,9 @@
       "source_file": "src/mnq_ai/setups/qep_technical.py",
       "source_location": "L15",
       "weight": 0.8,
+      "confidence_score": 0.5,
       "source": "setups_qep_technical_qeptechnicalsetupengine",
-      "target": "setups_failed_fvg_bar",
-      "confidence_score": 0.5
+      "target": "setups_failed_fvg_bar"
     },
     {
       "relation": "uses",
@@ -10606,9 +11476,9 @@
       "source_file": "src/mnq_ai/setups/qep_technical.py",
       "source_location": "L15",
       "weight": 0.8,
+      "confidence_score": 0.5,
       "source": "src_mnq_ai_setups_qep_technical_py_decimal",
-      "target": "setups_failed_fvg_bar",
-      "confidence_score": 0.5
+      "target": "setups_failed_fvg_bar"
     },
     {
       "relation": "uses",
@@ -10616,9 +11486,9 @@
       "source_file": "src/mnq_ai/setups/qep_technical.py",
       "source_location": "L15",
       "weight": 0.8,
+      "confidence_score": 0.5,
       "source": "src_mnq_ai_setups_qep_technical_py_entryside",
-      "target": "setups_failed_fvg_bar",
-      "confidence_score": 0.5
+      "target": "setups_failed_fvg_bar"
     },
     {
       "relation": "uses",
@@ -10626,9 +11496,9 @@
       "source_file": "src/mnq_ai/setups/qep_technical.py",
       "source_location": "L15",
       "weight": 0.8,
+      "confidence_score": 0.5,
       "source": "src_mnq_ai_setups_qep_technical_py_int",
-      "target": "setups_failed_fvg_bar",
-      "confidence_score": 0.5
+      "target": "setups_failed_fvg_bar"
     },
     {
       "relation": "uses",
@@ -10636,9 +11506,9 @@
       "source_file": "src/mnq_ai/setups/qep_technical.py",
       "source_location": "L15",
       "weight": 0.8,
+      "confidence_score": 0.5,
       "source": "src_mnq_ai_setups_qep_technical_py_str",
-      "target": "setups_failed_fvg_bar",
-      "confidence_score": 0.5
+      "target": "setups_failed_fvg_bar"
     },
     {
       "relation": "calls",
@@ -10698,9 +11568,9 @@
       "source_file": "tests/test_qep_technical_setup_engine.py",
       "source_location": "L6",
       "weight": 0.8,
+      "confidence_score": 0.5,
       "source": "tests_test_qep_technical_setup_engine_py_datetime",
-      "target": "setups_failed_fvg_bar",
-      "confidence_score": 0.5
+      "target": "setups_failed_fvg_bar"
     },
     {
       "relation": "uses",
@@ -10708,9 +11578,9 @@
       "source_file": "tests/test_qep_technical_setup_engine.py",
       "source_location": "L6",
       "weight": 0.8,
+      "confidence_score": 0.5,
       "source": "tests_test_qep_technical_setup_engine_py_str",
-      "target": "setups_failed_fvg_bar",
-      "confidence_score": 0.5
+      "target": "setups_failed_fvg_bar"
     },
     {
       "relation": "references",
@@ -10730,9 +11600,9 @@
       "source_file": "src/mnq_ai/setups/failed_fvg.py",
       "source_location": "L33",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "setups_failed_fvg_bar_range",
-      "target": "src_mnq_ai_setups_failed_fvg_py_decimal",
-      "confidence_score": 1.0
+      "target": "src_mnq_ai_setups_failed_fvg_py_decimal"
     },
     {
       "relation": "references",
@@ -10741,9 +11611,9 @@
       "source_file": "src/mnq_ai/setups/failed_fvg.py",
       "source_location": "L265",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "setups_failed_fvg_failedfvgsetupengine_build_candidate",
-      "target": "src_mnq_ai_setups_failed_fvg_py_decimal",
-      "confidence_score": 1.0
+      "target": "src_mnq_ai_setups_failed_fvg_py_decimal"
     },
     {
       "relation": "references",
@@ -10752,9 +11622,9 @@
       "source_file": "src/mnq_ai/setups/failed_fvg.py",
       "source_location": "L224",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "setups_failed_fvg_failedfvgsetupengine_candidate_from_failed_fvg",
-      "target": "src_mnq_ai_setups_failed_fvg_py_decimal",
-      "confidence_score": 1.0
+      "target": "src_mnq_ai_setups_failed_fvg_py_decimal"
     },
     {
       "relation": "references",
@@ -10763,9 +11633,9 @@
       "source_file": "src/mnq_ai/setups/failed_fvg.py",
       "source_location": "L200",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "setups_failed_fvg_failedfvgsetupengine_effort_ratios",
-      "target": "src_mnq_ai_setups_failed_fvg_py_decimal",
-      "confidence_score": 1.0
+      "target": "src_mnq_ai_setups_failed_fvg_py_decimal"
     },
     {
       "relation": "references",
@@ -10774,9 +11644,9 @@
       "source_file": "src/mnq_ai/setups/failed_fvg.py",
       "source_location": "L364",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "setups_failed_fvg_fvg",
-      "target": "src_mnq_ai_setups_failed_fvg_py_decimal",
-      "confidence_score": 1.0
+      "target": "src_mnq_ai_setups_failed_fvg_py_decimal"
     },
     {
       "relation": "references",
@@ -10785,9 +11655,9 @@
       "source_file": "src/mnq_ai/setups/failed_fvg.py",
       "source_location": "L51",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "setups_failed_fvg_fvg_mid",
-      "target": "src_mnq_ai_setups_failed_fvg_py_decimal",
-      "confidence_score": 1.0
+      "target": "src_mnq_ai_setups_failed_fvg_py_decimal"
     },
     {
       "relation": "references",
@@ -10796,9 +11666,9 @@
       "source_file": "src/mnq_ai/setups/failed_fvg.py",
       "source_location": "L407",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "setups_failed_fvg_round_down_to_tick",
-      "target": "src_mnq_ai_setups_failed_fvg_py_decimal",
-      "confidence_score": 1.0
+      "target": "src_mnq_ai_setups_failed_fvg_py_decimal"
     },
     {
       "relation": "references",
@@ -10807,9 +11677,9 @@
       "source_file": "src/mnq_ai/setups/failed_fvg.py",
       "source_location": "L397",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "setups_failed_fvg_round_to_tick",
-      "target": "src_mnq_ai_setups_failed_fvg_py_decimal",
-      "confidence_score": 1.0
+      "target": "src_mnq_ai_setups_failed_fvg_py_decimal"
     },
     {
       "relation": "references",
@@ -10818,9 +11688,9 @@
       "source_file": "src/mnq_ai/setups/failed_fvg.py",
       "source_location": "L402",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "setups_failed_fvg_round_up_to_tick",
-      "target": "src_mnq_ai_setups_failed_fvg_py_decimal",
-      "confidence_score": 1.0
+      "target": "src_mnq_ai_setups_failed_fvg_py_decimal"
     },
     {
       "relation": "references",
@@ -10947,9 +11817,9 @@
       "source_file": "src/mnq_ai/setups/qep_technical.py",
       "source_location": "L15",
       "weight": 0.8,
+      "confidence_score": 0.5,
       "source": "bar",
-      "target": "setups_failed_fvg_setupcandidate",
-      "confidence_score": 0.5
+      "target": "setups_failed_fvg_setupcandidate"
     },
     {
       "relation": "uses",
@@ -10957,9 +11827,9 @@
       "source_file": "src/mnq_ai/setups/qep_technical.py",
       "source_location": "L15",
       "weight": 0.8,
+      "confidence_score": 0.5,
       "source": "setupcandidate",
-      "target": "setups_failed_fvg_setupcandidate",
-      "confidence_score": 0.5
+      "target": "setups_failed_fvg_setupcandidate"
     },
     {
       "relation": "references",
@@ -11020,9 +11890,9 @@
       "source_file": "src/mnq_ai/setups/qep_technical.py",
       "source_location": "L15",
       "weight": 0.8,
+      "confidence_score": 0.5,
       "source": "setups_qep_technical_qeptechnicalconfig",
-      "target": "setups_failed_fvg_setupcandidate",
-      "confidence_score": 0.5
+      "target": "setups_failed_fvg_setupcandidate"
     },
     {
       "relation": "uses",
@@ -11030,9 +11900,9 @@
       "source_file": "src/mnq_ai/setups/qep_technical.py",
       "source_location": "L15",
       "weight": 0.8,
+      "confidence_score": 0.5,
       "source": "setups_qep_technical_qeptechnicalsetupengine",
-      "target": "setups_failed_fvg_setupcandidate",
-      "confidence_score": 0.5
+      "target": "setups_failed_fvg_setupcandidate"
     },
     {
       "relation": "uses",
@@ -11040,9 +11910,9 @@
       "source_file": "src/mnq_ai/setups/qep_technical.py",
       "source_location": "L15",
       "weight": 0.8,
+      "confidence_score": 0.5,
       "source": "src_mnq_ai_setups_qep_technical_py_decimal",
-      "target": "setups_failed_fvg_setupcandidate",
-      "confidence_score": 0.5
+      "target": "setups_failed_fvg_setupcandidate"
     },
     {
       "relation": "uses",
@@ -11050,9 +11920,9 @@
       "source_file": "src/mnq_ai/setups/qep_technical.py",
       "source_location": "L15",
       "weight": 0.8,
+      "confidence_score": 0.5,
       "source": "src_mnq_ai_setups_qep_technical_py_entryside",
-      "target": "setups_failed_fvg_setupcandidate",
-      "confidence_score": 0.5
+      "target": "setups_failed_fvg_setupcandidate"
     },
     {
       "relation": "uses",
@@ -11060,9 +11930,9 @@
       "source_file": "src/mnq_ai/setups/qep_technical.py",
       "source_location": "L15",
       "weight": 0.8,
+      "confidence_score": 0.5,
       "source": "src_mnq_ai_setups_qep_technical_py_int",
-      "target": "setups_failed_fvg_setupcandidate",
-      "confidence_score": 0.5
+      "target": "setups_failed_fvg_setupcandidate"
     },
     {
       "relation": "uses",
@@ -11070,9 +11940,9 @@
       "source_file": "src/mnq_ai/setups/qep_technical.py",
       "source_location": "L15",
       "weight": 0.8,
+      "confidence_score": 0.5,
       "source": "src_mnq_ai_setups_qep_technical_py_str",
-      "target": "setups_failed_fvg_setupcandidate",
-      "confidence_score": 0.5
+      "target": "setups_failed_fvg_setupcandidate"
     },
     {
       "relation": "rationale_for",
@@ -11094,6 +11964,16 @@
       "confidence_score": 1.0,
       "source": "setups_failed_fvg_setupcandidate_fingerprint",
       "target": "src_mnq_ai_setups_failed_fvg_py_object"
+    },
+    {
+      "relation": "uses",
+      "confidence": "INFERRED",
+      "source_file": "src/mnq_ai/cli.py",
+      "source_location": "L16",
+      "weight": 0.8,
+      "confidence_score": 0.5,
+      "source": "argumentparser",
+      "target": "setups_failed_fvg_failedfvgconfig"
     },
     {
       "relation": "uses",
@@ -11495,9 +12375,9 @@
       "source_file": "src/mnq_ai/setups/failed_fvg.py",
       "source_location": "L265",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "setups_failed_fvg_failedfvgsetupengine_build_candidate",
-      "target": "src_mnq_ai_setups_failed_fvg_py_entryside",
-      "confidence_score": 1.0
+      "target": "src_mnq_ai_setups_failed_fvg_py_entryside"
     },
     {
       "relation": "references",
@@ -11527,9 +12407,9 @@
       "source_file": "src/mnq_ai/setups/qep_technical.py",
       "source_location": "L15",
       "weight": 0.8,
+      "confidence_score": 0.5,
       "source": "bar",
-      "target": "src_mnq_ai_setups_failed_fvg_py_entryside",
-      "confidence_score": 0.5
+      "target": "src_mnq_ai_setups_failed_fvg_py_entryside"
     },
     {
       "relation": "uses",
@@ -11537,9 +12417,9 @@
       "source_file": "src/mnq_ai/setups/qep_technical.py",
       "source_location": "L15",
       "weight": 0.8,
+      "confidence_score": 0.5,
       "source": "setupcandidate",
-      "target": "src_mnq_ai_setups_failed_fvg_py_entryside",
-      "confidence_score": 0.5
+      "target": "src_mnq_ai_setups_failed_fvg_py_entryside"
     },
     {
       "relation": "uses",
@@ -11547,9 +12427,9 @@
       "source_file": "src/mnq_ai/setups/qep_technical.py",
       "source_location": "L15",
       "weight": 0.8,
+      "confidence_score": 0.5,
       "source": "setups_qep_technical_qeptechnicalconfig",
-      "target": "src_mnq_ai_setups_failed_fvg_py_entryside",
-      "confidence_score": 0.5
+      "target": "src_mnq_ai_setups_failed_fvg_py_entryside"
     },
     {
       "relation": "uses",
@@ -11557,9 +12437,9 @@
       "source_file": "src/mnq_ai/setups/qep_technical.py",
       "source_location": "L15",
       "weight": 0.8,
+      "confidence_score": 0.5,
       "source": "setups_qep_technical_qeptechnicalsetupengine",
-      "target": "src_mnq_ai_setups_failed_fvg_py_entryside",
-      "confidence_score": 0.5
+      "target": "src_mnq_ai_setups_failed_fvg_py_entryside"
     },
     {
       "relation": "uses",
@@ -11567,9 +12447,9 @@
       "source_file": "src/mnq_ai/setups/qep_technical.py",
       "source_location": "L15",
       "weight": 0.8,
+      "confidence_score": 0.5,
       "source": "src_mnq_ai_setups_qep_technical_py_decimal",
-      "target": "src_mnq_ai_setups_failed_fvg_py_entryside",
-      "confidence_score": 0.5
+      "target": "src_mnq_ai_setups_failed_fvg_py_entryside"
     },
     {
       "relation": "uses",
@@ -11577,9 +12457,9 @@
       "source_file": "src/mnq_ai/setups/qep_technical.py",
       "source_location": "L15",
       "weight": 0.8,
+      "confidence_score": 0.5,
       "source": "src_mnq_ai_setups_qep_technical_py_entryside",
-      "target": "src_mnq_ai_setups_failed_fvg_py_entryside",
-      "confidence_score": 0.5
+      "target": "src_mnq_ai_setups_failed_fvg_py_entryside"
     },
     {
       "relation": "uses",
@@ -11587,9 +12467,9 @@
       "source_file": "src/mnq_ai/setups/qep_technical.py",
       "source_location": "L15",
       "weight": 0.8,
+      "confidence_score": 0.5,
       "source": "src_mnq_ai_setups_qep_technical_py_int",
-      "target": "src_mnq_ai_setups_failed_fvg_py_entryside",
-      "confidence_score": 0.5
+      "target": "src_mnq_ai_setups_failed_fvg_py_entryside"
     },
     {
       "relation": "uses",
@@ -11597,9 +12477,9 @@
       "source_file": "src/mnq_ai/setups/qep_technical.py",
       "source_location": "L15",
       "weight": 0.8,
+      "confidence_score": 0.5,
       "source": "src_mnq_ai_setups_qep_technical_py_str",
-      "target": "src_mnq_ai_setups_failed_fvg_py_entryside",
-      "confidence_score": 0.5
+      "target": "src_mnq_ai_setups_failed_fvg_py_entryside"
     },
     {
       "relation": "references",
@@ -11715,9 +12595,9 @@
       "source_file": "src/mnq_ai/setups/qep_technical.py",
       "source_location": "L276",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "setups_qep_technical",
-      "target": "setups_qep_technical_atr_reason",
-      "confidence_score": 1.0
+      "target": "setups_qep_technical_atr_reason"
     },
     {
       "relation": "contains",
@@ -11725,9 +12605,9 @@
       "source_file": "src/mnq_ai/setups/qep_technical.py",
       "source_location": "L232",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "setups_qep_technical",
-      "target": "setups_qep_technical_atr_values",
-      "confidence_score": 1.0
+      "target": "setups_qep_technical_atr_values"
     },
     {
       "relation": "contains",
@@ -11735,9 +12615,9 @@
       "source_file": "src/mnq_ai/setups/qep_technical.py",
       "source_location": "L222",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "setups_qep_technical",
-      "target": "setups_qep_technical_ema_values",
-      "confidence_score": 1.0
+      "target": "setups_qep_technical_ema_values"
     },
     {
       "relation": "contains",
@@ -11745,9 +12625,9 @@
       "source_file": "src/mnq_ai/setups/qep_technical.py",
       "source_location": "L182",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "setups_qep_technical",
-      "target": "setups_qep_technical_entry_side",
-      "confidence_score": 1.0
+      "target": "setups_qep_technical_entry_side"
     },
     {
       "relation": "contains",
@@ -11755,9 +12635,9 @@
       "source_file": "src/mnq_ai/setups/qep_technical.py",
       "source_location": "L206",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "setups_qep_technical",
-      "target": "setups_qep_technical_macd_values",
-      "confidence_score": 1.0
+      "target": "setups_qep_technical_macd_values"
     },
     {
       "relation": "contains",
@@ -11765,9 +12645,9 @@
       "source_file": "src/mnq_ai/setups/qep_technical.py",
       "source_location": "L19",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "setups_qep_technical",
-      "target": "setups_qep_technical_qeptechnicalconfig",
-      "confidence_score": 1.0
+      "target": "setups_qep_technical_qeptechnicalconfig"
     },
     {
       "relation": "contains",
@@ -11775,9 +12655,9 @@
       "source_file": "src/mnq_ai/setups/qep_technical.py",
       "source_location": "L63",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "setups_qep_technical",
-      "target": "setups_qep_technical_qeptechnicalsetupengine",
-      "confidence_score": 1.0
+      "target": "setups_qep_technical_qeptechnicalsetupengine"
     },
     {
       "relation": "contains",
@@ -11785,9 +12665,9 @@
       "source_file": "src/mnq_ai/setups/qep_technical.py",
       "source_location": "L266",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "setups_qep_technical",
-      "target": "setups_qep_technical_round_down_to_tick",
-      "confidence_score": 1.0
+      "target": "setups_qep_technical_round_down_to_tick"
     },
     {
       "relation": "contains",
@@ -11795,9 +12675,9 @@
       "source_file": "src/mnq_ai/setups/qep_technical.py",
       "source_location": "L256",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "setups_qep_technical",
-      "target": "setups_qep_technical_round_to_tick",
-      "confidence_score": 1.0
+      "target": "setups_qep_technical_round_to_tick"
     },
     {
       "relation": "contains",
@@ -11805,9 +12685,9 @@
       "source_file": "src/mnq_ai/setups/qep_technical.py",
       "source_location": "L261",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "setups_qep_technical",
-      "target": "setups_qep_technical_round_up_to_tick",
-      "confidence_score": 1.0
+      "target": "setups_qep_technical_round_up_to_tick"
     },
     {
       "relation": "contains",
@@ -11815,9 +12695,9 @@
       "source_file": "src/mnq_ai/setups/qep_technical.py",
       "source_location": "L190",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "setups_qep_technical",
-      "target": "setups_qep_technical_rsi_values",
-      "confidence_score": 1.0
+      "target": "setups_qep_technical_rsi_values"
     },
     {
       "relation": "contains",
@@ -11825,9 +12705,9 @@
       "source_file": "src/mnq_ai/setups/qep_technical.py",
       "source_location": "L271",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "setups_qep_technical",
-      "target": "setups_qep_technical_setup_id",
-      "confidence_score": 1.0
+      "target": "setups_qep_technical_setup_id"
     },
     {
       "relation": "imports_from",
@@ -11836,9 +12716,9 @@
       "source_file": "src/mnq_ai/setups/qep_technical.py",
       "source_location": "L12",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "setups_qep_technical",
-      "target": "src_mnq_ai_setups_qep_technical_py_decimal",
-      "confidence_score": 1.0
+      "target": "src_mnq_ai_setups_qep_technical_py_decimal"
     },
     {
       "relation": "rationale_for",
@@ -11846,9 +12726,19 @@
       "source_file": "src/mnq_ai/setups/qep_technical.py",
       "source_location": "L1",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "setups_qep_technical_rationale_1",
-      "target": "setups_qep_technical",
-      "confidence_score": 1.0
+      "target": "setups_qep_technical"
+    },
+    {
+      "relation": "uses",
+      "confidence": "INFERRED",
+      "source_file": "src/mnq_ai/cli.py",
+      "source_location": "L18",
+      "weight": 0.8,
+      "confidence_score": 0.5,
+      "source": "argumentparser",
+      "target": "setups_qep_technical_qeptechnicalconfig"
     },
     {
       "relation": "references",
@@ -11857,9 +12747,9 @@
       "source_location": "L39",
       "weight": 1.0,
       "context": "return_type",
+      "confidence_score": 1.0,
       "source": "setups_qep_technical_qeptechnicalconfig_validated",
-      "target": "setups_qep_technical_qeptechnicalconfig",
-      "confidence_score": 1.0
+      "target": "setups_qep_technical_qeptechnicalconfig"
     },
     {
       "relation": "references",
@@ -11868,9 +12758,9 @@
       "source_file": "src/mnq_ai/setups/qep_technical.py",
       "source_location": "L66",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "setups_qep_technical_qeptechnicalsetupengine_init",
-      "target": "setups_qep_technical_qeptechnicalconfig",
-      "confidence_score": 1.0
+      "target": "setups_qep_technical_qeptechnicalconfig"
     },
     {
       "relation": "rationale_for",
@@ -11878,9 +12768,9 @@
       "source_file": "src/mnq_ai/setups/qep_technical.py",
       "source_location": "L20",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "setups_qep_technical_rationale_20",
-      "target": "setups_qep_technical_qeptechnicalconfig",
-      "confidence_score": 1.0
+      "target": "setups_qep_technical_qeptechnicalconfig"
     },
     {
       "relation": "uses",
@@ -11888,9 +12778,9 @@
       "source_file": "tests/test_qep_technical_setup_engine.py",
       "source_location": "L7",
       "weight": 0.8,
+      "confidence_score": 0.5,
       "source": "tests_test_qep_technical_setup_engine_py_datetime",
-      "target": "setups_qep_technical_qeptechnicalconfig",
-      "confidence_score": 0.5
+      "target": "setups_qep_technical_qeptechnicalconfig"
     },
     {
       "relation": "uses",
@@ -11898,9 +12788,9 @@
       "source_file": "tests/test_qep_technical_setup_engine.py",
       "source_location": "L7",
       "weight": 0.8,
+      "confidence_score": 0.5,
       "source": "tests_test_qep_technical_setup_engine_py_str",
-      "target": "setups_qep_technical_qeptechnicalconfig",
-      "confidence_score": 0.5
+      "target": "setups_qep_technical_qeptechnicalconfig"
     },
     {
       "relation": "calls",
@@ -11942,9 +12832,9 @@
       "source_file": "src/mnq_ai/setups/qep_technical.py",
       "source_location": "L67",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "setups_qep_technical_qeptechnicalsetupengine_init",
-      "target": "setups_qep_technical_qeptechnicalconfig_validated",
-      "confidence_score": 1.0
+      "target": "setups_qep_technical_qeptechnicalconfig_validated"
     },
     {
       "relation": "method",
@@ -11952,9 +12842,9 @@
       "source_file": "src/mnq_ai/setups/qep_technical.py",
       "source_location": "L122",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "setups_qep_technical_qeptechnicalsetupengine",
-      "target": "setups_qep_technical_qeptechnicalsetupengine_build_candidate",
-      "confidence_score": 1.0
+      "target": "setups_qep_technical_qeptechnicalsetupengine_build_candidate"
     },
     {
       "relation": "method",
@@ -11962,9 +12852,9 @@
       "source_file": "src/mnq_ai/setups/qep_technical.py",
       "source_location": "L69",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "setups_qep_technical_qeptechnicalsetupengine",
-      "target": "setups_qep_technical_qeptechnicalsetupengine_generate",
-      "confidence_score": 1.0
+      "target": "setups_qep_technical_qeptechnicalsetupengine_generate"
     },
     {
       "relation": "method",
@@ -11972,9 +12862,9 @@
       "source_file": "src/mnq_ai/setups/qep_technical.py",
       "source_location": "L66",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "setups_qep_technical_qeptechnicalsetupengine",
-      "target": "setups_qep_technical_qeptechnicalsetupengine_init",
-      "confidence_score": 1.0
+      "target": "setups_qep_technical_qeptechnicalsetupengine_init"
     },
     {
       "relation": "rationale_for",
@@ -11982,9 +12872,9 @@
       "source_file": "src/mnq_ai/setups/qep_technical.py",
       "source_location": "L64",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "setups_qep_technical_rationale_64",
-      "target": "setups_qep_technical_qeptechnicalsetupengine",
-      "confidence_score": 1.0
+      "target": "setups_qep_technical_qeptechnicalsetupengine"
     },
     {
       "relation": "uses",
@@ -11992,9 +12882,9 @@
       "source_file": "tests/test_qep_technical_setup_engine.py",
       "source_location": "L7",
       "weight": 0.8,
+      "confidence_score": 0.5,
       "source": "tests_test_qep_technical_setup_engine_py_datetime",
-      "target": "setups_qep_technical_qeptechnicalsetupengine",
-      "confidence_score": 0.5
+      "target": "setups_qep_technical_qeptechnicalsetupengine"
     },
     {
       "relation": "uses",
@@ -12002,9 +12892,9 @@
       "source_file": "tests/test_qep_technical_setup_engine.py",
       "source_location": "L7",
       "weight": 0.8,
+      "confidence_score": 0.5,
       "source": "tests_test_qep_technical_setup_engine_py_str",
-      "target": "setups_qep_technical_qeptechnicalsetupengine",
-      "confidence_score": 0.5
+      "target": "setups_qep_technical_qeptechnicalsetupengine"
     },
     {
       "relation": "calls",
@@ -12046,9 +12936,9 @@
       "source_file": "src/mnq_ai/setups/qep_technical.py",
       "source_location": "L69",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "setups_qep_technical_qeptechnicalsetupengine_generate",
-      "target": "bar",
-      "confidence_score": 1.0
+      "target": "bar"
     },
     {
       "relation": "references",
@@ -12057,9 +12947,9 @@
       "source_file": "src/mnq_ai/setups/qep_technical.py",
       "source_location": "L69",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "setups_qep_technical_qeptechnicalsetupengine_generate",
-      "target": "setupcandidate",
-      "confidence_score": 1.0
+      "target": "setupcandidate"
     },
     {
       "relation": "calls",
@@ -12068,9 +12958,9 @@
       "source_file": "src/mnq_ai/setups/qep_technical.py",
       "source_location": "L82",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "setups_qep_technical_qeptechnicalsetupengine_generate",
-      "target": "setups_qep_technical_atr_values",
-      "confidence_score": 1.0
+      "target": "setups_qep_technical_atr_values"
     },
     {
       "relation": "calls",
@@ -12079,9 +12969,9 @@
       "source_file": "src/mnq_ai/setups/qep_technical.py",
       "source_location": "L108",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "setups_qep_technical_qeptechnicalsetupengine_generate",
-      "target": "setups_qep_technical_entry_side",
-      "confidence_score": 1.0
+      "target": "setups_qep_technical_entry_side"
     },
     {
       "relation": "calls",
@@ -12090,9 +12980,9 @@
       "source_file": "src/mnq_ai/setups/qep_technical.py",
       "source_location": "L76",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "setups_qep_technical_qeptechnicalsetupengine_generate",
-      "target": "setups_qep_technical_macd_values",
-      "confidence_score": 1.0
+      "target": "setups_qep_technical_macd_values"
     },
     {
       "relation": "calls",
@@ -12101,9 +12991,9 @@
       "source_file": "src/mnq_ai/setups/qep_technical.py",
       "source_location": "L112",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "setups_qep_technical_qeptechnicalsetupengine_generate",
-      "target": "setups_qep_technical_qeptechnicalsetupengine_build_candidate",
-      "confidence_score": 1.0
+      "target": "setups_qep_technical_qeptechnicalsetupengine_build_candidate"
     },
     {
       "relation": "calls",
@@ -12112,9 +13002,9 @@
       "source_file": "src/mnq_ai/setups/qep_technical.py",
       "source_location": "L75",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "setups_qep_technical_qeptechnicalsetupengine_generate",
-      "target": "setups_qep_technical_rsi_values",
-      "confidence_score": 1.0
+      "target": "setups_qep_technical_rsi_values"
     },
     {
       "relation": "references",
@@ -12123,9 +13013,9 @@
       "source_file": "src/mnq_ai/setups/qep_technical.py",
       "source_location": "L232",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "setups_qep_technical_atr_values",
-      "target": "bar",
-      "confidence_score": 1.0
+      "target": "bar"
     },
     {
       "relation": "references",
@@ -12134,9 +13024,9 @@
       "source_file": "src/mnq_ai/setups/qep_technical.py",
       "source_location": "L122",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "setups_qep_technical_qeptechnicalsetupengine_build_candidate",
-      "target": "bar",
-      "confidence_score": 1.0
+      "target": "bar"
     },
     {
       "relation": "references",
@@ -12145,9 +13035,9 @@
       "source_file": "src/mnq_ai/setups/qep_technical.py",
       "source_location": "L122",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "setups_qep_technical_qeptechnicalsetupengine_build_candidate",
-      "target": "setupcandidate",
-      "confidence_score": 1.0
+      "target": "setupcandidate"
     },
     {
       "relation": "calls",
@@ -12156,9 +13046,9 @@
       "source_file": "src/mnq_ai/setups/qep_technical.py",
       "source_location": "L139",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "setups_qep_technical_qeptechnicalsetupengine_build_candidate",
-      "target": "setups_qep_technical_atr_reason",
-      "confidence_score": 1.0
+      "target": "setups_qep_technical_atr_reason"
     },
     {
       "relation": "calls",
@@ -12167,9 +13057,9 @@
       "source_file": "src/mnq_ai/setups/qep_technical.py",
       "source_location": "L134",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "setups_qep_technical_qeptechnicalsetupengine_build_candidate",
-      "target": "setups_qep_technical_round_down_to_tick",
-      "confidence_score": 1.0
+      "target": "setups_qep_technical_round_down_to_tick"
     },
     {
       "relation": "calls",
@@ -12178,9 +13068,9 @@
       "source_file": "src/mnq_ai/setups/qep_technical.py",
       "source_location": "L130",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "setups_qep_technical_qeptechnicalsetupengine_build_candidate",
-      "target": "setups_qep_technical_round_to_tick",
-      "confidence_score": 1.0
+      "target": "setups_qep_technical_round_to_tick"
     },
     {
       "relation": "calls",
@@ -12189,9 +13079,9 @@
       "source_file": "src/mnq_ai/setups/qep_technical.py",
       "source_location": "L141",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "setups_qep_technical_qeptechnicalsetupengine_build_candidate",
-      "target": "setups_qep_technical_round_up_to_tick",
-      "confidence_score": 1.0
+      "target": "setups_qep_technical_round_up_to_tick"
     },
     {
       "relation": "calls",
@@ -12200,9 +13090,9 @@
       "source_file": "src/mnq_ai/setups/qep_technical.py",
       "source_location": "L148",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "setups_qep_technical_qeptechnicalsetupengine_build_candidate",
-      "target": "setups_qep_technical_setup_id",
-      "confidence_score": 1.0
+      "target": "setups_qep_technical_setup_id"
     },
     {
       "relation": "references",
@@ -12211,9 +13101,9 @@
       "source_file": "src/mnq_ai/setups/qep_technical.py",
       "source_location": "L122",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "setups_qep_technical_qeptechnicalsetupengine_build_candidate",
-      "target": "src_mnq_ai_setups_qep_technical_py_decimal",
-      "confidence_score": 1.0
+      "target": "src_mnq_ai_setups_qep_technical_py_decimal"
     },
     {
       "relation": "references",
@@ -12222,9 +13112,9 @@
       "source_file": "src/mnq_ai/setups/qep_technical.py",
       "source_location": "L122",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "setups_qep_technical_qeptechnicalsetupengine_build_candidate",
-      "target": "src_mnq_ai_setups_qep_technical_py_entryside",
-      "confidence_score": 1.0
+      "target": "src_mnq_ai_setups_qep_technical_py_entryside"
     },
     {
       "relation": "references",
@@ -12233,9 +13123,9 @@
       "source_file": "src/mnq_ai/setups/qep_technical.py",
       "source_location": "L182",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "setups_qep_technical_entry_side",
-      "target": "src_mnq_ai_setups_qep_technical_py_entryside",
-      "confidence_score": 1.0
+      "target": "src_mnq_ai_setups_qep_technical_py_entryside"
     },
     {
       "relation": "references",
@@ -12244,9 +13134,9 @@
       "source_file": "src/mnq_ai/setups/qep_technical.py",
       "source_location": "L276",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "setups_qep_technical_atr_reason",
-      "target": "src_mnq_ai_setups_qep_technical_py_decimal",
-      "confidence_score": 1.0
+      "target": "src_mnq_ai_setups_qep_technical_py_decimal"
     },
     {
       "relation": "references",
@@ -12255,9 +13145,9 @@
       "source_file": "src/mnq_ai/setups/qep_technical.py",
       "source_location": "L232",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "setups_qep_technical_atr_values",
-      "target": "src_mnq_ai_setups_qep_technical_py_decimal",
-      "confidence_score": 1.0
+      "target": "src_mnq_ai_setups_qep_technical_py_decimal"
     },
     {
       "relation": "references",
@@ -12266,9 +13156,9 @@
       "source_file": "src/mnq_ai/setups/qep_technical.py",
       "source_location": "L222",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "setups_qep_technical_ema_values",
-      "target": "src_mnq_ai_setups_qep_technical_py_decimal",
-      "confidence_score": 1.0
+      "target": "src_mnq_ai_setups_qep_technical_py_decimal"
     },
     {
       "relation": "references",
@@ -12277,9 +13167,9 @@
       "source_file": "src/mnq_ai/setups/qep_technical.py",
       "source_location": "L182",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "setups_qep_technical_entry_side",
-      "target": "src_mnq_ai_setups_qep_technical_py_decimal",
-      "confidence_score": 1.0
+      "target": "src_mnq_ai_setups_qep_technical_py_decimal"
     },
     {
       "relation": "references",
@@ -12288,9 +13178,9 @@
       "source_file": "src/mnq_ai/setups/qep_technical.py",
       "source_location": "L206",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "setups_qep_technical_macd_values",
-      "target": "src_mnq_ai_setups_qep_technical_py_decimal",
-      "confidence_score": 1.0
+      "target": "src_mnq_ai_setups_qep_technical_py_decimal"
     },
     {
       "relation": "references",
@@ -12299,9 +13189,9 @@
       "source_file": "src/mnq_ai/setups/qep_technical.py",
       "source_location": "L266",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "setups_qep_technical_round_down_to_tick",
-      "target": "src_mnq_ai_setups_qep_technical_py_decimal",
-      "confidence_score": 1.0
+      "target": "src_mnq_ai_setups_qep_technical_py_decimal"
     },
     {
       "relation": "references",
@@ -12310,9 +13200,9 @@
       "source_file": "src/mnq_ai/setups/qep_technical.py",
       "source_location": "L256",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "setups_qep_technical_round_to_tick",
-      "target": "src_mnq_ai_setups_qep_technical_py_decimal",
-      "confidence_score": 1.0
+      "target": "src_mnq_ai_setups_qep_technical_py_decimal"
     },
     {
       "relation": "references",
@@ -12321,9 +13211,9 @@
       "source_file": "src/mnq_ai/setups/qep_technical.py",
       "source_location": "L261",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "setups_qep_technical_round_up_to_tick",
-      "target": "src_mnq_ai_setups_qep_technical_py_decimal",
-      "confidence_score": 1.0
+      "target": "src_mnq_ai_setups_qep_technical_py_decimal"
     },
     {
       "relation": "references",
@@ -12332,9 +13222,9 @@
       "source_file": "src/mnq_ai/setups/qep_technical.py",
       "source_location": "L190",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "setups_qep_technical_rsi_values",
-      "target": "src_mnq_ai_setups_qep_technical_py_decimal",
-      "confidence_score": 1.0
+      "target": "src_mnq_ai_setups_qep_technical_py_decimal"
     },
     {
       "relation": "references",
@@ -12343,9 +13233,9 @@
       "source_file": "src/mnq_ai/setups/qep_technical.py",
       "source_location": "L190",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "setups_qep_technical_rsi_values",
-      "target": "src_mnq_ai_setups_qep_technical_py_int",
-      "confidence_score": 1.0
+      "target": "src_mnq_ai_setups_qep_technical_py_int"
     },
     {
       "relation": "references",
@@ -12354,9 +13244,9 @@
       "source_file": "src/mnq_ai/setups/qep_technical.py",
       "source_location": "L232",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "setups_qep_technical_atr_values",
-      "target": "src_mnq_ai_setups_qep_technical_py_int",
-      "confidence_score": 1.0
+      "target": "src_mnq_ai_setups_qep_technical_py_int"
     },
     {
       "relation": "references",
@@ -12365,9 +13255,9 @@
       "source_file": "src/mnq_ai/setups/qep_technical.py",
       "source_location": "L222",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "setups_qep_technical_ema_values",
-      "target": "src_mnq_ai_setups_qep_technical_py_int",
-      "confidence_score": 1.0
+      "target": "src_mnq_ai_setups_qep_technical_py_int"
     },
     {
       "relation": "references",
@@ -12376,9 +13266,9 @@
       "source_file": "src/mnq_ai/setups/qep_technical.py",
       "source_location": "L206",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "setups_qep_technical_macd_values",
-      "target": "src_mnq_ai_setups_qep_technical_py_int",
-      "confidence_score": 1.0
+      "target": "src_mnq_ai_setups_qep_technical_py_int"
     },
     {
       "relation": "calls",
@@ -12387,9 +13277,9 @@
       "source_file": "src/mnq_ai/setups/qep_technical.py",
       "source_location": "L215",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "setups_qep_technical_macd_values",
-      "target": "setups_qep_technical_ema_values",
-      "confidence_score": 1.0
+      "target": "setups_qep_technical_ema_values"
     },
     {
       "relation": "references",
@@ -12398,9 +13288,9 @@
       "source_file": "src/mnq_ai/setups/qep_technical.py",
       "source_location": "L271",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "setups_qep_technical_setup_id",
-      "target": "src_mnq_ai_setups_qep_technical_py_str",
-      "confidence_score": 1.0
+      "target": "src_mnq_ai_setups_qep_technical_py_str"
     },
     {
       "relation": "references",
@@ -12409,9 +13299,9 @@
       "source_file": "src/mnq_ai/setups/qep_technical.py",
       "source_location": "L276",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "setups_qep_technical_atr_reason",
-      "target": "src_mnq_ai_setups_qep_technical_py_str",
-      "confidence_score": 1.0
+      "target": "src_mnq_ai_setups_qep_technical_py_str"
     },
     {
       "relation": "rationale_for",
@@ -13724,15 +14614,198 @@
       "target": "tests_test_phase2_execution_gate_py_datetime"
     },
     {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/test_qep_failure_report.py",
+      "source_location": "L44",
+      "weight": 1.0,
+      "source": "tests_test_qep_failure_report",
+      "target": "tests_test_qep_failure_report_label",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/test_qep_failure_report.py",
+      "source_location": "L3",
+      "weight": 1.0,
+      "source": "tests_test_qep_failure_report",
+      "target": "tests_test_qep_failure_report_py_datetime",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/test_qep_failure_report.py",
+      "source_location": "L13",
+      "weight": 1.0,
+      "source": "tests_test_qep_failure_report",
+      "target": "tests_test_qep_failure_report_test_qep_failure_report_identifies_overtrading_and_max_hold_failure",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/test_qep_failure_report.py",
+      "source_location": "L89",
+      "weight": 1.0,
+      "source": "tests_test_qep_failure_report",
+      "target": "tests_test_qep_failure_report_ts",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/test_qep_failure_report.py",
+      "source_location": "L32",
+      "weight": 1.0,
+      "source": "tests_test_qep_failure_report",
+      "target": "tests_test_qep_failure_report_write_labels",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "context": "parameter_type",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/test_qep_failure_report.py",
+      "source_location": "L13",
+      "weight": 1.0,
+      "source": "tests_test_qep_failure_report_test_qep_failure_report_identifies_overtrading_and_max_hold_failure",
+      "target": "tests_test_qep_failure_report_py_path",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/test_qep_failure_report.py",
+      "source_location": "L16",
+      "weight": 1.0,
+      "source": "tests_test_qep_failure_report_test_qep_failure_report_identifies_overtrading_and_max_hold_failure",
+      "target": "tests_test_qep_failure_report_write_labels",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "context": "parameter_type",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/test_qep_failure_report.py",
+      "source_location": "L32",
+      "weight": 1.0,
+      "source": "tests_test_qep_failure_report_write_labels",
+      "target": "tests_test_qep_failure_report_py_path",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/test_qep_failure_report.py",
+      "source_location": "L35",
+      "weight": 1.0,
+      "source": "tests_test_qep_failure_report_write_labels",
+      "target": "tests_test_qep_failure_report_label",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/test_qep_failure_report.py",
+      "source_location": "L33",
+      "weight": 1.0,
+      "source": "tests_test_qep_failure_report_write_labels",
+      "target": "tests_test_qep_failure_report_ts",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "context": "parameter_type",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/test_qep_failure_report.py",
+      "source_location": "L44",
+      "weight": 1.0,
+      "source": "tests_test_qep_failure_report_label",
+      "target": "tests_test_qep_failure_report_py_bool",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "context": "parameter_type",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/test_qep_failure_report.py",
+      "source_location": "L44",
+      "weight": 1.0,
+      "source": "tests_test_qep_failure_report_label",
+      "target": "tests_test_qep_failure_report_py_datetime",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "context": "parameter_type",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/test_qep_failure_report.py",
+      "source_location": "L44",
+      "weight": 1.0,
+      "source": "tests_test_qep_failure_report_label",
+      "target": "tests_test_qep_failure_report_py_float",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "context": "generic_arg",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/test_qep_failure_report.py",
+      "source_location": "L44",
+      "weight": 1.0,
+      "source": "tests_test_qep_failure_report_label",
+      "target": "tests_test_qep_failure_report_py_object",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "context": "generic_arg",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/test_qep_failure_report.py",
+      "source_location": "L44",
+      "weight": 1.0,
+      "source": "tests_test_qep_failure_report_label",
+      "target": "tests_test_qep_failure_report_py_str",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "context": "parameter_type",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/test_qep_failure_report.py",
+      "source_location": "L89",
+      "weight": 1.0,
+      "source": "tests_test_qep_failure_report_ts",
+      "target": "tests_test_qep_failure_report_py_str",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "context": "return_type",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/test_qep_failure_report.py",
+      "source_location": "L89",
+      "weight": 1.0,
+      "source": "tests_test_qep_failure_report_ts",
+      "target": "tests_test_qep_failure_report_py_datetime",
+      "confidence_score": 1.0
+    },
+    {
       "relation": "imports_from",
       "context": "import",
       "confidence": "EXTRACTED",
       "source_file": "tests/test_qep_technical_candidate_pipeline.py",
       "source_location": "L4",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "tests_test_qep_technical_candidate_pipeline",
-      "target": "tests_test_qep_technical_candidate_pipeline_py_datetime",
-      "confidence_score": 1.0
+      "target": "tests_test_qep_technical_candidate_pipeline_py_datetime"
     },
     {
       "relation": "contains",
@@ -13740,9 +14813,9 @@
       "source_file": "tests/test_qep_technical_candidate_pipeline.py",
       "source_location": "L16",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "tests_test_qep_technical_candidate_pipeline",
-      "target": "tests_test_qep_technical_candidate_pipeline_test_build_qep_technical_candidates_cli_writes_manifest_and_parquet",
-      "confidence_score": 1.0
+      "target": "tests_test_qep_technical_candidate_pipeline_test_build_qep_technical_candidates_cli_writes_manifest_and_parquet"
     },
     {
       "relation": "contains",
@@ -13750,9 +14823,9 @@
       "source_file": "tests/test_qep_technical_candidate_pipeline.py",
       "source_location": "L81",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "tests_test_qep_technical_candidate_pipeline",
-      "target": "tests_test_qep_technical_candidate_pipeline_trade",
-      "confidence_score": 1.0
+      "target": "tests_test_qep_technical_candidate_pipeline_trade"
     },
     {
       "relation": "contains",
@@ -13760,9 +14833,9 @@
       "source_file": "tests/test_qep_technical_candidate_pipeline.py",
       "source_location": "L103",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "tests_test_qep_technical_candidate_pipeline",
-      "target": "tests_test_qep_technical_candidate_pipeline_ts",
-      "confidence_score": 1.0
+      "target": "tests_test_qep_technical_candidate_pipeline_ts"
     },
     {
       "relation": "contains",
@@ -13770,9 +14843,9 @@
       "source_file": "tests/test_qep_technical_candidate_pipeline.py",
       "source_location": "L70",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "tests_test_qep_technical_candidate_pipeline",
-      "target": "tests_test_qep_technical_candidate_pipeline_write_trade_tape_fixture",
-      "confidence_score": 1.0
+      "target": "tests_test_qep_technical_candidate_pipeline_write_trade_tape_fixture"
     },
     {
       "relation": "references",
@@ -13781,9 +14854,9 @@
       "source_file": "tests/test_qep_technical_candidate_pipeline.py",
       "source_location": "L16",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "tests_test_qep_technical_candidate_pipeline_test_build_qep_technical_candidates_cli_writes_manifest_and_parquet",
-      "target": "tests_test_qep_technical_candidate_pipeline_py_path",
-      "confidence_score": 1.0
+      "target": "tests_test_qep_technical_candidate_pipeline_py_path"
     },
     {
       "relation": "calls",
@@ -13792,9 +14865,9 @@
       "source_file": "tests/test_qep_technical_candidate_pipeline.py",
       "source_location": "L20",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "tests_test_qep_technical_candidate_pipeline_test_build_qep_technical_candidates_cli_writes_manifest_and_parquet",
-      "target": "tests_test_qep_technical_candidate_pipeline_write_trade_tape_fixture",
-      "confidence_score": 1.0
+      "target": "tests_test_qep_technical_candidate_pipeline_write_trade_tape_fixture"
     },
     {
       "relation": "references",
@@ -13803,9 +14876,9 @@
       "source_file": "tests/test_qep_technical_candidate_pipeline.py",
       "source_location": "L70",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "tests_test_qep_technical_candidate_pipeline_write_trade_tape_fixture",
-      "target": "tests_test_qep_technical_candidate_pipeline_py_path",
-      "confidence_score": 1.0
+      "target": "tests_test_qep_technical_candidate_pipeline_py_path"
     },
     {
       "relation": "calls",
@@ -13814,9 +14887,9 @@
       "source_file": "tests/test_qep_technical_candidate_pipeline.py",
       "source_location": "L72",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "tests_test_qep_technical_candidate_pipeline_write_trade_tape_fixture",
-      "target": "tests_test_qep_technical_candidate_pipeline_trade",
-      "confidence_score": 1.0
+      "target": "tests_test_qep_technical_candidate_pipeline_trade"
     },
     {
       "relation": "references",
@@ -13825,9 +14898,9 @@
       "source_file": "tests/test_qep_technical_candidate_pipeline.py",
       "source_location": "L81",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "tests_test_qep_technical_candidate_pipeline_trade",
-      "target": "tests_test_qep_technical_candidate_pipeline_py_float",
-      "confidence_score": 1.0
+      "target": "tests_test_qep_technical_candidate_pipeline_py_float"
     },
     {
       "relation": "references",
@@ -13836,9 +14909,9 @@
       "source_file": "tests/test_qep_technical_candidate_pipeline.py",
       "source_location": "L81",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "tests_test_qep_technical_candidate_pipeline_trade",
-      "target": "tests_test_qep_technical_candidate_pipeline_py_int",
-      "confidence_score": 1.0
+      "target": "tests_test_qep_technical_candidate_pipeline_py_int"
     },
     {
       "relation": "references",
@@ -13847,9 +14920,9 @@
       "source_file": "tests/test_qep_technical_candidate_pipeline.py",
       "source_location": "L81",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "tests_test_qep_technical_candidate_pipeline_trade",
-      "target": "tests_test_qep_technical_candidate_pipeline_py_object",
-      "confidence_score": 1.0
+      "target": "tests_test_qep_technical_candidate_pipeline_py_object"
     },
     {
       "relation": "references",
@@ -13858,9 +14931,9 @@
       "source_file": "tests/test_qep_technical_candidate_pipeline.py",
       "source_location": "L81",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "tests_test_qep_technical_candidate_pipeline_trade",
-      "target": "tests_test_qep_technical_candidate_pipeline_py_str",
-      "confidence_score": 1.0
+      "target": "tests_test_qep_technical_candidate_pipeline_py_str"
     },
     {
       "relation": "calls",
@@ -13869,9 +14942,9 @@
       "source_file": "tests/test_qep_technical_candidate_pipeline.py",
       "source_location": "L82",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "tests_test_qep_technical_candidate_pipeline_trade",
-      "target": "tests_test_qep_technical_candidate_pipeline_ts",
-      "confidence_score": 1.0
+      "target": "tests_test_qep_technical_candidate_pipeline_ts"
     },
     {
       "relation": "references",
@@ -13880,9 +14953,9 @@
       "source_file": "tests/test_qep_technical_candidate_pipeline.py",
       "source_location": "L103",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "tests_test_qep_technical_candidate_pipeline_ts",
-      "target": "tests_test_qep_technical_candidate_pipeline_py_str",
-      "confidence_score": 1.0
+      "target": "tests_test_qep_technical_candidate_pipeline_py_str"
     },
     {
       "relation": "references",
@@ -13891,9 +14964,9 @@
       "source_file": "tests/test_qep_technical_candidate_pipeline.py",
       "source_location": "L103",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "tests_test_qep_technical_candidate_pipeline_ts",
-      "target": "tests_test_qep_technical_candidate_pipeline_py_datetime",
-      "confidence_score": 1.0
+      "target": "tests_test_qep_technical_candidate_pipeline_py_datetime"
     },
     {
       "relation": "imports_from",
@@ -13902,9 +14975,9 @@
       "source_file": "tests/test_qep_technical_setup_engine.py",
       "source_location": "L4",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "tests_test_qep_technical_setup_engine",
-      "target": "decimal",
-      "confidence_score": 1.0
+      "target": "decimal"
     },
     {
       "relation": "contains",
@@ -13912,9 +14985,9 @@
       "source_file": "tests/test_qep_technical_setup_engine.py",
       "source_location": "L116",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "tests_test_qep_technical_setup_engine",
-      "target": "tests_test_qep_technical_setup_engine_bar",
-      "confidence_score": 1.0
+      "target": "tests_test_qep_technical_setup_engine_bar"
     },
     {
       "relation": "imports_from",
@@ -13923,9 +14996,9 @@
       "source_file": "tests/test_qep_technical_setup_engine.py",
       "source_location": "L3",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "tests_test_qep_technical_setup_engine",
-      "target": "tests_test_qep_technical_setup_engine_py_datetime",
-      "confidence_score": 1.0
+      "target": "tests_test_qep_technical_setup_engine_py_datetime"
     },
     {
       "relation": "contains",
@@ -13933,9 +15006,9 @@
       "source_file": "tests/test_qep_technical_setup_engine.py",
       "source_location": "L12",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "tests_test_qep_technical_setup_engine",
-      "target": "tests_test_qep_technical_setup_engine_test_qep_technical_emits_long_from_rsi_macd_signal_on_next_bar",
-      "confidence_score": 1.0
+      "target": "tests_test_qep_technical_setup_engine_test_qep_technical_emits_long_from_rsi_macd_signal_on_next_bar"
     },
     {
       "relation": "contains",
@@ -13943,9 +15016,9 @@
       "source_file": "tests/test_qep_technical_setup_engine.py",
       "source_location": "L52",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "tests_test_qep_technical_setup_engine",
-      "target": "tests_test_qep_technical_setup_engine_test_qep_technical_emits_short_from_rsi_macd_signal_on_next_bar",
-      "confidence_score": 1.0
+      "target": "tests_test_qep_technical_setup_engine_test_qep_technical_emits_short_from_rsi_macd_signal_on_next_bar"
     },
     {
       "relation": "contains",
@@ -13953,9 +15026,9 @@
       "source_file": "tests/test_qep_technical_setup_engine.py",
       "source_location": "L86",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "tests_test_qep_technical_setup_engine",
-      "target": "tests_test_qep_technical_setup_engine_test_qep_technical_generation_is_invariant_to_future_bars",
-      "confidence_score": 1.0
+      "target": "tests_test_qep_technical_setup_engine_test_qep_technical_generation_is_invariant_to_future_bars"
     },
     {
       "relation": "contains",
@@ -13963,9 +15036,9 @@
       "source_file": "tests/test_qep_technical_setup_engine.py",
       "source_location": "L130",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "tests_test_qep_technical_setup_engine",
-      "target": "tests_test_qep_technical_setup_engine_ts",
-      "confidence_score": 1.0
+      "target": "tests_test_qep_technical_setup_engine_ts"
     },
     {
       "relation": "calls",
@@ -13974,9 +15047,9 @@
       "source_file": "tests/test_qep_technical_setup_engine.py",
       "source_location": "L25",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "tests_test_qep_technical_setup_engine_test_qep_technical_emits_long_from_rsi_macd_signal_on_next_bar",
-      "target": "tests_test_qep_technical_setup_engine_bar",
-      "confidence_score": 1.0
+      "target": "tests_test_qep_technical_setup_engine_bar"
     },
     {
       "relation": "calls",
@@ -13985,9 +15058,9 @@
       "source_file": "tests/test_qep_technical_setup_engine.py",
       "source_location": "L38",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "tests_test_qep_technical_setup_engine_test_qep_technical_emits_long_from_rsi_macd_signal_on_next_bar",
-      "target": "tests_test_qep_technical_setup_engine_ts",
-      "confidence_score": 1.0
+      "target": "tests_test_qep_technical_setup_engine_ts"
     },
     {
       "relation": "calls",
@@ -13996,9 +15069,9 @@
       "source_file": "tests/test_qep_technical_setup_engine.py",
       "source_location": "L64",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "tests_test_qep_technical_setup_engine_test_qep_technical_emits_short_from_rsi_macd_signal_on_next_bar",
-      "target": "tests_test_qep_technical_setup_engine_bar",
-      "confidence_score": 1.0
+      "target": "tests_test_qep_technical_setup_engine_bar"
     },
     {
       "relation": "calls",
@@ -14007,9 +15080,9 @@
       "source_file": "tests/test_qep_technical_setup_engine.py",
       "source_location": "L97",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "tests_test_qep_technical_setup_engine_test_qep_technical_generation_is_invariant_to_future_bars",
-      "target": "tests_test_qep_technical_setup_engine_bar",
-      "confidence_score": 1.0
+      "target": "tests_test_qep_technical_setup_engine_bar"
     },
     {
       "relation": "references",
@@ -14018,9 +15091,9 @@
       "source_file": "tests/test_qep_technical_setup_engine.py",
       "source_location": "L116",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "tests_test_qep_technical_setup_engine_bar",
-      "target": "tests_test_qep_technical_setup_engine_py_str",
-      "confidence_score": 1.0
+      "target": "tests_test_qep_technical_setup_engine_py_str"
     },
     {
       "relation": "calls",
@@ -14029,9 +15102,9 @@
       "source_file": "tests/test_qep_technical_setup_engine.py",
       "source_location": "L119",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "tests_test_qep_technical_setup_engine_bar",
-      "target": "tests_test_qep_technical_setup_engine_ts",
-      "confidence_score": 1.0
+      "target": "tests_test_qep_technical_setup_engine_ts"
     },
     {
       "relation": "references",
@@ -14040,9 +15113,9 @@
       "source_file": "tests/test_qep_technical_setup_engine.py",
       "source_location": "L130",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "tests_test_qep_technical_setup_engine_ts",
-      "target": "tests_test_qep_technical_setup_engine_py_str",
-      "confidence_score": 1.0
+      "target": "tests_test_qep_technical_setup_engine_py_str"
     },
     {
       "relation": "references",
@@ -14051,9 +15124,9 @@
       "source_file": "tests/test_qep_technical_setup_engine.py",
       "source_location": "L130",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "tests_test_qep_technical_setup_engine_ts",
-      "target": "tests_test_qep_technical_setup_engine_py_datetime",
-      "confidence_score": 1.0
+      "target": "tests_test_qep_technical_setup_engine_py_datetime"
     },
     {
       "relation": "contains",
@@ -15504,9 +16577,9 @@
       "source_file": "README.md",
       "source_location": "L129",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "readme_windows_five_day_fixture",
-      "target": "readme_qep_technical_five_day_fixture",
-      "confidence_score": 1.0
+      "target": "readme_qep_technical_five_day_fixture"
     },
     {
       "relation": "contains",
@@ -19200,5 +20273,5 @@
     }
   ],
   "hyperedges": [],
-  "built_at_commit": "8eedb38edeb5d5a47a8c9abad83ed597686c17e9"
+  "built_at_commit": "b06d689e68bc24442a7b7fd1be883da64388dd63"
 }

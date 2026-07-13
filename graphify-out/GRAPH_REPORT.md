@@ -1,16 +1,16 @@
 # Graph Report - MNQVolumeAI  (2026-07-13)
 
 ## Corpus Check
-- 76 files · ~52,467 words
+- 78 files · ~53,420 words
 - Verdict: corpus is large enough that graph structure adds value.
 
 ## Summary
-- 707 nodes · 1220 edges · 70 communities (33 shown, 37 thin omitted)
-- Extraction: 90% EXTRACTED · 10% INFERRED · 0% AMBIGUOUS · INFERRED: 127 edges (avg confidence: 0.6)
+- 738 nodes · 1294 edges · 72 communities (35 shown, 37 thin omitted)
+- Extraction: 90% EXTRACTED · 10% INFERRED · 0% AMBIGUOUS · INFERRED: 132 edges (avg confidence: 0.6)
 - Token cost: 0 input · 0 output
 
 ## Graph Freshness
-- Built from commit: `8eedb38e`
+- Built from commit: `b06d689e`
 - Run `git rev-parse HEAD` and compare to check if the graph is stale.
 - Run `graphify update .` after code changes (no API cost).
 
@@ -84,17 +84,19 @@
 - [[_COMMUNITY_Community 67|Community 67]]
 - [[_COMMUNITY_Community 68|Community 68]]
 - [[_COMMUNITY_Community 69|Community 69]]
+- [[_COMMUNITY_Community 70|Community 70]]
+- [[_COMMUNITY_Community 71|Community 71]]
 
 ## God Nodes (most connected - your core abstractions)
 1. `Bar` - 25 edges
 2. `Decimal` - 25 edges
-3. `Phase1Config` - 22 edges
-4. `QEPTechnicalConfig` - 19 edges
-5. `backtest_file()` - 18 edges
-6. `FailedFVGConfig` - 18 edges
+3. `Phase1Config` - 23 edges
+4. `QEPTechnicalConfig` - 20 edges
+5. `FailedFVGConfig` - 19 edges
+6. `backtest_file()` - 18 edges
 7. `MNQ Volume Profile AI Master Plan` - 18 edges
-8. `Comprehensive Research Report: Volume Profile Analysis in Financial Markets` - 17 edges
-9. `ConfigurationError` - 16 edges
+8. `ConfigurationError` - 17 edges
+9. `Comprehensive Research Report: Volume Profile Analysis in Financial Markets` - 17 edges
 10. `MNQVolumeAI` - 16 edges
 
 ## Surprising Connections (you probably didn't know these)
@@ -110,6 +112,7 @@
   tests/test_phase1_trade_extractor.py → src/mnq_ai/config.py
 
 ## Import Cycles
+- 1-file cycle: `tests/test_qep_failure_report.py -> tests/test_qep_failure_report.py`
 - 1-file cycle: `src/mnq_ai/cli.py -> src/mnq_ai/cli.py`
 - 1-file cycle: `src/mnq_ai/setups/failed_fvg.py -> src/mnq_ai/setups/failed_fvg.py`
 - 1-file cycle: `tests/test_failed_fvg_candidate_pipeline.py -> tests/test_failed_fvg_candidate_pipeline.py`
@@ -119,7 +122,7 @@
 - 1-file cycle: `tests/test_failed_fvg_setup_engine.py -> tests/test_failed_fvg_setup_engine.py`
 - 1-file cycle: `tests/test_qep_technical_setup_engine.py -> tests/test_qep_technical_setup_engine.py`
 
-## Communities (70 total, 37 thin omitted)
+## Communities (72 total, 37 thin omitted)
 
 ### Community 0 - "Skill Validation and Parsing"
 Cohesion: 0.06
@@ -127,7 +130,7 @@ Nodes (43): auction-feature-engineering Skill, dependency-governor Skill, execut
 
 ### Community 1 - "Skill and Algorithm Policies"
 Cohesion: 0.09
-Nodes (46): Any, bool, Exception, float, _load_yaml_with_extends(), _parse_hms(), Phase1Config, Configuration loading and validation for Phase 1 jobs. (+38 more)
+Nodes (45): Any, bool, Exception, float, _load_yaml_with_extends(), _parse_hms(), Phase1Config, Configuration loading and validation for Phase 1 jobs. (+37 more)
 
 ### Community 2 - "MNQ Project Specifications"
 Cohesion: 0.08
@@ -139,7 +142,7 @@ Nodes (26): MNQ Volume Profile AI Master Plan, Acceptance Criteria By Phase, Cur
 
 ### Community 4 - "Community 4"
 Cohesion: 0.10
-Nodes (31): ArgumentParser, _config_from_args(), _decimal_tuple(), main(), _parser(), Command-line interface for MNQ research pipeline jobs., Run the ``mnq-ai`` CLI., Run the ``mnq-ai`` CLI. (+23 more)
+Nodes (34): ArgumentParser, _config_from_args(), _decimal_tuple(), main(), _parser(), Command-line interface for MNQ research pipeline jobs., Run the ``mnq-ai`` CLI., Run the ``mnq-ai`` CLI. (+26 more)
 
 ### Community 5 - "Hook Utilities"
 Cohesion: 0.14
@@ -170,8 +173,8 @@ Cohesion: 0.23
 Nodes (13): Acceptance Criteria, Checks, Chunking Strategy, MBO Trade Semantics, MNQ Data Audit Plan, Objectives, Price and size checks, Required Audit Outputs (+5 more)
 
 ### Community 12 - "LSTM Trend Forecasting"
-Cohesion: 0.09
-Nodes (34): MNQ Phase 0 Rebuild And Cleanup Decision, MNQ Phase 1 Implementation Tasks, Acceptance Criteria, Artifact Contract, Calibration, Class Imbalance, Decision Thresholds, Feature Inputs (+26 more)
+Cohesion: 0.12
+Nodes (25): MNQ Phase 0 Rebuild And Cleanup Decision, MNQ Phase 1 Implementation Tasks, Current Finding, Exact Next Patch After Approval, Files Not To Edit In The First Implementation Patch, MNQ Phase 0 Rebuild And Cleanup Decision, Recommended Decision, Stop/Go (+17 more)
 
 ### Community 13 - "Natural Language to Option Strategies"
 Cohesion: 0.19
@@ -249,8 +252,16 @@ Nodes (32): backtest_file(), build_bars(), build_daily_volatility_regimes(), bui
 Cohesion: 0.29
 Nodes (10): datetime, float, int, object, Path, str, test_build_qep_technical_candidates_cli_writes_manifest_and_parquet(), _trade() (+2 more)
 
+### Community 70 - "Community 70"
+Cohesion: 0.16
+Nodes (27): _bucket_stats(), build_report(), _diagnose(), main(), _parser(), Any, ArgumentParser, float (+19 more)
+
+### Community 71 - "Community 71"
+Cohesion: 0.38
+Nodes (9): Acceptance Criteria, Artifact Contract, Calibration, Class Imbalance, Decision Thresholds, Feature Inputs, Initial Model Set, MNQ Model And Calibration Specification (+1 more)
+
 ## Knowledge Gaps
-- **203 isolated node(s):** `PreToolUse`, `Namespace`, `Namespace`, `Timestamp`, `int` (+198 more)
+- **207 isolated node(s):** `PreToolUse`, `Namespace`, `Namespace`, `Timestamp`, `ArgumentParser` (+202 more)
   These have ≤1 connection - possible missing edges or undocumented components.
 - **37 thin communities (<3 nodes) omitted from report** — run `graphify query` to explore isolated nodes.
 
@@ -258,16 +269,16 @@ Nodes (10): datetime, float, int, object, Path, str, test_build_qep_technical_ca
 _Questions this graph is uniquely positioned to answer:_
 
 - **Why does `Decimal` connect `Reinforcement Learning for Trading` to `Skill and Algorithm Policies`, `Community 4`?**
-  _High betweenness centrality (0.024) - this node is a cross-community bridge._
+  _High betweenness centrality (0.022) - this node is a cross-community bridge._
 - **Why does `QEPTechnicalConfig` connect `Community 4` to `Natural Language to Option Strategies`, `Reinforcement Learning for Trading`?**
-  _High betweenness centrality (0.016) - this node is a cross-community bridge._
+  _High betweenness centrality (0.015) - this node is a cross-community bridge._
 - **Why does `MNQ Volume Profile AI Master Plan` connect `Limit Order Book Forecasting` to `Community 11`, `LSTM Trend Forecasting`, `Reinforcement Learning Trading`?**
-  _High betweenness centrality (0.014) - this node is a cross-community bridge._
+  _High betweenness centrality (0.013) - this node is a cross-community bridge._
 - **Are the 15 inferred relationships involving `Bar` (e.g. with `Bar` and `SetupCandidate`) actually correct?**
   _`Bar` has 15 INFERRED edges - model-reasoned connections that need verification._
 - **Are the 9 inferred relationships involving `Decimal` (e.g. with `main()` and `.from_mapping()`) actually correct?**
   _`Decimal` has 9 INFERRED edges - model-reasoned connections that need verification._
-- **Are the 16 inferred relationships involving `Phase1Config` (e.g. with `ArgumentParser` and `float`) actually correct?**
-  _`Phase1Config` has 16 INFERRED edges - model-reasoned connections that need verification._
-- **Are the 15 inferred relationships involving `QEPTechnicalConfig` (e.g. with `ArgumentParser` and `main()`) actually correct?**
-  _`QEPTechnicalConfig` has 15 INFERRED edges - model-reasoned connections that need verification._
+- **Are the 17 inferred relationships involving `Phase1Config` (e.g. with `ArgumentParser` and `float`) actually correct?**
+  _`Phase1Config` has 17 INFERRED edges - model-reasoned connections that need verification._
+- **Are the 16 inferred relationships involving `QEPTechnicalConfig` (e.g. with `ArgumentParser` and `main()`) actually correct?**
+  _`QEPTechnicalConfig` has 16 INFERRED edges - model-reasoned connections that need verification._
