@@ -252,7 +252,7 @@
       "source_file": "src/mnq_ai/config.py",
       "source_location": "L1",
       "id": "mnq_ai_config",
-      "community": 4,
+      "community": 1,
       "norm_label": "config.py"
     },
     {
@@ -378,7 +378,7 @@
       "source_file": "src/mnq_ai/config.py",
       "source_location": "L1",
       "id": "mnq_ai_config_rationale_1",
-      "community": 4,
+      "community": 1,
       "norm_label": "configuration loading and validation for phase 1 jobs."
     },
     {
@@ -432,7 +432,7 @@
       "source_file": "src/mnq_ai/constants.py",
       "source_location": "L1",
       "id": "mnq_ai_constants",
-      "community": 4,
+      "community": 1,
       "norm_label": "constants.py"
     },
     {
@@ -441,7 +441,7 @@
       "source_file": "src/mnq_ai/constants.py",
       "source_location": "L1",
       "id": "mnq_ai_constants_rationale_1",
-      "community": 4,
+      "community": 1,
       "norm_label": "shared constants for phase 1 market-data processing."
     },
     {
@@ -1152,7 +1152,7 @@
       "source_file": "tests/test_phase1_sessionizer.py",
       "source_location": "L1",
       "id": "tests_test_phase1_sessionizer",
-      "community": 4,
+      "community": 1,
       "norm_label": "test_phase1_sessionizer.py"
     },
     {
@@ -1161,7 +1161,7 @@
       "source_file": "tests/test_phase1_sessionizer.py",
       "source_location": "L10",
       "id": "tests_test_phase1_sessionizer_test_cme_trading_date_uses_exchange_timezone_and_dst",
-      "community": 4,
+      "community": 1,
       "norm_label": "test_cme_trading_date_uses_exchange_timezone_and_dst()"
     },
     {
@@ -2410,7 +2410,7 @@
       "label": "CLI",
       "file_type": "document",
       "source_file": "README.md",
-      "source_location": "L26",
+      "source_location": "L46",
       "id": "readme_cli",
       "community": 0,
       "norm_label": "cli"
@@ -2533,10 +2533,19 @@
       "norm_label": "decisions"
     },
     {
+      "label": "2026-07-13 Update: `tzdata`",
+      "file_type": "document",
+      "source_file": "docs/dependencies/phase1_dependency_decisions.md",
+      "source_location": "L22",
+      "id": "dependencies_phase1_dependency_decisions_2026_07_13_update_tzdata",
+      "community": 9,
+      "norm_label": "2026-07-13 update: `tzdata`"
+    },
+    {
       "label": "Rejected Or Deferred",
       "file_type": "document",
       "source_file": "docs/dependencies/phase1_dependency_decisions.md",
-      "source_location": "L21",
+      "source_location": "L41",
       "id": "dependencies_phase1_dependency_decisions_rejected_or_deferred",
       "community": 9,
       "norm_label": "rejected or deferred"
@@ -2545,7 +2554,7 @@
       "label": "Risk Notes",
       "file_type": "document",
       "source_file": "docs/dependencies/phase1_dependency_decisions.md",
-      "source_location": "L28",
+      "source_location": "L48",
       "id": "dependencies_phase1_dependency_decisions_risk_notes",
       "community": 9,
       "norm_label": "risk notes"
@@ -2898,7 +2907,7 @@
       "source_file": "docs/research/papers/original/mnq_data_audit_plan.md",
       "source_location": "L1",
       "id": "original_mnq_data_audit_plan",
-      "community": 3,
+      "community": 11,
       "norm_label": "mnq_data_audit_plan.md"
     },
     {
@@ -2907,7 +2916,7 @@
       "source_file": "docs/research/papers/original/mnq_data_audit_plan.md",
       "source_location": "L1",
       "id": "original_mnq_data_audit_plan_mnq_data_audit_plan",
-      "community": 3,
+      "community": 11,
       "norm_label": "mnq data audit plan"
     },
     {
@@ -2916,7 +2925,7 @@
       "source_file": "docs/research/papers/original/mnq_data_audit_plan.md",
       "source_location": "L6",
       "id": "original_mnq_data_audit_plan_objectives",
-      "community": 3,
+      "community": 11,
       "norm_label": "objectives"
     },
     {
@@ -2925,7 +2934,7 @@
       "source_file": "docs/research/papers/original/mnq_data_audit_plan.md",
       "source_location": "L14",
       "id": "original_mnq_data_audit_plan_source_schema",
-      "community": 3,
+      "community": 11,
       "norm_label": "source schema"
     },
     {
@@ -2934,7 +2943,7 @@
       "source_file": "docs/research/papers/original/mnq_data_audit_plan.md",
       "source_location": "L23",
       "id": "original_mnq_data_audit_plan_mbo_trade_semantics",
-      "community": 3,
+      "community": 11,
       "norm_label": "mbo trade semantics"
     },
     {
@@ -2943,7 +2952,7 @@
       "source_file": "docs/research/papers/original/mnq_data_audit_plan.md",
       "source_location": "L34",
       "id": "original_mnq_data_audit_plan_required_audit_outputs",
-      "community": 3,
+      "community": 11,
       "norm_label": "required audit outputs"
     },
     {
@@ -2952,7 +2961,7 @@
       "source_file": "docs/research/papers/original/mnq_data_audit_plan.md",
       "source_location": "L45",
       "id": "original_mnq_data_audit_plan_checks",
-      "community": 3,
+      "community": 11,
       "norm_label": "checks"
     },
     {
@@ -2961,7 +2970,7 @@
       "source_file": "docs/research/papers/original/mnq_data_audit_plan.md",
       "source_location": "L47",
       "id": "original_mnq_data_audit_plan_timestamp_checks",
-      "community": 3,
+      "community": 11,
       "norm_label": "timestamp checks"
     },
     {
@@ -2970,7 +2979,7 @@
       "source_file": "docs/research/papers/original/mnq_data_audit_plan.md",
       "source_location": "L56",
       "id": "original_mnq_data_audit_plan_price_and_size_checks",
-      "community": 3,
+      "community": 11,
       "norm_label": "price and size checks"
     },
     {
@@ -2979,7 +2988,7 @@
       "source_file": "docs/research/papers/original/mnq_data_audit_plan.md",
       "source_location": "L64",
       "id": "original_mnq_data_audit_plan_symbol_and_contract_checks",
-      "community": 3,
+      "community": 11,
       "norm_label": "symbol and contract checks"
     },
     {
@@ -2988,7 +2997,7 @@
       "source_file": "docs/research/papers/original/mnq_data_audit_plan.md",
       "source_location": "L71",
       "id": "original_mnq_data_audit_plan_session_checks",
-      "community": 3,
+      "community": 11,
       "norm_label": "session checks"
     },
     {
@@ -2997,7 +3006,7 @@
       "source_file": "docs/research/papers/original/mnq_data_audit_plan.md",
       "source_location": "L91",
       "id": "original_mnq_data_audit_plan_chunking_strategy",
-      "community": 3,
+      "community": 11,
       "norm_label": "chunking strategy"
     },
     {
@@ -3006,7 +3015,7 @@
       "source_file": "docs/research/papers/original/mnq_data_audit_plan.md",
       "source_location": "L100",
       "id": "original_mnq_data_audit_plan_validation_commands_to_create_in_phase_1",
-      "community": 3,
+      "community": 11,
       "norm_label": "validation commands to create in phase 1"
     },
     {
@@ -3015,7 +3024,7 @@
       "source_file": "docs/research/papers/original/mnq_data_audit_plan.md",
       "source_location": "L108",
       "id": "original_mnq_data_audit_plan_acceptance_criteria",
-      "community": 3,
+      "community": 11,
       "norm_label": "acceptance criteria"
     },
     {
@@ -3141,7 +3150,7 @@
       "source_file": "docs/research/papers/original/mnq_labeling_and_leakage_spec.md",
       "source_location": "L1",
       "id": "original_mnq_labeling_and_leakage_spec",
-      "community": 21,
+      "community": 15,
       "norm_label": "mnq_labeling_and_leakage_spec.md"
     },
     {
@@ -3150,7 +3159,7 @@
       "source_file": "docs/research/papers/original/mnq_labeling_and_leakage_spec.md",
       "source_location": "L1",
       "id": "original_mnq_labeling_and_leakage_spec_mnq_labeling_and_leakage_specification",
-      "community": 21,
+      "community": 15,
       "norm_label": "mnq labeling and leakage specification"
     },
     {
@@ -3159,7 +3168,7 @@
       "source_file": "docs/research/papers/original/mnq_labeling_and_leakage_spec.md",
       "source_location": "L5",
       "id": "original_mnq_labeling_and_leakage_spec_label_philosophy",
-      "community": 21,
+      "community": 15,
       "norm_label": "label philosophy"
     },
     {
@@ -3168,7 +3177,7 @@
       "source_file": "docs/research/papers/original/mnq_labeling_and_leakage_spec.md",
       "source_location": "L17",
       "id": "original_mnq_labeling_and_leakage_spec_required_labels",
-      "community": 21,
+      "community": 15,
       "norm_label": "required labels"
     },
     {
@@ -3177,7 +3186,7 @@
       "source_file": "docs/research/papers/original/mnq_labeling_and_leakage_spec.md",
       "source_location": "L36",
       "id": "original_mnq_labeling_and_leakage_spec_target_roles",
-      "community": 21,
+      "community": 15,
       "norm_label": "target roles"
     },
     {
@@ -3186,7 +3195,7 @@
       "source_file": "docs/research/papers/original/mnq_labeling_and_leakage_spec.md",
       "source_location": "L49",
       "id": "original_mnq_labeling_and_leakage_spec_execution_assumptions",
-      "community": 21,
+      "community": 15,
       "norm_label": "execution assumptions"
     },
     {
@@ -3195,7 +3204,7 @@
       "source_file": "docs/research/papers/original/mnq_labeling_and_leakage_spec.md",
       "source_location": "L66",
       "id": "original_mnq_labeling_and_leakage_spec_repeated_event_prevention",
-      "community": 21,
+      "community": 15,
       "norm_label": "repeated event prevention"
     },
     {
@@ -3204,7 +3213,7 @@
       "source_file": "docs/research/papers/original/mnq_labeling_and_leakage_spec.md",
       "source_location": "L80",
       "id": "original_mnq_labeling_and_leakage_spec_purging_metadata",
-      "community": 21,
+      "community": 15,
       "norm_label": "purging metadata"
     },
     {
@@ -3213,7 +3222,7 @@
       "source_file": "docs/research/papers/original/mnq_labeling_and_leakage_spec.md",
       "source_location": "L94",
       "id": "original_mnq_labeling_and_leakage_spec_leakage_blacklist",
-      "community": 21,
+      "community": 15,
       "norm_label": "leakage blacklist"
     },
     {
@@ -3222,7 +3231,7 @@
       "source_file": "docs/research/papers/original/mnq_labeling_and_leakage_spec.md",
       "source_location": "L125",
       "id": "original_mnq_labeling_and_leakage_spec_automated_leakage_tests",
-      "community": 21,
+      "community": 15,
       "norm_label": "automated leakage tests"
     },
     {
@@ -3231,7 +3240,7 @@
       "source_file": "docs/research/papers/original/mnq_labeling_and_leakage_spec.md",
       "source_location": "L135",
       "id": "original_mnq_labeling_and_leakage_spec_acceptance_criteria",
-      "community": 21,
+      "community": 15,
       "norm_label": "acceptance criteria"
     },
     {
@@ -3240,7 +3249,7 @@
       "source_file": "docs/research/papers/original/mnq_model_and_calibration_spec.md",
       "source_location": "L1",
       "id": "original_mnq_model_and_calibration_spec",
-      "community": 15,
+      "community": 21,
       "norm_label": "mnq_model_and_calibration_spec.md"
     },
     {
@@ -3249,7 +3258,7 @@
       "source_file": "docs/research/papers/original/mnq_model_and_calibration_spec.md",
       "source_location": "L1",
       "id": "original_mnq_model_and_calibration_spec_mnq_model_and_calibration_specification",
-      "community": 15,
+      "community": 21,
       "norm_label": "mnq model and calibration specification"
     },
     {
@@ -3258,7 +3267,7 @@
       "source_file": "docs/research/papers/original/mnq_model_and_calibration_spec.md",
       "source_location": "L5",
       "id": "original_mnq_model_and_calibration_spec_model_role",
-      "community": 15,
+      "community": 21,
       "norm_label": "model role"
     },
     {
@@ -3267,7 +3276,7 @@
       "source_file": "docs/research/papers/original/mnq_model_and_calibration_spec.md",
       "source_location": "L21",
       "id": "original_mnq_model_and_calibration_spec_initial_model_set",
-      "community": 15,
+      "community": 21,
       "norm_label": "initial model set"
     },
     {
@@ -3276,7 +3285,7 @@
       "source_file": "docs/research/papers/original/mnq_model_and_calibration_spec.md",
       "source_location": "L34",
       "id": "original_mnq_model_and_calibration_spec_feature_inputs",
-      "community": 15,
+      "community": 21,
       "norm_label": "feature inputs"
     },
     {
@@ -3285,7 +3294,7 @@
       "source_file": "docs/research/papers/original/mnq_model_and_calibration_spec.md",
       "source_location": "L56",
       "id": "original_mnq_model_and_calibration_spec_calibration",
-      "community": 15,
+      "community": 21,
       "norm_label": "calibration"
     },
     {
@@ -3294,7 +3303,7 @@
       "source_file": "docs/research/papers/original/mnq_model_and_calibration_spec.md",
       "source_location": "L68",
       "id": "original_mnq_model_and_calibration_spec_class_imbalance",
-      "community": 15,
+      "community": 21,
       "norm_label": "class imbalance"
     },
     {
@@ -3303,7 +3312,7 @@
       "source_file": "docs/research/papers/original/mnq_model_and_calibration_spec.md",
       "source_location": "L80",
       "id": "original_mnq_model_and_calibration_spec_artifact_contract",
-      "community": 15,
+      "community": 21,
       "norm_label": "artifact contract"
     },
     {
@@ -3312,7 +3321,7 @@
       "source_file": "docs/research/papers/original/mnq_model_and_calibration_spec.md",
       "source_location": "L110",
       "id": "original_mnq_model_and_calibration_spec_decision_thresholds",
-      "community": 15,
+      "community": 21,
       "norm_label": "decision thresholds"
     },
     {
@@ -3321,7 +3330,7 @@
       "source_file": "docs/research/papers/original/mnq_model_and_calibration_spec.md",
       "source_location": "L122",
       "id": "original_mnq_model_and_calibration_spec_acceptance_criteria",
-      "community": 15,
+      "community": 21,
       "norm_label": "acceptance criteria"
     },
     {
@@ -8041,9 +8050,9 @@
       "source_file": "src/mnq_ai/setups/failed_fvg.py",
       "source_location": "L336",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "setups_failed_fvg_rationale_336",
-      "target": "setups_failed_fvg_build_h1_fvgs",
-      "confidence_score": 1.0
+      "target": "setups_failed_fvg_build_h1_fvgs"
     },
     {
       "relation": "calls",
@@ -8145,9 +8154,9 @@
       "source_file": "tests/test_failed_fvg_setup_engine.py",
       "source_location": "L112",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "tests_test_failed_fvg_setup_engine",
-      "target": "tests_test_failed_fvg_setup_engine_test_failed_fvg_skips_when_next_m30_entry_bar_is_missing",
-      "confidence_score": 1.0
+      "target": "tests_test_failed_fvg_setup_engine_test_failed_fvg_skips_when_next_m30_entry_bar_is_missing"
     },
     {
       "relation": "contains",
@@ -8221,9 +8230,9 @@
       "source_file": "tests/test_failed_fvg_setup_engine.py",
       "source_location": "L122",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "tests_test_failed_fvg_setup_engine_test_failed_fvg_skips_when_next_m30_entry_bar_is_missing",
-      "target": "tests_test_failed_fvg_setup_engine_bar",
-      "confidence_score": 1.0
+      "target": "tests_test_failed_fvg_setup_engine_bar"
     },
     {
       "relation": "references",
@@ -10314,6 +10323,16 @@
       "confidence_score": 1.0,
       "source": "dependencies_phase1_dependency_decisions",
       "target": "docs_dependencies_phase1_dependency_decisions"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/dependencies/phase1_dependency_decisions.md",
+      "source_location": "L22",
+      "weight": 1.0,
+      "source": "dependencies_phase1_dependency_decisions_phase_1_dependency_decisions",
+      "target": "dependencies_phase1_dependency_decisions_2026_07_13_update_tzdata",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -13877,5 +13896,5 @@
     }
   ],
   "hyperedges": [],
-  "built_at_commit": "770bbbb4de9ef1e1343188d1502688e12fa49300"
+  "built_at_commit": "9b45dba15bf39af1e79210fd541412b1e01f939e"
 }

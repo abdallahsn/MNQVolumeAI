@@ -134,6 +134,25 @@ def test_failed_fvg_skips_when_next_m30_entry_bar_is_missing() -> None:
     assert engine.generate(h1_bars=h1, m30_bars=m30_with_gap) == []
 
 
+def test_build_h1_fvgs_does_not_bridge_symbols_or_sessions() -> None:
+    h1 = [
+        _bar("2026-04-06T13:00:00Z", high="100.00", low="95.00"),
+        _bar("2026-04-06T14:00:00Z", high="101.00", low="96.00"),
+        Bar(
+            ts_event=_ts("2026-04-06T15:00:00Z"),
+            symbol="MNQM6",
+            cme_session_id="CME_EQ_FUT_2026-04-08",
+            open=Decimal("102.00"),
+            high=Decimal("106.00"),
+            low=Decimal("102.00"),
+            close=Decimal("105.00"),
+            volume=100,
+        ),
+    ]
+
+    assert build_h1_fvgs(h1, bar_duration=timedelta(hours=1)) == []
+
+
 def _bar(
     timestamp: str,
     *,

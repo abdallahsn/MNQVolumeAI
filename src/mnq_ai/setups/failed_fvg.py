@@ -339,7 +339,15 @@ def build_h1_fvgs(bars: list[Bar], *, bar_duration: timedelta) -> list[FVG]:
     fvgs: list[FVG] = []
     for index in range(2, len(ordered)):
         current = ordered[index]
+        prior_1 = ordered[index - 1]
         prior_2 = ordered[index - 2]
+        if (
+            current.symbol != prior_1.symbol
+            or current.symbol != prior_2.symbol
+            or current.cme_session_id != prior_1.cme_session_id
+            or current.cme_session_id != prior_2.cme_session_id
+        ):
+            continue
         formed_at = current.ts_event
         available_at = formed_at + bar_duration
         if current.low > prior_2.high:
