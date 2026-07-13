@@ -1,0 +1,371 @@
+[
+  {
+    "source_file": "arxiv_1803_06917.md",
+    "title": "Title: Universal features of price formation in financial markets: perspectives from Deep Learning",
+    "word_count": 320,
+    "image_count": 0,
+    "sections_indexed": 2,
+    "concepts_indexed": 6,
+    "category": "paper"
+  },
+  {
+    "source_file": "arxiv_1808_03668.md",
+    "title": "1808.03668",
+    "word_count": 25,
+    "image_count": 0,
+    "sections_indexed": 2,
+    "concepts_indexed": 0,
+    "category": "paper"
+  },
+  {
+    "source_file": "arxiv_1811_10041.md",
+    "title": "Title: BDLOB: Bayesian Deep Convolutional Neural Networks for Limit Order Books",
+    "word_count": 173,
+    "image_count": 0,
+    "sections_indexed": 2,
+    "concepts_indexed": 4,
+    "category": "paper"
+  },
+  {
+    "source_file": "arxiv_1907_06230.md",
+    "title": "Title: Multi-Level Order-Flow Imbalance in a Limit Order Book",
+    "word_count": 158,
+    "image_count": 0,
+    "sections_indexed": 2,
+    "concepts_indexed": 3,
+    "category": "paper"
+  },
+  {
+    "source_file": "arxiv_2306_05479.md",
+    "title": "Title: Deep Attentive Survival Analysis in Limit Order Books: Estimating Fill Probabilities with Convolutional-Transformers",
+    "word_count": 247,
+    "image_count": 0,
+    "sections_indexed": 2,
+    "concepts_indexed": 5,
+    "category": "paper"
+  },
+  {
+    "source_file": "arxiv_2403_09267.md",
+    "title": "Title: Deep Limit Order Book Forecasting",
+    "word_count": 212,
+    "image_count": 0,
+    "sections_indexed": 2,
+    "concepts_indexed": 2,
+    "category": "paper"
+  },
+  {
+    "source_file": "arxiv_2405_18938.md",
+    "title": "Title: HLOB -- Information Persistence and Structure in Limit Order Books",
+    "word_count": 204,
+    "image_count": 0,
+    "sections_indexed": 2,
+    "concepts_indexed": 3,
+    "category": "paper"
+  },
+  {
+    "source_file": "arxiv_2409_14157.md",
+    "title": "Title: Price predictability in limit order book with deep learning model",
+    "word_count": 129,
+    "image_count": 0,
+    "sections_indexed": 2,
+    "concepts_indexed": 2,
+    "category": "paper"
+  },
+  {
+    "source_file": "arxiv_2502_15757.md",
+    "title": "Title: TLOB: A Novel Transformer Model with Dual Attention for Price Trend Prediction with Limit Order Book Data",
+    "word_count": 310,
+    "image_count": 0,
+    "sections_indexed": 2,
+    "concepts_indexed": 5,
+    "category": "paper"
+  },
+  {
+    "source_file": "arxiv_2503_09655.md",
+    "title": "Title: A Deep Reinforcement Learning Approach to Automated Stock Trading, using xLSTM Networks",
+    "word_count": 236,
+    "image_count": 0,
+    "sections_indexed": 2,
+    "concepts_indexed": 3,
+    "category": "paper"
+  },
+  {
+    "source_file": "arxiv_2510_15612.md",
+    "title": "Title: SoK: Market Microstructure for Decentralized Prediction Markets DePMs",
+    "word_count": 155,
+    "image_count": 0,
+    "sections_indexed": 2,
+    "concepts_indexed": 1,
+    "category": "paper"
+  },
+  {
+    "source_file": "arxiv_2510_15949.md",
+    "title": "Title: ATLAS: Adaptive Trading with LLM AgentS Through Dynamic Prompt Optimization and Multi-Agent Coordination",
+    "word_count": 228,
+    "image_count": 0,
+    "sections_indexed": 2,
+    "concepts_indexed": 2,
+    "category": "paper"
+  },
+  {
+    "source_file": "arxiv_2603_14453.md",
+    "title": "Title: E-TRENDS: Enhanced LSTM Trend Forecasting for Equities",
+    "word_count": 126,
+    "image_count": 0,
+    "sections_indexed": 2,
+    "concepts_indexed": 4,
+    "category": "paper"
+  },
+  {
+    "source_file": "arxiv_2603_16434.md",
+    "title": "Title: From Natural Language to Executable Option Strategies via Large Language Models",
+    "word_count": 189,
+    "image_count": 0,
+    "sections_indexed": 2,
+    "concepts_indexed": 2,
+    "category": "paper"
+  },
+  {
+    "source_file": "arxiv_2603_19944.md",
+    "title": "Title: Large Language Models and Stock Investing: Is the Human Factor Required?",
+    "word_count": 171,
+    "image_count": 0,
+    "sections_indexed": 2,
+    "concepts_indexed": 1,
+    "category": "paper"
+  },
+  {
+    "source_file": "arxiv_2603_20965.md",
+    "title": "Title: Learning to Aggregate Zero-Shot LLM Agents for Corporate Disclosure Classification",
+    "word_count": 256,
+    "image_count": 0,
+    "sections_indexed": 2,
+    "concepts_indexed": 1,
+    "category": "paper"
+  },
+  {
+    "source_file": "arxiv_2603_21330.md",
+    "title": "Title: FinRL-X: An AI-Native Modular Infrastructure for Quantitative Trading",
+    "word_count": 171,
+    "image_count": 0,
+    "sections_indexed": 2,
+    "concepts_indexed": 4,
+    "category": "paper"
+  },
+  {
+    "source_file": "arxiv_2604_02035.md",
+    "title": "Title: Reinforcement Learning for Speculative Trading under Exploratory Framework",
+    "word_count": 202,
+    "image_count": 0,
+    "sections_indexed": 2,
+    "concepts_indexed": 1,
+    "category": "paper"
+  },
+  {
+    "source_file": "arxiv_2604_02921.md",
+    "title": "Title: Debiasing LLMs by Fine-tuning",
+    "word_count": 153,
+    "image_count": 0,
+    "sections_indexed": 2,
+    "concepts_indexed": 2,
+    "category": "paper"
+  },
+  {
+    "source_file": "arxiv_2604_03888.md",
+    "title": "Title: PolySwarm: A Multi-Agent Large Language Model Framework for Prediction Market Trading and Latency Arbitrage",
+    "word_count": 245,
+    "image_count": 0,
+    "sections_indexed": 2,
+    "concepts_indexed": 5,
+    "category": "paper"
+  },
+  {
+    "source_file": "arxiv_2604_10005.md",
+    "title": "Title: What Happens When Institutional Liquidity Enters Prediction Markets: Identification, Measurement, and a Synthetic Proof of Concept",
+    "word_count": 251,
+    "image_count": 0,
+    "sections_indexed": 2,
+    "concepts_indexed": 2,
+    "category": "paper"
+  },
+  {
+    "source_file": "arxiv_2604_11477.md",
+    "title": "Title: OOM-RL: Out-of-Money Reinforcement Learning Market-Driven Alignment for LLM-Based Multi-Agent Systems",
+    "word_count": 269,
+    "image_count": 0,
+    "sections_indexed": 2,
+    "concepts_indexed": 5,
+    "category": "paper"
+  },
+  {
+    "source_file": "arxiv_2604_20949.md",
+    "title": "Title: Early Detection of Latent Microstructure Regimes in Limit Order Books",
+    "word_count": 216,
+    "image_count": 0,
+    "sections_indexed": 2,
+    "concepts_indexed": 4,
+    "category": "paper"
+  },
+  {
+    "source_file": "github_com_StockSharp_StockSharp.md",
+    "title": "GitHub - StockSharp/StockSharp: Algorithmic trading and quantitative trading open source platform to develop trading robots stock markets, forex, crypto, bitcoins, and options . · ",
+    "word_count": 1066,
+    "image_count": 0,
+    "sections_indexed": 1,
+    "concepts_indexed": 2,
+    "category": "document"
+  },
+  {
+    "source_file": "github_com_TradeMaster-NTU_TradeMaster.md",
+    "title": "GitHub - TradeMaster-NTU/TradeMaster: TradeMaster is an open-source platform for quantitative trading empowered by reinforcement learning :zap: :rainbow: · GitHub",
+    "word_count": 1198,
+    "image_count": 0,
+    "sections_indexed": 1,
+    "concepts_indexed": 6,
+    "category": "document"
+  },
+  {
+    "source_file": "github_com_dcajasn_Riskfolio-Lib.md",
+    "title": "GitHub - dcajasn/Riskfolio-Lib: Portfolio Optimization in Python · GitHub",
+    "word_count": 1129,
+    "image_count": 0,
+    "sections_indexed": 1,
+    "concepts_indexed": 2,
+    "category": "document"
+  },
+  {
+    "source_file": "github_com_nautechsystems_nautilus_trader.md",
+    "title": "GitHub - nautechsystems/nautilus trader: Production-grade Rust-native trading engine with deterministic event-driven architecture · GitHub",
+    "word_count": 1081,
+    "image_count": 0,
+    "sections_indexed": 1,
+    "concepts_indexed": 6,
+    "category": "document"
+  },
+  {
+    "source_file": "original/NQ and MNQ Intraday Quantitative Analysis.docx",
+    "title": "التحليل الكمي المقارن بين عقود NQ و MNQ في التداول اليومي: دراسة مسحية ميكرو-هيكلية لعلاقات السبق واللحاق وفوارق عمق السوق وبروفايل الحجم",
+    "word_count": 2918,
+    "image_count": 17,
+    "sections_indexed": 10,
+    "concepts_indexed": 7,
+    "category": "paper"
+  },
+  {
+    "source_file": "original/mnq_data_audit_plan.md",
+    "title": "MNQ Data Audit Plan",
+    "word_count": 575,
+    "image_count": 0,
+    "sections_indexed": 13,
+    "concepts_indexed": 4,
+    "category": "document"
+  },
+  {
+    "source_file": "original/mnq_feature_contract.md",
+    "title": "MNQ Feature Contract",
+    "word_count": 522,
+    "image_count": 0,
+    "sections_indexed": 12,
+    "concepts_indexed": 9,
+    "category": "document"
+  },
+  {
+    "source_file": "original/mnq_labeling_and_leakage_spec.md",
+    "title": "MNQ Labeling And Leakage Specification",
+    "word_count": 424,
+    "image_count": 0,
+    "sections_indexed": 10,
+    "concepts_indexed": 5,
+    "category": "document"
+  },
+  {
+    "source_file": "original/mnq_model_and_calibration_spec.md",
+    "title": "MNQ Model And Calibration Specification",
+    "word_count": 376,
+    "image_count": 0,
+    "sections_indexed": 9,
+    "concepts_indexed": 7,
+    "category": "document"
+  },
+  {
+    "source_file": "original/mnq_phase0_rebuild_cleanup_decision.md",
+    "title": "MNQ Phase 0 Rebuild And Cleanup Decision",
+    "word_count": 226,
+    "image_count": 0,
+    "sections_indexed": 6,
+    "concepts_indexed": 4,
+    "category": "document"
+  },
+  {
+    "source_file": "original/mnq_phase1_implementation_tasks.md",
+    "title": "MNQ Phase 1 Implementation Tasks",
+    "word_count": 517,
+    "image_count": 0,
+    "sections_indexed": 9,
+    "concepts_indexed": 7,
+    "category": "document"
+  },
+  {
+    "source_file": "original/mnq_risk_register.md",
+    "title": "MNQ Risk Register",
+    "word_count": 459,
+    "image_count": 0,
+    "sections_indexed": 2,
+    "concepts_indexed": 13,
+    "category": "document"
+  },
+  {
+    "source_file": "original/mnq_setup_engine_spec.md",
+    "title": "MNQ Deterministic Setup Engine Specification",
+    "word_count": 548,
+    "image_count": 0,
+    "sections_indexed": 9,
+    "concepts_indexed": 4,
+    "category": "document"
+  },
+  {
+    "source_file": "original/mnq_vp_ai_master_plan.md",
+    "title": "MNQ Volume Profile AI Master Plan",
+    "word_count": 1706,
+    "image_count": 0,
+    "sections_indexed": 25,
+    "concepts_indexed": 15,
+    "category": "document"
+  },
+  {
+    "source_file": "original/mnq_walk_forward_backtest_spec.md",
+    "title": "MNQ Walk-Forward And Backtest Specification",
+    "word_count": 365,
+    "image_count": 0,
+    "sections_indexed": 11,
+    "concepts_indexed": 8,
+    "category": "document"
+  },
+  {
+    "source_file": "original/volume_profile_research_en.md",
+    "title": "Comprehensive Research Report: Volume Profile Analysis in Financial Markets",
+    "word_count": 4961,
+    "image_count": 0,
+    "sections_indexed": 21,
+    "concepts_indexed": 16,
+    "category": "document"
+  },
+  {
+    "source_file": "original/أبحاث بروفايل حجم التداول.docx",
+    "title": "تقرير بحثي شامل: تحليل \"بروفايل الحجم\" Volume Profile في الأسواق المالية: الأسس الميكروإقتصادية، النماذج الكمية والتطبيقات التجريبية",
+    "word_count": 4407,
+    "image_count": 61,
+    "sections_indexed": 5,
+    "concepts_indexed": 11,
+    "category": "paper"
+  },
+  {
+    "source_file": "volume_profile_research_en.md",
+    "title": "Comprehensive Research Report: Volume Profile Analysis in Financial Markets",
+    "word_count": 4961,
+    "image_count": 0,
+    "sections_indexed": 21,
+    "concepts_indexed": 16,
+    "category": "document"
+  }
+]

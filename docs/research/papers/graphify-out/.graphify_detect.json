@@ -1,0 +1,53 @@
+{
+  "total_files": 41,
+  "total_words": 32085,
+  "scan_root": "/Users/abdallah/Desktop/Trading/MNQVolumeAI/docs/research/papers",
+  "files": {
+    "document": [
+      "/Users/abdallah/Desktop/Trading/MNQVolumeAI/docs/research/papers/github_com_StockSharp_StockSharp.md",
+      "/Users/abdallah/Desktop/Trading/MNQVolumeAI/docs/research/papers/github_com_TradeMaster-NTU_TradeMaster.md",
+      "/Users/abdallah/Desktop/Trading/MNQVolumeAI/docs/research/papers/github_com_dcajasn_Riskfolio-Lib.md",
+      "/Users/abdallah/Desktop/Trading/MNQVolumeAI/docs/research/papers/github_com_nautechsystems_nautilus_trader.md",
+      "/Users/abdallah/Desktop/Trading/MNQVolumeAI/docs/research/papers/original/mnq_data_audit_plan.md",
+      "/Users/abdallah/Desktop/Trading/MNQVolumeAI/docs/research/papers/original/mnq_feature_contract.md",
+      "/Users/abdallah/Desktop/Trading/MNQVolumeAI/docs/research/papers/original/mnq_labeling_and_leakage_spec.md",
+      "/Users/abdallah/Desktop/Trading/MNQVolumeAI/docs/research/papers/original/mnq_model_and_calibration_spec.md",
+      "/Users/abdallah/Desktop/Trading/MNQVolumeAI/docs/research/papers/original/mnq_phase0_rebuild_cleanup_decision.md",
+      "/Users/abdallah/Desktop/Trading/MNQVolumeAI/docs/research/papers/original/mnq_phase1_implementation_tasks.md",
+      "/Users/abdallah/Desktop/Trading/MNQVolumeAI/docs/research/papers/original/mnq_risk_register.md",
+      "/Users/abdallah/Desktop/Trading/MNQVolumeAI/docs/research/papers/original/mnq_setup_engine_spec.md",
+      "/Users/abdallah/Desktop/Trading/MNQVolumeAI/docs/research/papers/original/mnq_vp_ai_master_plan.md",
+      "/Users/abdallah/Desktop/Trading/MNQVolumeAI/docs/research/papers/original/mnq_walk_forward_backtest_spec.md",
+      "/Users/abdallah/Desktop/Trading/MNQVolumeAI/docs/research/papers/original/volume_profile_research_en.md",
+      "/Users/abdallah/Desktop/Trading/MNQVolumeAI/docs/research/papers/volume_profile_research_en.md"
+    ],
+    "paper": [
+      "/Users/abdallah/Desktop/Trading/MNQVolumeAI/docs/research/papers/arxiv_1803_06917.md",
+      "/Users/abdallah/Desktop/Trading/MNQVolumeAI/docs/research/papers/arxiv_1808_03668.md",
+      "/Users/abdallah/Desktop/Trading/MNQVolumeAI/docs/research/papers/arxiv_1811_10041.md",
+      "/Users/abdallah/Desktop/Trading/MNQVolumeAI/docs/research/papers/arxiv_1907_06230.md",
+      "/Users/abdallah/Desktop/Trading/MNQVolumeAI/docs/research/papers/arxiv_2306_05479.md",
+      "/Users/abdallah/Desktop/Trading/MNQVolumeAI/docs/research/papers/arxiv_2403_09267.md",
+      "/Users/abdallah/Desktop/Trading/MNQVolumeAI/docs/research/papers/arxiv_2405_18938.md",
+      "/Users/abdallah/Desktop/Trading/MNQVolumeAI/docs/research/papers/arxiv_2409_14157.md",
+      "/Users/abdallah/Desktop/Trading/MNQVolumeAI/docs/research/papers/arxiv_2502_15757.md",
+      "/Users/abdallah/Desktop/Trading/MNQVolumeAI/docs/research/papers/arxiv_2503_09655.md",
+      "/Users/abdallah/Desktop/Trading/MNQVolumeAI/docs/research/papers/arxiv_2510_15612.md",
+      "/Users/abdallah/Desktop/Trading/MNQVolumeAI/docs/research/papers/arxiv_2510_15949.md",
+      "/Users/abdallah/Desktop/Trading/MNQVolumeAI/docs/research/papers/arxiv_2603_14453.md",
+      "/Users/abdallah/Desktop/Trading/MNQVolumeAI/docs/research/papers/arxiv_2603_16434.md",
+      "/Users/abdallah/Desktop/Trading/MNQVolumeAI/docs/research/papers/arxiv_2603_19944.md",
+      "/Users/abdallah/Desktop/Trading/MNQVolumeAI/docs/research/papers/arxiv_2603_20965.md",
+      "/Users/abdallah/Desktop/Trading/MNQVolumeAI/docs/research/papers/arxiv_2603_21330.md",
+      "/Users/abdallah/Desktop/Trading/MNQVolumeAI/docs/research/papers/arxiv_2604_02035.md",
+      "/Users/abdallah/Desktop/Trading/MNQVolumeAI/docs/research/papers/arxiv_2604_02921.md",
+      "/Users/abdallah/Desktop/Trading/MNQVolumeAI/docs/research/papers/arxiv_2604_03888.md",
+      "/Users/abdallah/Desktop/Trading/MNQVolumeAI/docs/research/papers/arxiv_2604_10005.md",
+      "/Users/abdallah/Desktop/Trading/MNQVolumeAI/docs/research/papers/arxiv_2604_11477.md",
+      "/Users/abdallah/Desktop/Trading/MNQVolumeAI/docs/research/papers/arxiv_2604_20949.md",
+      "/Users/abdallah/Desktop/Trading/MNQVolumeAI/docs/research/papers/original/NQ and MNQ Intraday Quantitative Analysis.docx",
+      "/Users/abdallah/Desktop/Trading/MNQVolumeAI/docs/research/papers/original/أبحاث بروفايل حجم التداول.docx"
+    ]
+  },
+  "skipped_sensitive": []
+}
