@@ -1,16 +1,16 @@
 # Graph Report - MNQVolumeAI  (2026-07-13)
 
 ## Corpus Check
-- 73 files · ~49,716 words
+- 73 files · ~50,226 words
 - Verdict: corpus is large enough that graph structure adds value.
 
 ## Summary
-- 651 nodes · 1039 edges · 69 communities (32 shown, 37 thin omitted)
+- 654 nodes · 1055 edges · 69 communities (32 shown, 37 thin omitted)
 - Extraction: 92% EXTRACTED · 8% INFERRED · 0% AMBIGUOUS · INFERRED: 81 edges (avg confidence: 0.63)
 - Token cost: 0 input · 0 output
 
 ## Graph Freshness
-- Built from commit: `4f8eae84`
+- Built from commit: `d3f9f515`
 - Run `git rev-parse HEAD` and compare to check if the graph is stale.
 - Run `graphify update .` after code changes (no API cost).
 
@@ -91,22 +91,22 @@
 4. `FailedFVGConfig` - 17 edges
 5. `Comprehensive Research Report: Volume Profile Analysis in Financial Markets` - 17 edges
 6. `ConfigurationError` - 16 edges
-7. `backtest_file()` - 15 edges
-8. `Bar` - 15 edges
-9. `MNQVolumeAI` - 15 edges
+7. `MNQVolumeAI` - 16 edges
+8. `backtest_file()` - 15 edges
+9. `Bar` - 15 edges
 10. `MNQ Volume Profile AI Master Plan` - 15 edges
 
 ## Surprising Connections (you probably didn't know these)
 - `test_config_validates_tick_and_timezone()` --calls--> `Decimal`  [INFERRED]
   tests/test_phase1_config.py → src/mnq_ai/setups/failed_fvg.py
-- `datetime` --uses--> `FailedFVGConfig`  [INFERRED]
-  tests/test_failed_fvg_setup_engine.py → src/mnq_ai/setups/failed_fvg.py
-- `int` --uses--> `FailedFVGConfig`  [INFERRED]
-  tests/test_failed_fvg_setup_engine.py → src/mnq_ai/setups/failed_fvg.py
-- `str` --uses--> `FailedFVGConfig`  [INFERRED]
-  tests/test_failed_fvg_setup_engine.py → src/mnq_ai/setups/failed_fvg.py
-- `test_failed_bull_fvg_emits_short_candidate_from_next_bar_entry()` --calls--> `FailedFVGConfig`  [INFERRED]
-  tests/test_failed_fvg_setup_engine.py → src/mnq_ai/setups/failed_fvg.py
+- `float` --uses--> `Phase1Config`  [INFERRED]
+  tests/test_phase1_trade_extractor.py → src/mnq_ai/config.py
+- `object` --uses--> `Phase1Config`  [INFERRED]
+  tests/test_phase1_trade_extractor.py → src/mnq_ai/config.py
+- `float` --uses--> `Phase1Config`  [INFERRED]
+  tests/test_phase1_trade_extractor.py → src/mnq_ai/config.py
+- `int` --uses--> `Phase1Config`  [INFERRED]
+  tests/test_phase1_trade_extractor.py → src/mnq_ai/config.py
 
 ## Import Cycles
 - 1-file cycle: `src/mnq_ai/setups/failed_fvg.py -> src/mnq_ai/setups/failed_fvg.py`
@@ -117,8 +117,8 @@
 ## Communities (69 total, 37 thin omitted)
 
 ### Community 0 - "Skill Validation and Parsing"
-Cohesion: 0.07
-Nodes (41): auction-feature-engineering Skill, dependency-governor Skill, execution-backtest-gate Skill, mbo-data-causality Skill, out-of-core-data-engineering Skill, quant-model-validation Skill, quant-research-scout Skill, Ablation Requirement (+33 more)
+Cohesion: 0.06
+Nodes (42): auction-feature-engineering Skill, dependency-governor Skill, execution-backtest-gate Skill, mbo-data-causality Skill, out-of-core-data-engineering Skill, quant-model-validation Skill, quant-research-scout Skill, Ablation Requirement (+34 more)
 
 ### Community 1 - "Skill and Algorithm Policies"
 Cohesion: 0.08
@@ -173,8 +173,8 @@ Cohesion: 0.33
 Nodes (10): MNQ Deterministic Setup Engine Specification, Acceptance Criteria, Candidate Setups, Core Principle, Deduplication Rules, MNQ Deterministic Setup Engine Specification, Online State Requirements, Reason Codes (+2 more)
 
 ### Community 14 - "Reinforcement Learning for Trading"
-Cohesion: 0.09
-Nodes (40): Decimal, EntrySide, FVGType, Shared constants for Phase 1 market-data processing., Bar, build_h1_fvgs(), FailedFVGSetupEngine, FVG (+32 more)
+Cohesion: 0.10
+Nodes (40): Decimal, EntrySide, FVGType, Bar, build_h1_fvgs(), FailedFVGConfig, FailedFVGSetupEngine, FVG (+32 more)
 
 ### Community 15 - "LLM Debiasing Techniques"
 Cohesion: 0.23
@@ -237,11 +237,11 @@ Cohesion: 0.33
 Nodes (12): _candidate(), datetime, float, int, object, Path, str, test_phase2_execution_gate_labels_first_barrier_after_entry() (+4 more)
 
 ### Community 68 - "Community 68"
-Cohesion: 0.17
-Nodes (28): backtest_file(), build_bars(), build_h1_fvgs(), calculate_contracts(), detect_failed_fvg_signal(), empty_summary(), execute_trade(), FVG (+20 more)
+Cohesion: 0.18
+Nodes (30): backtest_file(), build_bars(), build_h1_fvgs(), calculate_contracts(), chart_output_path(), detect_failed_fvg_signal(), empty_summary(), execute_trade() (+22 more)
 
 ## Knowledge Gaps
-- **199 isolated node(s):** `PreToolUse`, `Namespace`, `Namespace`, `Timestamp`, `int` (+194 more)
+- **200 isolated node(s):** `PreToolUse`, `Namespace`, `Namespace`, `Timestamp`, `int` (+195 more)
   These have ≤1 connection - possible missing edges or undocumented components.
 - **37 thin communities (<3 nodes) omitted from report** — run `graphify query` to explore isolated nodes.
 
@@ -251,7 +251,7 @@ _Questions this graph is uniquely positioned to answer:_
 - **Why does `Decimal` connect `Reinforcement Learning for Trading` to `Skill and Algorithm Policies`, `LLM Agents for Trading`?**
   _High betweenness centrality (0.021) - this node is a cross-community bridge._
 - **Why does `MNQ Volume Profile AI Master Plan` connect `Limit Order Book Forecasting` to `Community 11`, `LSTM Trend Forecasting`, `Reinforcement Learning Trading`?**
-  _High betweenness centrality (0.017) - this node is a cross-community bridge._
+  _High betweenness centrality (0.016) - this node is a cross-community bridge._
 - **Why does `Comprehensive Research Report: Volume Profile Analysis in Financial Markets` connect `Reinforcement Learning Trading` to `Hook Utilities`, `Limit Order Book Forecasting`, `LSTM Trend Forecasting`, `Research Gaps Identification`?**
   _High betweenness centrality (0.015) - this node is a cross-community bridge._
 - **Are the 9 inferred relationships involving `Decimal` (e.g. with `main()` and `.from_mapping()`) actually correct?**

@@ -47,6 +47,7 @@ MARKET_TZ = "America/New_York"
 OUTPUT_DIR = Path("fail_fvg_outputs")
 TRADES_CSV = "fail_fvg_trades.csv"
 SUMMARY_CSV = "fail_fvg_summary.csv"
+TRADE_CHART_HTML = "fail_fvg_trades_chart.html"
 
 DEFAULT_FILES = [
     r"C:\Users\Administrator\Documents\2024-01_MES_continuous.parquet",
@@ -148,6 +149,16 @@ def parse_args() -> argparse.Namespace:
         "--output-dir",
         default=str(OUTPUT_DIR),
         help="Directory for trades and summary CSV output.",
+    )
+    parser.add_argument(
+        "--chart-output",
+        default=None,
+        help="Optional HTML chart path. Defaults to fail_fvg_trades_chart.html inside --output-dir for one input file.",
+    )
+    parser.add_argument(
+        "--no-chart",
+        action="store_true",
+        help="Skip writing the trade-by-trade HTML chart.",
     )
     parser.add_argument(
         "--point-value",
@@ -695,6 +706,161 @@ def save_outputs(
     return trades_path, summary_path
 
 
+def write_trade_chart(
+    *,
+    file_path: Path,
+    trade_rows: list[dict[str, object]],
+    output_path: Path,
+) -> Path | None:
+    if not trade_rows:
+        LOGGER.info("No trades to draw for %s", file_path)
+        return None
+
+    try:
+        import plotly.graph_objects as go
+    except ModuleNotFoundError as exc:
+        raise RuntimeError("Plotly is required for chart output. Install plotly or rerun with --no-chart.") from exc
+
+    trades_df = load_trade_data(file_path)
+    if trades_df.empty:
+        LOGGER.info("No trade tape data to draw for %s", file_path)
+        return None
+    _, m30 = build_bars(trades_df)
+    if m30.empty:
+        LOGGER.info("No M30 candles to draw for %s", file_path)
+        return None
+
+    chart_trades = pd.DataFrame(trade_rows).copy()
+    chart_trades["entry_time"] = pd.to_datetime(chart_trades["entry_time"], errors="coerce")
+    chart_trades["exit_time"] = pd.to_datetime(chart_trades["exit_time"], errors="coerce")
+    chart_trades = chart_trades.dropna(subset=["entry_time", "exit_time", "entry", "exit", "points"])
+    if chart_trades.empty:
+        LOGGER.info("No valid trade rows to draw for %s", file_path)
+        return None
+
+    fig = go.Figure()
+    fig.add_trace(
+        go.Candlestick(
+            x=m30.index,
+            open=m30["o"],
+            high=m30["h"],
+            low=m30["l"],
+            close=m30["c"],
+            name="M30",
+            increasing_line_color="#17a673",
+            decreasing_line_color="#e55353",
+            increasing_fillcolor="#17a673",
+            decreasing_fillcolor="#e55353",
+            customdata=m30[["volume", "range"]].to_numpy(),
+            hovertemplate=(
+                "Time: %{x}<br>"
+                "Open: %{open:.2f}<br>"
+                "High: %{high:.2f}<br>"
+                "Low: %{low:.2f}<br>"
+                "Close: %{close:.2f}<br>"
+                "Volume: %{customdata[0]:,.0f}<br>"
+                "Range: %{customdata[1]:.2f}<extra></extra>"
+            ),
+        )
+    )
+
+    for idx, row in chart_trades.reset_index(drop=True).iterrows():
+        trade_no = idx + 1
+        points = float(row["points"])
+        pnl = float(row["pnl"])
+        color = "#00b894" if points > 0 else "#d63031"
+        entry_time = row["entry_time"]
+        exit_time = row["exit_time"]
+        entry = float(row["entry"])
+        exit_price = float(row["exit"])
+        direction = str(row["direction"])
+        status = str(row["status"])
+        label = f"#{trade_no} {points:+.2f} pts"
+        hover = (
+            f"Trade #{trade_no}<br>"
+            f"{direction} / {status}<br>"
+            f"Entry: {entry:.2f} @ {entry_time}<br>"
+            f"Exit: {exit_price:.2f} @ {exit_time}<br>"
+            f"Points: {points:+.2f}<br>"
+            f"PnL: ${pnl:,.2f}<br>"
+            f"Contracts: {int(row['contracts'])}<br>"
+            f"Risk: {float(row['risk_points']):.2f}<br>"
+            f"Target: {float(row['target']):.2f}<br>"
+            f"Signal: {row['signal']}"
+        )
+
+        fig.add_shape(
+            type="rect",
+            x0=row["signal_time"],
+            x1=exit_time,
+            y0=float(row["fvg_low"]),
+            y1=float(row["fvg_high"]),
+            fillcolor="rgba(241,196,15,0.12)",
+            line={"color": "rgba(241,196,15,0.65)", "width": 1},
+            layer="below",
+        )
+        fig.add_trace(
+            go.Scatter(
+                x=[entry_time, exit_time],
+                y=[entry, exit_price],
+                mode="lines+markers+text",
+                name=label,
+                line={"color": color, "width": 3},
+                marker={
+                    "size": [12, 13],
+                    "symbol": ["triangle-up" if direction == "LONG" else "triangle-down", "x"],
+                    "color": color,
+                    "line": {"color": "#ffffff", "width": 1},
+                },
+                text=["ENTRY", label],
+                textposition=["bottom center", "top center"],
+                hovertext=[hover, hover],
+                hoverinfo="text",
+                showlegend=False,
+            )
+        )
+
+    fig.update_layout(
+        title=(
+            f"{month_from_path(file_path)} Failed FVG trades"
+            f"<br><sup>{file_path} | Trades: {len(chart_trades):,}</sup>"
+        ),
+        template="plotly_white",
+        height=920,
+        margin={"l": 70, "r": 35, "t": 95, "b": 55},
+        hovermode="closest",
+        xaxis={
+            "title": f"{MARKET_TZ} time",
+            "rangeslider": {"visible": True, "thickness": 0.08},
+            "showspikes": True,
+            "spikemode": "across",
+        },
+        yaxis={
+            "title": "Price",
+            "fixedrange": False,
+            "showspikes": True,
+            "spikemode": "across",
+        },
+    )
+    output_path.parent.mkdir(parents=True, exist_ok=True)
+    fig.write_html(output_path, include_plotlyjs=True, full_html=True, auto_open=False)
+    return output_path
+
+
+def chart_output_path(
+    *,
+    output_dir: Path,
+    file_path: Path,
+    explicit_chart_output: str | None,
+    file_count: int,
+) -> Path:
+    if explicit_chart_output is not None:
+        return Path(explicit_chart_output)
+    if file_count == 1:
+        return output_dir / TRADE_CHART_HTML
+    return output_dir / f"{month_from_path(file_path)}_trades_chart.html"
+
+
 def print_summary(summary_df: pd.DataFrame) -> None:
     if summary_df.empty:
         print("No files processed.")
@@ -727,6 +893,8 @@ def main() -> None:
     files = [Path(item) for item in (args.files if args.files else DEFAULT_FILES)]
     all_trades: list[dict[str, object]] = []
     summaries: list[dict[str, object]] = []
+    output_dir = Path(args.output_dir)
+    chart_paths: list[Path] = []
 
     for file_path in files:
         try:
@@ -737,12 +905,27 @@ def main() -> None:
             summary = empty_summary(file_path, month)
         all_trades.extend(trades)
         summaries.append(summary)
+        if not args.no_chart and trades:
+            chart_path = chart_output_path(
+                output_dir=output_dir,
+                file_path=file_path,
+                explicit_chart_output=args.chart_output,
+                file_count=len(files),
+            )
+            written_chart = write_trade_chart(
+                file_path=file_path,
+                trade_rows=trades,
+                output_path=chart_path,
+            )
+            if written_chart is not None:
+                chart_paths.append(written_chart)
 
-    output_dir = Path(args.output_dir)
     trades_path, summary_path = save_outputs(all_trades, summaries, output_dir)
     print_summary(pd.DataFrame(summaries, columns=SUMMARY_COLUMNS))
     print(f"\nSaved trades:  {trades_path}")
     print(f"Saved summary: {summary_path}")
+    for chart_path in chart_paths:
+        print(f"Saved chart:   {chart_path}")
 
 
 if __name__ == "__main__":

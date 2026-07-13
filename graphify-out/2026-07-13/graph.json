@@ -31,6 +31,276 @@
       "norm_label": "pretooluse"
     },
     {
+      "label": "Fail FVG.py",
+      "file_type": "code",
+      "source_file": "scripts/Fail FVG.py",
+      "source_location": "L1",
+      "id": "scripts_fail_fvg",
+      "community": 68,
+      "norm_label": "fail fvg.py"
+    },
+    {
+      "label": "FVG",
+      "file_type": "code",
+      "source_file": "scripts/Fail FVG.py",
+      "source_location": "L102",
+      "id": "scripts_fail_fvg_fvg",
+      "community": 68,
+      "norm_label": "fvg"
+    },
+    {
+      "label": ".mid()",
+      "file_type": "code",
+      "source_file": "scripts/Fail FVG.py",
+      "source_location": "L111",
+      "id": "scripts_fail_fvg_fvg_mid",
+      "community": 68,
+      "norm_label": ".mid()"
+    },
+    {
+      "label": "float",
+      "file_type": "code",
+      "source_file": "scripts/Fail FVG.py",
+      "source_location": "L111",
+      "id": "scripts_fail_fvg_py_float",
+      "community": 68,
+      "norm_label": "float"
+    },
+    {
+      "label": "Signal",
+      "file_type": "code",
+      "source_file": "scripts/Fail FVG.py",
+      "source_location": "L116",
+      "id": "scripts_fail_fvg_signal",
+      "community": 68,
+      "norm_label": "signal"
+    },
+    {
+      "label": "TradeResult",
+      "file_type": "code",
+      "source_file": "scripts/Fail FVG.py",
+      "source_location": "L128",
+      "id": "scripts_fail_fvg_traderesult",
+      "community": 68,
+      "norm_label": "traderesult"
+    },
+    {
+      "label": "parse_args()",
+      "file_type": "code",
+      "source_file": "scripts/Fail FVG.py",
+      "source_location": "L138",
+      "id": "scripts_fail_fvg_parse_args",
+      "community": 68,
+      "norm_label": "parse_args()"
+    },
+    {
+      "label": "Namespace",
+      "file_type": "code",
+      "source_file": "scripts/Fail FVG.py",
+      "source_location": "L138",
+      "id": "scripts_fail_fvg_py_namespace",
+      "community": 68,
+      "norm_label": "namespace"
+    },
+    {
+      "label": "month_from_path()",
+      "file_type": "code",
+      "source_file": "scripts/Fail FVG.py",
+      "source_location": "L183",
+      "id": "scripts_fail_fvg_month_from_path",
+      "community": 68,
+      "norm_label": "month_from_path()"
+    },
+    {
+      "label": "Path",
+      "file_type": "code",
+      "source_file": "scripts/Fail FVG.py",
+      "source_location": "L183",
+      "id": "scripts_fail_fvg_py_path",
+      "community": 68,
+      "norm_label": "path"
+    },
+    {
+      "label": "str",
+      "file_type": "code",
+      "source_file": "scripts/Fail FVG.py",
+      "source_location": "L183",
+      "id": "scripts_fail_fvg_py_str",
+      "community": 68,
+      "norm_label": "str"
+    },
+    {
+      "label": "load_trade_data()",
+      "file_type": "code",
+      "source_file": "scripts/Fail FVG.py",
+      "source_location": "L192",
+      "id": "scripts_fail_fvg_load_trade_data",
+      "community": 68,
+      "norm_label": "load_trade_data()"
+    },
+    {
+      "label": "DataFrame",
+      "file_type": "code",
+      "source_file": "scripts/Fail FVG.py",
+      "source_location": "L192",
+      "id": "scripts_fail_fvg_py_dataframe",
+      "community": 68,
+      "norm_label": "dataframe"
+    },
+    {
+      "label": "build_bars()",
+      "file_type": "code",
+      "source_file": "scripts/Fail FVG.py",
+      "source_location": "L236",
+      "id": "scripts_fail_fvg_build_bars",
+      "community": 68,
+      "norm_label": "build_bars()"
+    },
+    {
+      "label": "build_h1_fvgs()",
+      "file_type": "code",
+      "source_file": "scripts/Fail FVG.py",
+      "source_location": "L253",
+      "id": "scripts_fail_fvg_build_h1_fvgs",
+      "community": 68,
+      "norm_label": "build_h1_fvgs()"
+    },
+    {
+      "label": "is_in_session()",
+      "file_type": "code",
+      "source_file": "scripts/Fail FVG.py",
+      "source_location": "L293",
+      "id": "scripts_fail_fvg_is_in_session",
+      "community": 68,
+      "norm_label": "is_in_session()"
+    },
+    {
+      "label": "Timestamp",
+      "file_type": "code",
+      "source_file": "scripts/Fail FVG.py",
+      "source_location": "L293",
+      "id": "scripts_fail_fvg_py_timestamp",
+      "community": 68,
+      "norm_label": "timestamp"
+    },
+    {
+      "label": "bool",
+      "file_type": "code",
+      "source_file": "scripts/Fail FVG.py",
+      "source_location": "L293",
+      "id": "scripts_fail_fvg_py_bool",
+      "community": 68,
+      "norm_label": "bool"
+    },
+    {
+      "label": "overlaps_zone()",
+      "file_type": "code",
+      "source_file": "scripts/Fail FVG.py",
+      "source_location": "L299",
+      "id": "scripts_fail_fvg_overlaps_zone",
+      "community": 68,
+      "norm_label": "overlaps_zone()"
+    },
+    {
+      "label": "Series",
+      "file_type": "code",
+      "source_file": "scripts/Fail FVG.py",
+      "source_location": "L299",
+      "id": "series",
+      "community": 68,
+      "norm_label": "series"
+    },
+    {
+      "label": "detect_failed_fvg_signal()",
+      "file_type": "code",
+      "source_file": "scripts/Fail FVG.py",
+      "source_location": "L303",
+      "id": "scripts_fail_fvg_detect_failed_fvg_signal",
+      "community": 68,
+      "norm_label": "detect_failed_fvg_signal()"
+    },
+    {
+      "label": "calculate_contracts()",
+      "file_type": "code",
+      "source_file": "scripts/Fail FVG.py",
+      "source_location": "L373",
+      "id": "scripts_fail_fvg_calculate_contracts",
+      "community": 68,
+      "norm_label": "calculate_contracts()"
+    },
+    {
+      "label": "int",
+      "file_type": "code",
+      "source_file": "scripts/Fail FVG.py",
+      "source_location": "L373",
+      "id": "scripts_fail_fvg_py_int",
+      "community": 68,
+      "norm_label": "int"
+    },
+    {
+      "label": "execute_trade()",
+      "file_type": "code",
+      "source_file": "scripts/Fail FVG.py",
+      "source_location": "L399",
+      "id": "scripts_fail_fvg_execute_trade",
+      "community": 68,
+      "norm_label": "execute_trade()"
+    },
+    {
+      "label": "empty_summary()",
+      "file_type": "code",
+      "source_file": "scripts/Fail FVG.py",
+      "source_location": "L474",
+      "id": "scripts_fail_fvg_empty_summary",
+      "community": 68,
+      "norm_label": "empty_summary()"
+    },
+    {
+      "label": "object",
+      "file_type": "code",
+      "source_file": "scripts/Fail FVG.py",
+      "source_location": "L474",
+      "id": "scripts_fail_fvg_py_object",
+      "community": 68,
+      "norm_label": "object"
+    },
+    {
+      "label": "backtest_file()",
+      "file_type": "code",
+      "source_file": "scripts/Fail FVG.py",
+      "source_location": "L492",
+      "id": "scripts_fail_fvg_backtest_file",
+      "community": 68,
+      "norm_label": "backtest_file()"
+    },
+    {
+      "label": "save_outputs()",
+      "file_type": "code",
+      "source_file": "scripts/Fail FVG.py",
+      "source_location": "L682",
+      "id": "scripts_fail_fvg_save_outputs",
+      "community": 68,
+      "norm_label": "save_outputs()"
+    },
+    {
+      "label": "print_summary()",
+      "file_type": "code",
+      "source_file": "scripts/Fail FVG.py",
+      "source_location": "L698",
+      "id": "scripts_fail_fvg_print_summary",
+      "community": 68,
+      "norm_label": "print_summary()"
+    },
+    {
+      "label": "main()",
+      "file_type": "code",
+      "source_file": "scripts/Fail FVG.py",
+      "source_location": "L714",
+      "id": "scripts_fail_fvg_main",
+      "community": 68,
+      "norm_label": "main()"
+    },
+    {
       "label": "__init__.py",
       "file_type": "code",
       "source_file": "scripts/__init__.py",
@@ -107,7 +377,7 @@
       "file_type": "code",
       "source_file": "scripts/plot_fvg_5days.py",
       "source_location": "L63",
-      "id": "dataframe",
+      "id": "scripts_plot_fvg_5days_py_dataframe",
       "community": 15,
       "norm_label": "dataframe"
     },
@@ -206,7 +476,7 @@
       "file_type": "code",
       "source_file": "scripts/plot_fvg_5days.py",
       "source_location": "L245",
-      "id": "timestamp",
+      "id": "scripts_plot_fvg_5days_py_timestamp",
       "community": 15,
       "norm_label": "timestamp"
     },
@@ -223,7 +493,7 @@
       "label": "main()",
       "file_type": "code",
       "source_file": "scripts/plot_fvg_5days.py",
-      "source_location": "L472",
+      "source_location": "L477",
       "id": "scripts_plot_fvg_5days_main",
       "community": 15,
       "norm_label": "main()"
@@ -432,7 +702,7 @@
       "source_file": "src/mnq_ai/config.py",
       "source_location": "L1",
       "id": "mnq_ai_config",
-      "community": 4,
+      "community": 1,
       "norm_label": "config.py"
     },
     {
@@ -558,7 +828,7 @@
       "source_file": "src/mnq_ai/config.py",
       "source_location": "L1",
       "id": "mnq_ai_config_rationale_1",
-      "community": 4,
+      "community": 1,
       "norm_label": "configuration loading and validation for phase 1 jobs."
     },
     {
@@ -612,7 +882,7 @@
       "source_file": "src/mnq_ai/constants.py",
       "source_location": "L1",
       "id": "mnq_ai_constants",
-      "community": 4,
+      "community": 14,
       "norm_label": "constants.py"
     },
     {
@@ -621,7 +891,7 @@
       "source_file": "src/mnq_ai/constants.py",
       "source_location": "L1",
       "id": "mnq_ai_constants_rationale_1",
-      "community": 4,
+      "community": 14,
       "norm_label": "shared constants for phase 1 market-data processing."
     },
     {
@@ -891,7 +1161,7 @@
       "source_file": "src/mnq_ai/setups/failed_fvg.py",
       "source_location": "L102",
       "id": "setups_failed_fvg_failedfvgconfig",
-      "community": 14,
+      "community": 1,
       "norm_label": "failedfvgconfig"
     },
     {
@@ -900,7 +1170,7 @@
       "source_file": "src/mnq_ai/setups/failed_fvg.py",
       "source_location": "L122",
       "id": "setups_failed_fvg_failedfvgconfig_validated",
-      "community": 14,
+      "community": 1,
       "norm_label": ".validated()"
     },
     {
@@ -918,7 +1188,7 @@
       "source_file": "src/mnq_ai/setups/failed_fvg.py",
       "source_location": "L143",
       "id": "setups_failed_fvg_failedfvgsetupengine_init",
-      "community": 14,
+      "community": 1,
       "norm_label": ".__init__()"
     },
     {
@@ -1125,7 +1395,7 @@
       "source_file": "src/mnq_ai/setups/failed_fvg.py",
       "source_location": "L103",
       "id": "setups_failed_fvg_rationale_103",
-      "community": 14,
+      "community": 1,
       "norm_label": "parameters for failed fvg setup generation."
     },
     {
@@ -1404,7 +1674,7 @@
       "source_file": "tests/test_phase1_config.py",
       "source_location": "L11",
       "id": "tests_test_phase1_config_test_config_validates_tick_and_timezone",
-      "community": 1,
+      "community": 14,
       "norm_label": "test_config_validates_tick_and_timezone()"
     },
     {
@@ -1440,7 +1710,7 @@
       "source_file": "tests/test_phase1_sessionizer.py",
       "source_location": "L1",
       "id": "tests_test_phase1_sessionizer",
-      "community": 4,
+      "community": 1,
       "norm_label": "test_phase1_sessionizer.py"
     },
     {
@@ -1449,7 +1719,7 @@
       "source_file": "tests/test_phase1_sessionizer.py",
       "source_location": "L10",
       "id": "tests_test_phase1_sessionizer_test_cme_trading_date_uses_exchange_timezone_and_dst",
-      "community": 4,
+      "community": 1,
       "norm_label": "test_cme_trading_date_uses_exchange_timezone_and_dst()"
     },
     {
@@ -4774,6 +5044,24 @@
       "norm_label": "research gaps"
     },
     {
+      "label": "DataFrame",
+      "file_type": "code",
+      "source_file": "scripts/plot_fvg_5days.py",
+      "source_location": "L63",
+      "community": 15,
+      "norm_label": "dataframe",
+      "id": "dataframe"
+    },
+    {
+      "label": "Timestamp",
+      "file_type": "code",
+      "source_file": "scripts/plot_fvg_5days.py",
+      "source_location": "L245",
+      "community": 15,
+      "norm_label": "timestamp",
+      "id": "timestamp"
+    },
+    {
       "label": "Namespace",
       "file_type": "code",
       "source_file": "src/mnq_ai/cli.py",
@@ -5781,6 +6069,812 @@
       "target": "codex_hooks_hooks_pretooluse"
     },
     {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "scripts/Fail FVG.py",
+      "source_location": "L492",
+      "weight": 1.0,
+      "source": "scripts_fail_fvg",
+      "target": "scripts_fail_fvg_backtest_file",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "scripts/Fail FVG.py",
+      "source_location": "L236",
+      "weight": 1.0,
+      "source": "scripts_fail_fvg",
+      "target": "scripts_fail_fvg_build_bars",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "scripts/Fail FVG.py",
+      "source_location": "L253",
+      "weight": 1.0,
+      "source": "scripts_fail_fvg",
+      "target": "scripts_fail_fvg_build_h1_fvgs",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "scripts/Fail FVG.py",
+      "source_location": "L373",
+      "weight": 1.0,
+      "source": "scripts_fail_fvg",
+      "target": "scripts_fail_fvg_calculate_contracts",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "scripts/Fail FVG.py",
+      "source_location": "L303",
+      "weight": 1.0,
+      "source": "scripts_fail_fvg",
+      "target": "scripts_fail_fvg_detect_failed_fvg_signal",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "scripts/Fail FVG.py",
+      "source_location": "L474",
+      "weight": 1.0,
+      "source": "scripts_fail_fvg",
+      "target": "scripts_fail_fvg_empty_summary",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "scripts/Fail FVG.py",
+      "source_location": "L399",
+      "weight": 1.0,
+      "source": "scripts_fail_fvg",
+      "target": "scripts_fail_fvg_execute_trade",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "scripts/Fail FVG.py",
+      "source_location": "L102",
+      "weight": 1.0,
+      "source": "scripts_fail_fvg",
+      "target": "scripts_fail_fvg_fvg",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "scripts/Fail FVG.py",
+      "source_location": "L293",
+      "weight": 1.0,
+      "source": "scripts_fail_fvg",
+      "target": "scripts_fail_fvg_is_in_session",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "scripts/Fail FVG.py",
+      "source_location": "L192",
+      "weight": 1.0,
+      "source": "scripts_fail_fvg",
+      "target": "scripts_fail_fvg_load_trade_data",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "scripts/Fail FVG.py",
+      "source_location": "L714",
+      "weight": 1.0,
+      "source": "scripts_fail_fvg",
+      "target": "scripts_fail_fvg_main",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "scripts/Fail FVG.py",
+      "source_location": "L183",
+      "weight": 1.0,
+      "source": "scripts_fail_fvg",
+      "target": "scripts_fail_fvg_month_from_path",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "scripts/Fail FVG.py",
+      "source_location": "L299",
+      "weight": 1.0,
+      "source": "scripts_fail_fvg",
+      "target": "scripts_fail_fvg_overlaps_zone",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "scripts/Fail FVG.py",
+      "source_location": "L138",
+      "weight": 1.0,
+      "source": "scripts_fail_fvg",
+      "target": "scripts_fail_fvg_parse_args",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "scripts/Fail FVG.py",
+      "source_location": "L698",
+      "weight": 1.0,
+      "source": "scripts_fail_fvg",
+      "target": "scripts_fail_fvg_print_summary",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "scripts/Fail FVG.py",
+      "source_location": "L682",
+      "weight": 1.0,
+      "source": "scripts_fail_fvg",
+      "target": "scripts_fail_fvg_save_outputs",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "scripts/Fail FVG.py",
+      "source_location": "L116",
+      "weight": 1.0,
+      "source": "scripts_fail_fvg",
+      "target": "scripts_fail_fvg_signal",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "scripts/Fail FVG.py",
+      "source_location": "L128",
+      "weight": 1.0,
+      "source": "scripts_fail_fvg",
+      "target": "scripts_fail_fvg_traderesult",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "context": "generic_arg",
+      "confidence": "EXTRACTED",
+      "source_file": "scripts/Fail FVG.py",
+      "source_location": "L253",
+      "weight": 1.0,
+      "source": "scripts_fail_fvg_build_h1_fvgs",
+      "target": "scripts_fail_fvg_fvg",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "context": "generic_arg",
+      "confidence": "EXTRACTED",
+      "source_file": "scripts/Fail FVG.py",
+      "source_location": "L303",
+      "weight": 1.0,
+      "source": "scripts_fail_fvg_detect_failed_fvg_signal",
+      "target": "scripts_fail_fvg_fvg",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "scripts/Fail FVG.py",
+      "source_location": "L111",
+      "weight": 1.0,
+      "source": "scripts_fail_fvg_fvg",
+      "target": "scripts_fail_fvg_fvg_mid",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "context": "parameter_type",
+      "confidence": "EXTRACTED",
+      "source_file": "scripts/Fail FVG.py",
+      "source_location": "L299",
+      "weight": 1.0,
+      "source": "scripts_fail_fvg_overlaps_zone",
+      "target": "scripts_fail_fvg_fvg",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "context": "return_type",
+      "confidence": "EXTRACTED",
+      "source_file": "scripts/Fail FVG.py",
+      "source_location": "L111",
+      "weight": 1.0,
+      "source": "scripts_fail_fvg_fvg_mid",
+      "target": "scripts_fail_fvg_py_float",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "context": "parameter_type",
+      "confidence": "EXTRACTED",
+      "source_file": "scripts/Fail FVG.py",
+      "source_location": "L373",
+      "weight": 1.0,
+      "source": "scripts_fail_fvg_calculate_contracts",
+      "target": "scripts_fail_fvg_py_float",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "context": "parameter_type",
+      "confidence": "EXTRACTED",
+      "source_file": "scripts/Fail FVG.py",
+      "source_location": "L399",
+      "weight": 1.0,
+      "source": "scripts_fail_fvg_execute_trade",
+      "target": "scripts_fail_fvg_py_float",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "context": "return_type",
+      "confidence": "EXTRACTED",
+      "source_file": "scripts/Fail FVG.py",
+      "source_location": "L303",
+      "weight": 1.0,
+      "source": "scripts_fail_fvg_detect_failed_fvg_signal",
+      "target": "scripts_fail_fvg_signal",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "context": "return_type",
+      "confidence": "EXTRACTED",
+      "source_file": "scripts/Fail FVG.py",
+      "source_location": "L399",
+      "weight": 1.0,
+      "source": "scripts_fail_fvg_execute_trade",
+      "target": "scripts_fail_fvg_traderesult",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "scripts/Fail FVG.py",
+      "source_location": "L717",
+      "weight": 1.0,
+      "source": "scripts_fail_fvg_main",
+      "target": "scripts_fail_fvg_parse_args",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "context": "return_type",
+      "confidence": "EXTRACTED",
+      "source_file": "scripts/Fail FVG.py",
+      "source_location": "L138",
+      "weight": 1.0,
+      "source": "scripts_fail_fvg_parse_args",
+      "target": "scripts_fail_fvg_py_namespace",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "scripts/Fail FVG.py",
+      "source_location": "L493",
+      "weight": 1.0,
+      "source": "scripts_fail_fvg_backtest_file",
+      "target": "scripts_fail_fvg_month_from_path",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "scripts/Fail FVG.py",
+      "source_location": "L736",
+      "weight": 1.0,
+      "source": "scripts_fail_fvg_main",
+      "target": "scripts_fail_fvg_month_from_path",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "context": "parameter_type",
+      "confidence": "EXTRACTED",
+      "source_file": "scripts/Fail FVG.py",
+      "source_location": "L183",
+      "weight": 1.0,
+      "source": "scripts_fail_fvg_month_from_path",
+      "target": "scripts_fail_fvg_py_path",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "context": "return_type",
+      "confidence": "EXTRACTED",
+      "source_file": "scripts/Fail FVG.py",
+      "source_location": "L183",
+      "weight": 1.0,
+      "source": "scripts_fail_fvg_month_from_path",
+      "target": "scripts_fail_fvg_py_str",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "context": "parameter_type",
+      "confidence": "EXTRACTED",
+      "source_file": "scripts/Fail FVG.py",
+      "source_location": "L492",
+      "weight": 1.0,
+      "source": "scripts_fail_fvg_backtest_file",
+      "target": "scripts_fail_fvg_py_path",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "context": "parameter_type",
+      "confidence": "EXTRACTED",
+      "source_file": "scripts/Fail FVG.py",
+      "source_location": "L474",
+      "weight": 1.0,
+      "source": "scripts_fail_fvg_empty_summary",
+      "target": "scripts_fail_fvg_py_path",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "context": "parameter_type",
+      "confidence": "EXTRACTED",
+      "source_file": "scripts/Fail FVG.py",
+      "source_location": "L192",
+      "weight": 1.0,
+      "source": "scripts_fail_fvg_load_trade_data",
+      "target": "scripts_fail_fvg_py_path",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "scripts/Fail FVG.py",
+      "source_location": "L727",
+      "weight": 1.0,
+      "source": "scripts_fail_fvg_main",
+      "target": "scripts_fail_fvg_py_path",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "context": "generic_arg",
+      "confidence": "EXTRACTED",
+      "source_file": "scripts/Fail FVG.py",
+      "source_location": "L682",
+      "weight": 1.0,
+      "source": "scripts_fail_fvg_save_outputs",
+      "target": "scripts_fail_fvg_py_path",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "context": "generic_arg",
+      "confidence": "EXTRACTED",
+      "source_file": "scripts/Fail FVG.py",
+      "source_location": "L492",
+      "weight": 1.0,
+      "source": "scripts_fail_fvg_backtest_file",
+      "target": "scripts_fail_fvg_py_str",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "context": "generic_arg",
+      "confidence": "EXTRACTED",
+      "source_file": "scripts/Fail FVG.py",
+      "source_location": "L303",
+      "weight": 1.0,
+      "source": "scripts_fail_fvg_detect_failed_fvg_signal",
+      "target": "scripts_fail_fvg_py_str",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "context": "generic_arg",
+      "confidence": "EXTRACTED",
+      "source_file": "scripts/Fail FVG.py",
+      "source_location": "L474",
+      "weight": 1.0,
+      "source": "scripts_fail_fvg_empty_summary",
+      "target": "scripts_fail_fvg_py_str",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "context": "parameter_type",
+      "confidence": "EXTRACTED",
+      "source_file": "scripts/Fail FVG.py",
+      "source_location": "L399",
+      "weight": 1.0,
+      "source": "scripts_fail_fvg_execute_trade",
+      "target": "scripts_fail_fvg_py_str",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "context": "generic_arg",
+      "confidence": "EXTRACTED",
+      "source_file": "scripts/Fail FVG.py",
+      "source_location": "L682",
+      "weight": 1.0,
+      "source": "scripts_fail_fvg_save_outputs",
+      "target": "scripts_fail_fvg_py_str",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "scripts/Fail FVG.py",
+      "source_location": "L500",
+      "weight": 1.0,
+      "source": "scripts_fail_fvg_backtest_file",
+      "target": "scripts_fail_fvg_load_trade_data",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "context": "return_type",
+      "confidence": "EXTRACTED",
+      "source_file": "scripts/Fail FVG.py",
+      "source_location": "L192",
+      "weight": 1.0,
+      "source": "scripts_fail_fvg_load_trade_data",
+      "target": "scripts_fail_fvg_py_dataframe",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "scripts/Fail FVG.py",
+      "source_location": "L655",
+      "weight": 1.0,
+      "source": "scripts_fail_fvg_backtest_file",
+      "target": "scripts_fail_fvg_py_dataframe",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "context": "generic_arg",
+      "confidence": "EXTRACTED",
+      "source_file": "scripts/Fail FVG.py",
+      "source_location": "L236",
+      "weight": 1.0,
+      "source": "scripts_fail_fvg_build_bars",
+      "target": "scripts_fail_fvg_py_dataframe",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "context": "parameter_type",
+      "confidence": "EXTRACTED",
+      "source_file": "scripts/Fail FVG.py",
+      "source_location": "L253",
+      "weight": 1.0,
+      "source": "scripts_fail_fvg_build_h1_fvgs",
+      "target": "scripts_fail_fvg_py_dataframe",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "context": "parameter_type",
+      "confidence": "EXTRACTED",
+      "source_file": "scripts/Fail FVG.py",
+      "source_location": "L399",
+      "weight": 1.0,
+      "source": "scripts_fail_fvg_execute_trade",
+      "target": "scripts_fail_fvg_py_dataframe",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "scripts/Fail FVG.py",
+      "source_location": "L743",
+      "weight": 1.0,
+      "source": "scripts_fail_fvg_main",
+      "target": "scripts_fail_fvg_py_dataframe",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "context": "parameter_type",
+      "confidence": "EXTRACTED",
+      "source_file": "scripts/Fail FVG.py",
+      "source_location": "L698",
+      "weight": 1.0,
+      "source": "scripts_fail_fvg_print_summary",
+      "target": "scripts_fail_fvg_py_dataframe",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "scripts/Fail FVG.py",
+      "source_location": "L691",
+      "weight": 1.0,
+      "source": "scripts_fail_fvg_save_outputs",
+      "target": "scripts_fail_fvg_py_dataframe",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "scripts/Fail FVG.py",
+      "source_location": "L505",
+      "weight": 1.0,
+      "source": "scripts_fail_fvg_backtest_file",
+      "target": "scripts_fail_fvg_build_bars",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "scripts/Fail FVG.py",
+      "source_location": "L510",
+      "weight": 1.0,
+      "source": "scripts_fail_fvg_backtest_file",
+      "target": "scripts_fail_fvg_build_h1_fvgs",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "scripts/Fail FVG.py",
+      "source_location": "L535",
+      "weight": 1.0,
+      "source": "scripts_fail_fvg_backtest_file",
+      "target": "scripts_fail_fvg_is_in_session",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "context": "return_type",
+      "confidence": "EXTRACTED",
+      "source_file": "scripts/Fail FVG.py",
+      "source_location": "L293",
+      "weight": 1.0,
+      "source": "scripts_fail_fvg_is_in_session",
+      "target": "scripts_fail_fvg_py_bool",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "context": "parameter_type",
+      "confidence": "EXTRACTED",
+      "source_file": "scripts/Fail FVG.py",
+      "source_location": "L293",
+      "weight": 1.0,
+      "source": "scripts_fail_fvg_is_in_session",
+      "target": "scripts_fail_fvg_py_timestamp",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "context": "parameter_type",
+      "confidence": "EXTRACTED",
+      "source_file": "scripts/Fail FVG.py",
+      "source_location": "L303",
+      "weight": 1.0,
+      "source": "scripts_fail_fvg_detect_failed_fvg_signal",
+      "target": "scripts_fail_fvg_py_timestamp",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "context": "return_type",
+      "confidence": "EXTRACTED",
+      "source_file": "scripts/Fail FVG.py",
+      "source_location": "L299",
+      "weight": 1.0,
+      "source": "scripts_fail_fvg_overlaps_zone",
+      "target": "scripts_fail_fvg_py_bool",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "scripts/Fail FVG.py",
+      "source_location": "L337",
+      "weight": 1.0,
+      "source": "scripts_fail_fvg_detect_failed_fvg_signal",
+      "target": "scripts_fail_fvg_overlaps_zone",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "context": "parameter_type",
+      "confidence": "EXTRACTED",
+      "source_file": "scripts/Fail FVG.py",
+      "source_location": "L299",
+      "weight": 1.0,
+      "source": "scripts_fail_fvg_overlaps_zone",
+      "target": "series",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "context": "parameter_type",
+      "confidence": "EXTRACTED",
+      "source_file": "scripts/Fail FVG.py",
+      "source_location": "L303",
+      "weight": 1.0,
+      "source": "scripts_fail_fvg_detect_failed_fvg_signal",
+      "target": "series",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "scripts/Fail FVG.py",
+      "source_location": "L570",
+      "weight": 1.0,
+      "source": "scripts_fail_fvg_backtest_file",
+      "target": "scripts_fail_fvg_detect_failed_fvg_signal",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "scripts/Fail FVG.py",
+      "source_location": "L588",
+      "weight": 1.0,
+      "source": "scripts_fail_fvg_backtest_file",
+      "target": "scripts_fail_fvg_calculate_contracts",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "context": "return_type",
+      "confidence": "EXTRACTED",
+      "source_file": "scripts/Fail FVG.py",
+      "source_location": "L373",
+      "weight": 1.0,
+      "source": "scripts_fail_fvg_calculate_contracts",
+      "target": "scripts_fail_fvg_py_int",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "context": "parameter_type",
+      "confidence": "EXTRACTED",
+      "source_file": "scripts/Fail FVG.py",
+      "source_location": "L399",
+      "weight": 1.0,
+      "source": "scripts_fail_fvg_execute_trade",
+      "target": "scripts_fail_fvg_py_int",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "scripts/Fail FVG.py",
+      "source_location": "L599",
+      "weight": 1.0,
+      "source": "scripts_fail_fvg_backtest_file",
+      "target": "scripts_fail_fvg_execute_trade",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "scripts/Fail FVG.py",
+      "source_location": "L494",
+      "weight": 1.0,
+      "source": "scripts_fail_fvg_backtest_file",
+      "target": "scripts_fail_fvg_empty_summary",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "context": "generic_arg",
+      "confidence": "EXTRACTED",
+      "source_file": "scripts/Fail FVG.py",
+      "source_location": "L474",
+      "weight": 1.0,
+      "source": "scripts_fail_fvg_empty_summary",
+      "target": "scripts_fail_fvg_py_object",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "scripts/Fail FVG.py",
+      "source_location": "L737",
+      "weight": 1.0,
+      "source": "scripts_fail_fvg_main",
+      "target": "scripts_fail_fvg_empty_summary",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "context": "generic_arg",
+      "confidence": "EXTRACTED",
+      "source_file": "scripts/Fail FVG.py",
+      "source_location": "L492",
+      "weight": 1.0,
+      "source": "scripts_fail_fvg_backtest_file",
+      "target": "scripts_fail_fvg_py_object",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "context": "generic_arg",
+      "confidence": "EXTRACTED",
+      "source_file": "scripts/Fail FVG.py",
+      "source_location": "L682",
+      "weight": 1.0,
+      "source": "scripts_fail_fvg_save_outputs",
+      "target": "scripts_fail_fvg_py_object",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "scripts/Fail FVG.py",
+      "source_location": "L733",
+      "weight": 1.0,
+      "source": "scripts_fail_fvg_main",
+      "target": "scripts_fail_fvg_backtest_file",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "scripts/Fail FVG.py",
+      "source_location": "L742",
+      "weight": 1.0,
+      "source": "scripts_fail_fvg_main",
+      "target": "scripts_fail_fvg_save_outputs",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "scripts/Fail FVG.py",
+      "source_location": "L743",
+      "weight": 1.0,
+      "source": "scripts_fail_fvg_main",
+      "target": "scripts_fail_fvg_print_summary",
+      "confidence_score": 1.0
+    },
+    {
       "relation": "rationale_for",
       "confidence": "EXTRACTED",
       "source_file": "scripts/__init__.py",
@@ -5936,6 +7030,17 @@
     },
     {
       "relation": "references",
+      "context": "return_type",
+      "confidence": "EXTRACTED",
+      "source_file": "scripts/plot_fvg_5days.py",
+      "source_location": "L63",
+      "weight": 1.0,
+      "source": "scripts_plot_fvg_5days_load_trade_tape",
+      "target": "scripts_plot_fvg_5days_py_dataframe",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
       "context": "parameter_type",
       "confidence": "EXTRACTED",
       "source_file": "scripts/plot_fvg_5days.py",
@@ -6038,54 +7143,65 @@
       "context": "return_type",
       "confidence": "EXTRACTED",
       "source_file": "scripts/plot_fvg_5days.py",
+      "source_location": "L114",
+      "weight": 1.0,
+      "source": "scripts_plot_fvg_5days_build_candles",
+      "target": "scripts_plot_fvg_5days_py_dataframe",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "context": "parameter_type",
+      "confidence": "EXTRACTED",
+      "source_file": "scripts/plot_fvg_5days.py",
+      "source_location": "L267",
+      "weight": 1.0,
+      "source": "scripts_plot_fvg_5days_build_chart",
+      "target": "scripts_plot_fvg_5days_py_dataframe",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "context": "return_type",
+      "confidence": "EXTRACTED",
+      "source_file": "scripts/plot_fvg_5days.py",
+      "source_location": "L151",
+      "weight": 1.0,
+      "source": "scripts_plot_fvg_5days_detect_fvgs",
+      "target": "scripts_plot_fvg_5days_py_dataframe",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "context": "parameter_type",
+      "confidence": "EXTRACTED",
+      "source_file": "scripts/plot_fvg_5days.py",
+      "source_location": "L136",
+      "weight": 1.0,
+      "source": "scripts_plot_fvg_5days_first_full_fill_index",
+      "target": "scripts_plot_fvg_5days_py_dataframe",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "context": "return_type",
+      "confidence": "EXTRACTED",
+      "source_file": "scripts/plot_fvg_5days.py",
+      "source_location": "L194",
+      "weight": 1.0,
+      "source": "scripts_plot_fvg_5days_load_candidates",
+      "target": "scripts_plot_fvg_5days_py_dataframe",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "context": "return_type",
+      "confidence": "EXTRACTED",
+      "source_file": "scripts/plot_fvg_5days.py",
       "source_location": "L107",
       "weight": 1.0,
       "confidence_score": 1.0,
       "source": "scripts_plot_fvg_5days_build_candles",
-      "target": "dataframe"
-    },
-    {
-      "relation": "references",
-      "context": "parameter_type",
-      "confidence": "EXTRACTED",
-      "source_file": "scripts/plot_fvg_5days.py",
-      "source_location": "L260",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "scripts_plot_fvg_5days_build_chart",
-      "target": "dataframe"
-    },
-    {
-      "relation": "references",
-      "context": "return_type",
-      "confidence": "EXTRACTED",
-      "source_file": "scripts/plot_fvg_5days.py",
-      "source_location": "L144",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "scripts_plot_fvg_5days_detect_fvgs",
-      "target": "dataframe"
-    },
-    {
-      "relation": "references",
-      "context": "parameter_type",
-      "confidence": "EXTRACTED",
-      "source_file": "scripts/plot_fvg_5days.py",
-      "source_location": "L129",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "scripts_plot_fvg_5days_first_full_fill_index",
-      "target": "dataframe"
-    },
-    {
-      "relation": "references",
-      "context": "return_type",
-      "confidence": "EXTRACTED",
-      "source_file": "scripts/plot_fvg_5days.py",
-      "source_location": "L187",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "scripts_plot_fvg_5days_load_candidates",
       "target": "dataframe"
     },
     {
@@ -6109,6 +7225,17 @@
       "confidence_score": 1.0,
       "source": "scripts_plot_fvg_5days_detect_fvgs",
       "target": "scripts_plot_fvg_5days_first_full_fill_index"
+    },
+    {
+      "relation": "references",
+      "context": "parameter_type",
+      "confidence": "EXTRACTED",
+      "source_file": "scripts/plot_fvg_5days.py",
+      "source_location": "L129",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "scripts_plot_fvg_5days_first_full_fill_index",
+      "target": "dataframe"
     },
     {
       "relation": "references",
@@ -6178,6 +7305,17 @@
     },
     {
       "relation": "references",
+      "context": "return_type",
+      "confidence": "EXTRACTED",
+      "source_file": "scripts/plot_fvg_5days.py",
+      "source_location": "L144",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "scripts_plot_fvg_5days_detect_fvgs",
+      "target": "dataframe"
+    },
+    {
+      "relation": "references",
       "context": "parameter_type",
       "confidence": "EXTRACTED",
       "source_file": "scripts/plot_fvg_5days.py",
@@ -6221,6 +7359,17 @@
       "target": "scripts_plot_fvg_5days_py_timedelta"
     },
     {
+      "relation": "references",
+      "context": "return_type",
+      "confidence": "EXTRACTED",
+      "source_file": "scripts/plot_fvg_5days.py",
+      "source_location": "L187",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "scripts_plot_fvg_5days_load_candidates",
+      "target": "dataframe"
+    },
+    {
       "relation": "calls",
       "context": "call",
       "confidence": "EXTRACTED",
@@ -6258,6 +7407,17 @@
       "context": "parameter_type",
       "confidence": "EXTRACTED",
       "source_file": "scripts/plot_fvg_5days.py",
+      "source_location": "L245",
+      "weight": 1.0,
+      "source": "scripts_plot_fvg_5days_add_horizontal_segment",
+      "target": "scripts_plot_fvg_5days_py_timestamp",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "context": "parameter_type",
+      "confidence": "EXTRACTED",
+      "source_file": "scripts/plot_fvg_5days.py",
       "source_location": "L238",
       "weight": 1.0,
       "confidence_score": 1.0,
@@ -6285,6 +7445,17 @@
       "confidence_score": 1.0,
       "source": "scripts_plot_fvg_5days_build_chart",
       "target": "figure"
+    },
+    {
+      "relation": "references",
+      "context": "parameter_type",
+      "confidence": "EXTRACTED",
+      "source_file": "scripts/plot_fvg_5days.py",
+      "source_location": "L260",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "scripts_plot_fvg_5days_build_chart",
+      "target": "dataframe"
     },
     {
       "relation": "calls",
@@ -15608,5 +16779,5 @@
     }
   ],
   "hyperedges": [],
-  "built_at_commit": "95482754516dd9b730fbb49b2ce8e12240a7c556"
+  "built_at_commit": "4f8eae84be9806674c47e01a3e00d20f24173e08"
 }

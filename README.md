@@ -117,3 +117,17 @@ Expected outputs:
 - `artifacts\phase2_gate_5days\phase2_gate_summary.md`
 
 The Phase 2 manifest intentionally reports `gate_recommendation: NO-GO`. This is correct for the current five-day engineering fixture because it has not passed walk-forward validation, paper-trading parity, doubled-cost stress, or production release checks.
+
+## Diagnostic Failed FVG Chart
+
+`scripts\Fail FVG.py` is a standalone diagnostic runner. It is not the official Phase 2 gate, but it can draw each simulated trade on M30 candles with entry, exit, FVG zone, PnL, and gross points.
+
+```powershell
+uv run python "scripts\Fail FVG.py" "C:\Users\Administrator\PycharmProjects\MNQVolumeAI\data\trade_tape\MNQ_clean_20260406_20260410.parquet" --output-dir artifacts\fail_fvg_mnq_clean_5days --chart-output artifacts\fail_fvg_mnq_clean_5days\fail_fvg_trades_chart.html --point-value 2 --cost 2.50 --slip 2.50 --market-tz America/New_York --log-level INFO
+```
+
+Expected outputs:
+
+- `artifacts\fail_fvg_mnq_clean_5days\fail_fvg_trades.csv`
+- `artifacts\fail_fvg_mnq_clean_5days\fail_fvg_summary.csv`
+- `artifacts\fail_fvg_mnq_clean_5days\fail_fvg_trades_chart.html`
