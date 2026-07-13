@@ -23,6 +23,26 @@ Only inspected non-code research and planning documents may be copied into `docs
 
 Use `uv` for package management. The project targets Python `>=3.12,<3.13`.
 
+On Windows Server, run through `uv sync` before tests or CLI jobs. The project
+depends on `tzdata` so Python `zoneinfo` can resolve `America/Chicago` on hosts
+that do not ship an IANA timezone database.
+
+PowerShell setup:
+
+```powershell
+$env:PYTHONUTF8="1"
+py -3.12 -m uv sync
+py -3.12 -m uv run pytest
+```
+
+If `py -3.12` is not available:
+
+```powershell
+uv python install 3.12
+uv sync --python 3.12
+uv run pytest
+```
+
 ## CLI
 
 ```bash
