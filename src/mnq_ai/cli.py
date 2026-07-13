@@ -1,4 +1,4 @@
-"""Command-line interface for MNQ Phase 1 jobs."""
+"""Command-line interface for MNQ research pipeline jobs."""
 
 from __future__ import annotations
 
@@ -8,6 +8,7 @@ from decimal import Decimal
 from pathlib import Path
 
 from mnq_ai.config import Phase1Config
+from mnq_ai.data.execution_gate import Phase2ExecutionConfig, build_phase2_labels
 from mnq_ai.data.manifests import validate_trade_tape
 from mnq_ai.data.setup_candidates import build_failed_fvg_candidates
 from mnq_ai.data.trade_extractor import Phase1TradeExtractor
@@ -74,6 +75,32 @@ def main(argv: list[str] | None = None) -> int:
                 f"manifest={candidate_result.manifest_path}"
             )
             return 0
+        if args.command == "build-phase2-labels":
+            config = _config_from_args(args, input_path=args.trade_tape, output_root=args.output, artifact_root=args.artifacts)
+            configure_logging(config.logging_level)
+            label_result = build_phase2_labels(
+                trade_tape_path=Path(args.trade_tape),
+                setup_candidates_path=Path(args.setup_candidates),
+                output_root=Path(args.output),
+                artifact_root=Path(args.artifacts),
+                config=config,
+                execution_config=Phase2ExecutionConfig(
+                    tick_size=config.tick_size,
+                    commission_per_side=Decimal(args.commission_per_side),
+                    entry_slippage_ticks=args.entry_slippage_ticks,
+                    stop_slippage_ticks=args.stop_slippage_ticks,
+                    time_exit_slippage_ticks=args.time_exit_slippage_ticks,
+                    point_value=Decimal(args.point_value),
+                    entry_latency_seconds=args.entry_latency_seconds,
+                ),
+            )
+            print(
+                "phase2 labels complete: "
+                f"labels={label_result.label_count} candidates={label_result.candidate_count} "
+                f"gate={label_result.gate_recommendation} output={label_result.output_root} "
+                f"manifest={label_result.manifest_path}"
+            )
+            return 0
     except MNQAIError as exc:
         print(f"ERROR: {exc}", file=sys.stderr)
         return 2
@@ -82,7 +109,7 @@ def main(argv: list[str] | None = None) -> int:
 
 
 def _parser() -> argparse.ArgumentParser:
-    parser = argparse.ArgumentParser(prog="mnq-ai", description="MNQ Phase 1 data-foundation CLI")
+    parser = argparse.ArgumentParser(prog="mnq-ai", description="MNQ research pipeline CLI")
     subparsers = parser.add_subparsers(dest="command", required=True)
 
     audit = subparsers.add_parser("audit-mbo", help="Audit raw Databento MBO Parquet input")
@@ -117,6 +144,23 @@ def _parser() -> argparse.ArgumentParser:
     failed_fvg.add_argument("--effort-volume-mult", default="1.30", help="Signal volume / trailing volume threshold")
     failed_fvg.add_argument("--stop-buffer-ticks", type=int, default=0, help="Stop buffer in ticks")
     failed_fvg.add_argument("--max-holding-bars", type=int, default=12, help="Maximum holding time in M30 bars")
+
+    phase2 = subparsers.add_parser(
+        "build-phase2-labels",
+        help="Build first-barrier execution labels and fail-closed Phase 2 gate artifacts",
+    )
+    phase2.add_argument("--trade-tape", required=True, help="Canonical trade-tape Parquet file or dataset directory")
+    phase2.add_argument("--setup-candidates", required=True, help="Setup-candidate Parquet file or dataset directory")
+    phase2.add_argument("--config", required=True, help="YAML config path")
+    phase2.add_argument("--output", required=True, help="Output directory for setup_labels.parquet")
+    phase2.add_argument("--artifacts", required=True, help="Artifact report directory")
+    phase2.add_argument("--overwrite", action="store_true", help="Overwrite existing label output")
+    phase2.add_argument("--commission-per-side", default="0", help="Commission in dollars per side")
+    phase2.add_argument("--entry-slippage-ticks", type=int, default=0, help="Adverse entry slippage in ticks")
+    phase2.add_argument("--stop-slippage-ticks", type=int, default=0, help="Adverse stop slippage in ticks")
+    phase2.add_argument("--time-exit-slippage-ticks", type=int, default=0, help="Adverse max-hold exit slippage in ticks")
+    phase2.add_argument("--entry-latency-seconds", type=int, default=0, help="Seconds after setup entry before fills can occur")
+    phase2.add_argument("--point-value", default="2", help="Dollar value per MNQ point")
     return parser
 
 

@@ -2,9 +2,9 @@
 
 Greenfield MNQ data foundation for an eventual Volume Profile / auction AI trading-system build.
 
-Current status: **Phase 1 data foundation and deterministic Failed FVG setup-candidate generation implemented**.
+Current status: **Phase 1 data foundation, deterministic Failed FVG setup-candidate generation, and Phase 2 execution-gate labeling implemented**.
 
-Phase 1 implements Databento MBO audit, canonical trade-tape extraction, and a server-runnable Failed FVG candidate builder:
+The implemented pipeline provides Databento MBO audit, canonical trade-tape extraction, a server-runnable Failed FVG candidate builder, and a deterministic first-barrier execution-label gate:
 
 - `action == "T"` is the sole executed-trade volume source.
 - `action == "F"` is audited but never included in canonical trade volume.
@@ -12,7 +12,9 @@ Phase 1 implements Databento MBO audit, canonical trade-tape extraction, and a s
 - timestamps remain UTC internally; CME trading dates and RTH flags are derived with `America/Chicago`.
 - output is partitioned Parquet by `symbol` and `trading_date`.
 - Failed FVG setup candidates are built from causal OHLCV bars derived from the canonical trade tape.
-- no Volume Profile features, VWAP/CVD feature families beyond signed trade volume, labels, model training, backtesting, or live trading are implemented.
+- Phase 2 labels candidates by the first executed trade that reaches stop or target after the candidate entry timestamp.
+- Phase 2 applies configurable commission, entry slippage, stop slippage, max-hold exit slippage, and entry latency assumptions.
+- no Volume Profile features, VWAP/CVD feature families beyond signed trade volume, model training, calibrated probabilities, backtesting, or live trading are implemented.
 
 ## Boundaries
 
@@ -69,6 +71,19 @@ uv run pytest
   --output data/setup_candidates \
   --artifacts artifacts/setup_candidates \
   --overwrite
+
+~/.local/bin/uv run mnq-ai build-phase2-labels \
+  --trade-tape data/trade_tape \
+  --setup-candidates data/setup_candidates/setup_candidates.parquet \
+  --config configs/mnq.yaml \
+  --output data/phase2_labels \
+  --artifacts artifacts/phase2_gate \
+  --commission-per-side 0.35 \
+  --entry-slippage-ticks 1 \
+  --stop-slippage-ticks 1 \
+  --time-exit-slippage-ticks 1 \
+  --point-value 2 \
+  --overwrite
 ```
 
 Run schema-only and bounded smoke tests before attempting the full 179M-row fixture.
@@ -88,3 +103,17 @@ Expected outputs:
 - `artifacts\setup_candidates_5days\failed_fvg_summary.md`
 
 This command is still Phase 1 research plumbing. It produces deterministic setup candidates only; it does not validate edge, train a model, calibrate probabilities, or run a backtest.
+
+Then build Phase 2 execution labels and the fail-closed gate artifacts:
+
+```powershell
+$env:PYTHONUTF8="1"; uv run mnq-ai build-phase2-labels --trade-tape data\trade_tape_phase1_5days --setup-candidates data\setup_candidates_5days\setup_candidates.parquet --config configs\mnq.yaml --output data\phase2_labels_5days --artifacts artifacts\phase2_gate_5days --commission-per-side 0.35 --entry-slippage-ticks 1 --stop-slippage-ticks 1 --time-exit-slippage-ticks 1 --point-value 2 --overwrite
+```
+
+Expected outputs:
+
+- `data\phase2_labels_5days\setup_labels.parquet`
+- `artifacts\phase2_gate_5days\phase2_gate_manifest.json`
+- `artifacts\phase2_gate_5days\phase2_gate_summary.md`
+
+The Phase 2 manifest intentionally reports `gate_recommendation: NO-GO`. This is correct for the current five-day engineering fixture because it has not passed walk-forward validation, paper-trading parity, doubled-cost stress, or production release checks.

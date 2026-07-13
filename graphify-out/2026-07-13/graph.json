@@ -160,7 +160,7 @@
       "label": "main()",
       "file_type": "code",
       "source_file": "src/mnq_ai/cli.py",
-      "source_location": "L16",
+      "source_location": "L19",
       "id": "mnq_ai_cli_main",
       "community": 1,
       "norm_label": "main()"
@@ -169,7 +169,7 @@
       "label": "str",
       "file_type": "code",
       "source_file": "src/mnq_ai/cli.py",
-      "source_location": "L16",
+      "source_location": "L19",
       "id": "src_mnq_ai_cli_py_str",
       "community": 1,
       "norm_label": "str"
@@ -178,7 +178,7 @@
       "label": "int",
       "file_type": "code",
       "source_file": "src/mnq_ai/cli.py",
-      "source_location": "L16",
+      "source_location": "L19",
       "id": "src_mnq_ai_cli_py_int",
       "community": 1,
       "norm_label": "int"
@@ -187,7 +187,7 @@
       "label": "_parser()",
       "file_type": "code",
       "source_file": "src/mnq_ai/cli.py",
-      "source_location": "L56",
+      "source_location": "L84",
       "id": "mnq_ai_cli_parser",
       "community": 1,
       "norm_label": "_parser()"
@@ -196,7 +196,7 @@
       "label": "ArgumentParser",
       "file_type": "code",
       "source_file": "src/mnq_ai/cli.py",
-      "source_location": "L56",
+      "source_location": "L84",
       "id": "argumentparser",
       "community": 1,
       "norm_label": "argumentparser"
@@ -205,7 +205,7 @@
       "label": "_config_from_args()",
       "file_type": "code",
       "source_file": "src/mnq_ai/cli.py",
-      "source_location": "L79",
+      "source_location": "L123",
       "id": "mnq_ai_cli_config_from_args",
       "community": 1,
       "norm_label": "_config_from_args()"
@@ -214,7 +214,7 @@
       "label": "Namespace",
       "file_type": "code",
       "source_file": "src/mnq_ai/cli.py",
-      "source_location": "L79",
+      "source_location": "L123",
       "id": "namespace",
       "community": 1,
       "norm_label": "namespace"
@@ -223,7 +223,7 @@
       "label": "Phase1Config",
       "file_type": "code",
       "source_file": "src/mnq_ai/cli.py",
-      "source_location": "L79",
+      "source_location": "L123",
       "id": "src_mnq_ai_cli_py_phase1config",
       "community": 1,
       "norm_label": "phase1config"
@@ -241,8 +241,8 @@
       "label": "Run the ``mnq-ai`` CLI.",
       "file_type": "rationale",
       "source_file": "src/mnq_ai/cli.py",
-      "source_location": "L17",
-      "id": "mnq_ai_cli_rationale_17",
+      "source_location": "L20",
+      "id": "mnq_ai_cli_rationale_20",
       "community": 1,
       "norm_label": "run the ``mnq-ai`` cli."
     },
@@ -252,7 +252,7 @@
       "source_file": "src/mnq_ai/config.py",
       "source_location": "L1",
       "id": "mnq_ai_config",
-      "community": 1,
+      "community": 4,
       "norm_label": "config.py"
     },
     {
@@ -261,7 +261,7 @@
       "source_file": "src/mnq_ai/config.py",
       "source_location": "L20",
       "id": "mnq_ai_config_phase1config",
-      "community": 1,
+      "community": 15,
       "norm_label": "phase1config"
     },
     {
@@ -378,7 +378,7 @@
       "source_file": "src/mnq_ai/config.py",
       "source_location": "L1",
       "id": "mnq_ai_config_rationale_1",
-      "community": 1,
+      "community": 4,
       "norm_label": "configuration loading and validation for phase 1 jobs."
     },
     {
@@ -387,7 +387,7 @@
       "source_file": "src/mnq_ai/config.py",
       "source_location": "L21",
       "id": "mnq_ai_config_rationale_21",
-      "community": 1,
+      "community": 15,
       "norm_label": "validated runtime configuration for mbo auditing and trade extraction."
     },
     {
@@ -432,7 +432,7 @@
       "source_file": "src/mnq_ai/constants.py",
       "source_location": "L1",
       "id": "mnq_ai_constants",
-      "community": 1,
+      "community": 4,
       "norm_label": "constants.py"
     },
     {
@@ -441,7 +441,7 @@
       "source_file": "src/mnq_ai/constants.py",
       "source_location": "L1",
       "id": "mnq_ai_constants_rationale_1",
-      "community": 1,
+      "community": 4,
       "norm_label": "shared constants for phase 1 market-data processing."
     },
     {
@@ -495,7 +495,7 @@
       "source_file": "src/mnq_ai/exceptions.py",
       "source_location": "L18",
       "id": "mnq_ai_exceptions_datavalidationerror",
-      "community": 1,
+      "community": 15,
       "norm_label": "datavalidationerror"
     },
     {
@@ -549,7 +549,7 @@
       "source_file": "src/mnq_ai/exceptions.py",
       "source_location": "L19",
       "id": "mnq_ai_exceptions_rationale_19",
-      "community": 1,
+      "community": 15,
       "norm_label": "raised when raw rows violate fail-closed data-quality rules."
     },
     {
@@ -711,7 +711,7 @@
       "source_file": "src/mnq_ai/setups/failed_fvg.py",
       "source_location": "L102",
       "id": "setups_failed_fvg_failedfvgconfig",
-      "community": 14,
+      "community": 1,
       "norm_label": "failedfvgconfig"
     },
     {
@@ -720,7 +720,7 @@
       "source_file": "src/mnq_ai/setups/failed_fvg.py",
       "source_location": "L122",
       "id": "setups_failed_fvg_failedfvgconfig_validated",
-      "community": 14,
+      "community": 1,
       "norm_label": ".validated()"
     },
     {
@@ -738,7 +738,7 @@
       "source_file": "src/mnq_ai/setups/failed_fvg.py",
       "source_location": "L143",
       "id": "setups_failed_fvg_failedfvgsetupengine_init",
-      "community": 14,
+      "community": 1,
       "norm_label": ".__init__()"
     },
     {
@@ -826,7 +826,7 @@
       "label": "FVGType",
       "file_type": "code",
       "source_file": "src/mnq_ai/setups/failed_fvg.py",
-      "source_location": "L356",
+      "source_location": "L364",
       "id": "fvgtype",
       "community": 14,
       "norm_label": "fvgtype"
@@ -835,7 +835,7 @@
       "label": "datetime",
       "file_type": "code",
       "source_file": "src/mnq_ai/setups/failed_fvg.py",
-      "source_location": "L356",
+      "source_location": "L364",
       "id": "src_mnq_ai_setups_failed_fvg_py_datetime",
       "community": 14,
       "norm_label": "datetime"
@@ -844,7 +844,7 @@
       "label": "_overlaps_zone()",
       "file_type": "code",
       "source_file": "src/mnq_ai/setups/failed_fvg.py",
-      "source_location": "L385",
+      "source_location": "L393",
       "id": "setups_failed_fvg_overlaps_zone",
       "community": 14,
       "norm_label": "_overlaps_zone()"
@@ -853,7 +853,7 @@
       "label": "bool",
       "file_type": "code",
       "source_file": "src/mnq_ai/setups/failed_fvg.py",
-      "source_location": "L385",
+      "source_location": "L393",
       "id": "src_mnq_ai_setups_failed_fvg_py_bool",
       "community": 14,
       "norm_label": "bool"
@@ -862,7 +862,7 @@
       "label": "_round_to_tick()",
       "file_type": "code",
       "source_file": "src/mnq_ai/setups/failed_fvg.py",
-      "source_location": "L389",
+      "source_location": "L397",
       "id": "setups_failed_fvg_round_to_tick",
       "community": 14,
       "norm_label": "_round_to_tick()"
@@ -871,7 +871,7 @@
       "label": "_round_up_to_tick()",
       "file_type": "code",
       "source_file": "src/mnq_ai/setups/failed_fvg.py",
-      "source_location": "L394",
+      "source_location": "L402",
       "id": "setups_failed_fvg_round_up_to_tick",
       "community": 14,
       "norm_label": "_round_up_to_tick()"
@@ -880,7 +880,7 @@
       "label": "_round_down_to_tick()",
       "file_type": "code",
       "source_file": "src/mnq_ai/setups/failed_fvg.py",
-      "source_location": "L399",
+      "source_location": "L407",
       "id": "setups_failed_fvg_round_down_to_tick",
       "community": 14,
       "norm_label": "_round_down_to_tick()"
@@ -889,7 +889,7 @@
       "label": "_setup_id()",
       "file_type": "code",
       "source_file": "src/mnq_ai/setups/failed_fvg.py",
-      "source_location": "L404",
+      "source_location": "L412",
       "id": "setups_failed_fvg_setup_id",
       "community": 14,
       "norm_label": "_setup_id()"
@@ -945,7 +945,7 @@
       "source_file": "src/mnq_ai/setups/failed_fvg.py",
       "source_location": "L103",
       "id": "setups_failed_fvg_rationale_103",
-      "community": 14,
+      "community": 1,
       "norm_label": "parameters for failed fvg setup generation."
     },
     {
@@ -983,6 +983,105 @@
       "id": "tests_init_rationale_1",
       "community": 44,
       "norm_label": "tests for mnqvolumeai bootstrap utilities."
+    },
+    {
+      "label": "test_failed_fvg_candidate_pipeline.py",
+      "file_type": "code",
+      "source_file": "tests/test_failed_fvg_candidate_pipeline.py",
+      "source_location": "L1",
+      "id": "tests_test_failed_fvg_candidate_pipeline",
+      "community": 66,
+      "norm_label": "test_failed_fvg_candidate_pipeline.py"
+    },
+    {
+      "label": "test_build_failed_fvg_candidates_cli_writes_manifest_and_parquet()",
+      "file_type": "code",
+      "source_file": "tests/test_failed_fvg_candidate_pipeline.py",
+      "source_location": "L16",
+      "id": "tests_test_failed_fvg_candidate_pipeline_test_build_failed_fvg_candidates_cli_writes_manifest_and_parquet",
+      "community": 66,
+      "norm_label": "test_build_failed_fvg_candidates_cli_writes_manifest_and_parquet()"
+    },
+    {
+      "label": "Path",
+      "file_type": "code",
+      "source_file": "tests/test_failed_fvg_candidate_pipeline.py",
+      "source_location": "L16",
+      "id": "tests_test_failed_fvg_candidate_pipeline_py_path",
+      "community": 66,
+      "norm_label": "path"
+    },
+    {
+      "label": "_write_trade_tape_fixture()",
+      "file_type": "code",
+      "source_file": "tests/test_failed_fvg_candidate_pipeline.py",
+      "source_location": "L68",
+      "id": "tests_test_failed_fvg_candidate_pipeline_write_trade_tape_fixture",
+      "community": 66,
+      "norm_label": "_write_trade_tape_fixture()"
+    },
+    {
+      "label": "_trade()",
+      "file_type": "code",
+      "source_file": "tests/test_failed_fvg_candidate_pipeline.py",
+      "source_location": "L94",
+      "id": "tests_test_failed_fvg_candidate_pipeline_trade",
+      "community": 66,
+      "norm_label": "_trade()"
+    },
+    {
+      "label": "str",
+      "file_type": "code",
+      "source_file": "tests/test_failed_fvg_candidate_pipeline.py",
+      "source_location": "L94",
+      "id": "tests_test_failed_fvg_candidate_pipeline_py_str",
+      "community": 66,
+      "norm_label": "str"
+    },
+    {
+      "label": "float",
+      "file_type": "code",
+      "source_file": "tests/test_failed_fvg_candidate_pipeline.py",
+      "source_location": "L94",
+      "id": "tests_test_failed_fvg_candidate_pipeline_py_float",
+      "community": 66,
+      "norm_label": "float"
+    },
+    {
+      "label": "int",
+      "file_type": "code",
+      "source_file": "tests/test_failed_fvg_candidate_pipeline.py",
+      "source_location": "L94",
+      "id": "tests_test_failed_fvg_candidate_pipeline_py_int",
+      "community": 66,
+      "norm_label": "int"
+    },
+    {
+      "label": "object",
+      "file_type": "code",
+      "source_file": "tests/test_failed_fvg_candidate_pipeline.py",
+      "source_location": "L94",
+      "id": "tests_test_failed_fvg_candidate_pipeline_py_object",
+      "community": 66,
+      "norm_label": "object"
+    },
+    {
+      "label": "_ts()",
+      "file_type": "code",
+      "source_file": "tests/test_failed_fvg_candidate_pipeline.py",
+      "source_location": "L116",
+      "id": "tests_test_failed_fvg_candidate_pipeline_ts",
+      "community": 66,
+      "norm_label": "_ts()"
+    },
+    {
+      "label": "datetime",
+      "file_type": "code",
+      "source_file": "tests/test_failed_fvg_candidate_pipeline.py",
+      "source_location": "L116",
+      "id": "tests_test_failed_fvg_candidate_pipeline_py_datetime",
+      "community": 66,
+      "norm_label": "datetime"
     },
     {
       "label": "test_failed_fvg_setup_engine.py",
@@ -1030,10 +1129,19 @@
       "norm_label": "test_failed_fvg_skips_when_next_m30_entry_bar_is_missing()"
     },
     {
-      "label": "_bar()",
+      "label": "test_build_h1_fvgs_does_not_bridge_symbols_or_sessions()",
       "file_type": "code",
       "source_file": "tests/test_failed_fvg_setup_engine.py",
       "source_location": "L137",
+      "id": "tests_test_failed_fvg_setup_engine_test_build_h1_fvgs_does_not_bridge_symbols_or_sessions",
+      "community": 14,
+      "norm_label": "test_build_h1_fvgs_does_not_bridge_symbols_or_sessions()"
+    },
+    {
+      "label": "_bar()",
+      "file_type": "code",
+      "source_file": "tests/test_failed_fvg_setup_engine.py",
+      "source_location": "L156",
       "id": "tests_test_failed_fvg_setup_engine_bar",
       "community": 14,
       "norm_label": "_bar()"
@@ -1042,7 +1150,7 @@
       "label": "str",
       "file_type": "code",
       "source_file": "tests/test_failed_fvg_setup_engine.py",
-      "source_location": "L137",
+      "source_location": "L156",
       "id": "tests_test_failed_fvg_setup_engine_py_str",
       "community": 14,
       "norm_label": "str"
@@ -1051,7 +1159,7 @@
       "label": "int",
       "file_type": "code",
       "source_file": "tests/test_failed_fvg_setup_engine.py",
-      "source_location": "L137",
+      "source_location": "L156",
       "id": "tests_test_failed_fvg_setup_engine_py_int",
       "community": 14,
       "norm_label": "int"
@@ -1060,7 +1168,7 @@
       "label": "_ts()",
       "file_type": "code",
       "source_file": "tests/test_failed_fvg_setup_engine.py",
-      "source_location": "L158",
+      "source_location": "L177",
       "id": "tests_test_failed_fvg_setup_engine_ts",
       "community": 14,
       "norm_label": "_ts()"
@@ -1069,7 +1177,7 @@
       "label": "datetime",
       "file_type": "code",
       "source_file": "tests/test_failed_fvg_setup_engine.py",
-      "source_location": "L158",
+      "source_location": "L177",
       "id": "tests_test_failed_fvg_setup_engine_py_datetime",
       "community": 14,
       "norm_label": "datetime"
@@ -1152,7 +1260,7 @@
       "source_file": "tests/test_phase1_sessionizer.py",
       "source_location": "L1",
       "id": "tests_test_phase1_sessionizer",
-      "community": 1,
+      "community": 4,
       "norm_label": "test_phase1_sessionizer.py"
     },
     {
@@ -1161,7 +1269,7 @@
       "source_file": "tests/test_phase1_sessionizer.py",
       "source_location": "L10",
       "id": "tests_test_phase1_sessionizer_test_cme_trading_date_uses_exchange_timezone_and_dst",
-      "community": 1,
+      "community": 4,
       "norm_label": "test_cme_trading_date_uses_exchange_timezone_and_dst()"
     },
     {
@@ -1170,7 +1278,7 @@
       "source_file": "tests/test_phase1_trade_extractor.py",
       "source_location": "L1",
       "id": "tests_test_phase1_trade_extractor",
-      "community": 1,
+      "community": 15,
       "norm_label": "test_phase1_trade_extractor.py"
     },
     {
@@ -1179,7 +1287,7 @@
       "source_file": "tests/test_phase1_trade_extractor.py",
       "source_location": "L17",
       "id": "tests_test_phase1_trade_extractor_test_build_trade_tape_filters_t_only_and_maps_signed_volume",
-      "community": 1,
+      "community": 15,
       "norm_label": "test_build_trade_tape_filters_t_only_and_maps_signed_volume()"
     },
     {
@@ -1188,7 +1296,7 @@
       "source_file": "tests/test_phase1_trade_extractor.py",
       "source_location": "L17",
       "id": "tests_test_phase1_trade_extractor_py_path",
-      "community": 1,
+      "community": 15,
       "norm_label": "path"
     },
     {
@@ -1197,7 +1305,7 @@
       "source_file": "tests/test_phase1_trade_extractor.py",
       "source_location": "L56",
       "id": "tests_test_phase1_trade_extractor_test_f_rows_are_not_double_counted",
-      "community": 1,
+      "community": 15,
       "norm_label": "test_f_rows_are_not_double_counted()"
     },
     {
@@ -1206,7 +1314,7 @@
       "source_file": "tests/test_phase1_trade_extractor.py",
       "source_location": "L79",
       "id": "tests_test_phase1_trade_extractor_test_fail_policy_rejects_invalid_tick",
-      "community": 1,
+      "community": 15,
       "norm_label": "test_fail_policy_rejects_invalid_tick()"
     },
     {
@@ -1215,7 +1323,7 @@
       "source_file": "tests/test_phase1_trade_extractor.py",
       "source_location": "L91",
       "id": "tests_test_phase1_trade_extractor_test_manifest_checksum_is_stable_across_identical_reruns",
-      "community": 1,
+      "community": 15,
       "norm_label": "test_manifest_checksum_is_stable_across_identical_reruns()"
     },
     {
@@ -1224,7 +1332,7 @@
       "source_file": "tests/test_phase1_trade_extractor.py",
       "source_location": "L106",
       "id": "tests_test_phase1_trade_extractor_config",
-      "community": 1,
+      "community": 15,
       "norm_label": "_config()"
     },
     {
@@ -1233,7 +1341,7 @@
       "source_file": "tests/test_phase1_trade_extractor.py",
       "source_location": "L106",
       "id": "tests_test_phase1_trade_extractor_py_str",
-      "community": 1,
+      "community": 15,
       "norm_label": "str"
     },
     {
@@ -1242,7 +1350,7 @@
       "source_file": "tests/test_phase1_trade_extractor.py",
       "source_location": "L106",
       "id": "tests_test_phase1_trade_extractor_py_phase1config",
-      "community": 1,
+      "community": 15,
       "norm_label": "phase1config"
     },
     {
@@ -1251,7 +1359,7 @@
       "source_file": "tests/test_phase1_trade_extractor.py",
       "source_location": "L120",
       "id": "tests_test_phase1_trade_extractor_write_fixture",
-      "community": 1,
+      "community": 15,
       "norm_label": "_write_fixture()"
     },
     {
@@ -1260,7 +1368,7 @@
       "source_file": "tests/test_phase1_trade_extractor.py",
       "source_location": "L120",
       "id": "tests_test_phase1_trade_extractor_py_object",
-      "community": 1,
+      "community": 15,
       "norm_label": "object"
     },
     {
@@ -1269,7 +1377,7 @@
       "source_file": "tests/test_phase1_trade_extractor.py",
       "source_location": "L126",
       "id": "tests_test_phase1_trade_extractor_rows",
-      "community": 1,
+      "community": 15,
       "norm_label": "_rows()"
     },
     {
@@ -1278,7 +1386,7 @@
       "source_file": "tests/test_phase1_trade_extractor.py",
       "source_location": "L142",
       "id": "tests_test_phase1_trade_extractor_row",
-      "community": 1,
+      "community": 15,
       "norm_label": "_row()"
     },
     {
@@ -1286,8 +1394,8 @@
       "file_type": "code",
       "source_file": "tests/test_phase1_trade_extractor.py",
       "source_location": "L142",
-      "id": "float",
-      "community": 1,
+      "id": "tests_test_phase1_trade_extractor_py_float",
+      "community": 15,
       "norm_label": "float"
     },
     {
@@ -1296,7 +1404,7 @@
       "source_file": "tests/test_phase1_trade_extractor.py",
       "source_location": "L142",
       "id": "tests_test_phase1_trade_extractor_py_int",
-      "community": 1,
+      "community": 15,
       "norm_label": "int"
     },
     {
@@ -2392,7 +2500,7 @@
       "label": "Boundaries",
       "file_type": "document",
       "source_file": "README.md",
-      "source_location": "L16",
+      "source_location": "L17",
       "id": "readme_boundaries",
       "community": 0,
       "norm_label": "boundaries"
@@ -2401,7 +2509,7 @@
       "label": "Python Policy",
       "file_type": "document",
       "source_file": "README.md",
-      "source_location": "L22",
+      "source_location": "L23",
       "id": "readme_python_policy",
       "community": 0,
       "norm_label": "python policy"
@@ -2410,10 +2518,19 @@
       "label": "CLI",
       "file_type": "document",
       "source_file": "README.md",
-      "source_location": "L46",
+      "source_location": "L47",
       "id": "readme_cli",
       "community": 0,
       "norm_label": "cli"
+    },
+    {
+      "label": "Windows Five-Day Fixture",
+      "file_type": "document",
+      "source_file": "README.md",
+      "source_location": "L76",
+      "id": "readme_windows_five_day_fixture",
+      "community": 0,
+      "norm_label": "windows five-day fixture"
     },
     {
       "label": "data_quality_policy.md",
@@ -3150,7 +3267,7 @@
       "source_file": "docs/research/papers/original/mnq_labeling_and_leakage_spec.md",
       "source_location": "L1",
       "id": "original_mnq_labeling_and_leakage_spec",
-      "community": 15,
+      "community": 5,
       "norm_label": "mnq_labeling_and_leakage_spec.md"
     },
     {
@@ -3159,7 +3276,7 @@
       "source_file": "docs/research/papers/original/mnq_labeling_and_leakage_spec.md",
       "source_location": "L1",
       "id": "original_mnq_labeling_and_leakage_spec_mnq_labeling_and_leakage_specification",
-      "community": 15,
+      "community": 5,
       "norm_label": "mnq labeling and leakage specification"
     },
     {
@@ -3168,7 +3285,7 @@
       "source_file": "docs/research/papers/original/mnq_labeling_and_leakage_spec.md",
       "source_location": "L5",
       "id": "original_mnq_labeling_and_leakage_spec_label_philosophy",
-      "community": 15,
+      "community": 5,
       "norm_label": "label philosophy"
     },
     {
@@ -3177,7 +3294,7 @@
       "source_file": "docs/research/papers/original/mnq_labeling_and_leakage_spec.md",
       "source_location": "L17",
       "id": "original_mnq_labeling_and_leakage_spec_required_labels",
-      "community": 15,
+      "community": 5,
       "norm_label": "required labels"
     },
     {
@@ -3186,7 +3303,7 @@
       "source_file": "docs/research/papers/original/mnq_labeling_and_leakage_spec.md",
       "source_location": "L36",
       "id": "original_mnq_labeling_and_leakage_spec_target_roles",
-      "community": 15,
+      "community": 5,
       "norm_label": "target roles"
     },
     {
@@ -3195,7 +3312,7 @@
       "source_file": "docs/research/papers/original/mnq_labeling_and_leakage_spec.md",
       "source_location": "L49",
       "id": "original_mnq_labeling_and_leakage_spec_execution_assumptions",
-      "community": 15,
+      "community": 5,
       "norm_label": "execution assumptions"
     },
     {
@@ -3204,7 +3321,7 @@
       "source_file": "docs/research/papers/original/mnq_labeling_and_leakage_spec.md",
       "source_location": "L66",
       "id": "original_mnq_labeling_and_leakage_spec_repeated_event_prevention",
-      "community": 15,
+      "community": 5,
       "norm_label": "repeated event prevention"
     },
     {
@@ -3213,7 +3330,7 @@
       "source_file": "docs/research/papers/original/mnq_labeling_and_leakage_spec.md",
       "source_location": "L80",
       "id": "original_mnq_labeling_and_leakage_spec_purging_metadata",
-      "community": 15,
+      "community": 5,
       "norm_label": "purging metadata"
     },
     {
@@ -3222,7 +3339,7 @@
       "source_file": "docs/research/papers/original/mnq_labeling_and_leakage_spec.md",
       "source_location": "L94",
       "id": "original_mnq_labeling_and_leakage_spec_leakage_blacklist",
-      "community": 15,
+      "community": 5,
       "norm_label": "leakage blacklist"
     },
     {
@@ -3231,7 +3348,7 @@
       "source_file": "docs/research/papers/original/mnq_labeling_and_leakage_spec.md",
       "source_location": "L125",
       "id": "original_mnq_labeling_and_leakage_spec_automated_leakage_tests",
-      "community": 15,
+      "community": 5,
       "norm_label": "automated leakage tests"
     },
     {
@@ -3240,7 +3357,7 @@
       "source_file": "docs/research/papers/original/mnq_labeling_and_leakage_spec.md",
       "source_location": "L135",
       "id": "original_mnq_labeling_and_leakage_spec_acceptance_criteria",
-      "community": 15,
+      "community": 5,
       "norm_label": "acceptance criteria"
     },
     {
@@ -4360,6 +4477,24 @@
       "norm_label": "research gaps"
     },
     {
+      "label": "Run the ``mnq-ai`` CLI.",
+      "file_type": "rationale",
+      "source_file": "src/mnq_ai/cli.py",
+      "source_location": "L17",
+      "community": 1,
+      "norm_label": "run the ``mnq-ai`` cli.",
+      "id": "mnq_ai_cli_rationale_17"
+    },
+    {
+      "label": "float",
+      "file_type": "code",
+      "source_file": "tests/test_phase1_trade_extractor.py",
+      "source_location": "L142",
+      "community": 15,
+      "norm_label": "float",
+      "id": "float"
+    },
+    {
       "label": "Build three-bar FVGs and expose them only after the forming bar closes.",
       "file_type": "rationale",
       "source_file": "src/mnq_ai/setups/failed_fvg.py",
@@ -4382,7 +4517,7 @@
       "file_type": "code",
       "source_file": "tests/test_phase1_trade_extractor.py",
       "source_location": "L120",
-      "community": 1,
+      "community": 15,
       "norm_label": "object",
       "id": "object"
     },
@@ -5649,6 +5784,17 @@
       "context": "import",
       "confidence": "EXTRACTED",
       "source_file": "src/mnq_ai/cli.py",
+      "source_location": "L7",
+      "weight": 1.0,
+      "source": "mnq_ai_cli",
+      "target": "decimal",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/mnq_ai/cli.py",
       "source_location": "L12",
       "weight": 1.0,
       "confidence_score": 1.0,
@@ -5729,6 +5875,28 @@
       "target": "mnq_ai_cli"
     },
     {
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/test_failed_fvg_candidate_pipeline.py",
+      "source_location": "L10",
+      "weight": 1.0,
+      "source": "tests_test_failed_fvg_candidate_pipeline",
+      "target": "mnq_ai_cli",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "INFERRED",
+      "confidence_score": 0.8,
+      "source_file": "src/mnq_ai/cli.py",
+      "source_location": "L62",
+      "weight": 1.0,
+      "source": "mnq_ai_cli_main",
+      "target": "decimal"
+    },
+    {
       "relation": "calls",
       "context": "call",
       "confidence": "EXTRACTED",
@@ -5762,6 +5930,17 @@
       "target": "mnq_ai_logging_config_configure_logging"
     },
     {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "INFERRED",
+      "confidence_score": 0.8,
+      "source_file": "src/mnq_ai/cli.py",
+      "source_location": "L60",
+      "weight": 1.0,
+      "source": "mnq_ai_cli_main",
+      "target": "setups_failed_fvg_failedfvgconfig"
+    },
+    {
       "relation": "references",
       "context": "return_type",
       "confidence": "EXTRACTED",
@@ -5792,6 +5971,16 @@
       "confidence_score": 1.0,
       "source": "mnq_ai_cli_rationale_17",
       "target": "mnq_ai_cli_main"
+    },
+    {
+      "relation": "rationale_for",
+      "confidence": "EXTRACTED",
+      "source_file": "src/mnq_ai/cli.py",
+      "source_location": "L20",
+      "weight": 1.0,
+      "source": "mnq_ai_cli_rationale_20",
+      "target": "mnq_ai_cli_main",
+      "confidence_score": 1.0
     },
     {
       "relation": "references",
@@ -5828,6 +6017,16 @@
       "relation": "uses",
       "confidence": "INFERRED",
       "source_file": "src/mnq_ai/cli.py",
+      "source_location": "L16",
+      "weight": 0.8,
+      "source": "src_mnq_ai_cli_py_str",
+      "target": "setups_failed_fvg_failedfvgconfig",
+      "confidence_score": 0.5
+    },
+    {
+      "relation": "uses",
+      "confidence": "INFERRED",
+      "source_file": "src/mnq_ai/cli.py",
       "source_location": "L9",
       "weight": 0.8,
       "confidence_score": 0.5,
@@ -5843,6 +6042,16 @@
       "confidence_score": 0.5,
       "source": "src_mnq_ai_cli_py_int",
       "target": "mnq_ai_exceptions_mnqaierror"
+    },
+    {
+      "relation": "uses",
+      "confidence": "INFERRED",
+      "source_file": "src/mnq_ai/cli.py",
+      "source_location": "L16",
+      "weight": 0.8,
+      "source": "src_mnq_ai_cli_py_int",
+      "target": "setups_failed_fvg_failedfvgconfig",
+      "confidence_score": 0.5
     },
     {
       "relation": "references",
@@ -5874,6 +6083,16 @@
       "confidence_score": 0.5,
       "source": "argumentparser",
       "target": "mnq_ai_exceptions_mnqaierror"
+    },
+    {
+      "relation": "uses",
+      "confidence": "INFERRED",
+      "source_file": "src/mnq_ai/cli.py",
+      "source_location": "L16",
+      "weight": 0.8,
+      "source": "argumentparser",
+      "target": "setups_failed_fvg_failedfvgconfig",
+      "confidence_score": 0.5
     },
     {
       "relation": "references",
@@ -5921,6 +6140,16 @@
       "relation": "uses",
       "confidence": "INFERRED",
       "source_file": "src/mnq_ai/cli.py",
+      "source_location": "L16",
+      "weight": 0.8,
+      "source": "namespace",
+      "target": "setups_failed_fvg_failedfvgconfig",
+      "confidence_score": 0.5
+    },
+    {
+      "relation": "uses",
+      "confidence": "INFERRED",
+      "source_file": "src/mnq_ai/cli.py",
       "source_location": "L9",
       "weight": 0.8,
       "confidence_score": 0.5,
@@ -5936,6 +6165,16 @@
       "confidence_score": 0.5,
       "source": "src_mnq_ai_cli_py_phase1config",
       "target": "mnq_ai_exceptions_mnqaierror"
+    },
+    {
+      "relation": "uses",
+      "confidence": "INFERRED",
+      "source_file": "src/mnq_ai/cli.py",
+      "source_location": "L16",
+      "weight": 0.8,
+      "source": "src_mnq_ai_cli_py_phase1config",
+      "target": "setups_failed_fvg_failedfvgconfig",
+      "confidence_score": 0.5
     },
     {
       "relation": "imports_from",
@@ -6147,6 +6386,16 @@
       "confidence_score": 0.5,
       "source": "object",
       "target": "mnq_ai_config_phase1config"
+    },
+    {
+      "relation": "uses",
+      "confidence": "INFERRED",
+      "source_file": "tests/test_phase1_trade_extractor.py",
+      "source_location": "L11",
+      "weight": 0.8,
+      "source": "tests_test_phase1_trade_extractor_py_float",
+      "target": "mnq_ai_config_phase1config",
+      "confidence_score": 0.5
     },
     {
       "relation": "uses",
@@ -6908,6 +7157,16 @@
       "source_file": "tests/test_phase1_trade_extractor.py",
       "source_location": "L14",
       "weight": 0.8,
+      "source": "tests_test_phase1_trade_extractor_py_float",
+      "target": "mnq_ai_exceptions_datavalidationerror",
+      "confidence_score": 0.5
+    },
+    {
+      "relation": "uses",
+      "confidence": "INFERRED",
+      "source_file": "tests/test_phase1_trade_extractor.py",
+      "source_location": "L14",
+      "weight": 0.8,
       "confidence_score": 0.5,
       "source": "tests_test_phase1_trade_extractor_py_int",
       "target": "mnq_ai_exceptions_datavalidationerror"
@@ -7294,6 +7553,17 @@
       "target": "setups_failed_fvg_bar"
     },
     {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "INFERRED",
+      "confidence_score": 0.8,
+      "source_file": "tests/test_failed_fvg_setup_engine.py",
+      "source_location": "L141",
+      "weight": 1.0,
+      "source": "tests_test_failed_fvg_setup_engine_test_build_h1_fvgs_does_not_bridge_symbols_or_sessions",
+      "target": "setups_failed_fvg_bar"
+    },
+    {
       "relation": "references",
       "context": "return_type",
       "confidence": "EXTRACTED",
@@ -7412,6 +7682,17 @@
       "source_location": "L125",
       "weight": 1.0,
       "source": "tests_test_failed_fvg_setup_engine_bar",
+      "target": "decimal"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "INFERRED",
+      "confidence_score": 0.8,
+      "source_file": "tests/test_failed_fvg_setup_engine.py",
+      "source_location": "L145",
+      "weight": 1.0,
+      "source": "tests_test_failed_fvg_setup_engine_test_build_h1_fvgs_does_not_bridge_symbols_or_sessions",
       "target": "decimal"
     },
     {
@@ -8060,10 +8341,32 @@
       "confidence": "INFERRED",
       "confidence_score": 0.8,
       "source_file": "tests/test_failed_fvg_setup_engine.py",
+      "source_location": "L153",
+      "weight": 1.0,
+      "source": "tests_test_failed_fvg_setup_engine_test_build_h1_fvgs_does_not_bridge_symbols_or_sessions",
+      "target": "setups_failed_fvg_build_h1_fvgs"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "INFERRED",
+      "confidence_score": 0.8,
+      "source_file": "tests/test_failed_fvg_setup_engine.py",
       "source_location": "L19",
       "weight": 1.0,
       "source": "tests_test_failed_fvg_setup_engine_test_build_h1_fvgs_uses_three_bar_gap_and_delays_availability",
       "target": "setups_failed_fvg_build_h1_fvgs"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "INFERRED",
+      "confidence_score": 0.8,
+      "source_file": "tests/test_failed_fvg_setup_engine.py",
+      "source_location": "L153",
+      "weight": 1.0,
+      "source": "tests_test_failed_fvg_setup_engine_test_build_h1_fvgs_does_not_bridge_symbols_or_sessions",
+      "target": "timedelta"
     },
     {
       "relation": "calls",
@@ -8098,6 +8401,178 @@
       "target": "tests_init"
     },
     {
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/test_failed_fvg_candidate_pipeline.py",
+      "source_location": "L4",
+      "weight": 1.0,
+      "source": "tests_test_failed_fvg_candidate_pipeline",
+      "target": "tests_test_failed_fvg_candidate_pipeline_py_datetime",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/test_failed_fvg_candidate_pipeline.py",
+      "source_location": "L16",
+      "weight": 1.0,
+      "source": "tests_test_failed_fvg_candidate_pipeline",
+      "target": "tests_test_failed_fvg_candidate_pipeline_test_build_failed_fvg_candidates_cli_writes_manifest_and_parquet",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/test_failed_fvg_candidate_pipeline.py",
+      "source_location": "L94",
+      "weight": 1.0,
+      "source": "tests_test_failed_fvg_candidate_pipeline",
+      "target": "tests_test_failed_fvg_candidate_pipeline_trade",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/test_failed_fvg_candidate_pipeline.py",
+      "source_location": "L116",
+      "weight": 1.0,
+      "source": "tests_test_failed_fvg_candidate_pipeline",
+      "target": "tests_test_failed_fvg_candidate_pipeline_ts",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/test_failed_fvg_candidate_pipeline.py",
+      "source_location": "L68",
+      "weight": 1.0,
+      "source": "tests_test_failed_fvg_candidate_pipeline",
+      "target": "tests_test_failed_fvg_candidate_pipeline_write_trade_tape_fixture",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "context": "parameter_type",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/test_failed_fvg_candidate_pipeline.py",
+      "source_location": "L16",
+      "weight": 1.0,
+      "source": "tests_test_failed_fvg_candidate_pipeline_test_build_failed_fvg_candidates_cli_writes_manifest_and_parquet",
+      "target": "tests_test_failed_fvg_candidate_pipeline_py_path",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/test_failed_fvg_candidate_pipeline.py",
+      "source_location": "L20",
+      "weight": 1.0,
+      "source": "tests_test_failed_fvg_candidate_pipeline_test_build_failed_fvg_candidates_cli_writes_manifest_and_parquet",
+      "target": "tests_test_failed_fvg_candidate_pipeline_write_trade_tape_fixture",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "context": "parameter_type",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/test_failed_fvg_candidate_pipeline.py",
+      "source_location": "L68",
+      "weight": 1.0,
+      "source": "tests_test_failed_fvg_candidate_pipeline_write_trade_tape_fixture",
+      "target": "tests_test_failed_fvg_candidate_pipeline_py_path",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/test_failed_fvg_candidate_pipeline.py",
+      "source_location": "L89",
+      "weight": 1.0,
+      "source": "tests_test_failed_fvg_candidate_pipeline_write_trade_tape_fixture",
+      "target": "tests_test_failed_fvg_candidate_pipeline_trade",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "context": "parameter_type",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/test_failed_fvg_candidate_pipeline.py",
+      "source_location": "L94",
+      "weight": 1.0,
+      "source": "tests_test_failed_fvg_candidate_pipeline_trade",
+      "target": "tests_test_failed_fvg_candidate_pipeline_py_float",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "context": "parameter_type",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/test_failed_fvg_candidate_pipeline.py",
+      "source_location": "L94",
+      "weight": 1.0,
+      "source": "tests_test_failed_fvg_candidate_pipeline_trade",
+      "target": "tests_test_failed_fvg_candidate_pipeline_py_int",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "context": "generic_arg",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/test_failed_fvg_candidate_pipeline.py",
+      "source_location": "L94",
+      "weight": 1.0,
+      "source": "tests_test_failed_fvg_candidate_pipeline_trade",
+      "target": "tests_test_failed_fvg_candidate_pipeline_py_object",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "context": "generic_arg",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/test_failed_fvg_candidate_pipeline.py",
+      "source_location": "L94",
+      "weight": 1.0,
+      "source": "tests_test_failed_fvg_candidate_pipeline_trade",
+      "target": "tests_test_failed_fvg_candidate_pipeline_py_str",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/test_failed_fvg_candidate_pipeline.py",
+      "source_location": "L95",
+      "weight": 1.0,
+      "source": "tests_test_failed_fvg_candidate_pipeline_trade",
+      "target": "tests_test_failed_fvg_candidate_pipeline_ts",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "context": "parameter_type",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/test_failed_fvg_candidate_pipeline.py",
+      "source_location": "L116",
+      "weight": 1.0,
+      "source": "tests_test_failed_fvg_candidate_pipeline_ts",
+      "target": "tests_test_failed_fvg_candidate_pipeline_py_str",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "context": "return_type",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/test_failed_fvg_candidate_pipeline.py",
+      "source_location": "L116",
+      "weight": 1.0,
+      "source": "tests_test_failed_fvg_candidate_pipeline_ts",
+      "target": "tests_test_failed_fvg_candidate_pipeline_py_datetime",
+      "confidence_score": 1.0
+    },
+    {
       "relation": "contains",
       "confidence": "EXTRACTED",
       "source_file": "tests/test_failed_fvg_setup_engine.py",
@@ -8117,6 +8592,16 @@
       "confidence_score": 1.0,
       "source": "tests_test_failed_fvg_setup_engine",
       "target": "tests_test_failed_fvg_setup_engine_py_datetime"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/test_failed_fvg_setup_engine.py",
+      "source_location": "L137",
+      "weight": 1.0,
+      "source": "tests_test_failed_fvg_setup_engine",
+      "target": "tests_test_failed_fvg_setup_engine_test_build_h1_fvgs_does_not_bridge_symbols_or_sessions",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -8233,6 +8718,28 @@
       "confidence_score": 1.0,
       "source": "tests_test_failed_fvg_setup_engine_test_failed_fvg_skips_when_next_m30_entry_bar_is_missing",
       "target": "tests_test_failed_fvg_setup_engine_bar"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/test_failed_fvg_setup_engine.py",
+      "source_location": "L139",
+      "weight": 1.0,
+      "source": "tests_test_failed_fvg_setup_engine_test_build_h1_fvgs_does_not_bridge_symbols_or_sessions",
+      "target": "tests_test_failed_fvg_setup_engine_bar",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/test_failed_fvg_setup_engine.py",
+      "source_location": "L142",
+      "weight": 1.0,
+      "source": "tests_test_failed_fvg_setup_engine_test_build_h1_fvgs_does_not_bridge_symbols_or_sessions",
+      "target": "tests_test_failed_fvg_setup_engine_ts",
+      "confidence_score": 1.0
     },
     {
       "relation": "references",
@@ -8769,6 +9276,17 @@
       "confidence_score": 1.0,
       "source": "tests_test_phase1_trade_extractor_row",
       "target": "object"
+    },
+    {
+      "relation": "references",
+      "context": "parameter_type",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/test_phase1_trade_extractor.py",
+      "source_location": "L142",
+      "weight": 1.0,
+      "source": "tests_test_phase1_trade_extractor_row",
+      "target": "tests_test_phase1_trade_extractor_py_float",
+      "confidence_score": 1.0
     },
     {
       "relation": "references",
@@ -10207,6 +10725,16 @@
     {
       "relation": "contains",
       "confidence": "EXTRACTED",
+      "source_file": "README.md",
+      "source_location": "L76",
+      "weight": 1.0,
+      "source": "readme_mnqvolumeai",
+      "target": "readme_windows_five_day_fixture",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
       "source_file": "docs/architecture/data_quality_policy.md",
       "source_location": "L1",
       "weight": 1.0,
@@ -10330,9 +10858,9 @@
       "source_file": "docs/dependencies/phase1_dependency_decisions.md",
       "source_location": "L22",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "dependencies_phase1_dependency_decisions_phase_1_dependency_decisions",
-      "target": "dependencies_phase1_dependency_decisions_2026_07_13_update_tzdata",
-      "confidence_score": 1.0
+      "target": "dependencies_phase1_dependency_decisions_2026_07_13_update_tzdata"
     },
     {
       "relation": "contains",
@@ -13896,5 +14424,5 @@
     }
   ],
   "hyperedges": [],
-  "built_at_commit": "9b45dba15bf39af1e79210fd541412b1e01f939e"
+  "built_at_commit": "5dca64c50bd2e13666c51943982f525922049978"
 }

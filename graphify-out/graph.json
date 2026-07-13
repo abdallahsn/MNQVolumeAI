@@ -160,7 +160,7 @@
       "label": "main()",
       "file_type": "code",
       "source_file": "src/mnq_ai/cli.py",
-      "source_location": "L19",
+      "source_location": "L20",
       "id": "mnq_ai_cli_main",
       "community": 1,
       "norm_label": "main()"
@@ -169,7 +169,7 @@
       "label": "str",
       "file_type": "code",
       "source_file": "src/mnq_ai/cli.py",
-      "source_location": "L19",
+      "source_location": "L20",
       "id": "src_mnq_ai_cli_py_str",
       "community": 1,
       "norm_label": "str"
@@ -178,7 +178,7 @@
       "label": "int",
       "file_type": "code",
       "source_file": "src/mnq_ai/cli.py",
-      "source_location": "L19",
+      "source_location": "L20",
       "id": "src_mnq_ai_cli_py_int",
       "community": 1,
       "norm_label": "int"
@@ -187,7 +187,7 @@
       "label": "_parser()",
       "file_type": "code",
       "source_file": "src/mnq_ai/cli.py",
-      "source_location": "L84",
+      "source_location": "L111",
       "id": "mnq_ai_cli_parser",
       "community": 1,
       "norm_label": "_parser()"
@@ -196,7 +196,7 @@
       "label": "ArgumentParser",
       "file_type": "code",
       "source_file": "src/mnq_ai/cli.py",
-      "source_location": "L84",
+      "source_location": "L111",
       "id": "argumentparser",
       "community": 1,
       "norm_label": "argumentparser"
@@ -205,7 +205,7 @@
       "label": "_config_from_args()",
       "file_type": "code",
       "source_file": "src/mnq_ai/cli.py",
-      "source_location": "L123",
+      "source_location": "L167",
       "id": "mnq_ai_cli_config_from_args",
       "community": 1,
       "norm_label": "_config_from_args()"
@@ -214,7 +214,7 @@
       "label": "Namespace",
       "file_type": "code",
       "source_file": "src/mnq_ai/cli.py",
-      "source_location": "L123",
+      "source_location": "L167",
       "id": "namespace",
       "community": 1,
       "norm_label": "namespace"
@@ -223,26 +223,26 @@
       "label": "Phase1Config",
       "file_type": "code",
       "source_file": "src/mnq_ai/cli.py",
-      "source_location": "L123",
+      "source_location": "L167",
       "id": "src_mnq_ai_cli_py_phase1config",
       "community": 1,
       "norm_label": "phase1config"
     },
     {
-      "label": "Command-line interface for MNQ Phase 1 jobs.",
+      "label": "Command-line interface for MNQ research pipeline jobs.",
       "file_type": "rationale",
       "source_file": "src/mnq_ai/cli.py",
       "source_location": "L1",
       "id": "mnq_ai_cli_rationale_1",
       "community": 1,
-      "norm_label": "command-line interface for mnq phase 1 jobs."
+      "norm_label": "command-line interface for mnq research pipeline jobs."
     },
     {
       "label": "Run the ``mnq-ai`` CLI.",
       "file_type": "rationale",
       "source_file": "src/mnq_ai/cli.py",
-      "source_location": "L20",
-      "id": "mnq_ai_cli_rationale_20",
+      "source_location": "L21",
+      "id": "mnq_ai_cli_rationale_21",
       "community": 1,
       "norm_label": "run the ``mnq-ai`` cli."
     },
@@ -1408,6 +1408,123 @@
       "norm_label": "int"
     },
     {
+      "label": "test_phase2_execution_gate.py",
+      "file_type": "code",
+      "source_file": "tests/test_phase2_execution_gate.py",
+      "source_location": "L1",
+      "id": "tests_test_phase2_execution_gate",
+      "community": 67,
+      "norm_label": "test_phase2_execution_gate.py"
+    },
+    {
+      "label": "test_phase2_execution_gate_labels_first_barrier_after_entry()",
+      "file_type": "code",
+      "source_file": "tests/test_phase2_execution_gate.py",
+      "source_location": "L17",
+      "id": "tests_test_phase2_execution_gate_test_phase2_execution_gate_labels_first_barrier_after_entry",
+      "community": 67,
+      "norm_label": "test_phase2_execution_gate_labels_first_barrier_after_entry()"
+    },
+    {
+      "label": "Path",
+      "file_type": "code",
+      "source_file": "tests/test_phase2_execution_gate.py",
+      "source_location": "L17",
+      "id": "tests_test_phase2_execution_gate_py_path",
+      "community": 67,
+      "norm_label": "path"
+    },
+    {
+      "label": "_write_trade_tape()",
+      "file_type": "code",
+      "source_file": "tests/test_phase2_execution_gate.py",
+      "source_location": "L75",
+      "id": "tests_test_phase2_execution_gate_write_trade_tape",
+      "community": 67,
+      "norm_label": "_write_trade_tape()"
+    },
+    {
+      "label": "_write_setup_candidates()",
+      "file_type": "code",
+      "source_file": "tests/test_phase2_execution_gate.py",
+      "source_location": "L86",
+      "id": "tests_test_phase2_execution_gate_write_setup_candidates",
+      "community": 67,
+      "norm_label": "_write_setup_candidates()"
+    },
+    {
+      "label": "_candidate()",
+      "file_type": "code",
+      "source_file": "tests/test_phase2_execution_gate.py",
+      "source_location": "L112",
+      "id": "tests_test_phase2_execution_gate_candidate",
+      "community": 67,
+      "norm_label": "_candidate()"
+    },
+    {
+      "label": "str",
+      "file_type": "code",
+      "source_file": "tests/test_phase2_execution_gate.py",
+      "source_location": "L112",
+      "id": "tests_test_phase2_execution_gate_py_str",
+      "community": 67,
+      "norm_label": "str"
+    },
+    {
+      "label": "float",
+      "file_type": "code",
+      "source_file": "tests/test_phase2_execution_gate.py",
+      "source_location": "L112",
+      "id": "tests_test_phase2_execution_gate_py_float",
+      "community": 67,
+      "norm_label": "float"
+    },
+    {
+      "label": "object",
+      "file_type": "code",
+      "source_file": "tests/test_phase2_execution_gate.py",
+      "source_location": "L112",
+      "id": "tests_test_phase2_execution_gate_py_object",
+      "community": 67,
+      "norm_label": "object"
+    },
+    {
+      "label": "_trade()",
+      "file_type": "code",
+      "source_file": "tests/test_phase2_execution_gate.py",
+      "source_location": "L152",
+      "id": "tests_test_phase2_execution_gate_trade",
+      "community": 67,
+      "norm_label": "_trade()"
+    },
+    {
+      "label": "int",
+      "file_type": "code",
+      "source_file": "tests/test_phase2_execution_gate.py",
+      "source_location": "L152",
+      "id": "tests_test_phase2_execution_gate_py_int",
+      "community": 67,
+      "norm_label": "int"
+    },
+    {
+      "label": "_ts()",
+      "file_type": "code",
+      "source_file": "tests/test_phase2_execution_gate.py",
+      "source_location": "L174",
+      "id": "tests_test_phase2_execution_gate_ts",
+      "community": 67,
+      "norm_label": "_ts()"
+    },
+    {
+      "label": "datetime",
+      "file_type": "code",
+      "source_file": "tests/test_phase2_execution_gate.py",
+      "source_location": "L174",
+      "id": "tests_test_phase2_execution_gate_py_datetime",
+      "community": 67,
+      "norm_label": "datetime"
+    },
+    {
       "label": "test_validate_skills.py",
       "file_type": "code",
       "source_file": "tests/test_validate_skills.py",
@@ -2500,7 +2617,7 @@
       "label": "Boundaries",
       "file_type": "document",
       "source_file": "README.md",
-      "source_location": "L17",
+      "source_location": "L19",
       "id": "readme_boundaries",
       "community": 0,
       "norm_label": "boundaries"
@@ -2509,7 +2626,7 @@
       "label": "Python Policy",
       "file_type": "document",
       "source_file": "README.md",
-      "source_location": "L23",
+      "source_location": "L25",
       "id": "readme_python_policy",
       "community": 0,
       "norm_label": "python policy"
@@ -2518,7 +2635,7 @@
       "label": "CLI",
       "file_type": "document",
       "source_file": "README.md",
-      "source_location": "L47",
+      "source_location": "L49",
       "id": "readme_cli",
       "community": 0,
       "norm_label": "cli"
@@ -2527,7 +2644,7 @@
       "label": "Windows Five-Day Fixture",
       "file_type": "document",
       "source_file": "README.md",
-      "source_location": "L76",
+      "source_location": "L91",
       "id": "readme_windows_five_day_fixture",
       "community": 0,
       "norm_label": "windows five-day fixture"
@@ -4480,6 +4597,15 @@
       "label": "Run the ``mnq-ai`` CLI.",
       "file_type": "rationale",
       "source_file": "src/mnq_ai/cli.py",
+      "source_location": "L20",
+      "community": 1,
+      "norm_label": "run the ``mnq-ai`` cli.",
+      "id": "mnq_ai_cli_rationale_20"
+    },
+    {
+      "label": "Run the ``mnq-ai`` CLI.",
+      "file_type": "rationale",
+      "source_file": "src/mnq_ai/cli.py",
       "source_location": "L17",
       "community": 1,
       "norm_label": "run the ``mnq-ai`` cli.",
@@ -5786,9 +5912,9 @@
       "source_file": "src/mnq_ai/cli.py",
       "source_location": "L7",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "mnq_ai_cli",
-      "target": "decimal",
-      "confidence_score": 1.0
+      "target": "decimal"
     },
     {
       "relation": "imports_from",
@@ -5881,7 +6007,18 @@
       "source_file": "tests/test_failed_fvg_candidate_pipeline.py",
       "source_location": "L10",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "tests_test_failed_fvg_candidate_pipeline",
+      "target": "mnq_ai_cli"
+    },
+    {
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/test_phase2_execution_gate.py",
+      "source_location": "L10",
+      "weight": 1.0,
+      "source": "tests_test_phase2_execution_gate",
       "target": "mnq_ai_cli",
       "confidence_score": 1.0
     },
@@ -5978,7 +6115,17 @@
       "source_file": "src/mnq_ai/cli.py",
       "source_location": "L20",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "mnq_ai_cli_rationale_20",
+      "target": "mnq_ai_cli_main"
+    },
+    {
+      "relation": "rationale_for",
+      "confidence": "EXTRACTED",
+      "source_file": "src/mnq_ai/cli.py",
+      "source_location": "L21",
+      "weight": 1.0,
+      "source": "mnq_ai_cli_rationale_21",
       "target": "mnq_ai_cli_main",
       "confidence_score": 1.0
     },
@@ -6019,9 +6166,9 @@
       "source_file": "src/mnq_ai/cli.py",
       "source_location": "L16",
       "weight": 0.8,
+      "confidence_score": 0.5,
       "source": "src_mnq_ai_cli_py_str",
-      "target": "setups_failed_fvg_failedfvgconfig",
-      "confidence_score": 0.5
+      "target": "setups_failed_fvg_failedfvgconfig"
     },
     {
       "relation": "uses",
@@ -6049,9 +6196,9 @@
       "source_file": "src/mnq_ai/cli.py",
       "source_location": "L16",
       "weight": 0.8,
+      "confidence_score": 0.5,
       "source": "src_mnq_ai_cli_py_int",
-      "target": "setups_failed_fvg_failedfvgconfig",
-      "confidence_score": 0.5
+      "target": "setups_failed_fvg_failedfvgconfig"
     },
     {
       "relation": "references",
@@ -6090,9 +6237,9 @@
       "source_file": "src/mnq_ai/cli.py",
       "source_location": "L16",
       "weight": 0.8,
+      "confidence_score": 0.5,
       "source": "argumentparser",
-      "target": "setups_failed_fvg_failedfvgconfig",
-      "confidence_score": 0.5
+      "target": "setups_failed_fvg_failedfvgconfig"
     },
     {
       "relation": "references",
@@ -6142,9 +6289,9 @@
       "source_file": "src/mnq_ai/cli.py",
       "source_location": "L16",
       "weight": 0.8,
+      "confidence_score": 0.5,
       "source": "namespace",
-      "target": "setups_failed_fvg_failedfvgconfig",
-      "confidence_score": 0.5
+      "target": "setups_failed_fvg_failedfvgconfig"
     },
     {
       "relation": "uses",
@@ -6172,9 +6319,9 @@
       "source_file": "src/mnq_ai/cli.py",
       "source_location": "L16",
       "weight": 0.8,
+      "confidence_score": 0.5,
       "source": "src_mnq_ai_cli_py_phase1config",
-      "target": "setups_failed_fvg_failedfvgconfig",
-      "confidence_score": 0.5
+      "target": "setups_failed_fvg_failedfvgconfig"
     },
     {
       "relation": "imports_from",
@@ -6393,9 +6540,9 @@
       "source_file": "tests/test_phase1_trade_extractor.py",
       "source_location": "L11",
       "weight": 0.8,
+      "confidence_score": 0.5,
       "source": "tests_test_phase1_trade_extractor_py_float",
-      "target": "mnq_ai_config_phase1config",
-      "confidence_score": 0.5
+      "target": "mnq_ai_config_phase1config"
     },
     {
       "relation": "uses",
@@ -7157,9 +7304,9 @@
       "source_file": "tests/test_phase1_trade_extractor.py",
       "source_location": "L14",
       "weight": 0.8,
+      "confidence_score": 0.5,
       "source": "tests_test_phase1_trade_extractor_py_float",
-      "target": "mnq_ai_exceptions_datavalidationerror",
-      "confidence_score": 0.5
+      "target": "mnq_ai_exceptions_datavalidationerror"
     },
     {
       "relation": "uses",
@@ -8407,9 +8554,9 @@
       "source_file": "tests/test_failed_fvg_candidate_pipeline.py",
       "source_location": "L4",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "tests_test_failed_fvg_candidate_pipeline",
-      "target": "tests_test_failed_fvg_candidate_pipeline_py_datetime",
-      "confidence_score": 1.0
+      "target": "tests_test_failed_fvg_candidate_pipeline_py_datetime"
     },
     {
       "relation": "contains",
@@ -8417,9 +8564,9 @@
       "source_file": "tests/test_failed_fvg_candidate_pipeline.py",
       "source_location": "L16",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "tests_test_failed_fvg_candidate_pipeline",
-      "target": "tests_test_failed_fvg_candidate_pipeline_test_build_failed_fvg_candidates_cli_writes_manifest_and_parquet",
-      "confidence_score": 1.0
+      "target": "tests_test_failed_fvg_candidate_pipeline_test_build_failed_fvg_candidates_cli_writes_manifest_and_parquet"
     },
     {
       "relation": "contains",
@@ -8427,9 +8574,9 @@
       "source_file": "tests/test_failed_fvg_candidate_pipeline.py",
       "source_location": "L94",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "tests_test_failed_fvg_candidate_pipeline",
-      "target": "tests_test_failed_fvg_candidate_pipeline_trade",
-      "confidence_score": 1.0
+      "target": "tests_test_failed_fvg_candidate_pipeline_trade"
     },
     {
       "relation": "contains",
@@ -8437,9 +8584,9 @@
       "source_file": "tests/test_failed_fvg_candidate_pipeline.py",
       "source_location": "L116",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "tests_test_failed_fvg_candidate_pipeline",
-      "target": "tests_test_failed_fvg_candidate_pipeline_ts",
-      "confidence_score": 1.0
+      "target": "tests_test_failed_fvg_candidate_pipeline_ts"
     },
     {
       "relation": "contains",
@@ -8447,9 +8594,9 @@
       "source_file": "tests/test_failed_fvg_candidate_pipeline.py",
       "source_location": "L68",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "tests_test_failed_fvg_candidate_pipeline",
-      "target": "tests_test_failed_fvg_candidate_pipeline_write_trade_tape_fixture",
-      "confidence_score": 1.0
+      "target": "tests_test_failed_fvg_candidate_pipeline_write_trade_tape_fixture"
     },
     {
       "relation": "references",
@@ -8458,9 +8605,9 @@
       "source_file": "tests/test_failed_fvg_candidate_pipeline.py",
       "source_location": "L16",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "tests_test_failed_fvg_candidate_pipeline_test_build_failed_fvg_candidates_cli_writes_manifest_and_parquet",
-      "target": "tests_test_failed_fvg_candidate_pipeline_py_path",
-      "confidence_score": 1.0
+      "target": "tests_test_failed_fvg_candidate_pipeline_py_path"
     },
     {
       "relation": "calls",
@@ -8469,9 +8616,9 @@
       "source_file": "tests/test_failed_fvg_candidate_pipeline.py",
       "source_location": "L20",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "tests_test_failed_fvg_candidate_pipeline_test_build_failed_fvg_candidates_cli_writes_manifest_and_parquet",
-      "target": "tests_test_failed_fvg_candidate_pipeline_write_trade_tape_fixture",
-      "confidence_score": 1.0
+      "target": "tests_test_failed_fvg_candidate_pipeline_write_trade_tape_fixture"
     },
     {
       "relation": "references",
@@ -8480,9 +8627,9 @@
       "source_file": "tests/test_failed_fvg_candidate_pipeline.py",
       "source_location": "L68",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "tests_test_failed_fvg_candidate_pipeline_write_trade_tape_fixture",
-      "target": "tests_test_failed_fvg_candidate_pipeline_py_path",
-      "confidence_score": 1.0
+      "target": "tests_test_failed_fvg_candidate_pipeline_py_path"
     },
     {
       "relation": "calls",
@@ -8491,9 +8638,9 @@
       "source_file": "tests/test_failed_fvg_candidate_pipeline.py",
       "source_location": "L89",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "tests_test_failed_fvg_candidate_pipeline_write_trade_tape_fixture",
-      "target": "tests_test_failed_fvg_candidate_pipeline_trade",
-      "confidence_score": 1.0
+      "target": "tests_test_failed_fvg_candidate_pipeline_trade"
     },
     {
       "relation": "references",
@@ -8502,9 +8649,9 @@
       "source_file": "tests/test_failed_fvg_candidate_pipeline.py",
       "source_location": "L94",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "tests_test_failed_fvg_candidate_pipeline_trade",
-      "target": "tests_test_failed_fvg_candidate_pipeline_py_float",
-      "confidence_score": 1.0
+      "target": "tests_test_failed_fvg_candidate_pipeline_py_float"
     },
     {
       "relation": "references",
@@ -8513,9 +8660,9 @@
       "source_file": "tests/test_failed_fvg_candidate_pipeline.py",
       "source_location": "L94",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "tests_test_failed_fvg_candidate_pipeline_trade",
-      "target": "tests_test_failed_fvg_candidate_pipeline_py_int",
-      "confidence_score": 1.0
+      "target": "tests_test_failed_fvg_candidate_pipeline_py_int"
     },
     {
       "relation": "references",
@@ -8524,9 +8671,9 @@
       "source_file": "tests/test_failed_fvg_candidate_pipeline.py",
       "source_location": "L94",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "tests_test_failed_fvg_candidate_pipeline_trade",
-      "target": "tests_test_failed_fvg_candidate_pipeline_py_object",
-      "confidence_score": 1.0
+      "target": "tests_test_failed_fvg_candidate_pipeline_py_object"
     },
     {
       "relation": "references",
@@ -8535,9 +8682,9 @@
       "source_file": "tests/test_failed_fvg_candidate_pipeline.py",
       "source_location": "L94",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "tests_test_failed_fvg_candidate_pipeline_trade",
-      "target": "tests_test_failed_fvg_candidate_pipeline_py_str",
-      "confidence_score": 1.0
+      "target": "tests_test_failed_fvg_candidate_pipeline_py_str"
     },
     {
       "relation": "calls",
@@ -8546,9 +8693,9 @@
       "source_file": "tests/test_failed_fvg_candidate_pipeline.py",
       "source_location": "L95",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "tests_test_failed_fvg_candidate_pipeline_trade",
-      "target": "tests_test_failed_fvg_candidate_pipeline_ts",
-      "confidence_score": 1.0
+      "target": "tests_test_failed_fvg_candidate_pipeline_ts"
     },
     {
       "relation": "references",
@@ -8557,9 +8704,9 @@
       "source_file": "tests/test_failed_fvg_candidate_pipeline.py",
       "source_location": "L116",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "tests_test_failed_fvg_candidate_pipeline_ts",
-      "target": "tests_test_failed_fvg_candidate_pipeline_py_str",
-      "confidence_score": 1.0
+      "target": "tests_test_failed_fvg_candidate_pipeline_py_str"
     },
     {
       "relation": "references",
@@ -8568,9 +8715,9 @@
       "source_file": "tests/test_failed_fvg_candidate_pipeline.py",
       "source_location": "L116",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "tests_test_failed_fvg_candidate_pipeline_ts",
-      "target": "tests_test_failed_fvg_candidate_pipeline_py_datetime",
-      "confidence_score": 1.0
+      "target": "tests_test_failed_fvg_candidate_pipeline_py_datetime"
     },
     {
       "relation": "contains",
@@ -8599,9 +8746,9 @@
       "source_file": "tests/test_failed_fvg_setup_engine.py",
       "source_location": "L137",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "tests_test_failed_fvg_setup_engine",
-      "target": "tests_test_failed_fvg_setup_engine_test_build_h1_fvgs_does_not_bridge_symbols_or_sessions",
-      "confidence_score": 1.0
+      "target": "tests_test_failed_fvg_setup_engine_test_build_h1_fvgs_does_not_bridge_symbols_or_sessions"
     },
     {
       "relation": "contains",
@@ -8726,9 +8873,9 @@
       "source_file": "tests/test_failed_fvg_setup_engine.py",
       "source_location": "L139",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "tests_test_failed_fvg_setup_engine_test_build_h1_fvgs_does_not_bridge_symbols_or_sessions",
-      "target": "tests_test_failed_fvg_setup_engine_bar",
-      "confidence_score": 1.0
+      "target": "tests_test_failed_fvg_setup_engine_bar"
     },
     {
       "relation": "calls",
@@ -8737,9 +8884,9 @@
       "source_file": "tests/test_failed_fvg_setup_engine.py",
       "source_location": "L142",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "tests_test_failed_fvg_setup_engine_test_build_h1_fvgs_does_not_bridge_symbols_or_sessions",
-      "target": "tests_test_failed_fvg_setup_engine_ts",
-      "confidence_score": 1.0
+      "target": "tests_test_failed_fvg_setup_engine_ts"
     },
     {
       "relation": "references",
@@ -9284,9 +9431,9 @@
       "source_file": "tests/test_phase1_trade_extractor.py",
       "source_location": "L142",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "tests_test_phase1_trade_extractor_row",
-      "target": "tests_test_phase1_trade_extractor_py_float",
-      "confidence_score": 1.0
+      "target": "tests_test_phase1_trade_extractor_py_float"
     },
     {
       "relation": "references",
@@ -9298,6 +9445,286 @@
       "confidence_score": 1.0,
       "source": "tests_test_phase1_trade_extractor_row",
       "target": "tests_test_phase1_trade_extractor_py_int"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/test_phase2_execution_gate.py",
+      "source_location": "L112",
+      "weight": 1.0,
+      "source": "tests_test_phase2_execution_gate",
+      "target": "tests_test_phase2_execution_gate_candidate",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/test_phase2_execution_gate.py",
+      "source_location": "L4",
+      "weight": 1.0,
+      "source": "tests_test_phase2_execution_gate",
+      "target": "tests_test_phase2_execution_gate_py_datetime",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/test_phase2_execution_gate.py",
+      "source_location": "L17",
+      "weight": 1.0,
+      "source": "tests_test_phase2_execution_gate",
+      "target": "tests_test_phase2_execution_gate_test_phase2_execution_gate_labels_first_barrier_after_entry",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/test_phase2_execution_gate.py",
+      "source_location": "L152",
+      "weight": 1.0,
+      "source": "tests_test_phase2_execution_gate",
+      "target": "tests_test_phase2_execution_gate_trade",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/test_phase2_execution_gate.py",
+      "source_location": "L174",
+      "weight": 1.0,
+      "source": "tests_test_phase2_execution_gate",
+      "target": "tests_test_phase2_execution_gate_ts",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/test_phase2_execution_gate.py",
+      "source_location": "L86",
+      "weight": 1.0,
+      "source": "tests_test_phase2_execution_gate",
+      "target": "tests_test_phase2_execution_gate_write_setup_candidates",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/test_phase2_execution_gate.py",
+      "source_location": "L75",
+      "weight": 1.0,
+      "source": "tests_test_phase2_execution_gate",
+      "target": "tests_test_phase2_execution_gate_write_trade_tape",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "context": "parameter_type",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/test_phase2_execution_gate.py",
+      "source_location": "L17",
+      "weight": 1.0,
+      "source": "tests_test_phase2_execution_gate_test_phase2_execution_gate_labels_first_barrier_after_entry",
+      "target": "tests_test_phase2_execution_gate_py_path",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/test_phase2_execution_gate.py",
+      "source_location": "L64",
+      "weight": 1.0,
+      "source": "tests_test_phase2_execution_gate_test_phase2_execution_gate_labels_first_barrier_after_entry",
+      "target": "tests_test_phase2_execution_gate_ts",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/test_phase2_execution_gate.py",
+      "source_location": "L23",
+      "weight": 1.0,
+      "source": "tests_test_phase2_execution_gate_test_phase2_execution_gate_labels_first_barrier_after_entry",
+      "target": "tests_test_phase2_execution_gate_write_setup_candidates",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/test_phase2_execution_gate.py",
+      "source_location": "L22",
+      "weight": 1.0,
+      "source": "tests_test_phase2_execution_gate_test_phase2_execution_gate_labels_first_barrier_after_entry",
+      "target": "tests_test_phase2_execution_gate_write_trade_tape",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "context": "parameter_type",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/test_phase2_execution_gate.py",
+      "source_location": "L86",
+      "weight": 1.0,
+      "source": "tests_test_phase2_execution_gate_write_setup_candidates",
+      "target": "tests_test_phase2_execution_gate_py_path",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "context": "parameter_type",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/test_phase2_execution_gate.py",
+      "source_location": "L75",
+      "weight": 1.0,
+      "source": "tests_test_phase2_execution_gate_write_trade_tape",
+      "target": "tests_test_phase2_execution_gate_py_path",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/test_phase2_execution_gate.py",
+      "source_location": "L77",
+      "weight": 1.0,
+      "source": "tests_test_phase2_execution_gate_write_trade_tape",
+      "target": "tests_test_phase2_execution_gate_trade",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/test_phase2_execution_gate.py",
+      "source_location": "L88",
+      "weight": 1.0,
+      "source": "tests_test_phase2_execution_gate_write_setup_candidates",
+      "target": "tests_test_phase2_execution_gate_candidate",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "context": "parameter_type",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/test_phase2_execution_gate.py",
+      "source_location": "L112",
+      "weight": 1.0,
+      "source": "tests_test_phase2_execution_gate_candidate",
+      "target": "tests_test_phase2_execution_gate_py_float",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "context": "generic_arg",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/test_phase2_execution_gate.py",
+      "source_location": "L112",
+      "weight": 1.0,
+      "source": "tests_test_phase2_execution_gate_candidate",
+      "target": "tests_test_phase2_execution_gate_py_object",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "context": "generic_arg",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/test_phase2_execution_gate.py",
+      "source_location": "L112",
+      "weight": 1.0,
+      "source": "tests_test_phase2_execution_gate_candidate",
+      "target": "tests_test_phase2_execution_gate_py_str",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/test_phase2_execution_gate.py",
+      "source_location": "L123",
+      "weight": 1.0,
+      "source": "tests_test_phase2_execution_gate_candidate",
+      "target": "tests_test_phase2_execution_gate_ts",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "context": "generic_arg",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/test_phase2_execution_gate.py",
+      "source_location": "L152",
+      "weight": 1.0,
+      "source": "tests_test_phase2_execution_gate_trade",
+      "target": "tests_test_phase2_execution_gate_py_str",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "context": "parameter_type",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/test_phase2_execution_gate.py",
+      "source_location": "L174",
+      "weight": 1.0,
+      "source": "tests_test_phase2_execution_gate_ts",
+      "target": "tests_test_phase2_execution_gate_py_str",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "context": "parameter_type",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/test_phase2_execution_gate.py",
+      "source_location": "L152",
+      "weight": 1.0,
+      "source": "tests_test_phase2_execution_gate_trade",
+      "target": "tests_test_phase2_execution_gate_py_float",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "context": "generic_arg",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/test_phase2_execution_gate.py",
+      "source_location": "L152",
+      "weight": 1.0,
+      "source": "tests_test_phase2_execution_gate_trade",
+      "target": "tests_test_phase2_execution_gate_py_object",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "context": "parameter_type",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/test_phase2_execution_gate.py",
+      "source_location": "L152",
+      "weight": 1.0,
+      "source": "tests_test_phase2_execution_gate_trade",
+      "target": "tests_test_phase2_execution_gate_py_int",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/test_phase2_execution_gate.py",
+      "source_location": "L153",
+      "weight": 1.0,
+      "source": "tests_test_phase2_execution_gate_trade",
+      "target": "tests_test_phase2_execution_gate_ts",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "context": "return_type",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/test_phase2_execution_gate.py",
+      "source_location": "L174",
+      "weight": 1.0,
+      "source": "tests_test_phase2_execution_gate_ts",
+      "target": "tests_test_phase2_execution_gate_py_datetime",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -10728,9 +11155,9 @@
       "source_file": "README.md",
       "source_location": "L76",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "readme_mnqvolumeai",
-      "target": "readme_windows_five_day_fixture",
-      "confidence_score": 1.0
+      "target": "readme_windows_five_day_fixture"
     },
     {
       "relation": "contains",
@@ -14424,5 +14851,5 @@
     }
   ],
   "hyperedges": [],
-  "built_at_commit": "5dca64c50bd2e13666c51943982f525922049978"
+  "built_at_commit": "eb2daa6459b9bd707ad1bdd630070366fa8d132a"
 }
