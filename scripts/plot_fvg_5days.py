@@ -286,11 +286,16 @@ def build_chart(
             decreasing_line_color="#e55353",
             increasing_fillcolor="#17a673",
             decreasing_fillcolor="#e55353",
-            hovertext=[
-                f"Volume: {volume:,.0f}<br>Trades: {trades:,.0f}"
-                for volume, trades in zip(bars["volume"], bars["trades"], strict=True)
-            ],
-            hoverinfo="x+open+high+low+close+text",
+            customdata=bars[["volume", "trades"]].to_numpy(),
+            hovertemplate=(
+                "Time: %{x}<br>"
+                "Open: %{open:.2f}<br>"
+                "High: %{high:.2f}<br>"
+                "Low: %{low:.2f}<br>"
+                "Close: %{close:.2f}<br>"
+                "Volume: %{customdata[0]:,.0f}<br>"
+                "Trades: %{customdata[1]:,.0f}<extra></extra>"
+            ),
         )
     )
 
