@@ -115,7 +115,7 @@
       "label": "build_candles()",
       "file_type": "code",
       "source_file": "scripts/plot_fvg_5days.py",
-      "source_location": "L107",
+      "source_location": "L114",
       "id": "scripts_plot_fvg_5days_build_candles",
       "community": 15,
       "norm_label": "build_candles()"
@@ -124,7 +124,7 @@
       "label": "first_full_fill_index()",
       "file_type": "code",
       "source_file": "scripts/plot_fvg_5days.py",
-      "source_location": "L129",
+      "source_location": "L136",
       "id": "scripts_plot_fvg_5days_first_full_fill_index",
       "community": 15,
       "norm_label": "first_full_fill_index()"
@@ -133,7 +133,7 @@
       "label": "int",
       "file_type": "code",
       "source_file": "scripts/plot_fvg_5days.py",
-      "source_location": "L129",
+      "source_location": "L136",
       "id": "scripts_plot_fvg_5days_py_int",
       "community": 15,
       "norm_label": "int"
@@ -142,7 +142,7 @@
       "label": "float",
       "file_type": "code",
       "source_file": "scripts/plot_fvg_5days.py",
-      "source_location": "L129",
+      "source_location": "L136",
       "id": "scripts_plot_fvg_5days_py_float",
       "community": 15,
       "norm_label": "float"
@@ -151,7 +151,7 @@
       "label": "detect_fvgs()",
       "file_type": "code",
       "source_file": "scripts/plot_fvg_5days.py",
-      "source_location": "L144",
+      "source_location": "L151",
       "id": "scripts_plot_fvg_5days_detect_fvgs",
       "community": 15,
       "norm_label": "detect_fvgs()"
@@ -160,7 +160,7 @@
       "label": "Timedelta",
       "file_type": "code",
       "source_file": "scripts/plot_fvg_5days.py",
-      "source_location": "L144",
+      "source_location": "L151",
       "id": "scripts_plot_fvg_5days_py_timedelta",
       "community": 15,
       "norm_label": "timedelta"
@@ -169,7 +169,7 @@
       "label": "load_candidates()",
       "file_type": "code",
       "source_file": "scripts/plot_fvg_5days.py",
-      "source_location": "L187",
+      "source_location": "L194",
       "id": "scripts_plot_fvg_5days_load_candidates",
       "community": 15,
       "norm_label": "load_candidates()"
@@ -178,7 +178,7 @@
       "label": "rgba()",
       "file_type": "code",
       "source_file": "scripts/plot_fvg_5days.py",
-      "source_location": "L230",
+      "source_location": "L237",
       "id": "scripts_plot_fvg_5days_rgba",
       "community": 15,
       "norm_label": "rgba()"
@@ -187,7 +187,7 @@
       "label": "add_horizontal_segment()",
       "file_type": "code",
       "source_file": "scripts/plot_fvg_5days.py",
-      "source_location": "L238",
+      "source_location": "L245",
       "id": "scripts_plot_fvg_5days_add_horizontal_segment",
       "community": 15,
       "norm_label": "add_horizontal_segment()"
@@ -196,7 +196,7 @@
       "label": "Figure",
       "file_type": "code",
       "source_file": "scripts/plot_fvg_5days.py",
-      "source_location": "L238",
+      "source_location": "L245",
       "id": "figure",
       "community": 15,
       "norm_label": "figure"
@@ -205,7 +205,7 @@
       "label": "Timestamp",
       "file_type": "code",
       "source_file": "scripts/plot_fvg_5days.py",
-      "source_location": "L238",
+      "source_location": "L245",
       "id": "timestamp",
       "community": 15,
       "norm_label": "timestamp"
@@ -214,7 +214,7 @@
       "label": "build_chart()",
       "file_type": "code",
       "source_file": "scripts/plot_fvg_5days.py",
-      "source_location": "L260",
+      "source_location": "L267",
       "id": "scripts_plot_fvg_5days_build_chart",
       "community": 15,
       "norm_label": "build_chart()"
@@ -223,7 +223,7 @@
       "label": "main()",
       "file_type": "code",
       "source_file": "scripts/plot_fvg_5days.py",
-      "source_location": "L465",
+      "source_location": "L472",
       "id": "scripts_plot_fvg_5days_main",
       "community": 15,
       "norm_label": "main()"
@@ -5796,9 +5796,9 @@
       "source_file": "scripts/plot_fvg_5days.py",
       "source_location": "L238",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "scripts_plot_fvg_5days",
-      "target": "scripts_plot_fvg_5days_add_horizontal_segment",
-      "confidence_score": 1.0
+      "target": "scripts_plot_fvg_5days_add_horizontal_segment"
     },
     {
       "relation": "contains",
@@ -5806,9 +5806,9 @@
       "source_file": "scripts/plot_fvg_5days.py",
       "source_location": "L107",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "scripts_plot_fvg_5days",
-      "target": "scripts_plot_fvg_5days_build_candles",
-      "confidence_score": 1.0
+      "target": "scripts_plot_fvg_5days_build_candles"
     },
     {
       "relation": "contains",
@@ -5816,9 +5816,9 @@
       "source_file": "scripts/plot_fvg_5days.py",
       "source_location": "L260",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "scripts_plot_fvg_5days",
-      "target": "scripts_plot_fvg_5days_build_chart",
-      "confidence_score": 1.0
+      "target": "scripts_plot_fvg_5days_build_chart"
     },
     {
       "relation": "contains",
@@ -5826,9 +5826,9 @@
       "source_file": "scripts/plot_fvg_5days.py",
       "source_location": "L144",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "scripts_plot_fvg_5days",
-      "target": "scripts_plot_fvg_5days_detect_fvgs",
-      "confidence_score": 1.0
+      "target": "scripts_plot_fvg_5days_detect_fvgs"
     },
     {
       "relation": "contains",
@@ -5836,9 +5836,9 @@
       "source_file": "scripts/plot_fvg_5days.py",
       "source_location": "L129",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "scripts_plot_fvg_5days",
-      "target": "scripts_plot_fvg_5days_first_full_fill_index",
-      "confidence_score": 1.0
+      "target": "scripts_plot_fvg_5days_first_full_fill_index"
     },
     {
       "relation": "contains",
@@ -5846,9 +5846,9 @@
       "source_file": "scripts/plot_fvg_5days.py",
       "source_location": "L187",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "scripts_plot_fvg_5days",
-      "target": "scripts_plot_fvg_5days_load_candidates",
-      "confidence_score": 1.0
+      "target": "scripts_plot_fvg_5days_load_candidates"
     },
     {
       "relation": "contains",
@@ -5856,9 +5856,9 @@
       "source_file": "scripts/plot_fvg_5days.py",
       "source_location": "L63",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "scripts_plot_fvg_5days",
-      "target": "scripts_plot_fvg_5days_load_trade_tape",
-      "confidence_score": 1.0
+      "target": "scripts_plot_fvg_5days_load_trade_tape"
     },
     {
       "relation": "contains",
@@ -5866,9 +5866,9 @@
       "source_file": "scripts/plot_fvg_5days.py",
       "source_location": "L465",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "scripts_plot_fvg_5days",
-      "target": "scripts_plot_fvg_5days_main",
-      "confidence_score": 1.0
+      "target": "scripts_plot_fvg_5days_main"
     },
     {
       "relation": "contains",
@@ -5876,9 +5876,9 @@
       "source_file": "scripts/plot_fvg_5days.py",
       "source_location": "L14",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "scripts_plot_fvg_5days",
-      "target": "scripts_plot_fvg_5days_parse_args",
-      "confidence_score": 1.0
+      "target": "scripts_plot_fvg_5days_parse_args"
     },
     {
       "relation": "contains",
@@ -5886,9 +5886,9 @@
       "source_file": "scripts/plot_fvg_5days.py",
       "source_location": "L230",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "scripts_plot_fvg_5days",
-      "target": "scripts_plot_fvg_5days_rgba",
-      "confidence_score": 1.0
+      "target": "scripts_plot_fvg_5days_rgba"
     },
     {
       "relation": "calls",
@@ -5897,9 +5897,9 @@
       "source_file": "scripts/plot_fvg_5days.py",
       "source_location": "L466",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "scripts_plot_fvg_5days_main",
-      "target": "scripts_plot_fvg_5days_parse_args",
-      "confidence_score": 1.0
+      "target": "scripts_plot_fvg_5days_parse_args"
     },
     {
       "relation": "references",
@@ -5908,9 +5908,9 @@
       "source_file": "scripts/plot_fvg_5days.py",
       "source_location": "L14",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "scripts_plot_fvg_5days_parse_args",
-      "target": "scripts_plot_fvg_5days_py_namespace",
-      "confidence_score": 1.0
+      "target": "scripts_plot_fvg_5days_py_namespace"
     },
     {
       "relation": "calls",
@@ -5919,9 +5919,9 @@
       "source_file": "scripts/plot_fvg_5days.py",
       "source_location": "L35",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "scripts_plot_fvg_5days_parse_args",
-      "target": "scripts_plot_fvg_5days_py_path",
-      "confidence_score": 1.0
+      "target": "scripts_plot_fvg_5days_py_path"
     },
     {
       "relation": "references",
@@ -5930,9 +5930,9 @@
       "source_file": "scripts/plot_fvg_5days.py",
       "source_location": "L63",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "scripts_plot_fvg_5days_load_trade_tape",
-      "target": "dataframe",
-      "confidence_score": 1.0
+      "target": "dataframe"
     },
     {
       "relation": "references",
@@ -5941,9 +5941,9 @@
       "source_file": "scripts/plot_fvg_5days.py",
       "source_location": "L63",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "scripts_plot_fvg_5days_load_trade_tape",
-      "target": "scripts_plot_fvg_5days_py_path",
-      "confidence_score": 1.0
+      "target": "scripts_plot_fvg_5days_py_path"
     },
     {
       "relation": "references",
@@ -5952,9 +5952,9 @@
       "source_file": "scripts/plot_fvg_5days.py",
       "source_location": "L63",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "scripts_plot_fvg_5days_load_trade_tape",
-      "target": "scripts_plot_fvg_5days_py_str",
-      "confidence_score": 1.0
+      "target": "scripts_plot_fvg_5days_py_str"
     },
     {
       "relation": "calls",
@@ -5963,9 +5963,9 @@
       "source_file": "scripts/plot_fvg_5days.py",
       "source_location": "L469",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "scripts_plot_fvg_5days_main",
-      "target": "scripts_plot_fvg_5days_load_trade_tape",
-      "confidence_score": 1.0
+      "target": "scripts_plot_fvg_5days_load_trade_tape"
     },
     {
       "relation": "references",
@@ -5974,9 +5974,9 @@
       "source_file": "scripts/plot_fvg_5days.py",
       "source_location": "L187",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "scripts_plot_fvg_5days_load_candidates",
-      "target": "scripts_plot_fvg_5days_py_path",
-      "confidence_score": 1.0
+      "target": "scripts_plot_fvg_5days_py_path"
     },
     {
       "relation": "references",
@@ -5985,9 +5985,9 @@
       "source_file": "scripts/plot_fvg_5days.py",
       "source_location": "L238",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "scripts_plot_fvg_5days_add_horizontal_segment",
-      "target": "scripts_plot_fvg_5days_py_str",
-      "confidence_score": 1.0
+      "target": "scripts_plot_fvg_5days_py_str"
     },
     {
       "relation": "references",
@@ -5996,9 +5996,9 @@
       "source_file": "scripts/plot_fvg_5days.py",
       "source_location": "L107",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "scripts_plot_fvg_5days_build_candles",
-      "target": "scripts_plot_fvg_5days_py_str",
-      "confidence_score": 1.0
+      "target": "scripts_plot_fvg_5days_py_str"
     },
     {
       "relation": "references",
@@ -6007,9 +6007,9 @@
       "source_file": "scripts/plot_fvg_5days.py",
       "source_location": "L260",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "scripts_plot_fvg_5days_build_chart",
-      "target": "scripts_plot_fvg_5days_py_str",
-      "confidence_score": 1.0
+      "target": "scripts_plot_fvg_5days_py_str"
     },
     {
       "relation": "references",
@@ -6018,9 +6018,9 @@
       "source_file": "scripts/plot_fvg_5days.py",
       "source_location": "L129",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "scripts_plot_fvg_5days_first_full_fill_index",
-      "target": "scripts_plot_fvg_5days_py_str",
-      "confidence_score": 1.0
+      "target": "scripts_plot_fvg_5days_py_str"
     },
     {
       "relation": "references",
@@ -6029,9 +6029,9 @@
       "source_file": "scripts/plot_fvg_5days.py",
       "source_location": "L230",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "scripts_plot_fvg_5days_rgba",
-      "target": "scripts_plot_fvg_5days_py_str",
-      "confidence_score": 1.0
+      "target": "scripts_plot_fvg_5days_py_str"
     },
     {
       "relation": "references",
@@ -6040,9 +6040,9 @@
       "source_file": "scripts/plot_fvg_5days.py",
       "source_location": "L107",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "scripts_plot_fvg_5days_build_candles",
-      "target": "dataframe",
-      "confidence_score": 1.0
+      "target": "dataframe"
     },
     {
       "relation": "references",
@@ -6051,9 +6051,9 @@
       "source_file": "scripts/plot_fvg_5days.py",
       "source_location": "L260",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "scripts_plot_fvg_5days_build_chart",
-      "target": "dataframe",
-      "confidence_score": 1.0
+      "target": "dataframe"
     },
     {
       "relation": "references",
@@ -6062,9 +6062,9 @@
       "source_file": "scripts/plot_fvg_5days.py",
       "source_location": "L144",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "scripts_plot_fvg_5days_detect_fvgs",
-      "target": "dataframe",
-      "confidence_score": 1.0
+      "target": "dataframe"
     },
     {
       "relation": "references",
@@ -6073,9 +6073,9 @@
       "source_file": "scripts/plot_fvg_5days.py",
       "source_location": "L129",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "scripts_plot_fvg_5days_first_full_fill_index",
-      "target": "dataframe",
-      "confidence_score": 1.0
+      "target": "dataframe"
     },
     {
       "relation": "references",
@@ -6084,9 +6084,9 @@
       "source_file": "scripts/plot_fvg_5days.py",
       "source_location": "L187",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "scripts_plot_fvg_5days_load_candidates",
-      "target": "dataframe",
-      "confidence_score": 1.0
+      "target": "dataframe"
     },
     {
       "relation": "calls",
@@ -6095,9 +6095,9 @@
       "source_file": "scripts/plot_fvg_5days.py",
       "source_location": "L472",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "scripts_plot_fvg_5days_main",
-      "target": "scripts_plot_fvg_5days_build_candles",
-      "confidence_score": 1.0
+      "target": "scripts_plot_fvg_5days_build_candles"
     },
     {
       "relation": "calls",
@@ -6106,9 +6106,9 @@
       "source_file": "scripts/plot_fvg_5days.py",
       "source_location": "L165",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "scripts_plot_fvg_5days_detect_fvgs",
-      "target": "scripts_plot_fvg_5days_first_full_fill_index",
-      "confidence_score": 1.0
+      "target": "scripts_plot_fvg_5days_first_full_fill_index"
     },
     {
       "relation": "references",
@@ -6117,9 +6117,9 @@
       "source_file": "scripts/plot_fvg_5days.py",
       "source_location": "L129",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "scripts_plot_fvg_5days_first_full_fill_index",
-      "target": "scripts_plot_fvg_5days_py_float",
-      "confidence_score": 1.0
+      "target": "scripts_plot_fvg_5days_py_float"
     },
     {
       "relation": "references",
@@ -6128,9 +6128,9 @@
       "source_file": "scripts/plot_fvg_5days.py",
       "source_location": "L129",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "scripts_plot_fvg_5days_first_full_fill_index",
-      "target": "scripts_plot_fvg_5days_py_int",
-      "confidence_score": 1.0
+      "target": "scripts_plot_fvg_5days_py_int"
     },
     {
       "relation": "references",
@@ -6139,9 +6139,9 @@
       "source_file": "scripts/plot_fvg_5days.py",
       "source_location": "L238",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "scripts_plot_fvg_5days_add_horizontal_segment",
-      "target": "scripts_plot_fvg_5days_py_int",
-      "confidence_score": 1.0
+      "target": "scripts_plot_fvg_5days_py_int"
     },
     {
       "relation": "references",
@@ -6150,9 +6150,9 @@
       "source_file": "scripts/plot_fvg_5days.py",
       "source_location": "L260",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "scripts_plot_fvg_5days_build_chart",
-      "target": "scripts_plot_fvg_5days_py_int",
-      "confidence_score": 1.0
+      "target": "scripts_plot_fvg_5days_py_int"
     },
     {
       "relation": "references",
@@ -6161,9 +6161,9 @@
       "source_file": "scripts/plot_fvg_5days.py",
       "source_location": "L238",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "scripts_plot_fvg_5days_add_horizontal_segment",
-      "target": "scripts_plot_fvg_5days_py_float",
-      "confidence_score": 1.0
+      "target": "scripts_plot_fvg_5days_py_float"
     },
     {
       "relation": "references",
@@ -6172,9 +6172,9 @@
       "source_file": "scripts/plot_fvg_5days.py",
       "source_location": "L230",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "scripts_plot_fvg_5days_rgba",
-      "target": "scripts_plot_fvg_5days_py_float",
-      "confidence_score": 1.0
+      "target": "scripts_plot_fvg_5days_py_float"
     },
     {
       "relation": "references",
@@ -6183,9 +6183,9 @@
       "source_file": "scripts/plot_fvg_5days.py",
       "source_location": "L144",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "scripts_plot_fvg_5days_detect_fvgs",
-      "target": "scripts_plot_fvg_5days_py_timedelta",
-      "confidence_score": 1.0
+      "target": "scripts_plot_fvg_5days_py_timedelta"
     },
     {
       "relation": "calls",
@@ -6194,9 +6194,9 @@
       "source_file": "scripts/plot_fvg_5days.py",
       "source_location": "L476",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "scripts_plot_fvg_5days_main",
-      "target": "scripts_plot_fvg_5days_detect_fvgs",
-      "confidence_score": 1.0
+      "target": "scripts_plot_fvg_5days_detect_fvgs"
     },
     {
       "relation": "calls",
@@ -6205,9 +6205,9 @@
       "source_file": "scripts/plot_fvg_5days.py",
       "source_location": "L267",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "scripts_plot_fvg_5days_build_chart",
-      "target": "scripts_plot_fvg_5days_py_timedelta",
-      "confidence_score": 1.0
+      "target": "scripts_plot_fvg_5days_py_timedelta"
     },
     {
       "relation": "calls",
@@ -6216,9 +6216,9 @@
       "source_file": "scripts/plot_fvg_5days.py",
       "source_location": "L475",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "scripts_plot_fvg_5days_main",
-      "target": "scripts_plot_fvg_5days_py_timedelta",
-      "confidence_score": 1.0
+      "target": "scripts_plot_fvg_5days_py_timedelta"
     },
     {
       "relation": "calls",
@@ -6227,9 +6227,9 @@
       "source_file": "scripts/plot_fvg_5days.py",
       "source_location": "L479",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "scripts_plot_fvg_5days_main",
-      "target": "scripts_plot_fvg_5days_load_candidates",
-      "confidence_score": 1.0
+      "target": "scripts_plot_fvg_5days_load_candidates"
     },
     {
       "relation": "calls",
@@ -6238,9 +6238,9 @@
       "source_file": "scripts/plot_fvg_5days.py",
       "source_location": "L302",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "scripts_plot_fvg_5days_build_chart",
-      "target": "scripts_plot_fvg_5days_rgba",
-      "confidence_score": 1.0
+      "target": "scripts_plot_fvg_5days_rgba"
     },
     {
       "relation": "references",
@@ -6249,9 +6249,9 @@
       "source_file": "scripts/plot_fvg_5days.py",
       "source_location": "L238",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "scripts_plot_fvg_5days_add_horizontal_segment",
-      "target": "figure",
-      "confidence_score": 1.0
+      "target": "figure"
     },
     {
       "relation": "references",
@@ -6260,9 +6260,9 @@
       "source_file": "scripts/plot_fvg_5days.py",
       "source_location": "L238",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "scripts_plot_fvg_5days_add_horizontal_segment",
-      "target": "timestamp",
-      "confidence_score": 1.0
+      "target": "timestamp"
     },
     {
       "relation": "calls",
@@ -6271,9 +6271,9 @@
       "source_file": "scripts/plot_fvg_5days.py",
       "source_location": "L409",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "scripts_plot_fvg_5days_build_chart",
-      "target": "scripts_plot_fvg_5days_add_horizontal_segment",
-      "confidence_score": 1.0
+      "target": "scripts_plot_fvg_5days_add_horizontal_segment"
     },
     {
       "relation": "references",
@@ -6282,9 +6282,9 @@
       "source_file": "scripts/plot_fvg_5days.py",
       "source_location": "L260",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "scripts_plot_fvg_5days_build_chart",
-      "target": "figure",
-      "confidence_score": 1.0
+      "target": "figure"
     },
     {
       "relation": "calls",
@@ -6293,9 +6293,9 @@
       "source_file": "scripts/plot_fvg_5days.py",
       "source_location": "L482",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "scripts_plot_fvg_5days_main",
-      "target": "scripts_plot_fvg_5days_build_chart",
-      "confidence_score": 1.0
+      "target": "scripts_plot_fvg_5days_build_chart"
     },
     {
       "relation": "contains",
@@ -6964,9 +6964,9 @@
       "source_file": "src/mnq_ai/cli.py",
       "source_location": "L167",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "mnq_ai_cli_config_from_args",
-      "target": "src_mnq_ai_cli_py_namespace",
-      "confidence_score": 1.0
+      "target": "src_mnq_ai_cli_py_namespace"
     },
     {
       "relation": "references",
@@ -6985,9 +6985,9 @@
       "source_file": "src/mnq_ai/cli.py",
       "source_location": "L10",
       "weight": 0.8,
+      "confidence_score": 0.5,
       "source": "src_mnq_ai_cli_py_namespace",
-      "target": "mnq_ai_config_phase1config",
-      "confidence_score": 0.5
+      "target": "mnq_ai_config_phase1config"
     },
     {
       "relation": "uses",
@@ -6995,9 +6995,9 @@
       "source_file": "src/mnq_ai/cli.py",
       "source_location": "L15",
       "weight": 0.8,
+      "confidence_score": 0.5,
       "source": "src_mnq_ai_cli_py_namespace",
-      "target": "mnq_ai_exceptions_mnqaierror",
-      "confidence_score": 0.5
+      "target": "mnq_ai_exceptions_mnqaierror"
     },
     {
       "relation": "uses",
@@ -7005,9 +7005,9 @@
       "source_file": "src/mnq_ai/cli.py",
       "source_location": "L17",
       "weight": 0.8,
+      "confidence_score": 0.5,
       "source": "src_mnq_ai_cli_py_namespace",
-      "target": "setups_failed_fvg_failedfvgconfig",
-      "confidence_score": 0.5
+      "target": "setups_failed_fvg_failedfvgconfig"
     },
     {
       "relation": "uses",
@@ -9204,9 +9204,9 @@
       "source_file": "src/mnq_ai/setups/failed_fvg.py",
       "source_location": "L335",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "setups_failed_fvg_build_h1_fvgs",
-      "target": "src_mnq_ai_setups_failed_fvg_py_timedelta",
-      "confidence_score": 1.0
+      "target": "src_mnq_ai_setups_failed_fvg_py_timedelta"
     },
     {
       "relation": "references",
@@ -15608,5 +15608,5 @@
     }
   ],
   "hyperedges": [],
-  "built_at_commit": "2e4869d1ee2b0e8bd24350b17b833725782f6b99"
+  "built_at_commit": "95482754516dd9b730fbb49b2ce8e12240a7c556"
 }

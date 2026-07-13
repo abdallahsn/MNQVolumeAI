@@ -64,7 +64,11 @@ def load_trade_tape(path: Path, symbol: str | None) -> pd.DataFrame:
     if not path.exists():
         raise FileNotFoundError(f"Trade-tape path not found: {path}")
 
-    dataset = pads.dataset(str(path), format="parquet")
+    dataset = pads.dataset(
+        str(path),
+        format="parquet",
+        partitioning="hive" if path.is_dir() else None,
+    )
     available = set(dataset.schema.names)
     required = {"ts_event", "price"}
     missing = required - available
@@ -80,7 +84,15 @@ def load_trade_tape(path: Path, symbol: str | None) -> pd.DataFrame:
     if "symbol" in available:
         columns.append("symbol")
 
-    table = dataset.to_table(columns=columns)
+    filter_expr = None
+    if symbol is not None:
+        if "symbol" not in available:
+            raise ValueError(
+                "--symbol was supplied, but the trade tape has no symbol column or Hive symbol partition."
+            )
+        filter_expr = pads.field("symbol") == symbol
+
+    table = dataset.to_table(columns=columns, filter=filter_expr)
     trades = table.to_pandas()
 
     trades["ts_event"] = pd.to_datetime(trades["ts_event"], utc=True, errors="coerce")
@@ -89,11 +101,6 @@ def load_trade_tape(path: Path, symbol: str | None) -> pd.DataFrame:
     if "size" not in trades.columns:
         trades["size"] = 0
     trades["size"] = pd.to_numeric(trades["size"], errors="coerce").fillna(0)
-
-    if symbol is not None:
-        if "symbol" not in trades.columns:
-            raise ValueError("--symbol was supplied, but the trade tape has no symbol column.")
-        trades = trades.loc[trades["symbol"].astype(str) == symbol]
 
     trades = trades.dropna(subset=["ts_event", "price"])
     trades = trades.sort_values("ts_event", kind="stable")
