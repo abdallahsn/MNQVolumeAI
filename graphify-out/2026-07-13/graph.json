@@ -754,7 +754,7 @@
       "label": "._effort_ratios()",
       "file_type": "code",
       "source_file": "src/mnq_ai/setups/failed_fvg.py",
-      "source_location": "L200",
+      "source_location": "L195",
       "id": "setups_failed_fvg_failedfvgsetupengine_effort_ratios",
       "community": 14,
       "norm_label": "._effort_ratios()"
@@ -763,7 +763,7 @@
       "label": "int",
       "file_type": "code",
       "source_file": "src/mnq_ai/setups/failed_fvg.py",
-      "source_location": "L200",
+      "source_location": "L195",
       "id": "src_mnq_ai_setups_failed_fvg_py_int",
       "community": 14,
       "norm_label": "int"
@@ -772,7 +772,7 @@
       "label": "._candidate_from_failed_fvg()",
       "file_type": "code",
       "source_file": "src/mnq_ai/setups/failed_fvg.py",
-      "source_location": "L224",
+      "source_location": "L219",
       "id": "setups_failed_fvg_failedfvgsetupengine_candidate_from_failed_fvg",
       "community": 14,
       "norm_label": "._candidate_from_failed_fvg()"
@@ -781,7 +781,7 @@
       "label": "._build_candidate()",
       "file_type": "code",
       "source_file": "src/mnq_ai/setups/failed_fvg.py",
-      "source_location": "L265",
+      "source_location": "L260",
       "id": "setups_failed_fvg_failedfvgsetupengine_build_candidate",
       "community": 14,
       "norm_label": "._build_candidate()"
@@ -790,7 +790,7 @@
       "label": "str",
       "file_type": "code",
       "source_file": "src/mnq_ai/setups/failed_fvg.py",
-      "source_location": "L265",
+      "source_location": "L260",
       "id": "src_mnq_ai_setups_failed_fvg_py_str",
       "community": 14,
       "norm_label": "str"
@@ -799,7 +799,7 @@
       "label": "EntrySide",
       "file_type": "code",
       "source_file": "src/mnq_ai/setups/failed_fvg.py",
-      "source_location": "L265",
+      "source_location": "L260",
       "id": "entryside",
       "community": 14,
       "norm_label": "entryside"
@@ -808,7 +808,7 @@
       "label": "build_h1_fvgs()",
       "file_type": "code",
       "source_file": "src/mnq_ai/setups/failed_fvg.py",
-      "source_location": "L335",
+      "source_location": "L330",
       "id": "setups_failed_fvg_build_h1_fvgs",
       "community": 14,
       "norm_label": "build_h1_fvgs()"
@@ -817,7 +817,7 @@
       "label": "timedelta",
       "file_type": "code",
       "source_file": "src/mnq_ai/setups/failed_fvg.py",
-      "source_location": "L335",
+      "source_location": "L330",
       "id": "timedelta",
       "community": 14,
       "norm_label": "timedelta"
@@ -826,7 +826,7 @@
       "label": "FVGType",
       "file_type": "code",
       "source_file": "src/mnq_ai/setups/failed_fvg.py",
-      "source_location": "L356",
+      "source_location": "L351",
       "id": "fvgtype",
       "community": 14,
       "norm_label": "fvgtype"
@@ -835,7 +835,7 @@
       "label": "datetime",
       "file_type": "code",
       "source_file": "src/mnq_ai/setups/failed_fvg.py",
-      "source_location": "L356",
+      "source_location": "L351",
       "id": "src_mnq_ai_setups_failed_fvg_py_datetime",
       "community": 14,
       "norm_label": "datetime"
@@ -844,7 +844,7 @@
       "label": "_overlaps_zone()",
       "file_type": "code",
       "source_file": "src/mnq_ai/setups/failed_fvg.py",
-      "source_location": "L385",
+      "source_location": "L380",
       "id": "setups_failed_fvg_overlaps_zone",
       "community": 14,
       "norm_label": "_overlaps_zone()"
@@ -853,7 +853,7 @@
       "label": "bool",
       "file_type": "code",
       "source_file": "src/mnq_ai/setups/failed_fvg.py",
-      "source_location": "L385",
+      "source_location": "L380",
       "id": "src_mnq_ai_setups_failed_fvg_py_bool",
       "community": 14,
       "norm_label": "bool"
@@ -862,7 +862,7 @@
       "label": "_round_to_tick()",
       "file_type": "code",
       "source_file": "src/mnq_ai/setups/failed_fvg.py",
-      "source_location": "L389",
+      "source_location": "L384",
       "id": "setups_failed_fvg_round_to_tick",
       "community": 14,
       "norm_label": "_round_to_tick()"
@@ -871,7 +871,7 @@
       "label": "_round_up_to_tick()",
       "file_type": "code",
       "source_file": "src/mnq_ai/setups/failed_fvg.py",
-      "source_location": "L394",
+      "source_location": "L389",
       "id": "setups_failed_fvg_round_up_to_tick",
       "community": 14,
       "norm_label": "_round_up_to_tick()"
@@ -880,7 +880,7 @@
       "label": "_round_down_to_tick()",
       "file_type": "code",
       "source_file": "src/mnq_ai/setups/failed_fvg.py",
-      "source_location": "L399",
+      "source_location": "L394",
       "id": "setups_failed_fvg_round_down_to_tick",
       "community": 14,
       "norm_label": "_round_down_to_tick()"
@@ -889,7 +889,7 @@
       "label": "_setup_id()",
       "file_type": "code",
       "source_file": "src/mnq_ai/setups/failed_fvg.py",
-      "source_location": "L404",
+      "source_location": "L399",
       "id": "setups_failed_fvg_setup_id",
       "community": 14,
       "norm_label": "_setup_id()"
@@ -961,8 +961,8 @@
       "label": "Build three-bar FVGs and expose them only after the forming bar closes.",
       "file_type": "rationale",
       "source_file": "src/mnq_ai/setups/failed_fvg.py",
-      "source_location": "L336",
-      "id": "setups_failed_fvg_rationale_336",
+      "source_location": "L331",
+      "id": "setups_failed_fvg_rationale_331",
       "community": 14,
       "norm_label": "build three-bar fvgs and expose them only after the forming bar closes."
     },
@@ -1021,19 +1021,10 @@
       "norm_label": "test_failed_fvg_generation_is_invariant_to_future_bars()"
     },
     {
-      "label": "test_failed_fvg_skips_when_next_m30_entry_bar_is_missing()",
-      "file_type": "code",
-      "source_file": "tests/test_failed_fvg_setup_engine.py",
-      "source_location": "L112",
-      "id": "tests_test_failed_fvg_setup_engine_test_failed_fvg_skips_when_next_m30_entry_bar_is_missing",
-      "community": 14,
-      "norm_label": "test_failed_fvg_skips_when_next_m30_entry_bar_is_missing()"
-    },
-    {
       "label": "_bar()",
       "file_type": "code",
       "source_file": "tests/test_failed_fvg_setup_engine.py",
-      "source_location": "L137",
+      "source_location": "L112",
       "id": "tests_test_failed_fvg_setup_engine_bar",
       "community": 14,
       "norm_label": "_bar()"
@@ -1042,7 +1033,7 @@
       "label": "str",
       "file_type": "code",
       "source_file": "tests/test_failed_fvg_setup_engine.py",
-      "source_location": "L137",
+      "source_location": "L112",
       "id": "tests_test_failed_fvg_setup_engine_py_str",
       "community": 14,
       "norm_label": "str"
@@ -1051,7 +1042,7 @@
       "label": "int",
       "file_type": "code",
       "source_file": "tests/test_failed_fvg_setup_engine.py",
-      "source_location": "L137",
+      "source_location": "L112",
       "id": "tests_test_failed_fvg_setup_engine_py_int",
       "community": 14,
       "norm_label": "int"
@@ -1060,7 +1051,7 @@
       "label": "_ts()",
       "file_type": "code",
       "source_file": "tests/test_failed_fvg_setup_engine.py",
-      "source_location": "L158",
+      "source_location": "L133",
       "id": "tests_test_failed_fvg_setup_engine_ts",
       "community": 14,
       "norm_label": "_ts()"
@@ -1069,7 +1060,7 @@
       "label": "datetime",
       "file_type": "code",
       "source_file": "tests/test_failed_fvg_setup_engine.py",
-      "source_location": "L158",
+      "source_location": "L133",
       "id": "tests_test_failed_fvg_setup_engine_py_datetime",
       "community": 14,
       "norm_label": "datetime"
@@ -2898,7 +2889,7 @@
       "source_file": "docs/research/papers/original/mnq_data_audit_plan.md",
       "source_location": "L1",
       "id": "original_mnq_data_audit_plan",
-      "community": 3,
+      "community": 11,
       "norm_label": "mnq_data_audit_plan.md"
     },
     {
@@ -2907,7 +2898,7 @@
       "source_file": "docs/research/papers/original/mnq_data_audit_plan.md",
       "source_location": "L1",
       "id": "original_mnq_data_audit_plan_mnq_data_audit_plan",
-      "community": 3,
+      "community": 11,
       "norm_label": "mnq data audit plan"
     },
     {
@@ -2916,7 +2907,7 @@
       "source_file": "docs/research/papers/original/mnq_data_audit_plan.md",
       "source_location": "L6",
       "id": "original_mnq_data_audit_plan_objectives",
-      "community": 3,
+      "community": 11,
       "norm_label": "objectives"
     },
     {
@@ -2925,7 +2916,7 @@
       "source_file": "docs/research/papers/original/mnq_data_audit_plan.md",
       "source_location": "L14",
       "id": "original_mnq_data_audit_plan_source_schema",
-      "community": 3,
+      "community": 11,
       "norm_label": "source schema"
     },
     {
@@ -2934,7 +2925,7 @@
       "source_file": "docs/research/papers/original/mnq_data_audit_plan.md",
       "source_location": "L23",
       "id": "original_mnq_data_audit_plan_mbo_trade_semantics",
-      "community": 3,
+      "community": 11,
       "norm_label": "mbo trade semantics"
     },
     {
@@ -2943,7 +2934,7 @@
       "source_file": "docs/research/papers/original/mnq_data_audit_plan.md",
       "source_location": "L34",
       "id": "original_mnq_data_audit_plan_required_audit_outputs",
-      "community": 3,
+      "community": 11,
       "norm_label": "required audit outputs"
     },
     {
@@ -2952,7 +2943,7 @@
       "source_file": "docs/research/papers/original/mnq_data_audit_plan.md",
       "source_location": "L45",
       "id": "original_mnq_data_audit_plan_checks",
-      "community": 3,
+      "community": 11,
       "norm_label": "checks"
     },
     {
@@ -2961,7 +2952,7 @@
       "source_file": "docs/research/papers/original/mnq_data_audit_plan.md",
       "source_location": "L47",
       "id": "original_mnq_data_audit_plan_timestamp_checks",
-      "community": 3,
+      "community": 11,
       "norm_label": "timestamp checks"
     },
     {
@@ -2970,7 +2961,7 @@
       "source_file": "docs/research/papers/original/mnq_data_audit_plan.md",
       "source_location": "L56",
       "id": "original_mnq_data_audit_plan_price_and_size_checks",
-      "community": 3,
+      "community": 11,
       "norm_label": "price and size checks"
     },
     {
@@ -2979,7 +2970,7 @@
       "source_file": "docs/research/papers/original/mnq_data_audit_plan.md",
       "source_location": "L64",
       "id": "original_mnq_data_audit_plan_symbol_and_contract_checks",
-      "community": 3,
+      "community": 11,
       "norm_label": "symbol and contract checks"
     },
     {
@@ -2988,7 +2979,7 @@
       "source_file": "docs/research/papers/original/mnq_data_audit_plan.md",
       "source_location": "L71",
       "id": "original_mnq_data_audit_plan_session_checks",
-      "community": 3,
+      "community": 11,
       "norm_label": "session checks"
     },
     {
@@ -2997,7 +2988,7 @@
       "source_file": "docs/research/papers/original/mnq_data_audit_plan.md",
       "source_location": "L91",
       "id": "original_mnq_data_audit_plan_chunking_strategy",
-      "community": 3,
+      "community": 11,
       "norm_label": "chunking strategy"
     },
     {
@@ -3006,7 +2997,7 @@
       "source_file": "docs/research/papers/original/mnq_data_audit_plan.md",
       "source_location": "L100",
       "id": "original_mnq_data_audit_plan_validation_commands_to_create_in_phase_1",
-      "community": 3,
+      "community": 11,
       "norm_label": "validation commands to create in phase 1"
     },
     {
@@ -3015,7 +3006,7 @@
       "source_file": "docs/research/papers/original/mnq_data_audit_plan.md",
       "source_location": "L108",
       "id": "original_mnq_data_audit_plan_acceptance_criteria",
-      "community": 3,
+      "community": 11,
       "norm_label": "acceptance criteria"
     },
     {
@@ -4349,15 +4340,6 @@
       "id": "research_research_gaps_research_gaps",
       "community": 47,
       "norm_label": "research gaps"
-    },
-    {
-      "label": "Build three-bar FVGs and expose them only after the forming bar closes.",
-      "file_type": "rationale",
-      "source_file": "src/mnq_ai/setups/failed_fvg.py",
-      "source_location": "L331",
-      "community": 14,
-      "norm_label": "build three-bar fvgs and expose them only after the forming bar closes.",
-      "id": "setups_failed_fvg_rationale_331"
     },
     {
       "label": "bool",
@@ -5935,9 +5917,9 @@
       "source_file": "src/mnq_ai/config.py",
       "source_location": "L6",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "mnq_ai_config",
-      "target": "decimal"
+      "target": "decimal",
+      "confidence_score": 1.0
     },
     {
       "relation": "imports_from",
@@ -6155,9 +6137,9 @@
       "source_file": "tests/test_phase1_trade_extractor.py",
       "source_location": "L11",
       "weight": 0.8,
-      "confidence_score": 0.5,
       "source": "tests_test_phase1_trade_extractor_py_object",
-      "target": "mnq_ai_config_phase1config"
+      "target": "mnq_ai_config_phase1config",
+      "confidence_score": 0.5
     },
     {
       "relation": "uses",
@@ -6488,9 +6470,9 @@
       "source_file": "src/mnq_ai/config.py",
       "source_location": "L92",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "mnq_ai_config_phase1config_with_overrides",
-      "target": "src_mnq_ai_config_py_bool"
+      "target": "src_mnq_ai_config_py_bool",
+      "confidence_score": 1.0
     },
     {
       "relation": "rationale_for",
@@ -6508,9 +6490,9 @@
       "source_file": "src/mnq_ai/config.py",
       "source_location": "L14",
       "weight": 0.8,
-      "confidence_score": 0.5,
       "source": "src_mnq_ai_config_py_bool",
-      "target": "mnq_ai_exceptions_configurationerror"
+      "target": "mnq_ai_exceptions_configurationerror",
+      "confidence_score": 0.5
     },
     {
       "relation": "calls",
@@ -6605,9 +6587,9 @@
       "source_file": "src/mnq_ai/constants.py",
       "source_location": "L5",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "mnq_ai_constants",
-      "target": "decimal"
+      "target": "decimal",
+      "confidence_score": 1.0
     },
     {
       "relation": "rationale_for",
@@ -6909,9 +6891,9 @@
       "source_file": "tests/test_phase1_trade_extractor.py",
       "source_location": "L14",
       "weight": 0.8,
-      "confidence_score": 0.5,
       "source": "tests_test_phase1_trade_extractor_py_object",
-      "target": "mnq_ai_exceptions_datavalidationerror"
+      "target": "mnq_ai_exceptions_datavalidationerror",
+      "confidence_score": 0.5
     },
     {
       "relation": "uses",
@@ -7000,9 +6982,9 @@
       "source_file": "src/mnq_ai/setups/__init__.py",
       "source_location": "L1",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "setups_init_rationale_1",
-      "target": "setups_init"
+      "target": "setups_init",
+      "confidence_score": 1.0
     },
     {
       "relation": "imports_from",
@@ -7011,9 +6993,9 @@
       "source_file": "src/mnq_ai/setups/failed_fvg.py",
       "source_location": "L11",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "setups_failed_fvg",
-      "target": "decimal"
+      "target": "decimal",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -7021,9 +7003,9 @@
       "source_file": "src/mnq_ai/setups/failed_fvg.py",
       "source_location": "L20",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "setups_failed_fvg",
-      "target": "setups_failed_fvg_bar"
+      "target": "setups_failed_fvg_bar",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -7031,9 +7013,9 @@
       "source_file": "src/mnq_ai/setups/failed_fvg.py",
       "source_location": "L330",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "setups_failed_fvg",
-      "target": "setups_failed_fvg_build_h1_fvgs"
+      "target": "setups_failed_fvg_build_h1_fvgs",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -7041,9 +7023,9 @@
       "source_file": "src/mnq_ai/setups/failed_fvg.py",
       "source_location": "L102",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "setups_failed_fvg",
-      "target": "setups_failed_fvg_failedfvgconfig"
+      "target": "setups_failed_fvg_failedfvgconfig",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -7051,9 +7033,9 @@
       "source_file": "src/mnq_ai/setups/failed_fvg.py",
       "source_location": "L140",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "setups_failed_fvg",
-      "target": "setups_failed_fvg_failedfvgsetupengine"
+      "target": "setups_failed_fvg_failedfvgsetupengine",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -7061,9 +7043,9 @@
       "source_file": "src/mnq_ai/setups/failed_fvg.py",
       "source_location": "L351",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "setups_failed_fvg",
-      "target": "setups_failed_fvg_fvg"
+      "target": "setups_failed_fvg_fvg",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -7071,9 +7053,9 @@
       "source_file": "src/mnq_ai/setups/failed_fvg.py",
       "source_location": "L380",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "setups_failed_fvg",
-      "target": "setups_failed_fvg_overlaps_zone"
+      "target": "setups_failed_fvg_overlaps_zone",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -7081,9 +7063,9 @@
       "source_file": "src/mnq_ai/setups/failed_fvg.py",
       "source_location": "L394",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "setups_failed_fvg",
-      "target": "setups_failed_fvg_round_down_to_tick"
+      "target": "setups_failed_fvg_round_down_to_tick",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -7091,9 +7073,9 @@
       "source_file": "src/mnq_ai/setups/failed_fvg.py",
       "source_location": "L384",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "setups_failed_fvg",
-      "target": "setups_failed_fvg_round_to_tick"
+      "target": "setups_failed_fvg_round_to_tick",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -7101,9 +7083,9 @@
       "source_file": "src/mnq_ai/setups/failed_fvg.py",
       "source_location": "L389",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "setups_failed_fvg",
-      "target": "setups_failed_fvg_round_up_to_tick"
+      "target": "setups_failed_fvg_round_up_to_tick",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -7111,9 +7093,9 @@
       "source_file": "src/mnq_ai/setups/failed_fvg.py",
       "source_location": "L399",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "setups_failed_fvg",
-      "target": "setups_failed_fvg_setup_id"
+      "target": "setups_failed_fvg_setup_id",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -7121,9 +7103,9 @@
       "source_file": "src/mnq_ai/setups/failed_fvg.py",
       "source_location": "L56",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "setups_failed_fvg",
-      "target": "setups_failed_fvg_setupcandidate"
+      "target": "setups_failed_fvg_setupcandidate",
+      "confidence_score": 1.0
     },
     {
       "relation": "imports_from",
@@ -7132,9 +7114,9 @@
       "source_file": "src/mnq_ai/setups/failed_fvg.py",
       "source_location": "L10",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "setups_failed_fvg",
-      "target": "src_mnq_ai_setups_failed_fvg_py_datetime"
+      "target": "src_mnq_ai_setups_failed_fvg_py_datetime",
+      "confidence_score": 1.0
     },
     {
       "relation": "rationale_for",
@@ -7142,9 +7124,9 @@
       "source_file": "src/mnq_ai/setups/failed_fvg.py",
       "source_location": "L1",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "setups_failed_fvg_rationale_1",
-      "target": "setups_failed_fvg"
+      "target": "setups_failed_fvg",
+      "confidence_score": 1.0
     },
     {
       "relation": "method",
@@ -7152,9 +7134,9 @@
       "source_file": "src/mnq_ai/setups/failed_fvg.py",
       "source_location": "L33",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "setups_failed_fvg_bar",
-      "target": "setups_failed_fvg_bar_range"
+      "target": "setups_failed_fvg_bar_range",
+      "confidence_score": 1.0
     },
     {
       "relation": "references",
@@ -7163,9 +7145,9 @@
       "source_file": "src/mnq_ai/setups/failed_fvg.py",
       "source_location": "L330",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "setups_failed_fvg_build_h1_fvgs",
-      "target": "setups_failed_fvg_bar"
+      "target": "setups_failed_fvg_bar",
+      "confidence_score": 1.0
     },
     {
       "relation": "references",
@@ -7174,9 +7156,9 @@
       "source_file": "src/mnq_ai/setups/failed_fvg.py",
       "source_location": "L260",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "setups_failed_fvg_failedfvgsetupengine_build_candidate",
-      "target": "setups_failed_fvg_bar"
+      "target": "setups_failed_fvg_bar",
+      "confidence_score": 1.0
     },
     {
       "relation": "references",
@@ -7185,9 +7167,9 @@
       "source_file": "src/mnq_ai/setups/failed_fvg.py",
       "source_location": "L219",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "setups_failed_fvg_failedfvgsetupengine_candidate_from_failed_fvg",
-      "target": "setups_failed_fvg_bar"
+      "target": "setups_failed_fvg_bar",
+      "confidence_score": 1.0
     },
     {
       "relation": "references",
@@ -7196,9 +7178,9 @@
       "source_file": "src/mnq_ai/setups/failed_fvg.py",
       "source_location": "L195",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "setups_failed_fvg_failedfvgsetupengine_effort_ratios",
-      "target": "setups_failed_fvg_bar"
+      "target": "setups_failed_fvg_bar",
+      "confidence_score": 1.0
     },
     {
       "relation": "references",
@@ -7207,9 +7189,9 @@
       "source_file": "src/mnq_ai/setups/failed_fvg.py",
       "source_location": "L146",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "setups_failed_fvg_failedfvgsetupengine_generate",
-      "target": "setups_failed_fvg_bar"
+      "target": "setups_failed_fvg_bar",
+      "confidence_score": 1.0
     },
     {
       "relation": "references",
@@ -7218,9 +7200,9 @@
       "source_file": "src/mnq_ai/setups/failed_fvg.py",
       "source_location": "L351",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "setups_failed_fvg_fvg",
-      "target": "setups_failed_fvg_bar"
+      "target": "setups_failed_fvg_bar",
+      "confidence_score": 1.0
     },
     {
       "relation": "references",
@@ -7229,9 +7211,9 @@
       "source_file": "src/mnq_ai/setups/failed_fvg.py",
       "source_location": "L380",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "setups_failed_fvg_overlaps_zone",
-      "target": "setups_failed_fvg_bar"
+      "target": "setups_failed_fvg_bar",
+      "confidence_score": 1.0
     },
     {
       "relation": "rationale_for",
@@ -7239,9 +7221,9 @@
       "source_file": "src/mnq_ai/setups/failed_fvg.py",
       "source_location": "L21",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "setups_failed_fvg_rationale_21",
-      "target": "setups_failed_fvg_bar"
+      "target": "setups_failed_fvg_bar",
+      "confidence_score": 1.0
     },
     {
       "relation": "calls",
@@ -7260,9 +7242,9 @@
       "source_file": "tests/test_failed_fvg_setup_engine.py",
       "source_location": "L6",
       "weight": 0.8,
-      "confidence_score": 0.5,
       "source": "tests_test_failed_fvg_setup_engine_py_datetime",
-      "target": "setups_failed_fvg_bar"
+      "target": "setups_failed_fvg_bar",
+      "confidence_score": 0.5
     },
     {
       "relation": "uses",
@@ -7270,9 +7252,9 @@
       "source_file": "tests/test_failed_fvg_setup_engine.py",
       "source_location": "L6",
       "weight": 0.8,
-      "confidence_score": 0.5,
       "source": "tests_test_failed_fvg_setup_engine_py_int",
-      "target": "setups_failed_fvg_bar"
+      "target": "setups_failed_fvg_bar",
+      "confidence_score": 0.5
     },
     {
       "relation": "uses",
@@ -7280,9 +7262,9 @@
       "source_file": "tests/test_failed_fvg_setup_engine.py",
       "source_location": "L6",
       "weight": 0.8,
-      "confidence_score": 0.5,
       "source": "tests_test_failed_fvg_setup_engine_py_str",
-      "target": "setups_failed_fvg_bar"
+      "target": "setups_failed_fvg_bar",
+      "confidence_score": 0.5
     },
     {
       "relation": "references",
@@ -7291,9 +7273,9 @@
       "source_file": "src/mnq_ai/setups/failed_fvg.py",
       "source_location": "L33",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "setups_failed_fvg_bar_range",
-      "target": "decimal"
+      "target": "decimal",
+      "confidence_score": 1.0
     },
     {
       "relation": "references",
@@ -7302,9 +7284,9 @@
       "source_file": "src/mnq_ai/setups/failed_fvg.py",
       "source_location": "L260",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "setups_failed_fvg_failedfvgsetupengine_build_candidate",
-      "target": "decimal"
+      "target": "decimal",
+      "confidence_score": 1.0
     },
     {
       "relation": "references",
@@ -7313,9 +7295,9 @@
       "source_file": "src/mnq_ai/setups/failed_fvg.py",
       "source_location": "L219",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "setups_failed_fvg_failedfvgsetupengine_candidate_from_failed_fvg",
-      "target": "decimal"
+      "target": "decimal",
+      "confidence_score": 1.0
     },
     {
       "relation": "references",
@@ -7324,9 +7306,9 @@
       "source_file": "src/mnq_ai/setups/failed_fvg.py",
       "source_location": "L195",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "setups_failed_fvg_failedfvgsetupengine_effort_ratios",
-      "target": "decimal"
+      "target": "decimal",
+      "confidence_score": 1.0
     },
     {
       "relation": "references",
@@ -7335,9 +7317,9 @@
       "source_file": "src/mnq_ai/setups/failed_fvg.py",
       "source_location": "L351",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "setups_failed_fvg_fvg",
-      "target": "decimal"
+      "target": "decimal",
+      "confidence_score": 1.0
     },
     {
       "relation": "references",
@@ -7346,9 +7328,9 @@
       "source_file": "src/mnq_ai/setups/failed_fvg.py",
       "source_location": "L51",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "setups_failed_fvg_fvg_mid",
-      "target": "decimal"
+      "target": "decimal",
+      "confidence_score": 1.0
     },
     {
       "relation": "references",
@@ -7357,9 +7339,9 @@
       "source_file": "src/mnq_ai/setups/failed_fvg.py",
       "source_location": "L394",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "setups_failed_fvg_round_down_to_tick",
-      "target": "decimal"
+      "target": "decimal",
+      "confidence_score": 1.0
     },
     {
       "relation": "references",
@@ -7368,9 +7350,9 @@
       "source_file": "src/mnq_ai/setups/failed_fvg.py",
       "source_location": "L384",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "setups_failed_fvg_round_to_tick",
-      "target": "decimal"
+      "target": "decimal",
+      "confidence_score": 1.0
     },
     {
       "relation": "references",
@@ -7379,9 +7361,9 @@
       "source_file": "src/mnq_ai/setups/failed_fvg.py",
       "source_location": "L389",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "setups_failed_fvg_round_up_to_tick",
-      "target": "decimal"
+      "target": "decimal",
+      "confidence_score": 1.0
     },
     {
       "relation": "imports_from",
@@ -7390,9 +7372,9 @@
       "source_file": "tests/test_failed_fvg_setup_engine.py",
       "source_location": "L4",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "tests_test_failed_fvg_setup_engine",
-      "target": "decimal"
+      "target": "decimal",
+      "confidence_score": 1.0
     },
     {
       "relation": "calls",
@@ -7439,26 +7421,15 @@
       "target": "decimal"
     },
     {
-      "relation": "calls",
-      "context": "call",
-      "confidence": "INFERRED",
-      "confidence_score": 0.8,
-      "source_file": "tests/test_failed_fvg_setup_engine.py",
-      "source_location": "L114",
-      "weight": 1.0,
-      "source": "tests_test_failed_fvg_setup_engine_test_failed_fvg_skips_when_next_m30_entry_bar_is_missing",
-      "target": "decimal"
-    },
-    {
       "relation": "imports_from",
       "context": "import",
       "confidence": "EXTRACTED",
       "source_file": "tests/test_phase1_config.py",
       "source_location": "L3",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "tests_test_phase1_config",
-      "target": "decimal"
+      "target": "decimal",
+      "confidence_score": 1.0
     },
     {
       "relation": "calls",
@@ -7478,9 +7449,9 @@
       "source_file": "src/mnq_ai/setups/failed_fvg.py",
       "source_location": "L330",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "setups_failed_fvg_build_h1_fvgs",
-      "target": "setups_failed_fvg_fvg"
+      "target": "setups_failed_fvg_fvg",
+      "confidence_score": 1.0
     },
     {
       "relation": "references",
@@ -7489,9 +7460,9 @@
       "source_file": "src/mnq_ai/setups/failed_fvg.py",
       "source_location": "L260",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "setups_failed_fvg_failedfvgsetupengine_build_candidate",
-      "target": "setups_failed_fvg_fvg"
+      "target": "setups_failed_fvg_fvg",
+      "confidence_score": 1.0
     },
     {
       "relation": "references",
@@ -7500,9 +7471,9 @@
       "source_file": "src/mnq_ai/setups/failed_fvg.py",
       "source_location": "L219",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "setups_failed_fvg_failedfvgsetupengine_candidate_from_failed_fvg",
-      "target": "setups_failed_fvg_fvg"
+      "target": "setups_failed_fvg_fvg",
+      "confidence_score": 1.0
     },
     {
       "relation": "references",
@@ -7511,9 +7482,9 @@
       "source_file": "src/mnq_ai/setups/failed_fvg.py",
       "source_location": "L351",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "setups_failed_fvg_fvg",
-      "target": "fvgtype"
+      "target": "fvgtype",
+      "confidence_score": 1.0
     },
     {
       "relation": "method",
@@ -7521,9 +7492,9 @@
       "source_file": "src/mnq_ai/setups/failed_fvg.py",
       "source_location": "L51",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "setups_failed_fvg_fvg",
-      "target": "setups_failed_fvg_fvg_mid"
+      "target": "setups_failed_fvg_fvg_mid",
+      "confidence_score": 1.0
     },
     {
       "relation": "calls",
@@ -7532,9 +7503,9 @@
       "source_file": "src/mnq_ai/setups/failed_fvg.py",
       "source_location": "L359",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "setups_failed_fvg_fvg",
-      "target": "setups_failed_fvg_setup_id"
+      "target": "setups_failed_fvg_setup_id",
+      "confidence_score": 1.0
     },
     {
       "relation": "references",
@@ -7543,9 +7514,9 @@
       "source_file": "src/mnq_ai/setups/failed_fvg.py",
       "source_location": "L351",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "setups_failed_fvg_fvg",
-      "target": "src_mnq_ai_setups_failed_fvg_py_datetime"
+      "target": "src_mnq_ai_setups_failed_fvg_py_datetime",
+      "confidence_score": 1.0
     },
     {
       "relation": "references",
@@ -7554,9 +7525,9 @@
       "source_file": "src/mnq_ai/setups/failed_fvg.py",
       "source_location": "L380",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "setups_failed_fvg_overlaps_zone",
-      "target": "setups_failed_fvg_fvg"
+      "target": "setups_failed_fvg_fvg",
+      "confidence_score": 1.0
     },
     {
       "relation": "rationale_for",
@@ -7564,9 +7535,9 @@
       "source_file": "src/mnq_ai/setups/failed_fvg.py",
       "source_location": "L39",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "setups_failed_fvg_rationale_39",
-      "target": "setups_failed_fvg_fvg"
+      "target": "setups_failed_fvg_fvg",
+      "confidence_score": 1.0
     },
     {
       "relation": "references",
@@ -7575,9 +7546,9 @@
       "source_file": "src/mnq_ai/setups/failed_fvg.py",
       "source_location": "L260",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "setups_failed_fvg_failedfvgsetupengine_build_candidate",
-      "target": "setups_failed_fvg_setupcandidate"
+      "target": "setups_failed_fvg_setupcandidate",
+      "confidence_score": 1.0
     },
     {
       "relation": "references",
@@ -7586,9 +7557,9 @@
       "source_file": "src/mnq_ai/setups/failed_fvg.py",
       "source_location": "L219",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "setups_failed_fvg_failedfvgsetupengine_candidate_from_failed_fvg",
-      "target": "setups_failed_fvg_setupcandidate"
+      "target": "setups_failed_fvg_setupcandidate",
+      "confidence_score": 1.0
     },
     {
       "relation": "references",
@@ -7597,9 +7568,9 @@
       "source_file": "src/mnq_ai/setups/failed_fvg.py",
       "source_location": "L146",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "setups_failed_fvg_failedfvgsetupengine_generate",
-      "target": "setups_failed_fvg_setupcandidate"
+      "target": "setups_failed_fvg_setupcandidate",
+      "confidence_score": 1.0
     },
     {
       "relation": "rationale_for",
@@ -7607,9 +7578,9 @@
       "source_file": "src/mnq_ai/setups/failed_fvg.py",
       "source_location": "L57",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "setups_failed_fvg_rationale_57",
-      "target": "setups_failed_fvg_setupcandidate"
+      "target": "setups_failed_fvg_setupcandidate",
+      "confidence_score": 1.0
     },
     {
       "relation": "method",
@@ -7617,9 +7588,9 @@
       "source_file": "src/mnq_ai/setups/failed_fvg.py",
       "source_location": "L84",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "setups_failed_fvg_setupcandidate",
-      "target": "setups_failed_fvg_setupcandidate_fingerprint"
+      "target": "setups_failed_fvg_setupcandidate_fingerprint",
+      "confidence_score": 1.0
     },
     {
       "relation": "rationale_for",
@@ -7627,9 +7598,9 @@
       "source_file": "src/mnq_ai/setups/failed_fvg.py",
       "source_location": "L85",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "setups_failed_fvg_rationale_85",
-      "target": "setups_failed_fvg_setupcandidate_fingerprint"
+      "target": "setups_failed_fvg_setupcandidate_fingerprint",
+      "confidence_score": 1.0
     },
     {
       "relation": "references",
@@ -7638,9 +7609,9 @@
       "source_file": "src/mnq_ai/setups/failed_fvg.py",
       "source_location": "L84",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "setups_failed_fvg_setupcandidate_fingerprint",
-      "target": "src_mnq_ai_setups_failed_fvg_py_object"
+      "target": "src_mnq_ai_setups_failed_fvg_py_object",
+      "confidence_score": 1.0
     },
     {
       "relation": "references",
@@ -7649,9 +7620,9 @@
       "source_location": "L122",
       "weight": 1.0,
       "context": "return_type",
-      "confidence_score": 1.0,
       "source": "setups_failed_fvg_failedfvgconfig_validated",
-      "target": "setups_failed_fvg_failedfvgconfig"
+      "target": "setups_failed_fvg_failedfvgconfig",
+      "confidence_score": 1.0
     },
     {
       "relation": "references",
@@ -7660,9 +7631,9 @@
       "source_file": "src/mnq_ai/setups/failed_fvg.py",
       "source_location": "L143",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "setups_failed_fvg_failedfvgsetupengine_init",
-      "target": "setups_failed_fvg_failedfvgconfig"
+      "target": "setups_failed_fvg_failedfvgconfig",
+      "confidence_score": 1.0
     },
     {
       "relation": "rationale_for",
@@ -7670,9 +7641,9 @@
       "source_file": "src/mnq_ai/setups/failed_fvg.py",
       "source_location": "L103",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "setups_failed_fvg_rationale_103",
-      "target": "setups_failed_fvg_failedfvgconfig"
+      "target": "setups_failed_fvg_failedfvgconfig",
+      "confidence_score": 1.0
     },
     {
       "relation": "uses",
@@ -7680,9 +7651,9 @@
       "source_file": "tests/test_failed_fvg_setup_engine.py",
       "source_location": "L6",
       "weight": 0.8,
-      "confidence_score": 0.5,
       "source": "tests_test_failed_fvg_setup_engine_py_datetime",
-      "target": "setups_failed_fvg_failedfvgconfig"
+      "target": "setups_failed_fvg_failedfvgconfig",
+      "confidence_score": 0.5
     },
     {
       "relation": "uses",
@@ -7690,9 +7661,9 @@
       "source_file": "tests/test_failed_fvg_setup_engine.py",
       "source_location": "L6",
       "weight": 0.8,
-      "confidence_score": 0.5,
       "source": "tests_test_failed_fvg_setup_engine_py_int",
-      "target": "setups_failed_fvg_failedfvgconfig"
+      "target": "setups_failed_fvg_failedfvgconfig",
+      "confidence_score": 0.5
     },
     {
       "relation": "uses",
@@ -7700,9 +7671,9 @@
       "source_file": "tests/test_failed_fvg_setup_engine.py",
       "source_location": "L6",
       "weight": 0.8,
-      "confidence_score": 0.5,
       "source": "tests_test_failed_fvg_setup_engine_py_str",
-      "target": "setups_failed_fvg_failedfvgconfig"
+      "target": "setups_failed_fvg_failedfvgconfig",
+      "confidence_score": 0.5
     },
     {
       "relation": "calls",
@@ -7729,24 +7700,13 @@
     {
       "relation": "calls",
       "context": "call",
-      "confidence": "INFERRED",
-      "confidence_score": 0.8,
-      "source_file": "tests/test_failed_fvg_setup_engine.py",
-      "source_location": "L113",
-      "weight": 1.0,
-      "source": "tests_test_failed_fvg_setup_engine_test_failed_fvg_skips_when_next_m30_entry_bar_is_missing",
-      "target": "setups_failed_fvg_failedfvgconfig"
-    },
-    {
-      "relation": "calls",
-      "context": "call",
       "confidence": "EXTRACTED",
       "source_file": "src/mnq_ai/setups/failed_fvg.py",
       "source_location": "L144",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "setups_failed_fvg_failedfvgsetupengine_init",
-      "target": "setups_failed_fvg_failedfvgconfig_validated"
+      "target": "setups_failed_fvg_failedfvgconfig_validated",
+      "confidence_score": 1.0
     },
     {
       "relation": "method",
@@ -7754,9 +7714,9 @@
       "source_file": "src/mnq_ai/setups/failed_fvg.py",
       "source_location": "L260",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "setups_failed_fvg_failedfvgsetupengine",
-      "target": "setups_failed_fvg_failedfvgsetupengine_build_candidate"
+      "target": "setups_failed_fvg_failedfvgsetupengine_build_candidate",
+      "confidence_score": 1.0
     },
     {
       "relation": "method",
@@ -7764,9 +7724,9 @@
       "source_file": "src/mnq_ai/setups/failed_fvg.py",
       "source_location": "L219",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "setups_failed_fvg_failedfvgsetupengine",
-      "target": "setups_failed_fvg_failedfvgsetupengine_candidate_from_failed_fvg"
+      "target": "setups_failed_fvg_failedfvgsetupengine_candidate_from_failed_fvg",
+      "confidence_score": 1.0
     },
     {
       "relation": "method",
@@ -7774,9 +7734,9 @@
       "source_file": "src/mnq_ai/setups/failed_fvg.py",
       "source_location": "L195",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "setups_failed_fvg_failedfvgsetupengine",
-      "target": "setups_failed_fvg_failedfvgsetupengine_effort_ratios"
+      "target": "setups_failed_fvg_failedfvgsetupengine_effort_ratios",
+      "confidence_score": 1.0
     },
     {
       "relation": "method",
@@ -7784,9 +7744,9 @@
       "source_file": "src/mnq_ai/setups/failed_fvg.py",
       "source_location": "L146",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "setups_failed_fvg_failedfvgsetupengine",
-      "target": "setups_failed_fvg_failedfvgsetupengine_generate"
+      "target": "setups_failed_fvg_failedfvgsetupengine_generate",
+      "confidence_score": 1.0
     },
     {
       "relation": "method",
@@ -7794,9 +7754,9 @@
       "source_file": "src/mnq_ai/setups/failed_fvg.py",
       "source_location": "L143",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "setups_failed_fvg_failedfvgsetupengine",
-      "target": "setups_failed_fvg_failedfvgsetupengine_init"
+      "target": "setups_failed_fvg_failedfvgsetupengine_init",
+      "confidence_score": 1.0
     },
     {
       "relation": "rationale_for",
@@ -7804,9 +7764,9 @@
       "source_file": "src/mnq_ai/setups/failed_fvg.py",
       "source_location": "L141",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "setups_failed_fvg_rationale_141",
-      "target": "setups_failed_fvg_failedfvgsetupengine"
+      "target": "setups_failed_fvg_failedfvgsetupengine",
+      "confidence_score": 1.0
     },
     {
       "relation": "uses",
@@ -7814,9 +7774,9 @@
       "source_file": "tests/test_failed_fvg_setup_engine.py",
       "source_location": "L6",
       "weight": 0.8,
-      "confidence_score": 0.5,
       "source": "tests_test_failed_fvg_setup_engine_py_datetime",
-      "target": "setups_failed_fvg_failedfvgsetupengine"
+      "target": "setups_failed_fvg_failedfvgsetupengine",
+      "confidence_score": 0.5
     },
     {
       "relation": "uses",
@@ -7824,9 +7784,9 @@
       "source_file": "tests/test_failed_fvg_setup_engine.py",
       "source_location": "L6",
       "weight": 0.8,
-      "confidence_score": 0.5,
       "source": "tests_test_failed_fvg_setup_engine_py_int",
-      "target": "setups_failed_fvg_failedfvgsetupengine"
+      "target": "setups_failed_fvg_failedfvgsetupengine",
+      "confidence_score": 0.5
     },
     {
       "relation": "uses",
@@ -7834,9 +7794,9 @@
       "source_file": "tests/test_failed_fvg_setup_engine.py",
       "source_location": "L6",
       "weight": 0.8,
-      "confidence_score": 0.5,
       "source": "tests_test_failed_fvg_setup_engine_py_str",
-      "target": "setups_failed_fvg_failedfvgsetupengine"
+      "target": "setups_failed_fvg_failedfvgsetupengine",
+      "confidence_score": 0.5
     },
     {
       "relation": "calls",
@@ -7863,24 +7823,13 @@
     {
       "relation": "calls",
       "context": "call",
-      "confidence": "INFERRED",
-      "confidence_score": 0.8,
-      "source_file": "tests/test_failed_fvg_setup_engine.py",
-      "source_location": "L120",
-      "weight": 1.0,
-      "source": "tests_test_failed_fvg_setup_engine_test_failed_fvg_skips_when_next_m30_entry_bar_is_missing",
-      "target": "setups_failed_fvg_failedfvgsetupengine"
-    },
-    {
-      "relation": "calls",
-      "context": "call",
       "confidence": "EXTRACTED",
       "source_file": "src/mnq_ai/setups/failed_fvg.py",
       "source_location": "L149",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "setups_failed_fvg_failedfvgsetupengine_generate",
-      "target": "setups_failed_fvg_build_h1_fvgs"
+      "target": "setups_failed_fvg_build_h1_fvgs",
+      "confidence_score": 1.0
     },
     {
       "relation": "calls",
@@ -7889,9 +7838,9 @@
       "source_file": "src/mnq_ai/setups/failed_fvg.py",
       "source_location": "L181",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "setups_failed_fvg_failedfvgsetupengine_generate",
-      "target": "setups_failed_fvg_failedfvgsetupengine_candidate_from_failed_fvg"
+      "target": "setups_failed_fvg_failedfvgsetupengine_candidate_from_failed_fvg",
+      "confidence_score": 1.0
     },
     {
       "relation": "calls",
@@ -7900,9 +7849,9 @@
       "source_file": "src/mnq_ai/setups/failed_fvg.py",
       "source_location": "L170",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "setups_failed_fvg_failedfvgsetupengine_generate",
-      "target": "setups_failed_fvg_failedfvgsetupengine_effort_ratios"
+      "target": "setups_failed_fvg_failedfvgsetupengine_effort_ratios",
+      "confidence_score": 1.0
     },
     {
       "relation": "references",
@@ -7911,9 +7860,9 @@
       "source_file": "src/mnq_ai/setups/failed_fvg.py",
       "source_location": "L195",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "setups_failed_fvg_failedfvgsetupengine_effort_ratios",
-      "target": "src_mnq_ai_setups_failed_fvg_py_int"
+      "target": "src_mnq_ai_setups_failed_fvg_py_int",
+      "confidence_score": 1.0
     },
     {
       "relation": "calls",
@@ -7922,9 +7871,9 @@
       "source_file": "src/mnq_ai/setups/failed_fvg.py",
       "source_location": "L235",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "setups_failed_fvg_failedfvgsetupengine_candidate_from_failed_fvg",
-      "target": "setups_failed_fvg_failedfvgsetupengine_build_candidate"
+      "target": "setups_failed_fvg_failedfvgsetupengine_build_candidate",
+      "confidence_score": 1.0
     },
     {
       "relation": "calls",
@@ -7933,9 +7882,9 @@
       "source_file": "src/mnq_ai/setups/failed_fvg.py",
       "source_location": "L228",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "setups_failed_fvg_failedfvgsetupengine_candidate_from_failed_fvg",
-      "target": "setups_failed_fvg_overlaps_zone"
+      "target": "setups_failed_fvg_overlaps_zone",
+      "confidence_score": 1.0
     },
     {
       "relation": "references",
@@ -7944,9 +7893,9 @@
       "source_file": "src/mnq_ai/setups/failed_fvg.py",
       "source_location": "L260",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "setups_failed_fvg_failedfvgsetupengine_build_candidate",
-      "target": "entryside"
+      "target": "entryside",
+      "confidence_score": 1.0
     },
     {
       "relation": "calls",
@@ -7955,9 +7904,9 @@
       "source_file": "src/mnq_ai/setups/failed_fvg.py",
       "source_location": "L282",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "setups_failed_fvg_failedfvgsetupengine_build_candidate",
-      "target": "setups_failed_fvg_round_down_to_tick"
+      "target": "setups_failed_fvg_round_down_to_tick",
+      "confidence_score": 1.0
     },
     {
       "relation": "calls",
@@ -7966,9 +7915,9 @@
       "source_file": "src/mnq_ai/setups/failed_fvg.py",
       "source_location": "L272",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "setups_failed_fvg_failedfvgsetupengine_build_candidate",
-      "target": "setups_failed_fvg_round_to_tick"
+      "target": "setups_failed_fvg_round_to_tick",
+      "confidence_score": 1.0
     },
     {
       "relation": "calls",
@@ -7977,9 +7926,9 @@
       "source_file": "src/mnq_ai/setups/failed_fvg.py",
       "source_location": "L275",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "setups_failed_fvg_failedfvgsetupengine_build_candidate",
-      "target": "setups_failed_fvg_round_up_to_tick"
+      "target": "setups_failed_fvg_round_up_to_tick",
+      "confidence_score": 1.0
     },
     {
       "relation": "calls",
@@ -7988,9 +7937,9 @@
       "source_file": "src/mnq_ai/setups/failed_fvg.py",
       "source_location": "L289",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "setups_failed_fvg_failedfvgsetupengine_build_candidate",
-      "target": "setups_failed_fvg_setup_id"
+      "target": "setups_failed_fvg_setup_id",
+      "confidence_score": 1.0
     },
     {
       "relation": "references",
@@ -7999,9 +7948,9 @@
       "source_file": "src/mnq_ai/setups/failed_fvg.py",
       "source_location": "L260",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "setups_failed_fvg_failedfvgsetupengine_build_candidate",
-      "target": "src_mnq_ai_setups_failed_fvg_py_str"
+      "target": "src_mnq_ai_setups_failed_fvg_py_str",
+      "confidence_score": 1.0
     },
     {
       "relation": "references",
@@ -8010,9 +7959,9 @@
       "source_file": "src/mnq_ai/setups/failed_fvg.py",
       "source_location": "L399",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "setups_failed_fvg_setup_id",
-      "target": "src_mnq_ai_setups_failed_fvg_py_str"
+      "target": "src_mnq_ai_setups_failed_fvg_py_str",
+      "confidence_score": 1.0
     },
     {
       "relation": "references",
@@ -8021,9 +7970,9 @@
       "source_file": "src/mnq_ai/setups/failed_fvg.py",
       "source_location": "L330",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "setups_failed_fvg_build_h1_fvgs",
-      "target": "timedelta"
+      "target": "timedelta",
+      "confidence_score": 1.0
     },
     {
       "relation": "rationale_for",
@@ -8031,17 +7980,7 @@
       "source_file": "src/mnq_ai/setups/failed_fvg.py",
       "source_location": "L331",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "setups_failed_fvg_rationale_331",
-      "target": "setups_failed_fvg_build_h1_fvgs"
-    },
-    {
-      "relation": "rationale_for",
-      "confidence": "EXTRACTED",
-      "source_file": "src/mnq_ai/setups/failed_fvg.py",
-      "source_location": "L336",
-      "weight": 1.0,
-      "source": "setups_failed_fvg_rationale_336",
       "target": "setups_failed_fvg_build_h1_fvgs",
       "confidence_score": 1.0
     },
@@ -8074,9 +8013,9 @@
       "source_file": "src/mnq_ai/setups/failed_fvg.py",
       "source_location": "L380",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "setups_failed_fvg_overlaps_zone",
-      "target": "src_mnq_ai_setups_failed_fvg_py_bool"
+      "target": "src_mnq_ai_setups_failed_fvg_py_bool",
+      "confidence_score": 1.0
     },
     {
       "relation": "rationale_for",
@@ -8094,9 +8033,9 @@
       "source_file": "tests/test_failed_fvg_setup_engine.py",
       "source_location": "L112",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "tests_test_failed_fvg_setup_engine",
-      "target": "tests_test_failed_fvg_setup_engine_bar"
+      "target": "tests_test_failed_fvg_setup_engine_bar",
+      "confidence_score": 1.0
     },
     {
       "relation": "imports_from",
@@ -8105,9 +8044,9 @@
       "source_file": "tests/test_failed_fvg_setup_engine.py",
       "source_location": "L3",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "tests_test_failed_fvg_setup_engine",
-      "target": "tests_test_failed_fvg_setup_engine_py_datetime"
+      "target": "tests_test_failed_fvg_setup_engine_py_datetime",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -8115,9 +8054,9 @@
       "source_file": "tests/test_failed_fvg_setup_engine.py",
       "source_location": "L11",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "tests_test_failed_fvg_setup_engine",
-      "target": "tests_test_failed_fvg_setup_engine_test_build_h1_fvgs_uses_three_bar_gap_and_delays_availability"
+      "target": "tests_test_failed_fvg_setup_engine_test_build_h1_fvgs_uses_three_bar_gap_and_delays_availability",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -8125,9 +8064,9 @@
       "source_file": "tests/test_failed_fvg_setup_engine.py",
       "source_location": "L33",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "tests_test_failed_fvg_setup_engine",
-      "target": "tests_test_failed_fvg_setup_engine_test_failed_bull_fvg_emits_short_candidate_from_next_bar_entry"
+      "target": "tests_test_failed_fvg_setup_engine_test_failed_bull_fvg_emits_short_candidate_from_next_bar_entry",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -8135,18 +8074,8 @@
       "source_file": "tests/test_failed_fvg_setup_engine.py",
       "source_location": "L78",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "tests_test_failed_fvg_setup_engine",
-      "target": "tests_test_failed_fvg_setup_engine_test_failed_fvg_generation_is_invariant_to_future_bars"
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "tests/test_failed_fvg_setup_engine.py",
-      "source_location": "L112",
-      "weight": 1.0,
-      "source": "tests_test_failed_fvg_setup_engine",
-      "target": "tests_test_failed_fvg_setup_engine_test_failed_fvg_skips_when_next_m30_entry_bar_is_missing",
+      "target": "tests_test_failed_fvg_setup_engine_test_failed_fvg_generation_is_invariant_to_future_bars",
       "confidence_score": 1.0
     },
     {
@@ -8155,9 +8084,9 @@
       "source_file": "tests/test_failed_fvg_setup_engine.py",
       "source_location": "L133",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "tests_test_failed_fvg_setup_engine",
-      "target": "tests_test_failed_fvg_setup_engine_ts"
+      "target": "tests_test_failed_fvg_setup_engine_ts",
+      "confidence_score": 1.0
     },
     {
       "relation": "calls",
@@ -8166,9 +8095,9 @@
       "source_file": "tests/test_failed_fvg_setup_engine.py",
       "source_location": "L13",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "tests_test_failed_fvg_setup_engine_test_build_h1_fvgs_uses_three_bar_gap_and_delays_availability",
-      "target": "tests_test_failed_fvg_setup_engine_bar"
+      "target": "tests_test_failed_fvg_setup_engine_bar",
+      "confidence_score": 1.0
     },
     {
       "relation": "calls",
@@ -8177,9 +8106,9 @@
       "source_file": "tests/test_failed_fvg_setup_engine.py",
       "source_location": "L25",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "tests_test_failed_fvg_setup_engine_test_build_h1_fvgs_uses_three_bar_gap_and_delays_availability",
-      "target": "tests_test_failed_fvg_setup_engine_ts"
+      "target": "tests_test_failed_fvg_setup_engine_ts",
+      "confidence_score": 1.0
     },
     {
       "relation": "calls",
@@ -8188,9 +8117,9 @@
       "source_file": "tests/test_failed_fvg_setup_engine.py",
       "source_location": "L44",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "tests_test_failed_fvg_setup_engine_test_failed_bull_fvg_emits_short_candidate_from_next_bar_entry",
-      "target": "tests_test_failed_fvg_setup_engine_bar"
+      "target": "tests_test_failed_fvg_setup_engine_bar",
+      "confidence_score": 1.0
     },
     {
       "relation": "calls",
@@ -8199,9 +8128,9 @@
       "source_file": "tests/test_failed_fvg_setup_engine.py",
       "source_location": "L62",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "tests_test_failed_fvg_setup_engine_test_failed_bull_fvg_emits_short_candidate_from_next_bar_entry",
-      "target": "tests_test_failed_fvg_setup_engine_ts"
+      "target": "tests_test_failed_fvg_setup_engine_ts",
+      "confidence_score": 1.0
     },
     {
       "relation": "calls",
@@ -8210,18 +8139,7 @@
       "source_file": "tests/test_failed_fvg_setup_engine.py",
       "source_location": "L88",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "tests_test_failed_fvg_setup_engine_test_failed_fvg_generation_is_invariant_to_future_bars",
-      "target": "tests_test_failed_fvg_setup_engine_bar"
-    },
-    {
-      "relation": "calls",
-      "context": "call",
-      "confidence": "EXTRACTED",
-      "source_file": "tests/test_failed_fvg_setup_engine.py",
-      "source_location": "L122",
-      "weight": 1.0,
-      "source": "tests_test_failed_fvg_setup_engine_test_failed_fvg_skips_when_next_m30_entry_bar_is_missing",
       "target": "tests_test_failed_fvg_setup_engine_bar",
       "confidence_score": 1.0
     },
@@ -8232,9 +8150,9 @@
       "source_file": "tests/test_failed_fvg_setup_engine.py",
       "source_location": "L112",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "tests_test_failed_fvg_setup_engine_bar",
-      "target": "tests_test_failed_fvg_setup_engine_py_int"
+      "target": "tests_test_failed_fvg_setup_engine_py_int",
+      "confidence_score": 1.0
     },
     {
       "relation": "references",
@@ -8243,9 +8161,9 @@
       "source_file": "tests/test_failed_fvg_setup_engine.py",
       "source_location": "L112",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "tests_test_failed_fvg_setup_engine_bar",
-      "target": "tests_test_failed_fvg_setup_engine_py_str"
+      "target": "tests_test_failed_fvg_setup_engine_py_str",
+      "confidence_score": 1.0
     },
     {
       "relation": "calls",
@@ -8254,9 +8172,9 @@
       "source_file": "tests/test_failed_fvg_setup_engine.py",
       "source_location": "L122",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "tests_test_failed_fvg_setup_engine_bar",
-      "target": "tests_test_failed_fvg_setup_engine_ts"
+      "target": "tests_test_failed_fvg_setup_engine_ts",
+      "confidence_score": 1.0
     },
     {
       "relation": "references",
@@ -8265,9 +8183,9 @@
       "source_file": "tests/test_failed_fvg_setup_engine.py",
       "source_location": "L133",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "tests_test_failed_fvg_setup_engine_ts",
-      "target": "tests_test_failed_fvg_setup_engine_py_str"
+      "target": "tests_test_failed_fvg_setup_engine_py_str",
+      "confidence_score": 1.0
     },
     {
       "relation": "references",
@@ -8276,9 +8194,9 @@
       "source_file": "tests/test_failed_fvg_setup_engine.py",
       "source_location": "L133",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "tests_test_failed_fvg_setup_engine_ts",
-      "target": "tests_test_failed_fvg_setup_engine_py_datetime"
+      "target": "tests_test_failed_fvg_setup_engine_py_datetime",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -8680,9 +8598,9 @@
       "source_file": "tests/test_phase1_trade_extractor.py",
       "source_location": "L120",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "tests_test_phase1_trade_extractor_write_fixture",
-      "target": "tests_test_phase1_trade_extractor_py_object"
+      "target": "tests_test_phase1_trade_extractor_py_object",
+      "confidence_score": 1.0
     },
     {
       "relation": "calls",
@@ -8702,9 +8620,9 @@
       "source_file": "tests/test_phase1_trade_extractor.py",
       "source_location": "L142",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "tests_test_phase1_trade_extractor_row",
-      "target": "tests_test_phase1_trade_extractor_py_object"
+      "target": "tests_test_phase1_trade_extractor_py_object",
+      "confidence_score": 1.0
     },
     {
       "relation": "references",
@@ -8713,9 +8631,9 @@
       "source_file": "tests/test_phase1_trade_extractor.py",
       "source_location": "L126",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "tests_test_phase1_trade_extractor_rows",
-      "target": "tests_test_phase1_trade_extractor_py_object"
+      "target": "tests_test_phase1_trade_extractor_py_object",
+      "confidence_score": 1.0
     },
     {
       "relation": "references",

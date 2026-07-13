@@ -1,0 +1,750 @@
+{
+  "communities": {
+    "0": [
+      "agents_auction_feature_engineering",
+      "agents_dependency_governor",
+      "agents_execution_backtest_gate",
+      "agents_mbo_data_causality",
+      "agents_out_of_core_data_engineering",
+      "agents_quant_model_validation",
+      "agents_quant_research_scout",
+      "architecture_phase1_data_architecture",
+      "architecture_session_definition",
+      "architecture_trade_tape_contract",
+      "auction_feature_engineering_skill",
+      "auction_feature_engineering_skill_ablation_requirement",
+      "auction_feature_engineering_skill_do_not_trigger",
+      "auction_feature_engineering_skill_required_checks",
+      "auction_feature_engineering_skill_required_workflow",
+      "auction_feature_engineering_skill_trigger",
+      "dependencies_dependency_policy",
+      "docs_architecture_phase1_data_architecture",
+      "docs_architecture_session_definition",
+      "docs_research_phase0_5_skill_trigger_tests",
+      "execution_backtest_gate_skill",
+      "execution_backtest_gate_skill_do_not_trigger",
+      "execution_backtest_gate_skill_gate_output",
+      "execution_backtest_gate_skill_required_evidence",
+      "execution_backtest_gate_skill_required_workflow",
+      "execution_backtest_gate_skill_trigger",
+      "mbo_data_causality_skill",
+      "mbo_data_causality_skill_do_not_trigger",
+      "mbo_data_causality_skill_fail_closed_rule",
+      "mbo_data_causality_skill_required_checks",
+      "mbo_data_causality_skill_required_workflow",
+      "mbo_data_causality_skill_trigger",
+      "phases_phase0_5_skill_trigger_tests",
+      "phases_phase0_5_skill_trigger_tests_auction_feature_engineering",
+      "phases_phase0_5_skill_trigger_tests_dependency_governor",
+      "phases_phase0_5_skill_trigger_tests_execution_backtest_gate",
+      "phases_phase0_5_skill_trigger_tests_mbo_data_causality",
+      "phases_phase0_5_skill_trigger_tests_out_of_core_data_engineering",
+      "phases_phase0_5_skill_trigger_tests_quant_model_validation",
+      "phases_phase0_5_skill_trigger_tests_quant_research_scout",
+      "readme",
+      "readme_boundaries",
+      "readme_cli",
+      "readme_mnqvolumeai",
+      "readme_python_policy",
+      "research_algorithm_selection_policy"
+    ],
+    "1": [
+      "argumentparser",
+      "exception",
+      "mnq_ai_cli",
+      "mnq_ai_cli_config_from_args",
+      "mnq_ai_cli_main",
+      "mnq_ai_cli_parser",
+      "mnq_ai_cli_rationale_1",
+      "mnq_ai_cli_rationale_17",
+      "mnq_ai_exceptions_mnqaierror",
+      "mnq_ai_exceptions_outputvalidationerror",
+      "mnq_ai_exceptions_rationale_1",
+      "mnq_ai_exceptions_rationale_15",
+      "mnq_ai_exceptions_rationale_23",
+      "mnq_ai_exceptions_rationale_7",
+      "mnq_ai_exceptions_schemavalidationerror",
+      "mnq_ai_logging_config",
+      "mnq_ai_logging_config_configure_logging",
+      "mnq_ai_logging_config_rationale_1",
+      "mnq_ai_logging_config_rationale_9",
+      "namespace",
+      "src_mnq_ai_cli_py_int",
+      "src_mnq_ai_cli_py_phase1config",
+      "src_mnq_ai_cli_py_str",
+      "src_mnq_ai_logging_config_py_str",
+      "tests_test_phase1_config",
+      "tests_test_phase1_config_test_config_rejects_bad_policy",
+      "tests_test_phase1_config_test_config_validates_tick_and_timezone"
+    ],
+    "2": [
+      "graphify_skill",
+      "graphify_skill_for_graphify_add_and_watch",
+      "graphify_skill_for_graphify_query",
+      "graphify_skill_for_the_commit_hook_and_native_claude_md_integration",
+      "graphify_skill_for_update_and_cluster_only",
+      "graphify_skill_graphify",
+      "graphify_skill_honesty_rules",
+      "graphify_skill_interpreter_guard_for_subcommands",
+      "graphify_skill_part_a_structural_extraction_for_code_files",
+      "graphify_skill_part_b_semantic_extraction_parallel_subagents",
+      "graphify_skill_part_c_merge_ast_semantic_into_final_extraction",
+      "graphify_skill_step_0_github_repos_and_multi_path_merge_only_if_a_url_or_several_paths",
+      "graphify_skill_step_1_ensure_graphify_is_installed",
+      "graphify_skill_step_2_5_video_and_audio_only_if_video_files_detected",
+      "graphify_skill_step_2_detect_files",
+      "graphify_skill_step_3_extract_entities_and_relationships",
+      "graphify_skill_step_4_5_graph_health_check_read_only_integrity_gate",
+      "graphify_skill_step_4_build_graph_cluster_analyze_generate_outputs",
+      "graphify_skill_step_5_label_communities",
+      "graphify_skill_step_6_generate_obsidian_vault_opt_in_html",
+      "graphify_skill_step_9_save_manifest_update_cost_tracker_clean_up_and_report",
+      "graphify_skill_steps_6b_8_wiki_neo4j_falkordb_svg_graphml_mcp_benchmark_only_on_their_flags",
+      "graphify_skill_usage",
+      "graphify_skill_what_graphify_is_for",
+      "graphify_skill_what_you_must_do_when_invoked"
+    ],
+    "3": [
+      "docs_research_papers_original_mnq_vp_ai_master_plan",
+      "original_mnq_vp_ai_master_plan",
+      "original_mnq_vp_ai_master_plan_current_architecture_inventory",
+      "original_mnq_vp_ai_master_plan_current_issues_and_risks",
+      "original_mnq_vp_ai_master_plan_data_readiness_assessment",
+      "original_mnq_vp_ai_master_plan_deleted_but_required_before_implementation",
+      "original_mnq_vp_ai_master_plan_deleted_or_generated_paths_that_should_not_block_the_rebuild",
+      "original_mnq_vp_ai_master_plan_dependency_graph",
+      "original_mnq_vp_ai_master_plan_exact_module_boundaries",
+      "original_mnq_vp_ai_master_plan_executive_summary",
+      "original_mnq_vp_ai_master_plan_items_that_can_be_reused_safely",
+      "original_mnq_vp_ai_master_plan_items_to_remove_or_deprecate",
+      "original_mnq_vp_ai_master_plan_leakage_risk_assessment",
+      "original_mnq_vp_ai_master_plan_memory_and_compute_strategy_for_179m_mbo_rows",
+      "original_mnq_vp_ai_master_plan_phase_0_restore_safety_and_plan",
+      "original_mnq_vp_ai_master_plan_phase_1_mnq_trade_extraction_and_session_calendar",
+      "original_mnq_vp_ai_master_plan_phase_2_causal_feature_contracts",
+      "original_mnq_vp_ai_master_plan_phase_3_deterministic_setup_engine",
+      "original_mnq_vp_ai_master_plan_phase_4_cost_aware_labels_and_backtest",
+      "original_mnq_vp_ai_master_plan_phase_5_meta_models_and_calibration",
+      "original_mnq_vp_ai_master_plan_phase_6_production_decision_object",
+      "original_mnq_vp_ai_master_plan_phased_implementation_order",
+      "original_mnq_vp_ai_master_plan_present_in_the_working_tree",
+      "original_mnq_vp_ai_master_plan_stop_go_recommendation",
+      "original_mnq_vp_ai_master_plan_target_architecture"
+    ],
+    "4": [
+      "any",
+      "bool",
+      "mnq_ai_config",
+      "mnq_ai_config_load_yaml_with_extends",
+      "mnq_ai_config_parse_hms",
+      "mnq_ai_config_phase1config_from_mapping",
+      "mnq_ai_config_phase1config_from_yaml",
+      "mnq_ai_config_phase1config_validated",
+      "mnq_ai_config_phase1config_with_overrides",
+      "mnq_ai_config_rationale_1",
+      "mnq_ai_config_rationale_100",
+      "mnq_ai_config_rationale_114",
+      "mnq_ai_config_rationale_52",
+      "mnq_ai_config_rationale_68",
+      "mnq_ai_config_read_yaml",
+      "mnq_ai_constants",
+      "mnq_ai_constants_rationale_1",
+      "mnq_ai_exceptions_configurationerror",
+      "mnq_ai_exceptions_rationale_11",
+      "src_mnq_ai_config_py_int",
+      "src_mnq_ai_config_py_path",
+      "src_mnq_ai_config_py_str",
+      "tests_test_phase1_sessionizer",
+      "tests_test_phase1_sessionizer_test_cme_trading_date_uses_exchange_timezone_and_dst"
+    ],
+    "5": [
+      "docs_research_papers_original_mnq_walk_forward_backtest_spec",
+      "original_mnq_labeling_and_leakage_spec",
+      "original_mnq_labeling_and_leakage_spec_acceptance_criteria",
+      "original_mnq_labeling_and_leakage_spec_automated_leakage_tests",
+      "original_mnq_labeling_and_leakage_spec_execution_assumptions",
+      "original_mnq_labeling_and_leakage_spec_label_philosophy",
+      "original_mnq_labeling_and_leakage_spec_leakage_blacklist",
+      "original_mnq_labeling_and_leakage_spec_purging_metadata",
+      "original_mnq_labeling_and_leakage_spec_repeated_event_prevention",
+      "original_mnq_labeling_and_leakage_spec_required_labels",
+      "original_mnq_labeling_and_leakage_spec_target_roles",
+      "original_mnq_walk_forward_backtest_spec",
+      "original_mnq_walk_forward_backtest_spec_acceptance_criteria",
+      "original_mnq_walk_forward_backtest_spec_backtest_engine_requirements",
+      "original_mnq_walk_forward_backtest_spec_classification",
+      "original_mnq_walk_forward_backtest_spec_data_split_rules",
+      "original_mnq_walk_forward_backtest_spec_evaluation_metrics",
+      "original_mnq_walk_forward_backtest_spec_purge_and_embargo",
+      "original_mnq_walk_forward_backtest_spec_regression",
+      "original_mnq_walk_forward_backtest_spec_reporting",
+      "original_mnq_walk_forward_backtest_spec_stress_tests",
+      "original_mnq_walk_forward_backtest_spec_trading"
+    ],
+    "6": [
+      "docs_research_research_catalog_vp_research_20260705",
+      "original_volume_profile_research_en",
+      "original_volume_profile_research_en_1_concepts_and_historical_origin_of_volume_by_price_studies",
+      "original_volume_profile_research_en_2_microeconomic_foundations_and_continuous_auction_theory",
+      "original_volume_profile_research_en_3_mathematical_structure_and_calculation_of_volume_profile_levels",
+      "original_volume_profile_research_en_4_1_price_interaction_with_poc_levels_on_poland_s_wig20_index",
+      "original_volume_profile_research_en_4_2_taiwan_market_profile_study_and_weak_form_market_efficiency",
+      "original_volume_profile_research_en_4_3_volume_centred_range_bars_vcrb_for_machine_learning_pattern_extraction",
+      "original_volume_profile_research_en_4_4_fair_value_gaps_and_linear_regression_slope_of_liquidity",
+      "original_volume_profile_research_en_4_major_academic_studies_and_empirical_analyses",
+      "original_volume_profile_research_en_5_1_naked_poc_and_untested_value_level_rejection",
+      "original_volume_profile_research_en_5_2_poor_highs_and_poor_lows",
+      "original_volume_profile_research_en_5_3_look_above_below_and_fail",
+      "original_volume_profile_research_en_5_4_cumulative_trend_volume_trigger_ctvt",
+      "original_volume_profile_research_en_5_5_strategy_backtest_summary_from_the_source_report",
+      "original_volume_profile_research_en_5_trading_strategies_and_price_behavior_structures",
+      "original_volume_profile_research_en_6_execution_algorithms_and_statistical_portfolio_management",
+      "original_volume_profile_research_en_7_conclusion_and_strategic_recommendations",
+      "original_volume_profile_research_en_8_quantsystem_implementation_ideas",
+      "original_volume_profile_research_en_9_cited_sources_from_the_original_document",
+      "original_volume_profile_research_en_graphify_indexing_notes",
+      "original_volume_profile_research_en_translator_s_note"
+    ],
+    "7": [
+      "raw_volume_profile_research_en",
+      "raw_volume_profile_research_en_1_concepts_and_historical_origin_of_volume_by_price_studies",
+      "raw_volume_profile_research_en_2_microeconomic_foundations_and_continuous_auction_theory",
+      "raw_volume_profile_research_en_3_mathematical_structure_and_calculation_of_volume_profile_levels",
+      "raw_volume_profile_research_en_4_1_price_interaction_with_poc_levels_on_poland_s_wig20_index",
+      "raw_volume_profile_research_en_4_2_taiwan_market_profile_study_and_weak_form_market_efficiency",
+      "raw_volume_profile_research_en_4_3_volume_centred_range_bars_vcrb_for_machine_learning_pattern_extraction",
+      "raw_volume_profile_research_en_4_4_fair_value_gaps_and_linear_regression_slope_of_liquidity",
+      "raw_volume_profile_research_en_4_major_academic_studies_and_empirical_analyses",
+      "raw_volume_profile_research_en_5_1_naked_poc_and_untested_value_level_rejection",
+      "raw_volume_profile_research_en_5_2_poor_highs_and_poor_lows",
+      "raw_volume_profile_research_en_5_3_look_above_below_and_fail",
+      "raw_volume_profile_research_en_5_4_cumulative_trend_volume_trigger_ctvt",
+      "raw_volume_profile_research_en_5_5_strategy_backtest_summary_from_the_source_report",
+      "raw_volume_profile_research_en_5_trading_strategies_and_price_behavior_structures",
+      "raw_volume_profile_research_en_6_execution_algorithms_and_statistical_portfolio_management",
+      "raw_volume_profile_research_en_7_conclusion_and_strategic_recommendations",
+      "raw_volume_profile_research_en_8_quantsystem_implementation_ideas",
+      "raw_volume_profile_research_en_9_cited_sources_from_the_original_document",
+      "raw_volume_profile_research_en_comprehensive_research_report_volume_profile_analysis_in_financial_markets",
+      "raw_volume_profile_research_en_graphify_indexing_notes",
+      "raw_volume_profile_research_en_translator_s_note"
+    ],
+    "8": [
+      "float",
+      "mnq_ai_config_phase1config",
+      "mnq_ai_config_rationale_21",
+      "mnq_ai_exceptions_datavalidationerror",
+      "mnq_ai_exceptions_rationale_19",
+      "object",
+      "tests_test_phase1_trade_extractor",
+      "tests_test_phase1_trade_extractor_config",
+      "tests_test_phase1_trade_extractor_py_int",
+      "tests_test_phase1_trade_extractor_py_path",
+      "tests_test_phase1_trade_extractor_py_phase1config",
+      "tests_test_phase1_trade_extractor_py_str",
+      "tests_test_phase1_trade_extractor_row",
+      "tests_test_phase1_trade_extractor_rows",
+      "tests_test_phase1_trade_extractor_test_build_trade_tape_filters_t_only_and_maps_signed_volume",
+      "tests_test_phase1_trade_extractor_test_f_rows_are_not_double_counted",
+      "tests_test_phase1_trade_extractor_test_fail_policy_rejects_invalid_tick",
+      "tests_test_phase1_trade_extractor_test_manifest_checksum_is_stable_across_identical_reruns",
+      "tests_test_phase1_trade_extractor_write_fixture"
+    ],
+    "9": [
+      "agents",
+      "agents_engineering_rules",
+      "agents_graphify",
+      "agents_mandatory_project_skills",
+      "dependencies_phase1_dependency_decisions",
+      "dependencies_phase1_dependency_decisions_decisions",
+      "dependencies_phase1_dependency_decisions_rejected_or_deferred",
+      "dependencies_phase1_dependency_decisions_risk_notes",
+      "docs_dependencies_phase1_dependency_decisions",
+      "docs_phases_phase1_entry_gate",
+      "docs_phases_phase1_implementation_report",
+      "docs_phases_phase1_test_report",
+      "phases_phase1_entry_gate",
+      "phases_phase1_implementation_report",
+      "phases_phase1_test_report",
+      "phases_phase2_readiness"
+    ],
+    "10": [
+      "int",
+      "path",
+      "scripts_validate_skills",
+      "scripts_validate_skills_load_skill",
+      "scripts_validate_skills_main",
+      "scripts_validate_skills_parse_front_matter",
+      "scripts_validate_skills_skilldoc",
+      "scripts_validate_skills_validate",
+      "str",
+      "tests_test_validate_skills",
+      "tests_test_validate_skills_validateskillstests",
+      "tests_test_validate_skills_validateskillstests_test_missing_required_skill_is_reported",
+      "tests_test_validate_skills_validateskillstests_test_repository_skills_are_valid",
+      "tests_test_validate_skills_validateskillstests_test_secret_pattern_is_reported"
+    ],
+    "11": [
+      "original_mnq_data_audit_plan",
+      "original_mnq_data_audit_plan_acceptance_criteria",
+      "original_mnq_data_audit_plan_checks",
+      "original_mnq_data_audit_plan_chunking_strategy",
+      "original_mnq_data_audit_plan_mbo_trade_semantics",
+      "original_mnq_data_audit_plan_objectives",
+      "original_mnq_data_audit_plan_price_and_size_checks",
+      "original_mnq_data_audit_plan_required_audit_outputs",
+      "original_mnq_data_audit_plan_session_checks",
+      "original_mnq_data_audit_plan_source_schema",
+      "original_mnq_data_audit_plan_symbol_and_contract_checks",
+      "original_mnq_data_audit_plan_timestamp_checks",
+      "original_mnq_data_audit_plan_validation_commands_to_create_in_phase_1"
+    ],
+    "12": [
+      "docs_research_papers_original_mnq_phase1_implementation_tasks",
+      "original_mnq_phase1_implementation_tasks",
+      "original_mnq_phase1_implementation_tasks_p1_001_restore_active_safety_skeleton",
+      "original_mnq_phase1_implementation_tasks_p1_002_mbo_action_t_trade_extractor",
+      "original_mnq_phase1_implementation_tasks_p1_003_cme_session_calendar",
+      "original_mnq_phase1_implementation_tasks_p1_004_bar_builder_from_trades",
+      "original_mnq_phase1_implementation_tasks_p1_005_wire_feature_families_with_session_ids",
+      "original_mnq_phase1_implementation_tasks_p1_006_feature_blacklist_and_schema",
+      "original_mnq_phase1_implementation_tasks_p1_007_data_audit_cli",
+      "original_mnq_phase1_implementation_tasks_p1_008_cleanup_policy_patch"
+    ],
+    "13": [
+      "docs_research_papers_original_mnq_setup_engine_spec",
+      "original_mnq_setup_engine_spec",
+      "original_mnq_setup_engine_spec_acceptance_criteria",
+      "original_mnq_setup_engine_spec_candidate_setups",
+      "original_mnq_setup_engine_spec_core_principle",
+      "original_mnq_setup_engine_spec_deduplication_rules",
+      "original_mnq_setup_engine_spec_online_state_requirements",
+      "original_mnq_setup_engine_spec_reason_codes",
+      "original_mnq_setup_engine_spec_setup_candidate_schema",
+      "original_mnq_setup_engine_spec_stop_and_target_rules"
+    ],
+    "14": [
+      "docs_research_papers_original_mnq_phase0_rebuild_cleanup_decision",
+      "original_mnq_phase0_rebuild_cleanup_decision",
+      "original_mnq_phase0_rebuild_cleanup_decision_current_finding",
+      "original_mnq_phase0_rebuild_cleanup_decision_exact_next_patch_after_approval",
+      "original_mnq_phase0_rebuild_cleanup_decision_files_not_to_edit_in_the_first_implementation_patch",
+      "original_mnq_phase0_rebuild_cleanup_decision_recommended_decision",
+      "original_mnq_phase0_rebuild_cleanup_decision_stop_go",
+      "original_mnq_risk_register",
+      "original_mnq_risk_register_current_stop_go"
+    ],
+    "15": [
+      "original_mnq_model_and_calibration_spec",
+      "original_mnq_model_and_calibration_spec_acceptance_criteria",
+      "original_mnq_model_and_calibration_spec_artifact_contract",
+      "original_mnq_model_and_calibration_spec_calibration",
+      "original_mnq_model_and_calibration_spec_class_imbalance",
+      "original_mnq_model_and_calibration_spec_decision_thresholds",
+      "original_mnq_model_and_calibration_spec_feature_inputs",
+      "original_mnq_model_and_calibration_spec_initial_model_set",
+      "original_mnq_model_and_calibration_spec_model_role"
+    ],
+    "16": [
+      "references_exports",
+      "references_exports_graphify_reference_extra_exports_and_benchmark",
+      "references_exports_step_6b_wiki_only_if_wiki_flag",
+      "references_exports_step_7_neo4j_export_only_if_neo4j_or_neo4j_push_flag",
+      "references_exports_step_7a_falkordb_export_only_if_falkordb_or_falkordb_push_flag",
+      "references_exports_step_7b_svg_export_only_if_svg_flag",
+      "references_exports_step_7c_graphml_export_only_if_graphml_flag",
+      "references_exports_step_7d_mcp_server_only_if_mcp_flag",
+      "references_exports_step_8_token_reduction_benchmark_only_if_total_words_5000"
+    ],
+    "17": [
+      "dependency_governor_skill",
+      "dependency_governor_skill_acceptance_rule",
+      "dependency_governor_skill_decision_record",
+      "dependency_governor_skill_dependency_governor",
+      "dependency_governor_skill_do_not_trigger",
+      "dependency_governor_skill_required_workflow",
+      "dependency_governor_skill_trigger"
+    ],
+    "18": [
+      "out_of_core_data_engineering_skill",
+      "out_of_core_data_engineering_skill_candidate_tools",
+      "out_of_core_data_engineering_skill_do_not_trigger",
+      "out_of_core_data_engineering_skill_out_of_core_data_engineering",
+      "out_of_core_data_engineering_skill_required_outputs",
+      "out_of_core_data_engineering_skill_required_workflow",
+      "out_of_core_data_engineering_skill_trigger"
+    ],
+    "19": [
+      "quant_model_validation_skill",
+      "quant_model_validation_skill_acceptance_rule",
+      "quant_model_validation_skill_do_not_trigger",
+      "quant_model_validation_skill_quant_model_validation",
+      "quant_model_validation_skill_required_outputs",
+      "quant_model_validation_skill_required_workflow",
+      "quant_model_validation_skill_trigger"
+    ],
+    "20": [
+      "quant_research_scout_skill",
+      "quant_research_scout_skill_acceptance_rule",
+      "quant_research_scout_skill_do_not_trigger",
+      "quant_research_scout_skill_evidence_types",
+      "quant_research_scout_skill_quant_research_scout",
+      "quant_research_scout_skill_required_workflow",
+      "quant_research_scout_skill_trigger"
+    ],
+    "21": [
+      "original_mnq_feature_contract_auction_rejection_features",
+      "original_mnq_feature_contract_cvd_delta_features",
+      "original_mnq_feature_contract_feature_family_contracts",
+      "original_mnq_feature_contract_intraday_context_features",
+      "original_mnq_feature_contract_volume_profile_features",
+      "original_mnq_feature_contract_vwap_features"
+    ],
+    "22": [
+      "original_mnq_feature_contract",
+      "original_mnq_feature_contract_allowed_feature_families",
+      "original_mnq_feature_contract_feature_sidecar",
+      "original_mnq_feature_contract_forbidden_directional_inputs",
+      "original_mnq_feature_contract_global_rules",
+      "original_mnq_feature_contract_leakage_tests_required"
+    ],
+    "23": [
+      "research_claims_registry",
+      "research_claims_registry_contradicted_claims",
+      "research_claims_registry_current_registry",
+      "research_claims_registry_independently_verified_claims",
+      "research_claims_registry_rejected_claims",
+      "research_claims_registry_status_definitions"
+    ],
+    "24": [
+      "references_query",
+      "references_query_for_graphify_explain",
+      "references_query_for_graphify_path",
+      "references_query_graphify_reference_query_path_explain",
+      "references_query_step_0_constrained_query_expansion_required_before_traversal",
+      "references_query_step_1_traversal"
+    ],
+    "25": [
+      "references_add_watch",
+      "references_add_watch_for_graphify_add",
+      "references_add_watch_for_watch",
+      "references_add_watch_graphify_reference_add_a_url_and_watch_a_folder"
+    ],
+    "26": [
+      "references_hooks",
+      "references_hooks_for_git_commit_hook",
+      "references_hooks_for_native_claude_md_integration",
+      "references_hooks_graphify_reference_commit_hook_and_native_claude_md_integration"
+    ],
+    "27": [
+      "references_update",
+      "references_update_for_cluster_only",
+      "references_update_for_update_incremental_re_extraction",
+      "references_update_graphify_reference_incremental_update_and_cluster_only"
+    ],
+    "28": [
+      "arxiv_2403_09267_deep_limit_order_book_forecasting",
+      "arxiv_2405_18938_hlob",
+      "arxiv_2502_15757_tlob"
+    ],
+    "29": [
+      "arxiv_2510_15949_atlas_adaptive_trading_llm_agents",
+      "arxiv_2603_19944_large_language_models_stock_investing",
+      "arxiv_2603_20965_learning_to_aggregate_zero_shot_llm_agents"
+    ],
+    "30": [
+      "codex_hooks",
+      "codex_hooks_hooks",
+      "codex_hooks_hooks_pretooluse"
+    ],
+    "31": [
+      "raw_github_com_dcajasn_riskfolio_lib",
+      "raw_github_com_dcajasn_riskfolio_lib_1_github_dcajasn_riskfolio_lib_portfolio_optimization_in_python_github",
+      "raw_github_com_dcajasn_riskfolio_lib_github_dcajasn_riskfolio_lib_portfolio_optimization_in_python_github"
+    ],
+    "32": [
+      "raw_github_com_trademaster_ntu_trademaster",
+      "raw_github_com_trademaster_ntu_trademaster_1_github_trademaster_ntu_trademaster_trademaster_is_an_open_source_platform_for_quantitative_trading_empowered_by_reinforcement_learning_zap_rainbow_github",
+      "raw_github_com_trademaster_ntu_trademaster_github_trademaster_ntu_trademaster_trademaster_is_an_open_source_platform_for_quantitative_trading_empowered_by_reinforcement_learning_zap_rainbow_github"
+    ],
+    "33": [
+      "references_github_and_merge",
+      "references_github_and_merge_graphify_reference_github_clone_and_cross_repo_merge",
+      "references_github_and_merge_step_0_clone_github_repo_s_only_if_a_github_url_was_given"
+    ],
+    "34": [
+      "references_transcribe",
+      "references_transcribe_graphify_reference_transcribe_video_and_audio",
+      "references_transcribe_step_2_5_transcribe_video_audio_files_only_if_video_files_detected"
+    ],
+    "35": [
+      "arxiv_2510_15612_sok_market_microstructure_depm",
+      "arxiv_2604_03888_polyswarm_multi_agent_llm_framework"
+    ],
+    "36": [
+      "arxiv_2503_09655_deep_reinforcement_learning_xlstm",
+      "arxiv_2603_21330_finrl_x"
+    ],
+    "37": [
+      "docs_phases_phase1_performance_plan",
+      "phases_phase1_performance_plan"
+    ],
+    "38": [
+      "docs_research_readme",
+      "research_readme"
+    ],
+    "39": [
+      "mnq_ai_init",
+      "mnq_ai_init_rationale_1"
+    ],
+    "40": [
+      "raw_github_com_nautechsystems_nautilus_trader",
+      "raw_github_com_nautechsystems_nautilus_trader_github_nautechsystems_nautilus_trader_production_grade_rust_native_trading_engine_with_deterministic_event_driven_architecture_github"
+    ],
+    "41": [
+      "raw_github_com_stocksharp_stocksharp",
+      "raw_github_com_stocksharp_stocksharp_github_stocksharp_stocksharp_algorithmic_trading_and_quantitative_trading_open_source_platform_to_develop_trading_robots_stock_markets_forex_crypto_bitcoins_and_options_github"
+    ],
+    "42": [
+      "references_extraction_spec",
+      "references_extraction_spec_graphify_reference_extraction_subagent_prompt_compact"
+    ],
+    "43": [
+      "scripts_init",
+      "scripts_init_rationale_1"
+    ],
+    "44": [
+      "tests_init",
+      "tests_init_rationale_1"
+    ],
+    "45": [
+      "tests_test_phase1_legacy_isolation",
+      "tests_test_phase1_legacy_isolation_test_no_phase1_source_imports_or_depends_on_legacy_project"
+    ],
+    "46": [
+      "architecture_data_quality_policy"
+    ],
+    "47": [
+      "research_research_gaps"
+    ],
+    "48": [
+      "arxiv_2306_05479_deep_attentive_survival_analysis"
+    ],
+    "49": [
+      "arxiv_2409_14157_price_predictability"
+    ],
+    "50": [
+      "arxiv_2603_14453_e_trends"
+    ],
+    "51": [
+      "arxiv_2603_16434_natural_language_to_executable_option_strategies"
+    ],
+    "52": [
+      "arxiv_2604_02035_reinforcement_learning_speculative_trading"
+    ],
+    "53": [
+      "arxiv_2604_02921_debiasing_llms_fine_tuning"
+    ],
+    "54": [
+      "arxiv_2604_10005_institutional_liquidity_prediction_markets"
+    ],
+    "55": [
+      "arxiv_2604_11477_oom_rl_market_driven_alignment"
+    ],
+    "56": [
+      "arxiv_2604_20949_early_detection_latent_microstructure_regimes"
+    ],
+    "57": [
+      "docs_research_research_catalog"
+    ],
+    "58": [
+      "raw_arxiv_1803_06917"
+    ],
+    "59": [
+      "raw_arxiv_1811_10041"
+    ],
+    "60": [
+      "raw_arxiv_1907_06230"
+    ],
+    "61": [
+      "raw_arxiv_1808_03668"
+    ]
+  },
+  "cohesion": {
+    "0": 0.050241545893719805,
+    "1": 0.10541310541310542,
+    "2": 0.08,
+    "3": 0.08,
+    "4": 0.16304347826086957,
+    "5": 0.09090909090909091,
+    "6": 0.09090909090909091,
+    "7": 0.09090909090909091,
+    "8": 0.2982456140350877,
+    "9": 0.125,
+    "10": 0.3076923076923077,
+    "11": 0.15384615384615385,
+    "12": 0.2,
+    "13": 0.2,
+    "14": 0.2222222222222222,
+    "15": 0.2222222222222222,
+    "16": 0.2222222222222222,
+    "17": 0.2857142857142857,
+    "18": 0.2857142857142857,
+    "19": 0.2857142857142857,
+    "20": 0.2857142857142857,
+    "21": 0.3333333333333333,
+    "22": 0.3333333333333333,
+    "23": 0.3333333333333333,
+    "24": 0.3333333333333333,
+    "25": 0.5,
+    "26": 0.5,
+    "27": 0.5,
+    "28": 0.6666666666666666,
+    "29": 0.6666666666666666,
+    "30": 0.6666666666666666,
+    "31": 0.6666666666666666,
+    "32": 0.6666666666666666,
+    "33": 0.6666666666666666,
+    "34": 0.6666666666666666,
+    "35": 1.0,
+    "36": 1.0,
+    "37": 1.0,
+    "38": 1.0,
+    "39": 1.0,
+    "40": 1.0,
+    "41": 1.0,
+    "42": 1.0,
+    "43": 1.0,
+    "44": 1.0,
+    "45": 1.0,
+    "46": 1.0,
+    "47": 1.0,
+    "48": 1.0,
+    "49": 1.0,
+    "50": 1.0,
+    "51": 1.0,
+    "52": 1.0,
+    "53": 1.0,
+    "54": 1.0,
+    "55": 1.0,
+    "56": 1.0,
+    "57": 1.0,
+    "58": 1.0,
+    "59": 1.0,
+    "60": 1.0,
+    "61": 1.0
+  },
+  "gods": [
+    {
+      "id": "mnq_ai_config_phase1config",
+      "label": "Phase1Config",
+      "degree": 18
+    },
+    {
+      "id": "docs_research_papers_original_mnq_vp_ai_master_plan",
+      "label": "MNQ Volume Profile AI Master Plan",
+      "degree": 18
+    },
+    {
+      "id": "docs_research_research_catalog_vp_research_20260705",
+      "label": "Comprehensive Research Report: Volume Profile Analysis in Financial Markets",
+      "degree": 17
+    },
+    {
+      "id": "docs_research_phase0_5_skill_trigger_tests",
+      "label": "Phase 0.5 Skill Trigger Tests",
+      "degree": 15
+    },
+    {
+      "id": "mnq_ai_exceptions_configurationerror",
+      "label": "ConfigurationError",
+      "degree": 14
+    },
+    {
+      "id": "readme_mnqvolumeai",
+      "label": "MNQVolumeAI",
+      "degree": 14
+    },
+    {
+      "id": "graphify_skill_what_you_must_do_when_invoked",
+      "label": "What You Must Do When Invoked",
+      "degree": 12
+    },
+    {
+      "id": "raw_volume_profile_research_en_comprehensive_research_report_volume_profile_analysis_in_financial_markets",
+      "label": "Comprehensive Research Report: Volume Profile Analysis in Financial Markets",
+      "degree": 12
+    },
+    {
+      "id": "mnq_ai_exceptions_mnqaierror",
+      "label": "MNQAIError",
+      "degree": 11
+    },
+    {
+      "id": "docs_research_papers_original_mnq_phase0_rebuild_cleanup_decision",
+      "label": "MNQ Phase 0 Rebuild And Cleanup Decision",
+      "degree": 11
+    }
+  ],
+  "surprises": [
+    {
+      "source": "MNQVolumeAI",
+      "target": "graphify",
+      "source_files": [
+        "README.md",
+        "AGENTS.md"
+      ],
+      "confidence": "EXTRACTED",
+      "relation": "references",
+      "why": "connects across different repos/directories; bridges separate communities; peripheral node `graphify` unexpectedly reaches hub `MNQVolumeAI`"
+    },
+    {
+      "source": "float",
+      "target": "Phase1Config",
+      "source_files": [
+        "tests/test_phase1_trade_extractor.py",
+        "src/mnq_ai/config.py"
+      ],
+      "confidence": "INFERRED",
+      "relation": "uses",
+      "why": "inferred connection - not explicitly stated in source; connects across different repos/directories"
+    },
+    {
+      "source": "object",
+      "target": "Phase1Config",
+      "source_files": [
+        "tests/test_phase1_trade_extractor.py",
+        "src/mnq_ai/config.py"
+      ],
+      "confidence": "INFERRED",
+      "relation": "uses",
+      "why": "inferred connection - not explicitly stated in source; connects across different repos/directories"
+    },
+    {
+      "source": "int",
+      "target": "Phase1Config",
+      "source_files": [
+        "tests/test_phase1_trade_extractor.py",
+        "src/mnq_ai/config.py"
+      ],
+      "confidence": "INFERRED",
+      "relation": "uses",
+      "why": "inferred connection - not explicitly stated in source; connects across different repos/directories"
+    },
+    {
+      "source": "Path",
+      "target": "Phase1Config",
+      "source_files": [
+        "tests/test_phase1_trade_extractor.py",
+        "src/mnq_ai/config.py"
+      ],
+      "confidence": "INFERRED",
+      "relation": "uses",
+      "why": "inferred connection - not explicitly stated in source; connects across different repos/directories"
+    }
+  ],
+  "tokens": {
+    "input": 25708,
+    "output": 3190
+  }
+}
