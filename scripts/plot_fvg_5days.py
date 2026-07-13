@@ -6,9 +6,9 @@ import webbrowser
 from pathlib import Path
 
 import pandas as pd
+import plotly.graph_objects as go
 import pyarrow.dataset as pads
 import pyarrow.parquet as pq
-import plotly.graph_objects as go
 
 
 def parse_args() -> argparse.Namespace:
@@ -281,7 +281,7 @@ def build_chart(
             decreasing_fillcolor="#e55353",
             hovertext=[
                 f"Volume: {volume:,.0f}<br>Trades: {trades:,.0f}"
-                for volume, trades in zip(bars["volume"], bars["trades"])
+                for volume, trades in zip(bars["volume"], bars["trades"], strict=True)
             ],
             hoverinfo="x+open+high+low+close+text",
         )

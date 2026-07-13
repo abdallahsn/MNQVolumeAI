@@ -207,6 +207,13 @@ def _label_candidate(
     planned_risk = abs(entry_price - stop_price)
     if planned_risk <= 0:
         return {**base, **_failed_metrics("INVALID_RISK", earliest_entry_timestamp)}
+    if not _valid_barrier_geometry(
+        entry_side=entry_side,
+        entry_price=entry_price,
+        stop_price=stop_price,
+        target_price=target_price,
+    ):
+        return {**base, **_failed_metrics("INVALID_BARRIER_GEOMETRY", earliest_entry_timestamp)}
 
     events = _load_events(
         trade_tape,
@@ -473,6 +480,18 @@ def _barrier_reason(
     if price <= target_price:
         return "TARGET_1"
     return None
+
+
+def _valid_barrier_geometry(
+    *,
+    entry_side: str,
+    entry_price: Decimal,
+    stop_price: Decimal,
+    target_price: Decimal,
+) -> bool:
+    if entry_side == "LONG":
+        return stop_price < entry_price < target_price
+    return target_price < entry_price < stop_price
 
 
 def _entry_fill_price(

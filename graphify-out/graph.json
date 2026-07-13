@@ -49,6 +49,186 @@
       "norm_label": "utility scripts for mnqvolumeai."
     },
     {
+      "label": "plot_fvg_5days.py",
+      "file_type": "code",
+      "source_file": "scripts/plot_fvg_5days.py",
+      "source_location": "L1",
+      "id": "scripts_plot_fvg_5days",
+      "community": 15,
+      "norm_label": "plot_fvg_5days.py"
+    },
+    {
+      "label": "parse_args()",
+      "file_type": "code",
+      "source_file": "scripts/plot_fvg_5days.py",
+      "source_location": "L14",
+      "id": "scripts_plot_fvg_5days_parse_args",
+      "community": 15,
+      "norm_label": "parse_args()"
+    },
+    {
+      "label": "Namespace",
+      "file_type": "code",
+      "source_file": "scripts/plot_fvg_5days.py",
+      "source_location": "L14",
+      "id": "scripts_plot_fvg_5days_py_namespace",
+      "community": 15,
+      "norm_label": "namespace"
+    },
+    {
+      "label": "load_trade_tape()",
+      "file_type": "code",
+      "source_file": "scripts/plot_fvg_5days.py",
+      "source_location": "L63",
+      "id": "scripts_plot_fvg_5days_load_trade_tape",
+      "community": 15,
+      "norm_label": "load_trade_tape()"
+    },
+    {
+      "label": "Path",
+      "file_type": "code",
+      "source_file": "scripts/plot_fvg_5days.py",
+      "source_location": "L63",
+      "id": "scripts_plot_fvg_5days_py_path",
+      "community": 15,
+      "norm_label": "path"
+    },
+    {
+      "label": "str",
+      "file_type": "code",
+      "source_file": "scripts/plot_fvg_5days.py",
+      "source_location": "L63",
+      "id": "scripts_plot_fvg_5days_py_str",
+      "community": 15,
+      "norm_label": "str"
+    },
+    {
+      "label": "DataFrame",
+      "file_type": "code",
+      "source_file": "scripts/plot_fvg_5days.py",
+      "source_location": "L63",
+      "id": "dataframe",
+      "community": 15,
+      "norm_label": "dataframe"
+    },
+    {
+      "label": "build_candles()",
+      "file_type": "code",
+      "source_file": "scripts/plot_fvg_5days.py",
+      "source_location": "L107",
+      "id": "scripts_plot_fvg_5days_build_candles",
+      "community": 15,
+      "norm_label": "build_candles()"
+    },
+    {
+      "label": "first_full_fill_index()",
+      "file_type": "code",
+      "source_file": "scripts/plot_fvg_5days.py",
+      "source_location": "L129",
+      "id": "scripts_plot_fvg_5days_first_full_fill_index",
+      "community": 15,
+      "norm_label": "first_full_fill_index()"
+    },
+    {
+      "label": "int",
+      "file_type": "code",
+      "source_file": "scripts/plot_fvg_5days.py",
+      "source_location": "L129",
+      "id": "scripts_plot_fvg_5days_py_int",
+      "community": 15,
+      "norm_label": "int"
+    },
+    {
+      "label": "float",
+      "file_type": "code",
+      "source_file": "scripts/plot_fvg_5days.py",
+      "source_location": "L129",
+      "id": "scripts_plot_fvg_5days_py_float",
+      "community": 15,
+      "norm_label": "float"
+    },
+    {
+      "label": "detect_fvgs()",
+      "file_type": "code",
+      "source_file": "scripts/plot_fvg_5days.py",
+      "source_location": "L144",
+      "id": "scripts_plot_fvg_5days_detect_fvgs",
+      "community": 15,
+      "norm_label": "detect_fvgs()"
+    },
+    {
+      "label": "Timedelta",
+      "file_type": "code",
+      "source_file": "scripts/plot_fvg_5days.py",
+      "source_location": "L144",
+      "id": "scripts_plot_fvg_5days_py_timedelta",
+      "community": 15,
+      "norm_label": "timedelta"
+    },
+    {
+      "label": "load_candidates()",
+      "file_type": "code",
+      "source_file": "scripts/plot_fvg_5days.py",
+      "source_location": "L187",
+      "id": "scripts_plot_fvg_5days_load_candidates",
+      "community": 15,
+      "norm_label": "load_candidates()"
+    },
+    {
+      "label": "rgba()",
+      "file_type": "code",
+      "source_file": "scripts/plot_fvg_5days.py",
+      "source_location": "L230",
+      "id": "scripts_plot_fvg_5days_rgba",
+      "community": 15,
+      "norm_label": "rgba()"
+    },
+    {
+      "label": "add_horizontal_segment()",
+      "file_type": "code",
+      "source_file": "scripts/plot_fvg_5days.py",
+      "source_location": "L238",
+      "id": "scripts_plot_fvg_5days_add_horizontal_segment",
+      "community": 15,
+      "norm_label": "add_horizontal_segment()"
+    },
+    {
+      "label": "Figure",
+      "file_type": "code",
+      "source_file": "scripts/plot_fvg_5days.py",
+      "source_location": "L238",
+      "id": "figure",
+      "community": 15,
+      "norm_label": "figure"
+    },
+    {
+      "label": "Timestamp",
+      "file_type": "code",
+      "source_file": "scripts/plot_fvg_5days.py",
+      "source_location": "L238",
+      "id": "timestamp",
+      "community": 15,
+      "norm_label": "timestamp"
+    },
+    {
+      "label": "build_chart()",
+      "file_type": "code",
+      "source_file": "scripts/plot_fvg_5days.py",
+      "source_location": "L260",
+      "id": "scripts_plot_fvg_5days_build_chart",
+      "community": 15,
+      "norm_label": "build_chart()"
+    },
+    {
+      "label": "main()",
+      "file_type": "code",
+      "source_file": "scripts/plot_fvg_5days.py",
+      "source_location": "L465",
+      "id": "scripts_plot_fvg_5days_main",
+      "community": 15,
+      "norm_label": "main()"
+    },
+    {
       "label": "validate_skills.py",
       "file_type": "code",
       "source_file": "scripts/validate_skills.py",
@@ -215,7 +395,7 @@
       "file_type": "code",
       "source_file": "src/mnq_ai/cli.py",
       "source_location": "L167",
-      "id": "namespace",
+      "id": "src_mnq_ai_cli_py_namespace",
       "community": 1,
       "norm_label": "namespace"
     },
@@ -261,7 +441,7 @@
       "source_file": "src/mnq_ai/config.py",
       "source_location": "L20",
       "id": "mnq_ai_config_phase1config",
-      "community": 15,
+      "community": 1,
       "norm_label": "phase1config"
     },
     {
@@ -387,7 +567,7 @@
       "source_file": "src/mnq_ai/config.py",
       "source_location": "L21",
       "id": "mnq_ai_config_rationale_21",
-      "community": 15,
+      "community": 1,
       "norm_label": "validated runtime configuration for mbo auditing and trade extraction."
     },
     {
@@ -495,7 +675,7 @@
       "source_file": "src/mnq_ai/exceptions.py",
       "source_location": "L18",
       "id": "mnq_ai_exceptions_datavalidationerror",
-      "community": 15,
+      "community": 1,
       "norm_label": "datavalidationerror"
     },
     {
@@ -549,7 +729,7 @@
       "source_file": "src/mnq_ai/exceptions.py",
       "source_location": "L19",
       "id": "mnq_ai_exceptions_rationale_19",
-      "community": 15,
+      "community": 1,
       "norm_label": "raised when raw rows violate fail-closed data-quality rules."
     },
     {
@@ -711,7 +891,7 @@
       "source_file": "src/mnq_ai/setups/failed_fvg.py",
       "source_location": "L102",
       "id": "setups_failed_fvg_failedfvgconfig",
-      "community": 1,
+      "community": 14,
       "norm_label": "failedfvgconfig"
     },
     {
@@ -720,7 +900,7 @@
       "source_file": "src/mnq_ai/setups/failed_fvg.py",
       "source_location": "L122",
       "id": "setups_failed_fvg_failedfvgconfig_validated",
-      "community": 1,
+      "community": 14,
       "norm_label": ".validated()"
     },
     {
@@ -738,7 +918,7 @@
       "source_file": "src/mnq_ai/setups/failed_fvg.py",
       "source_location": "L143",
       "id": "setups_failed_fvg_failedfvgsetupengine_init",
-      "community": 1,
+      "community": 14,
       "norm_label": ".__init__()"
     },
     {
@@ -818,7 +998,7 @@
       "file_type": "code",
       "source_file": "src/mnq_ai/setups/failed_fvg.py",
       "source_location": "L335",
-      "id": "timedelta",
+      "id": "src_mnq_ai_setups_failed_fvg_py_timedelta",
       "community": 14,
       "norm_label": "timedelta"
     },
@@ -945,7 +1125,7 @@
       "source_file": "src/mnq_ai/setups/failed_fvg.py",
       "source_location": "L103",
       "id": "setups_failed_fvg_rationale_103",
-      "community": 1,
+      "community": 14,
       "norm_label": "parameters for failed fvg setup generation."
     },
     {
@@ -1278,7 +1458,7 @@
       "source_file": "tests/test_phase1_trade_extractor.py",
       "source_location": "L1",
       "id": "tests_test_phase1_trade_extractor",
-      "community": 15,
+      "community": 1,
       "norm_label": "test_phase1_trade_extractor.py"
     },
     {
@@ -1287,7 +1467,7 @@
       "source_file": "tests/test_phase1_trade_extractor.py",
       "source_location": "L17",
       "id": "tests_test_phase1_trade_extractor_test_build_trade_tape_filters_t_only_and_maps_signed_volume",
-      "community": 15,
+      "community": 1,
       "norm_label": "test_build_trade_tape_filters_t_only_and_maps_signed_volume()"
     },
     {
@@ -1296,7 +1476,7 @@
       "source_file": "tests/test_phase1_trade_extractor.py",
       "source_location": "L17",
       "id": "tests_test_phase1_trade_extractor_py_path",
-      "community": 15,
+      "community": 1,
       "norm_label": "path"
     },
     {
@@ -1305,7 +1485,7 @@
       "source_file": "tests/test_phase1_trade_extractor.py",
       "source_location": "L56",
       "id": "tests_test_phase1_trade_extractor_test_f_rows_are_not_double_counted",
-      "community": 15,
+      "community": 1,
       "norm_label": "test_f_rows_are_not_double_counted()"
     },
     {
@@ -1314,7 +1494,7 @@
       "source_file": "tests/test_phase1_trade_extractor.py",
       "source_location": "L79",
       "id": "tests_test_phase1_trade_extractor_test_fail_policy_rejects_invalid_tick",
-      "community": 15,
+      "community": 1,
       "norm_label": "test_fail_policy_rejects_invalid_tick()"
     },
     {
@@ -1323,7 +1503,7 @@
       "source_file": "tests/test_phase1_trade_extractor.py",
       "source_location": "L91",
       "id": "tests_test_phase1_trade_extractor_test_manifest_checksum_is_stable_across_identical_reruns",
-      "community": 15,
+      "community": 1,
       "norm_label": "test_manifest_checksum_is_stable_across_identical_reruns()"
     },
     {
@@ -1332,7 +1512,7 @@
       "source_file": "tests/test_phase1_trade_extractor.py",
       "source_location": "L106",
       "id": "tests_test_phase1_trade_extractor_config",
-      "community": 15,
+      "community": 1,
       "norm_label": "_config()"
     },
     {
@@ -1341,7 +1521,7 @@
       "source_file": "tests/test_phase1_trade_extractor.py",
       "source_location": "L106",
       "id": "tests_test_phase1_trade_extractor_py_str",
-      "community": 15,
+      "community": 1,
       "norm_label": "str"
     },
     {
@@ -1350,7 +1530,7 @@
       "source_file": "tests/test_phase1_trade_extractor.py",
       "source_location": "L106",
       "id": "tests_test_phase1_trade_extractor_py_phase1config",
-      "community": 15,
+      "community": 1,
       "norm_label": "phase1config"
     },
     {
@@ -1359,7 +1539,7 @@
       "source_file": "tests/test_phase1_trade_extractor.py",
       "source_location": "L120",
       "id": "tests_test_phase1_trade_extractor_write_fixture",
-      "community": 15,
+      "community": 1,
       "norm_label": "_write_fixture()"
     },
     {
@@ -1368,7 +1548,7 @@
       "source_file": "tests/test_phase1_trade_extractor.py",
       "source_location": "L120",
       "id": "tests_test_phase1_trade_extractor_py_object",
-      "community": 15,
+      "community": 1,
       "norm_label": "object"
     },
     {
@@ -1377,7 +1557,7 @@
       "source_file": "tests/test_phase1_trade_extractor.py",
       "source_location": "L126",
       "id": "tests_test_phase1_trade_extractor_rows",
-      "community": 15,
+      "community": 1,
       "norm_label": "_rows()"
     },
     {
@@ -1386,7 +1566,7 @@
       "source_file": "tests/test_phase1_trade_extractor.py",
       "source_location": "L142",
       "id": "tests_test_phase1_trade_extractor_row",
-      "community": 15,
+      "community": 1,
       "norm_label": "_row()"
     },
     {
@@ -1395,7 +1575,7 @@
       "source_file": "tests/test_phase1_trade_extractor.py",
       "source_location": "L142",
       "id": "tests_test_phase1_trade_extractor_py_float",
-      "community": 15,
+      "community": 1,
       "norm_label": "float"
     },
     {
@@ -1404,7 +1584,7 @@
       "source_file": "tests/test_phase1_trade_extractor.py",
       "source_location": "L142",
       "id": "tests_test_phase1_trade_extractor_py_int",
-      "community": 15,
+      "community": 1,
       "norm_label": "int"
     },
     {
@@ -4594,6 +4774,24 @@
       "norm_label": "research gaps"
     },
     {
+      "label": "Namespace",
+      "file_type": "code",
+      "source_file": "src/mnq_ai/cli.py",
+      "source_location": "L167",
+      "community": 1,
+      "norm_label": "namespace",
+      "id": "namespace"
+    },
+    {
+      "label": "timedelta",
+      "file_type": "code",
+      "source_file": "src/mnq_ai/setups/failed_fvg.py",
+      "source_location": "L335",
+      "community": 14,
+      "norm_label": "timedelta",
+      "id": "timedelta"
+    },
+    {
       "label": "Run the ``mnq-ai`` CLI.",
       "file_type": "rationale",
       "source_file": "src/mnq_ai/cli.py",
@@ -4616,7 +4814,7 @@
       "file_type": "code",
       "source_file": "tests/test_phase1_trade_extractor.py",
       "source_location": "L142",
-      "community": 15,
+      "community": 1,
       "norm_label": "float",
       "id": "float"
     },
@@ -4643,7 +4841,7 @@
       "file_type": "code",
       "source_file": "tests/test_phase1_trade_extractor.py",
       "source_location": "L120",
-      "community": 15,
+      "community": 1,
       "norm_label": "object",
       "id": "object"
     },
@@ -5595,6 +5793,513 @@
     {
       "relation": "contains",
       "confidence": "EXTRACTED",
+      "source_file": "scripts/plot_fvg_5days.py",
+      "source_location": "L238",
+      "weight": 1.0,
+      "source": "scripts_plot_fvg_5days",
+      "target": "scripts_plot_fvg_5days_add_horizontal_segment",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "scripts/plot_fvg_5days.py",
+      "source_location": "L107",
+      "weight": 1.0,
+      "source": "scripts_plot_fvg_5days",
+      "target": "scripts_plot_fvg_5days_build_candles",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "scripts/plot_fvg_5days.py",
+      "source_location": "L260",
+      "weight": 1.0,
+      "source": "scripts_plot_fvg_5days",
+      "target": "scripts_plot_fvg_5days_build_chart",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "scripts/plot_fvg_5days.py",
+      "source_location": "L144",
+      "weight": 1.0,
+      "source": "scripts_plot_fvg_5days",
+      "target": "scripts_plot_fvg_5days_detect_fvgs",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "scripts/plot_fvg_5days.py",
+      "source_location": "L129",
+      "weight": 1.0,
+      "source": "scripts_plot_fvg_5days",
+      "target": "scripts_plot_fvg_5days_first_full_fill_index",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "scripts/plot_fvg_5days.py",
+      "source_location": "L187",
+      "weight": 1.0,
+      "source": "scripts_plot_fvg_5days",
+      "target": "scripts_plot_fvg_5days_load_candidates",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "scripts/plot_fvg_5days.py",
+      "source_location": "L63",
+      "weight": 1.0,
+      "source": "scripts_plot_fvg_5days",
+      "target": "scripts_plot_fvg_5days_load_trade_tape",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "scripts/plot_fvg_5days.py",
+      "source_location": "L465",
+      "weight": 1.0,
+      "source": "scripts_plot_fvg_5days",
+      "target": "scripts_plot_fvg_5days_main",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "scripts/plot_fvg_5days.py",
+      "source_location": "L14",
+      "weight": 1.0,
+      "source": "scripts_plot_fvg_5days",
+      "target": "scripts_plot_fvg_5days_parse_args",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "scripts/plot_fvg_5days.py",
+      "source_location": "L230",
+      "weight": 1.0,
+      "source": "scripts_plot_fvg_5days",
+      "target": "scripts_plot_fvg_5days_rgba",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "scripts/plot_fvg_5days.py",
+      "source_location": "L466",
+      "weight": 1.0,
+      "source": "scripts_plot_fvg_5days_main",
+      "target": "scripts_plot_fvg_5days_parse_args",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "context": "return_type",
+      "confidence": "EXTRACTED",
+      "source_file": "scripts/plot_fvg_5days.py",
+      "source_location": "L14",
+      "weight": 1.0,
+      "source": "scripts_plot_fvg_5days_parse_args",
+      "target": "scripts_plot_fvg_5days_py_namespace",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "scripts/plot_fvg_5days.py",
+      "source_location": "L35",
+      "weight": 1.0,
+      "source": "scripts_plot_fvg_5days_parse_args",
+      "target": "scripts_plot_fvg_5days_py_path",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "context": "return_type",
+      "confidence": "EXTRACTED",
+      "source_file": "scripts/plot_fvg_5days.py",
+      "source_location": "L63",
+      "weight": 1.0,
+      "source": "scripts_plot_fvg_5days_load_trade_tape",
+      "target": "dataframe",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "context": "parameter_type",
+      "confidence": "EXTRACTED",
+      "source_file": "scripts/plot_fvg_5days.py",
+      "source_location": "L63",
+      "weight": 1.0,
+      "source": "scripts_plot_fvg_5days_load_trade_tape",
+      "target": "scripts_plot_fvg_5days_py_path",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "context": "parameter_type",
+      "confidence": "EXTRACTED",
+      "source_file": "scripts/plot_fvg_5days.py",
+      "source_location": "L63",
+      "weight": 1.0,
+      "source": "scripts_plot_fvg_5days_load_trade_tape",
+      "target": "scripts_plot_fvg_5days_py_str",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "scripts/plot_fvg_5days.py",
+      "source_location": "L469",
+      "weight": 1.0,
+      "source": "scripts_plot_fvg_5days_main",
+      "target": "scripts_plot_fvg_5days_load_trade_tape",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "context": "parameter_type",
+      "confidence": "EXTRACTED",
+      "source_file": "scripts/plot_fvg_5days.py",
+      "source_location": "L187",
+      "weight": 1.0,
+      "source": "scripts_plot_fvg_5days_load_candidates",
+      "target": "scripts_plot_fvg_5days_py_path",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "context": "parameter_type",
+      "confidence": "EXTRACTED",
+      "source_file": "scripts/plot_fvg_5days.py",
+      "source_location": "L238",
+      "weight": 1.0,
+      "source": "scripts_plot_fvg_5days_add_horizontal_segment",
+      "target": "scripts_plot_fvg_5days_py_str",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "context": "parameter_type",
+      "confidence": "EXTRACTED",
+      "source_file": "scripts/plot_fvg_5days.py",
+      "source_location": "L107",
+      "weight": 1.0,
+      "source": "scripts_plot_fvg_5days_build_candles",
+      "target": "scripts_plot_fvg_5days_py_str",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "context": "parameter_type",
+      "confidence": "EXTRACTED",
+      "source_file": "scripts/plot_fvg_5days.py",
+      "source_location": "L260",
+      "weight": 1.0,
+      "source": "scripts_plot_fvg_5days_build_chart",
+      "target": "scripts_plot_fvg_5days_py_str",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "context": "parameter_type",
+      "confidence": "EXTRACTED",
+      "source_file": "scripts/plot_fvg_5days.py",
+      "source_location": "L129",
+      "weight": 1.0,
+      "source": "scripts_plot_fvg_5days_first_full_fill_index",
+      "target": "scripts_plot_fvg_5days_py_str",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "context": "return_type",
+      "confidence": "EXTRACTED",
+      "source_file": "scripts/plot_fvg_5days.py",
+      "source_location": "L230",
+      "weight": 1.0,
+      "source": "scripts_plot_fvg_5days_rgba",
+      "target": "scripts_plot_fvg_5days_py_str",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "context": "return_type",
+      "confidence": "EXTRACTED",
+      "source_file": "scripts/plot_fvg_5days.py",
+      "source_location": "L107",
+      "weight": 1.0,
+      "source": "scripts_plot_fvg_5days_build_candles",
+      "target": "dataframe",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "context": "parameter_type",
+      "confidence": "EXTRACTED",
+      "source_file": "scripts/plot_fvg_5days.py",
+      "source_location": "L260",
+      "weight": 1.0,
+      "source": "scripts_plot_fvg_5days_build_chart",
+      "target": "dataframe",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "context": "return_type",
+      "confidence": "EXTRACTED",
+      "source_file": "scripts/plot_fvg_5days.py",
+      "source_location": "L144",
+      "weight": 1.0,
+      "source": "scripts_plot_fvg_5days_detect_fvgs",
+      "target": "dataframe",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "context": "parameter_type",
+      "confidence": "EXTRACTED",
+      "source_file": "scripts/plot_fvg_5days.py",
+      "source_location": "L129",
+      "weight": 1.0,
+      "source": "scripts_plot_fvg_5days_first_full_fill_index",
+      "target": "dataframe",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "context": "return_type",
+      "confidence": "EXTRACTED",
+      "source_file": "scripts/plot_fvg_5days.py",
+      "source_location": "L187",
+      "weight": 1.0,
+      "source": "scripts_plot_fvg_5days_load_candidates",
+      "target": "dataframe",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "scripts/plot_fvg_5days.py",
+      "source_location": "L472",
+      "weight": 1.0,
+      "source": "scripts_plot_fvg_5days_main",
+      "target": "scripts_plot_fvg_5days_build_candles",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "scripts/plot_fvg_5days.py",
+      "source_location": "L165",
+      "weight": 1.0,
+      "source": "scripts_plot_fvg_5days_detect_fvgs",
+      "target": "scripts_plot_fvg_5days_first_full_fill_index",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "context": "parameter_type",
+      "confidence": "EXTRACTED",
+      "source_file": "scripts/plot_fvg_5days.py",
+      "source_location": "L129",
+      "weight": 1.0,
+      "source": "scripts_plot_fvg_5days_first_full_fill_index",
+      "target": "scripts_plot_fvg_5days_py_float",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "context": "return_type",
+      "confidence": "EXTRACTED",
+      "source_file": "scripts/plot_fvg_5days.py",
+      "source_location": "L129",
+      "weight": 1.0,
+      "source": "scripts_plot_fvg_5days_first_full_fill_index",
+      "target": "scripts_plot_fvg_5days_py_int",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "context": "parameter_type",
+      "confidence": "EXTRACTED",
+      "source_file": "scripts/plot_fvg_5days.py",
+      "source_location": "L238",
+      "weight": 1.0,
+      "source": "scripts_plot_fvg_5days_add_horizontal_segment",
+      "target": "scripts_plot_fvg_5days_py_int",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "context": "parameter_type",
+      "confidence": "EXTRACTED",
+      "source_file": "scripts/plot_fvg_5days.py",
+      "source_location": "L260",
+      "weight": 1.0,
+      "source": "scripts_plot_fvg_5days_build_chart",
+      "target": "scripts_plot_fvg_5days_py_int",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "context": "parameter_type",
+      "confidence": "EXTRACTED",
+      "source_file": "scripts/plot_fvg_5days.py",
+      "source_location": "L238",
+      "weight": 1.0,
+      "source": "scripts_plot_fvg_5days_add_horizontal_segment",
+      "target": "scripts_plot_fvg_5days_py_float",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "context": "parameter_type",
+      "confidence": "EXTRACTED",
+      "source_file": "scripts/plot_fvg_5days.py",
+      "source_location": "L230",
+      "weight": 1.0,
+      "source": "scripts_plot_fvg_5days_rgba",
+      "target": "scripts_plot_fvg_5days_py_float",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "context": "parameter_type",
+      "confidence": "EXTRACTED",
+      "source_file": "scripts/plot_fvg_5days.py",
+      "source_location": "L144",
+      "weight": 1.0,
+      "source": "scripts_plot_fvg_5days_detect_fvgs",
+      "target": "scripts_plot_fvg_5days_py_timedelta",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "scripts/plot_fvg_5days.py",
+      "source_location": "L476",
+      "weight": 1.0,
+      "source": "scripts_plot_fvg_5days_main",
+      "target": "scripts_plot_fvg_5days_detect_fvgs",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "scripts/plot_fvg_5days.py",
+      "source_location": "L267",
+      "weight": 1.0,
+      "source": "scripts_plot_fvg_5days_build_chart",
+      "target": "scripts_plot_fvg_5days_py_timedelta",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "scripts/plot_fvg_5days.py",
+      "source_location": "L475",
+      "weight": 1.0,
+      "source": "scripts_plot_fvg_5days_main",
+      "target": "scripts_plot_fvg_5days_py_timedelta",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "scripts/plot_fvg_5days.py",
+      "source_location": "L479",
+      "weight": 1.0,
+      "source": "scripts_plot_fvg_5days_main",
+      "target": "scripts_plot_fvg_5days_load_candidates",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "scripts/plot_fvg_5days.py",
+      "source_location": "L302",
+      "weight": 1.0,
+      "source": "scripts_plot_fvg_5days_build_chart",
+      "target": "scripts_plot_fvg_5days_rgba",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "context": "parameter_type",
+      "confidence": "EXTRACTED",
+      "source_file": "scripts/plot_fvg_5days.py",
+      "source_location": "L238",
+      "weight": 1.0,
+      "source": "scripts_plot_fvg_5days_add_horizontal_segment",
+      "target": "figure",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "context": "parameter_type",
+      "confidence": "EXTRACTED",
+      "source_file": "scripts/plot_fvg_5days.py",
+      "source_location": "L238",
+      "weight": 1.0,
+      "source": "scripts_plot_fvg_5days_add_horizontal_segment",
+      "target": "timestamp",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "scripts/plot_fvg_5days.py",
+      "source_location": "L409",
+      "weight": 1.0,
+      "source": "scripts_plot_fvg_5days_build_chart",
+      "target": "scripts_plot_fvg_5days_add_horizontal_segment",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "context": "return_type",
+      "confidence": "EXTRACTED",
+      "source_file": "scripts/plot_fvg_5days.py",
+      "source_location": "L260",
+      "weight": 1.0,
+      "source": "scripts_plot_fvg_5days_build_chart",
+      "target": "figure",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "scripts/plot_fvg_5days.py",
+      "source_location": "L482",
+      "weight": 1.0,
+      "source": "scripts_plot_fvg_5days_main",
+      "target": "scripts_plot_fvg_5days_build_chart",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
       "source_file": "scripts/validate_skills.py",
       "source_location": "L74",
       "weight": 1.0,
@@ -6018,9 +6723,9 @@
       "source_file": "tests/test_phase2_execution_gate.py",
       "source_location": "L10",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "tests_test_phase2_execution_gate",
-      "target": "mnq_ai_cli",
-      "confidence_score": 1.0
+      "target": "mnq_ai_cli"
     },
     {
       "relation": "calls",
@@ -6125,9 +6830,9 @@
       "source_file": "src/mnq_ai/cli.py",
       "source_location": "L21",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "mnq_ai_cli_rationale_21",
-      "target": "mnq_ai_cli_main",
-      "confidence_score": 1.0
+      "target": "mnq_ai_cli_main"
     },
     {
       "relation": "references",
@@ -6254,6 +6959,17 @@
     },
     {
       "relation": "references",
+      "context": "parameter_type",
+      "confidence": "EXTRACTED",
+      "source_file": "src/mnq_ai/cli.py",
+      "source_location": "L167",
+      "weight": 1.0,
+      "source": "mnq_ai_cli_config_from_args",
+      "target": "src_mnq_ai_cli_py_namespace",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
       "context": "return_type",
       "confidence": "EXTRACTED",
       "source_file": "src/mnq_ai/cli.py",
@@ -6267,31 +6983,31 @@
       "relation": "uses",
       "confidence": "INFERRED",
       "source_file": "src/mnq_ai/cli.py",
-      "source_location": "L9",
+      "source_location": "L10",
       "weight": 0.8,
-      "confidence_score": 0.5,
-      "source": "namespace",
-      "target": "mnq_ai_config_phase1config"
+      "source": "src_mnq_ai_cli_py_namespace",
+      "target": "mnq_ai_config_phase1config",
+      "confidence_score": 0.5
     },
     {
       "relation": "uses",
       "confidence": "INFERRED",
       "source_file": "src/mnq_ai/cli.py",
-      "source_location": "L12",
+      "source_location": "L15",
       "weight": 0.8,
-      "confidence_score": 0.5,
-      "source": "namespace",
-      "target": "mnq_ai_exceptions_mnqaierror"
+      "source": "src_mnq_ai_cli_py_namespace",
+      "target": "mnq_ai_exceptions_mnqaierror",
+      "confidence_score": 0.5
     },
     {
       "relation": "uses",
       "confidence": "INFERRED",
       "source_file": "src/mnq_ai/cli.py",
-      "source_location": "L16",
+      "source_location": "L17",
       "weight": 0.8,
-      "confidence_score": 0.5,
-      "source": "namespace",
-      "target": "setups_failed_fvg_failedfvgconfig"
+      "source": "src_mnq_ai_cli_py_namespace",
+      "target": "setups_failed_fvg_failedfvgconfig",
+      "confidence_score": 0.5
     },
     {
       "relation": "uses",
@@ -6522,6 +7238,16 @@
       "weight": 1.0,
       "confidence_score": 1.0,
       "source": "mnq_ai_config_rationale_21",
+      "target": "mnq_ai_config_phase1config"
+    },
+    {
+      "relation": "uses",
+      "confidence": "INFERRED",
+      "source_file": "src/mnq_ai/cli.py",
+      "source_location": "L9",
+      "weight": 0.8,
+      "confidence_score": 0.5,
+      "source": "namespace",
       "target": "mnq_ai_config_phase1config"
     },
     {
@@ -7164,6 +7890,16 @@
       "weight": 1.0,
       "confidence_score": 1.0,
       "source": "mnq_ai_exceptions_schemavalidationerror",
+      "target": "mnq_ai_exceptions_mnqaierror"
+    },
+    {
+      "relation": "uses",
+      "confidence": "INFERRED",
+      "source_file": "src/mnq_ai/cli.py",
+      "source_location": "L12",
+      "weight": 0.8,
+      "confidence_score": 0.5,
+      "source": "namespace",
       "target": "mnq_ai_exceptions_mnqaierror"
     },
     {
@@ -8080,6 +8816,16 @@
       "target": "src_mnq_ai_setups_failed_fvg_py_object"
     },
     {
+      "relation": "uses",
+      "confidence": "INFERRED",
+      "source_file": "src/mnq_ai/cli.py",
+      "source_location": "L16",
+      "weight": 0.8,
+      "confidence_score": 0.5,
+      "source": "namespace",
+      "target": "setups_failed_fvg_failedfvgconfig"
+    },
+    {
       "relation": "references",
       "confidence": "EXTRACTED",
       "source_file": "src/mnq_ai/setups/failed_fvg.py",
@@ -8456,6 +9202,17 @@
       "context": "parameter_type",
       "confidence": "EXTRACTED",
       "source_file": "src/mnq_ai/setups/failed_fvg.py",
+      "source_location": "L335",
+      "weight": 1.0,
+      "source": "setups_failed_fvg_build_h1_fvgs",
+      "target": "src_mnq_ai_setups_failed_fvg_py_timedelta",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "context": "parameter_type",
+      "confidence": "EXTRACTED",
+      "source_file": "src/mnq_ai/setups/failed_fvg.py",
       "source_location": "L330",
       "weight": 1.0,
       "confidence_score": 1.0,
@@ -8503,28 +9260,6 @@
       "weight": 1.0,
       "source": "tests_test_failed_fvg_setup_engine_test_build_h1_fvgs_uses_three_bar_gap_and_delays_availability",
       "target": "setups_failed_fvg_build_h1_fvgs"
-    },
-    {
-      "relation": "calls",
-      "context": "call",
-      "confidence": "INFERRED",
-      "confidence_score": 0.8,
-      "source_file": "tests/test_failed_fvg_setup_engine.py",
-      "source_location": "L153",
-      "weight": 1.0,
-      "source": "tests_test_failed_fvg_setup_engine_test_build_h1_fvgs_does_not_bridge_symbols_or_sessions",
-      "target": "timedelta"
-    },
-    {
-      "relation": "calls",
-      "context": "call",
-      "confidence": "INFERRED",
-      "confidence_score": 0.8,
-      "source_file": "tests/test_failed_fvg_setup_engine.py",
-      "source_location": "L19",
-      "weight": 1.0,
-      "source": "tests_test_failed_fvg_setup_engine_test_build_h1_fvgs_uses_three_bar_gap_and_delays_availability",
-      "target": "timedelta"
     },
     {
       "relation": "references",
@@ -8825,6 +9560,17 @@
     {
       "relation": "calls",
       "context": "call",
+      "confidence": "INFERRED",
+      "confidence_score": 0.8,
+      "source_file": "tests/test_failed_fvg_setup_engine.py",
+      "source_location": "L19",
+      "weight": 1.0,
+      "source": "tests_test_failed_fvg_setup_engine_test_build_h1_fvgs_uses_three_bar_gap_and_delays_availability",
+      "target": "timedelta"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
       "confidence": "EXTRACTED",
       "source_file": "tests/test_failed_fvg_setup_engine.py",
       "source_location": "L44",
@@ -8887,6 +9633,17 @@
       "confidence_score": 1.0,
       "source": "tests_test_failed_fvg_setup_engine_test_build_h1_fvgs_does_not_bridge_symbols_or_sessions",
       "target": "tests_test_failed_fvg_setup_engine_ts"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "INFERRED",
+      "confidence_score": 0.8,
+      "source_file": "tests/test_failed_fvg_setup_engine.py",
+      "source_location": "L153",
+      "weight": 1.0,
+      "source": "tests_test_failed_fvg_setup_engine_test_build_h1_fvgs_does_not_bridge_symbols_or_sessions",
+      "target": "timedelta"
     },
     {
       "relation": "references",
@@ -9452,9 +10209,9 @@
       "source_file": "tests/test_phase2_execution_gate.py",
       "source_location": "L112",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "tests_test_phase2_execution_gate",
-      "target": "tests_test_phase2_execution_gate_candidate",
-      "confidence_score": 1.0
+      "target": "tests_test_phase2_execution_gate_candidate"
     },
     {
       "relation": "imports_from",
@@ -9463,9 +10220,9 @@
       "source_file": "tests/test_phase2_execution_gate.py",
       "source_location": "L4",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "tests_test_phase2_execution_gate",
-      "target": "tests_test_phase2_execution_gate_py_datetime",
-      "confidence_score": 1.0
+      "target": "tests_test_phase2_execution_gate_py_datetime"
     },
     {
       "relation": "contains",
@@ -9473,9 +10230,9 @@
       "source_file": "tests/test_phase2_execution_gate.py",
       "source_location": "L17",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "tests_test_phase2_execution_gate",
-      "target": "tests_test_phase2_execution_gate_test_phase2_execution_gate_labels_first_barrier_after_entry",
-      "confidence_score": 1.0
+      "target": "tests_test_phase2_execution_gate_test_phase2_execution_gate_labels_first_barrier_after_entry"
     },
     {
       "relation": "contains",
@@ -9483,9 +10240,9 @@
       "source_file": "tests/test_phase2_execution_gate.py",
       "source_location": "L152",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "tests_test_phase2_execution_gate",
-      "target": "tests_test_phase2_execution_gate_trade",
-      "confidence_score": 1.0
+      "target": "tests_test_phase2_execution_gate_trade"
     },
     {
       "relation": "contains",
@@ -9493,9 +10250,9 @@
       "source_file": "tests/test_phase2_execution_gate.py",
       "source_location": "L174",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "tests_test_phase2_execution_gate",
-      "target": "tests_test_phase2_execution_gate_ts",
-      "confidence_score": 1.0
+      "target": "tests_test_phase2_execution_gate_ts"
     },
     {
       "relation": "contains",
@@ -9503,9 +10260,9 @@
       "source_file": "tests/test_phase2_execution_gate.py",
       "source_location": "L86",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "tests_test_phase2_execution_gate",
-      "target": "tests_test_phase2_execution_gate_write_setup_candidates",
-      "confidence_score": 1.0
+      "target": "tests_test_phase2_execution_gate_write_setup_candidates"
     },
     {
       "relation": "contains",
@@ -9513,9 +10270,9 @@
       "source_file": "tests/test_phase2_execution_gate.py",
       "source_location": "L75",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "tests_test_phase2_execution_gate",
-      "target": "tests_test_phase2_execution_gate_write_trade_tape",
-      "confidence_score": 1.0
+      "target": "tests_test_phase2_execution_gate_write_trade_tape"
     },
     {
       "relation": "references",
@@ -9524,9 +10281,9 @@
       "source_file": "tests/test_phase2_execution_gate.py",
       "source_location": "L17",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "tests_test_phase2_execution_gate_test_phase2_execution_gate_labels_first_barrier_after_entry",
-      "target": "tests_test_phase2_execution_gate_py_path",
-      "confidence_score": 1.0
+      "target": "tests_test_phase2_execution_gate_py_path"
     },
     {
       "relation": "calls",
@@ -9535,9 +10292,9 @@
       "source_file": "tests/test_phase2_execution_gate.py",
       "source_location": "L64",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "tests_test_phase2_execution_gate_test_phase2_execution_gate_labels_first_barrier_after_entry",
-      "target": "tests_test_phase2_execution_gate_ts",
-      "confidence_score": 1.0
+      "target": "tests_test_phase2_execution_gate_ts"
     },
     {
       "relation": "calls",
@@ -9546,9 +10303,9 @@
       "source_file": "tests/test_phase2_execution_gate.py",
       "source_location": "L23",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "tests_test_phase2_execution_gate_test_phase2_execution_gate_labels_first_barrier_after_entry",
-      "target": "tests_test_phase2_execution_gate_write_setup_candidates",
-      "confidence_score": 1.0
+      "target": "tests_test_phase2_execution_gate_write_setup_candidates"
     },
     {
       "relation": "calls",
@@ -9557,9 +10314,9 @@
       "source_file": "tests/test_phase2_execution_gate.py",
       "source_location": "L22",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "tests_test_phase2_execution_gate_test_phase2_execution_gate_labels_first_barrier_after_entry",
-      "target": "tests_test_phase2_execution_gate_write_trade_tape",
-      "confidence_score": 1.0
+      "target": "tests_test_phase2_execution_gate_write_trade_tape"
     },
     {
       "relation": "references",
@@ -9568,9 +10325,9 @@
       "source_file": "tests/test_phase2_execution_gate.py",
       "source_location": "L86",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "tests_test_phase2_execution_gate_write_setup_candidates",
-      "target": "tests_test_phase2_execution_gate_py_path",
-      "confidence_score": 1.0
+      "target": "tests_test_phase2_execution_gate_py_path"
     },
     {
       "relation": "references",
@@ -9579,9 +10336,9 @@
       "source_file": "tests/test_phase2_execution_gate.py",
       "source_location": "L75",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "tests_test_phase2_execution_gate_write_trade_tape",
-      "target": "tests_test_phase2_execution_gate_py_path",
-      "confidence_score": 1.0
+      "target": "tests_test_phase2_execution_gate_py_path"
     },
     {
       "relation": "calls",
@@ -9590,9 +10347,9 @@
       "source_file": "tests/test_phase2_execution_gate.py",
       "source_location": "L77",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "tests_test_phase2_execution_gate_write_trade_tape",
-      "target": "tests_test_phase2_execution_gate_trade",
-      "confidence_score": 1.0
+      "target": "tests_test_phase2_execution_gate_trade"
     },
     {
       "relation": "calls",
@@ -9601,9 +10358,9 @@
       "source_file": "tests/test_phase2_execution_gate.py",
       "source_location": "L88",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "tests_test_phase2_execution_gate_write_setup_candidates",
-      "target": "tests_test_phase2_execution_gate_candidate",
-      "confidence_score": 1.0
+      "target": "tests_test_phase2_execution_gate_candidate"
     },
     {
       "relation": "references",
@@ -9612,9 +10369,9 @@
       "source_file": "tests/test_phase2_execution_gate.py",
       "source_location": "L112",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "tests_test_phase2_execution_gate_candidate",
-      "target": "tests_test_phase2_execution_gate_py_float",
-      "confidence_score": 1.0
+      "target": "tests_test_phase2_execution_gate_py_float"
     },
     {
       "relation": "references",
@@ -9623,9 +10380,9 @@
       "source_file": "tests/test_phase2_execution_gate.py",
       "source_location": "L112",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "tests_test_phase2_execution_gate_candidate",
-      "target": "tests_test_phase2_execution_gate_py_object",
-      "confidence_score": 1.0
+      "target": "tests_test_phase2_execution_gate_py_object"
     },
     {
       "relation": "references",
@@ -9634,9 +10391,9 @@
       "source_file": "tests/test_phase2_execution_gate.py",
       "source_location": "L112",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "tests_test_phase2_execution_gate_candidate",
-      "target": "tests_test_phase2_execution_gate_py_str",
-      "confidence_score": 1.0
+      "target": "tests_test_phase2_execution_gate_py_str"
     },
     {
       "relation": "calls",
@@ -9645,9 +10402,9 @@
       "source_file": "tests/test_phase2_execution_gate.py",
       "source_location": "L123",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "tests_test_phase2_execution_gate_candidate",
-      "target": "tests_test_phase2_execution_gate_ts",
-      "confidence_score": 1.0
+      "target": "tests_test_phase2_execution_gate_ts"
     },
     {
       "relation": "references",
@@ -9656,9 +10413,9 @@
       "source_file": "tests/test_phase2_execution_gate.py",
       "source_location": "L152",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "tests_test_phase2_execution_gate_trade",
-      "target": "tests_test_phase2_execution_gate_py_str",
-      "confidence_score": 1.0
+      "target": "tests_test_phase2_execution_gate_py_str"
     },
     {
       "relation": "references",
@@ -9667,9 +10424,9 @@
       "source_file": "tests/test_phase2_execution_gate.py",
       "source_location": "L174",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "tests_test_phase2_execution_gate_ts",
-      "target": "tests_test_phase2_execution_gate_py_str",
-      "confidence_score": 1.0
+      "target": "tests_test_phase2_execution_gate_py_str"
     },
     {
       "relation": "references",
@@ -9678,9 +10435,9 @@
       "source_file": "tests/test_phase2_execution_gate.py",
       "source_location": "L152",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "tests_test_phase2_execution_gate_trade",
-      "target": "tests_test_phase2_execution_gate_py_float",
-      "confidence_score": 1.0
+      "target": "tests_test_phase2_execution_gate_py_float"
     },
     {
       "relation": "references",
@@ -9689,9 +10446,9 @@
       "source_file": "tests/test_phase2_execution_gate.py",
       "source_location": "L152",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "tests_test_phase2_execution_gate_trade",
-      "target": "tests_test_phase2_execution_gate_py_object",
-      "confidence_score": 1.0
+      "target": "tests_test_phase2_execution_gate_py_object"
     },
     {
       "relation": "references",
@@ -9700,9 +10457,9 @@
       "source_file": "tests/test_phase2_execution_gate.py",
       "source_location": "L152",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "tests_test_phase2_execution_gate_trade",
-      "target": "tests_test_phase2_execution_gate_py_int",
-      "confidence_score": 1.0
+      "target": "tests_test_phase2_execution_gate_py_int"
     },
     {
       "relation": "calls",
@@ -9711,9 +10468,9 @@
       "source_file": "tests/test_phase2_execution_gate.py",
       "source_location": "L153",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "tests_test_phase2_execution_gate_trade",
-      "target": "tests_test_phase2_execution_gate_ts",
-      "confidence_score": 1.0
+      "target": "tests_test_phase2_execution_gate_ts"
     },
     {
       "relation": "references",
@@ -9722,9 +10479,9 @@
       "source_file": "tests/test_phase2_execution_gate.py",
       "source_location": "L174",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "tests_test_phase2_execution_gate_ts",
-      "target": "tests_test_phase2_execution_gate_py_datetime",
-      "confidence_score": 1.0
+      "target": "tests_test_phase2_execution_gate_py_datetime"
     },
     {
       "relation": "contains",
@@ -14851,5 +15608,5 @@
     }
   ],
   "hyperedges": [],
-  "built_at_commit": "eb2daa6459b9bd707ad1bdd630070366fa8d132a"
+  "built_at_commit": "2e4869d1ee2b0e8bd24350b17b833725782f6b99"
 }

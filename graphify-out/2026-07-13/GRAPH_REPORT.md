@@ -1,16 +1,16 @@
 # Graph Report - MNQVolumeAI  (2026-07-13)
 
 ## Corpus Check
-- 70 files · ~45,828 words
+- 71 files · ~46,515 words
 - Verdict: corpus is large enough that graph structure adds value.
 
 ## Summary
-- 583 nodes · 877 edges · 67 communities (30 shown, 37 thin omitted)
+- 597 nodes · 905 edges · 68 communities (31 shown, 37 thin omitted)
 - Extraction: 91% EXTRACTED · 9% INFERRED · 0% AMBIGUOUS · INFERRED: 78 edges (avg confidence: 0.64)
 - Token cost: 0 input · 0 output
 
 ## Graph Freshness
-- Built from commit: `5dca64c5`
+- Built from commit: `eb2daa64`
 - Run `git rev-parse HEAD` and compare to check if the graph is stale.
 - Run `graphify update .` after code changes (no API cost).
 
@@ -81,6 +81,7 @@
 - [[_COMMUNITY_Community 64|Community 64]]
 - [[_COMMUNITY_Community 65|Community 65]]
 - [[_COMMUNITY_Community 66|Community 66]]
+- [[_COMMUNITY_Community 67|Community 67]]
 
 ## God Nodes (most connected - your core abstractions)
 1. `Decimal` - 24 edges
@@ -109,9 +110,10 @@
 ## Import Cycles
 - 1-file cycle: `src/mnq_ai/setups/failed_fvg.py -> src/mnq_ai/setups/failed_fvg.py`
 - 1-file cycle: `tests/test_failed_fvg_candidate_pipeline.py -> tests/test_failed_fvg_candidate_pipeline.py`
+- 1-file cycle: `tests/test_phase2_execution_gate.py -> tests/test_phase2_execution_gate.py`
 - 1-file cycle: `tests/test_failed_fvg_setup_engine.py -> tests/test_failed_fvg_setup_engine.py`
 
-## Communities (67 total, 37 thin omitted)
+## Communities (68 total, 37 thin omitted)
 
 ### Community 0 - "Skill Validation and Parsing"
 Cohesion: 0.07
@@ -119,7 +121,7 @@ Nodes (41): auction-feature-engineering Skill, dependency-governor Skill, execut
 
 ### Community 1 - "Skill and Algorithm Policies"
 Cohesion: 0.10
-Nodes (26): ArgumentParser, Exception, _config_from_args(), main(), _parser(), Command-line interface for MNQ Phase 1 jobs., Run the ``mnq-ai`` CLI., Run the ``mnq-ai`` CLI. (+18 more)
+Nodes (27): ArgumentParser, Exception, _config_from_args(), main(), _parser(), Command-line interface for MNQ research pipeline jobs., Run the ``mnq-ai`` CLI., Run the ``mnq-ai`` CLI. (+19 more)
 
 ### Community 2 - "MNQ Project Specifications"
 Cohesion: 0.08
@@ -229,8 +231,12 @@ Nodes (3): ATLAS: Adaptive Trading with LLM AgentS Through Dynamic Prompt Optimi
 Cohesion: 0.29
 Nodes (10): datetime, float, int, object, Path, str, test_build_failed_fvg_candidates_cli_writes_manifest_and_parquet(), _trade() (+2 more)
 
+### Community 67 - "Community 67"
+Cohesion: 0.33
+Nodes (12): _candidate(), datetime, float, int, object, Path, str, test_phase2_execution_gate_labels_first_barrier_after_entry() (+4 more)
+
 ## Knowledge Gaps
-- **193 isolated node(s):** `PreToolUse`, `int`, `str`, `object`, `int` (+188 more)
+- **194 isolated node(s):** `PreToolUse`, `int`, `str`, `object`, `int` (+189 more)
   These have ≤1 connection - possible missing edges or undocumented components.
 - **37 thin communities (<3 nodes) omitted from report** — run `graphify query` to explore isolated nodes.
 
@@ -238,11 +244,11 @@ Nodes (10): datetime, float, int, object, Path, str, test_build_failed_fvg_candi
 _Questions this graph is uniquely positioned to answer:_
 
 - **Why does `Decimal` connect `Reinforcement Learning for Trading` to `Skill and Algorithm Policies`, `LLM Agents for Trading`?**
-  _High betweenness centrality (0.022) - this node is a cross-community bridge._
+  _High betweenness centrality (0.025) - this node is a cross-community bridge._
 - **Why does `MNQ Volume Profile AI Master Plan` connect `Limit Order Book Forecasting` to `Community 11`, `LSTM Trend Forecasting`, `Reinforcement Learning Trading`?**
-  _High betweenness centrality (0.021) - this node is a cross-community bridge._
+  _High betweenness centrality (0.020) - this node is a cross-community bridge._
 - **Why does `Comprehensive Research Report: Volume Profile Analysis in Financial Markets` connect `Reinforcement Learning Trading` to `Hook Utilities`, `Limit Order Book Forecasting`, `LSTM Trend Forecasting`, `Research Gaps Identification`?**
-  _High betweenness centrality (0.019) - this node is a cross-community bridge._
+  _High betweenness centrality (0.018) - this node is a cross-community bridge._
 - **Are the 9 inferred relationships involving `Decimal` (e.g. with `main()` and `.from_mapping()`) actually correct?**
   _`Decimal` has 9 INFERRED edges - model-reasoned connections that need verification._
 - **Are the 14 inferred relationships involving `Phase1Config` (e.g. with `ArgumentParser` and `float`) actually correct?**
