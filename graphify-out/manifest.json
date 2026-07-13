@@ -10,9 +10,9 @@
     "semantic_hash": "ad147a73cf1f14b813bdebee9a15f896"
   },
   "/Users/abdallah/Desktop/Trading/MNQVolumeAI/scripts/validate_skills.py": {
-    "mtime": 1783731039.0846598,
-    "ast_hash": "2f339baf4e9785a95c76643459708f86",
-    "semantic_hash": "2f339baf4e9785a95c76643459708f86"
+    "mtime": 1783934253.0840828,
+    "ast_hash": "700e36bce4b5d1edab3470c195792d0a",
+    "semantic_hash": ""
   },
   "/Users/abdallah/Desktop/Trading/MNQVolumeAI/tests/__init__.py": {
     "mtime": 1783729295.1723855,
@@ -215,8 +215,8 @@
     "semantic_hash": ""
   },
   "/Users/abdallah/Desktop/Trading/MNQVolumeAI/docs/phases/phase1_implementation_report.md": {
-    "mtime": 1783731159.1136177,
-    "ast_hash": "b4f488112ddb0a28705301723e489322",
+    "mtime": 1783731288.0525248,
+    "ast_hash": "fb80807d9b2e74d8cd1e6d462348c3da",
     "semantic_hash": ""
   },
   "/Users/abdallah/Desktop/Trading/MNQVolumeAI/docs/phases/phase1_performance_plan.md": {
@@ -225,8 +225,8 @@
     "semantic_hash": ""
   },
   "/Users/abdallah/Desktop/Trading/MNQVolumeAI/docs/phases/phase1_test_report.md": {
-    "mtime": 1783731159.1143148,
-    "ast_hash": "09a9069b6b3a79b93b2852c8821c502d",
+    "mtime": 1783731288.0535297,
+    "ast_hash": "fb8cfcba3b36b4979211c27c8d2666ef",
     "semantic_hash": ""
   },
   "/Users/abdallah/Desktop/Trading/MNQVolumeAI/docs/phases/phase2_readiness.md": {
@@ -314,152 +314,147 @@
     "ast_hash": "5acf03a3e2aa171d52b2765cc01dc873",
     "semantic_hash": ""
   },
-  "/Users/abdallah/Desktop/Trading/MNQVolumeAI/raw/github_com_StockSharp_StockSharp.md": {
+  "/Users/abdallah/Desktop/Trading/MNQVolumeAI/tests/test_gitignore_policy.py": {
+    "mtime": 1783934127.881506,
+    "ast_hash": "4ae92e263498bca29594450c1f92d615",
+    "semantic_hash": ""
+  },
+  "/Users/abdallah/Desktop/Trading/MNQVolumeAI/docs/research/papers/github_com_StockSharp_StockSharp.md": {
     "mtime": 1780415760.6956031,
     "ast_hash": "aad2fe4a9b76b311697e1d1b44544da8",
     "semantic_hash": ""
   },
-  "/Users/abdallah/Desktop/Trading/MNQVolumeAI/raw/github_com_TradeMaster-NTU_TradeMaster.md": {
+  "/Users/abdallah/Desktop/Trading/MNQVolumeAI/docs/research/papers/github_com_TradeMaster-NTU_TradeMaster.md": {
     "mtime": 1780415610.4569318,
     "ast_hash": "b239784cc2ff773e911209bac92720db",
     "semantic_hash": ""
   },
-  "/Users/abdallah/Desktop/Trading/MNQVolumeAI/raw/github_com_TradeMaster-NTU_TradeMaster_1.md": {
-    "mtime": 1780415756.7560134,
-    "ast_hash": "e6776a3d6b6ea543ced1dac52e6f3693",
-    "semantic_hash": ""
-  },
-  "/Users/abdallah/Desktop/Trading/MNQVolumeAI/raw/github_com_dcajasn_Riskfolio-Lib.md": {
+  "/Users/abdallah/Desktop/Trading/MNQVolumeAI/docs/research/papers/github_com_dcajasn_Riskfolio-Lib.md": {
     "mtime": 1780415647.1384208,
     "ast_hash": "78ab4fc7b64bc94b527b827554dc8733",
     "semantic_hash": ""
   },
-  "/Users/abdallah/Desktop/Trading/MNQVolumeAI/raw/github_com_dcajasn_Riskfolio-Lib_1.md": {
-    "mtime": 1780415752.7191834,
-    "ast_hash": "5cc96d096d7b30c465735f6fae38b2c8",
-    "semantic_hash": ""
-  },
-  "/Users/abdallah/Desktop/Trading/MNQVolumeAI/raw/github_com_nautechsystems_nautilus_trader.md": {
+  "/Users/abdallah/Desktop/Trading/MNQVolumeAI/docs/research/papers/github_com_nautechsystems_nautilus_trader.md": {
     "mtime": 1780415673.5249567,
     "ast_hash": "ccab7593e85b196b3f294685ace65878",
     "semantic_hash": ""
   },
-  "/Users/abdallah/Desktop/Trading/MNQVolumeAI/raw/volume_profile_research_en.md": {
+  "/Users/abdallah/Desktop/Trading/MNQVolumeAI/docs/research/papers/volume_profile_research_en.md": {
     "mtime": 1783211016.1725705,
     "ast_hash": "b881b47a88a90f511806905a671eaeca",
     "semantic_hash": ""
   },
-  "/Users/abdallah/Desktop/Trading/MNQVolumeAI/raw/arxiv_1803_06917.md": {
+  "/Users/abdallah/Desktop/Trading/MNQVolumeAI/docs/research/papers/arxiv_1803_06917.md": {
     "mtime": 1780327266.8991175,
     "ast_hash": "8d156ed2a2af9578037418d3012e83c2",
     "semantic_hash": ""
   },
-  "/Users/abdallah/Desktop/Trading/MNQVolumeAI/raw/arxiv_1808_03668.md": {
+  "/Users/abdallah/Desktop/Trading/MNQVolumeAI/docs/research/papers/arxiv_1808_03668.md": {
     "mtime": 1780327259.4968078,
     "ast_hash": "277363c5b2fb3c5f16c6bd13343cb5b9",
     "semantic_hash": ""
   },
-  "/Users/abdallah/Desktop/Trading/MNQVolumeAI/raw/arxiv_1811_10041.md": {
+  "/Users/abdallah/Desktop/Trading/MNQVolumeAI/docs/research/papers/arxiv_1811_10041.md": {
     "mtime": 1780327260.5577724,
     "ast_hash": "ced7cdc8950fa590cd660d985a409d33",
     "semantic_hash": ""
   },
-  "/Users/abdallah/Desktop/Trading/MNQVolumeAI/raw/arxiv_1907_06230.md": {
+  "/Users/abdallah/Desktop/Trading/MNQVolumeAI/docs/research/papers/arxiv_1907_06230.md": {
     "mtime": 1780327267.4863708,
     "ast_hash": "00de5a5b816ebc840b8999294f21b7be",
     "semantic_hash": ""
   },
-  "/Users/abdallah/Desktop/Trading/MNQVolumeAI/raw/arxiv_2306_05479.md": {
+  "/Users/abdallah/Desktop/Trading/MNQVolumeAI/docs/research/papers/arxiv_2306_05479.md": {
     "mtime": 1780327271.3006222,
     "ast_hash": "ae3ba751a5b8e4cf1fd881e45f6177e8",
     "semantic_hash": ""
   },
-  "/Users/abdallah/Desktop/Trading/MNQVolumeAI/raw/arxiv_2403_09267.md": {
+  "/Users/abdallah/Desktop/Trading/MNQVolumeAI/docs/research/papers/arxiv_2403_09267.md": {
     "mtime": 1780327268.1928785,
     "ast_hash": "3db2cdf2b4e83a271f921b1d13720560",
     "semantic_hash": ""
   },
-  "/Users/abdallah/Desktop/Trading/MNQVolumeAI/raw/arxiv_2405_18938.md": {
+  "/Users/abdallah/Desktop/Trading/MNQVolumeAI/docs/research/papers/arxiv_2405_18938.md": {
     "mtime": 1780327269.1808474,
     "ast_hash": "cf2191e9cca9cf9ead80ac9fe157cef8",
     "semantic_hash": ""
   },
-  "/Users/abdallah/Desktop/Trading/MNQVolumeAI/raw/arxiv_2409_14157.md": {
+  "/Users/abdallah/Desktop/Trading/MNQVolumeAI/docs/research/papers/arxiv_2409_14157.md": {
     "mtime": 1780327272.1516142,
     "ast_hash": "6fb7a6272bdb964bef12d4509e205c20",
     "semantic_hash": ""
   },
-  "/Users/abdallah/Desktop/Trading/MNQVolumeAI/raw/arxiv_2502_15757.md": {
+  "/Users/abdallah/Desktop/Trading/MNQVolumeAI/docs/research/papers/arxiv_2502_15757.md": {
     "mtime": 1780327270.2824092,
     "ast_hash": "507337eaa433357ed2a7f787ebe88019",
     "semantic_hash": ""
   },
-  "/Users/abdallah/Desktop/Trading/MNQVolumeAI/raw/arxiv_2503_09655.md": {
+  "/Users/abdallah/Desktop/Trading/MNQVolumeAI/docs/research/papers/arxiv_2503_09655.md": {
     "mtime": 1780325555.8980691,
     "ast_hash": "5571dd8deea10d1a0b378c5cd1a431ee",
     "semantic_hash": ""
   },
-  "/Users/abdallah/Desktop/Trading/MNQVolumeAI/raw/arxiv_2510_15612.md": {
+  "/Users/abdallah/Desktop/Trading/MNQVolumeAI/docs/research/papers/arxiv_2510_15612.md": {
     "mtime": 1780325607.9254005,
     "ast_hash": "8c7ed0af23dea2965bc8f9f4a4610322",
     "semantic_hash": ""
   },
-  "/Users/abdallah/Desktop/Trading/MNQVolumeAI/raw/arxiv_2510_15949.md": {
+  "/Users/abdallah/Desktop/Trading/MNQVolumeAI/docs/research/papers/arxiv_2510_15949.md": {
     "mtime": 1780325581.4574897,
     "ast_hash": "4b8ec1639b4a9451a8d0d18b09222ee0",
     "semantic_hash": ""
   },
-  "/Users/abdallah/Desktop/Trading/MNQVolumeAI/raw/arxiv_2603_14453.md": {
+  "/Users/abdallah/Desktop/Trading/MNQVolumeAI/docs/research/papers/arxiv_2603_14453.md": {
     "mtime": 1780325622.9982882,
     "ast_hash": "ca49095db7ffbef285994ca6fa95cea3",
     "semantic_hash": ""
   },
-  "/Users/abdallah/Desktop/Trading/MNQVolumeAI/raw/arxiv_2603_16434.md": {
+  "/Users/abdallah/Desktop/Trading/MNQVolumeAI/docs/research/papers/arxiv_2603_16434.md": {
     "mtime": 1780325645.1121545,
     "ast_hash": "330c7a0f32c4c322d856bffca0a92499",
     "semantic_hash": ""
   },
-  "/Users/abdallah/Desktop/Trading/MNQVolumeAI/raw/arxiv_2603_19944.md": {
+  "/Users/abdallah/Desktop/Trading/MNQVolumeAI/docs/research/papers/arxiv_2603_19944.md": {
     "mtime": 1780325662.953162,
     "ast_hash": "b7164a356f340b33062847643dbed65c",
     "semantic_hash": ""
   },
-  "/Users/abdallah/Desktop/Trading/MNQVolumeAI/raw/arxiv_2603_20965.md": {
+  "/Users/abdallah/Desktop/Trading/MNQVolumeAI/docs/research/papers/arxiv_2603_20965.md": {
     "mtime": 1780325695.919648,
     "ast_hash": "3b13b70b6bc3cdc4fb8a244f0f6fe0d9",
     "semantic_hash": ""
   },
-  "/Users/abdallah/Desktop/Trading/MNQVolumeAI/raw/arxiv_2603_21330.md": {
+  "/Users/abdallah/Desktop/Trading/MNQVolumeAI/docs/research/papers/arxiv_2603_21330.md": {
     "mtime": 1780325678.608284,
     "ast_hash": "cf12536794b2e62ce8acf7e2195bcf9b",
     "semantic_hash": ""
   },
-  "/Users/abdallah/Desktop/Trading/MNQVolumeAI/raw/arxiv_2604_02035.md": {
+  "/Users/abdallah/Desktop/Trading/MNQVolumeAI/docs/research/papers/arxiv_2604_02035.md": {
     "mtime": 1780325721.0991948,
     "ast_hash": "95f2c06e8559d6eb800f0b00c4284f0c",
     "semantic_hash": ""
   },
-  "/Users/abdallah/Desktop/Trading/MNQVolumeAI/raw/arxiv_2604_02921.md": {
+  "/Users/abdallah/Desktop/Trading/MNQVolumeAI/docs/research/papers/arxiv_2604_02921.md": {
     "mtime": 1780325745.4644642,
     "ast_hash": "d70070e9ccd1b35eef613e450a03f842",
     "semantic_hash": ""
   },
-  "/Users/abdallah/Desktop/Trading/MNQVolumeAI/raw/arxiv_2604_03888.md": {
+  "/Users/abdallah/Desktop/Trading/MNQVolumeAI/docs/research/papers/arxiv_2604_03888.md": {
     "mtime": 1780325761.1038256,
     "ast_hash": "673e6b7b18c09cc9fb2a220f2c970625",
     "semantic_hash": ""
   },
-  "/Users/abdallah/Desktop/Trading/MNQVolumeAI/raw/arxiv_2604_10005.md": {
+  "/Users/abdallah/Desktop/Trading/MNQVolumeAI/docs/research/papers/arxiv_2604_10005.md": {
     "mtime": 1780325513.274618,
     "ast_hash": "41d44cb2ccccef76b19406936f0200cc",
     "semantic_hash": ""
   },
-  "/Users/abdallah/Desktop/Trading/MNQVolumeAI/raw/arxiv_2604_11477.md": {
+  "/Users/abdallah/Desktop/Trading/MNQVolumeAI/docs/research/papers/arxiv_2604_11477.md": {
     "mtime": 1780325487.8081787,
     "ast_hash": "d222ed60803862899db5e8a62c380544",
     "semantic_hash": ""
   },
-  "/Users/abdallah/Desktop/Trading/MNQVolumeAI/raw/arxiv_2604_20949.md": {
+  "/Users/abdallah/Desktop/Trading/MNQVolumeAI/docs/research/papers/arxiv_2604_20949.md": {
     "mtime": 1780325538.9986787,
     "ast_hash": "64c92658d10e8b411546054d38214deb",
     "semantic_hash": ""

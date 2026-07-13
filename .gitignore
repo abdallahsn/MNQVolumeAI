@@ -17,13 +17,13 @@ __pycache__/
 *.pfx
 
 # Large market-data and generated artifacts
-data/
-datasets/
-raw_data/
+/data/
+/datasets/
+/raw_data/
 artifacts/*
 !artifacts/.gitkeep
-models/
-checkpoints/
+/models/
+/checkpoints/
 *.parquet
 *.feather
 *.arrow

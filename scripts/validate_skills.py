@@ -123,11 +123,11 @@ def validate(root: Path) -> list[str]:
             errors.append(f"{rel}: missing non-empty description")
 
         text = path.read_text(encoding="utf-8")
-        for pattern in LEGACY_PATTERNS:
-            if pattern in text:
-                errors.append(f"{rel}: forbidden legacy reference {pattern!r}")
-        for pattern in SECRET_PATTERNS:
-            if pattern.search(text):
+        for legacy_pattern in LEGACY_PATTERNS:
+            if legacy_pattern in text:
+                errors.append(f"{rel}: forbidden legacy reference {legacy_pattern!r}")
+        for secret_pattern in SECRET_PATTERNS:
+            if secret_pattern.search(text):
                 errors.append(f"{rel}: possible secret pattern")
 
         if skill.name in EXPECTED_PROJECT_SKILLS:
