@@ -4,13 +4,16 @@ from __future__ import annotations
 
 import argparse
 import sys
+from decimal import Decimal
 from pathlib import Path
 
 from mnq_ai.config import Phase1Config
 from mnq_ai.data.manifests import validate_trade_tape
+from mnq_ai.data.setup_candidates import build_failed_fvg_candidates
 from mnq_ai.data.trade_extractor import Phase1TradeExtractor
 from mnq_ai.exceptions import MNQAIError
 from mnq_ai.logging_config import configure_logging
+from mnq_ai.setups.failed_fvg import FailedFVGConfig
 
 
 def main(argv: list[str] | None = None) -> int:
@@ -22,20 +25,20 @@ def main(argv: list[str] | None = None) -> int:
         if args.command == "audit-mbo":
             config = _config_from_args(args, artifact_root=args.output)
             configure_logging(config.logging_level)
-            result = Phase1TradeExtractor(config).audit_mbo(Path(args.input), Path(args.output))
-            print(f"audit complete: rows={result.rows_processed} reports={result.reports_dir}")
+            audit_result = Phase1TradeExtractor(config).audit_mbo(Path(args.input), Path(args.output))
+            print(f"audit complete: rows={audit_result.rows_processed} reports={audit_result.reports_dir}")
             return 0
         if args.command == "build-trade-tape":
             config = _config_from_args(args, output_root=args.output, artifact_root=args.artifacts)
             configure_logging(config.logging_level)
-            result = Phase1TradeExtractor(config).build_trade_tape(
+            trade_result = Phase1TradeExtractor(config).build_trade_tape(
                 Path(args.input),
                 Path(args.output),
                 Path(args.artifacts),
             )
             print(
                 "trade tape complete: "
-                f"rows={result.output_rows} output={result.output_root} manifest={result.manifest_path}"
+                f"rows={trade_result.output_rows} output={trade_result.output_root} manifest={trade_result.manifest_path}"
             )
             return 0
         if args.command == "validate-trade-tape":
@@ -44,6 +47,31 @@ def main(argv: list[str] | None = None) -> int:
                 "validation complete: "
                 f"rows={observed['row_count']} size={observed['sum_size']} "
                 f"signed_volume={observed['sum_signed_volume']}"
+            )
+            return 0
+        if args.command == "build-failed-fvg-candidates":
+            config = _config_from_args(args, input_path=args.trade_tape, output_root=args.output, artifact_root=args.artifacts)
+            configure_logging(config.logging_level)
+            candidate_result = build_failed_fvg_candidates(
+                trade_tape_path=Path(args.trade_tape),
+                output_root=Path(args.output),
+                artifact_root=Path(args.artifacts),
+                config=config,
+                failed_fvg_config=FailedFVGConfig(
+                    tick_size=config.tick_size,
+                    effort_range_mult=Decimal(args.effort_range_mult),
+                    effort_volume_mult=Decimal(args.effort_volume_mult),
+                    atr_window=args.atr_window,
+                    volume_window=args.volume_window,
+                    stop_buffer_ticks=args.stop_buffer_ticks,
+                    max_holding_bars=args.max_holding_bars,
+                ),
+            )
+            print(
+                "failed fvg candidates complete: "
+                f"candidates={candidate_result.candidate_count} h1_bars={candidate_result.h1_bar_count} "
+                f"m30_bars={candidate_result.m30_bar_count} output={candidate_result.output_root} "
+                f"manifest={candidate_result.manifest_path}"
             )
             return 0
     except MNQAIError as exc:
@@ -73,18 +101,35 @@ def _parser() -> argparse.ArgumentParser:
     validate = subparsers.add_parser("validate-trade-tape", help="Validate a produced trade tape")
     validate.add_argument("--input", required=True, help="Trade-tape dataset directory")
     validate.add_argument("--manifest", required=True, help="Phase 1 manifest JSON")
+
+    failed_fvg = subparsers.add_parser(
+        "build-failed-fvg-candidates",
+        help="Build deterministic Failed FVG setup candidates from a trade tape",
+    )
+    failed_fvg.add_argument("--trade-tape", required=True, help="Canonical trade-tape Parquet file or dataset directory")
+    failed_fvg.add_argument("--config", required=True, help="YAML config path")
+    failed_fvg.add_argument("--output", required=True, help="Output directory for setup_candidates.parquet")
+    failed_fvg.add_argument("--artifacts", required=True, help="Artifact report directory")
+    failed_fvg.add_argument("--overwrite", action="store_true", help="Overwrite existing candidate output")
+    failed_fvg.add_argument("--atr-window", type=int, default=20, help="Trailing M30 bars for range baseline")
+    failed_fvg.add_argument("--volume-window", type=int, default=20, help="Trailing M30 bars for volume baseline")
+    failed_fvg.add_argument("--effort-range-mult", default="1.20", help="Signal range / trailing range threshold")
+    failed_fvg.add_argument("--effort-volume-mult", default="1.30", help="Signal volume / trailing volume threshold")
+    failed_fvg.add_argument("--stop-buffer-ticks", type=int, default=0, help="Stop buffer in ticks")
+    failed_fvg.add_argument("--max-holding-bars", type=int, default=12, help="Maximum holding time in M30 bars")
     return parser
 
 
 def _config_from_args(
     args: argparse.Namespace,
     *,
+    input_path: str | None = None,
     output_root: str | None = None,
     artifact_root: str | None = None,
 ) -> Phase1Config:
     return Phase1Config.from_yaml(
         args.config,
-        input_path=args.input,
+        input_path=input_path or args.input,
         output_root=output_root,
         artifact_root=artifact_root,
     ).with_overrides(overwrite=args.overwrite or None)

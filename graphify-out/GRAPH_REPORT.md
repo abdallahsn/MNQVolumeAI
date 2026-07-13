@@ -1,16 +1,16 @@
 # Graph Report - MNQVolumeAI  (2026-07-13)
 
 ## Corpus Check
-- 69 files · ~44,942 words
+- 70 files · ~45,828 words
 - Verdict: corpus is large enough that graph structure adds value.
 
 ## Summary
-- 567 nodes · 839 edges · 65 communities (28 shown, 37 thin omitted)
-- Extraction: 92% EXTRACTED · 8% INFERRED · 0% AMBIGUOUS · INFERRED: 65 edges (avg confidence: 0.64)
+- 583 nodes · 877 edges · 67 communities (30 shown, 37 thin omitted)
+- Extraction: 91% EXTRACTED · 9% INFERRED · 0% AMBIGUOUS · INFERRED: 78 edges (avg confidence: 0.64)
 - Token cost: 0 input · 0 output
 
 ## Graph Freshness
-- Built from commit: `770bbbb4`
+- Built from commit: `5dca64c5`
 - Run `git rev-parse HEAD` and compare to check if the graph is stale.
 - Run `graphify update .` after code changes (no API cost).
 
@@ -26,6 +26,7 @@
 - [[_COMMUNITY_MNQVolumeAI Utility Scripts|MNQVolumeAI Utility Scripts]]
 - [[_COMMUNITY_MNQVolumeAI Test Utilities|MNQVolumeAI Test Utilities]]
 - [[_COMMUNITY_Survival Analysis in Order Books|Survival Analysis in Order Books]]
+- [[_COMMUNITY_Community 11|Community 11]]
 - [[_COMMUNITY_LSTM Trend Forecasting|LSTM Trend Forecasting]]
 - [[_COMMUNITY_Natural Language to Option Strategies|Natural Language to Option Strategies]]
 - [[_COMMUNITY_Reinforcement Learning for Trading|Reinforcement Learning for Trading]]
@@ -79,60 +80,62 @@
 - [[_COMMUNITY_Community 63|Community 63]]
 - [[_COMMUNITY_Community 64|Community 64]]
 - [[_COMMUNITY_Community 65|Community 65]]
+- [[_COMMUNITY_Community 66|Community 66]]
 
 ## God Nodes (most connected - your core abstractions)
-1. `Decimal` - 21 edges
-2. `Phase1Config` - 19 edges
+1. `Decimal` - 24 edges
+2. `Phase1Config` - 20 edges
 3. `MNQ Volume Profile AI Master Plan` - 18 edges
 4. `Comprehensive Research Report: Volume Profile Analysis in Financial Markets` - 17 edges
 5. `ConfigurationError` - 16 edges
-6. `MNQ Volume Profile AI Master Plan` - 15 edges
-7. `Phase 0.5 Skill Trigger Tests` - 15 edges
-8. `Bar` - 14 edges
-9. `MNQVolumeAI` - 14 edges
-10. `FailedFVGSetupEngine` - 13 edges
+6. `FailedFVGConfig` - 16 edges
+7. `Bar` - 15 edges
+8. `MNQVolumeAI` - 15 edges
+9. `MNQ Volume Profile AI Master Plan` - 15 edges
+10. `Phase 0.5 Skill Trigger Tests` - 15 edges
 
 ## Surprising Connections (you probably didn't know these)
 - `test_config_validates_tick_and_timezone()` --calls--> `Decimal`  [INFERRED]
   tests/test_phase1_config.py → src/mnq_ai/setups/failed_fvg.py
-- `test_build_h1_fvgs_uses_three_bar_gap_and_delays_availability()` --calls--> `timedelta`  [INFERRED]
+- `datetime` --uses--> `FailedFVGConfig`  [INFERRED]
   tests/test_failed_fvg_setup_engine.py → src/mnq_ai/setups/failed_fvg.py
-- `float` --uses--> `Phase1Config`  [INFERRED]
-  tests/test_phase1_trade_extractor.py → src/mnq_ai/config.py
-- `object` --uses--> `Phase1Config`  [INFERRED]
-  tests/test_phase1_trade_extractor.py → src/mnq_ai/config.py
-- `int` --uses--> `Phase1Config`  [INFERRED]
-  tests/test_phase1_trade_extractor.py → src/mnq_ai/config.py
+- `int` --uses--> `FailedFVGConfig`  [INFERRED]
+  tests/test_failed_fvg_setup_engine.py → src/mnq_ai/setups/failed_fvg.py
+- `str` --uses--> `FailedFVGConfig`  [INFERRED]
+  tests/test_failed_fvg_setup_engine.py → src/mnq_ai/setups/failed_fvg.py
+- `test_failed_bull_fvg_emits_short_candidate_from_next_bar_entry()` --calls--> `FailedFVGConfig`  [INFERRED]
+  tests/test_failed_fvg_setup_engine.py → src/mnq_ai/setups/failed_fvg.py
 
 ## Import Cycles
 - 1-file cycle: `src/mnq_ai/setups/failed_fvg.py -> src/mnq_ai/setups/failed_fvg.py`
+- 1-file cycle: `tests/test_failed_fvg_candidate_pipeline.py -> tests/test_failed_fvg_candidate_pipeline.py`
 - 1-file cycle: `tests/test_failed_fvg_setup_engine.py -> tests/test_failed_fvg_setup_engine.py`
 
-## Communities (65 total, 37 thin omitted)
+## Communities (67 total, 37 thin omitted)
 
 ### Community 0 - "Skill Validation and Parsing"
 Cohesion: 0.07
-Nodes (40): auction-feature-engineering Skill, dependency-governor Skill, execution-backtest-gate Skill, mbo-data-causality Skill, out-of-core-data-engineering Skill, quant-model-validation Skill, quant-research-scout Skill, Ablation Requirement (+32 more)
+Nodes (41): auction-feature-engineering Skill, dependency-governor Skill, execution-backtest-gate Skill, mbo-data-causality Skill, out-of-core-data-engineering Skill, quant-model-validation Skill, quant-research-scout Skill, Ablation Requirement (+33 more)
 
 ### Community 1 - "Skill and Algorithm Policies"
 Cohesion: 0.10
-Nodes (42): ArgumentParser, Exception, float, _config_from_args(), main(), _parser(), Command-line interface for MNQ Phase 1 jobs., Run the ``mnq-ai`` CLI. (+34 more)
+Nodes (26): ArgumentParser, Exception, _config_from_args(), main(), _parser(), Command-line interface for MNQ Phase 1 jobs., Run the ``mnq-ai`` CLI., Run the ``mnq-ai`` CLI. (+18 more)
 
 ### Community 2 - "MNQ Project Specifications"
 Cohesion: 0.08
 Nodes (24): For /graphify add and --watch, For /graphify query, For the commit hook and native CLAUDE.md integration, For --update and --cluster-only, /graphify, Honesty Rules, Interpreter guard for subcommands, Part A - Structural extraction for code files (+16 more)
 
 ### Community 3 - "Limit Order Book Forecasting"
-Cohesion: 0.07
-Nodes (39): MNQ Volume Profile AI Master Plan, Acceptance Criteria, Checks, Chunking Strategy, MBO Trade Semantics, MNQ Data Audit Plan, Objectives, Price and size checks (+31 more)
+Cohesion: 0.11
+Nodes (26): MNQ Volume Profile AI Master Plan, Acceptance Criteria By Phase, Current Architecture Inventory, Current Issues And Risks, Data Readiness Assessment, Deleted but required before implementation, Deleted or generated paths that should not block the rebuild, Dependency Graph (+18 more)
 
 ### Community 4 - "LLM Agents for Trading"
 Cohesion: 0.16
 Nodes (17): Any, bool, _load_yaml_with_extends(), _parse_hms(), Configuration loading and validation for Phase 1 jobs., Return a validated copy with common CLI overrides., Fail closed on invalid configuration., Load a config file, following a single optional ``extends`` reference. (+9 more)
 
 ### Community 5 - "Hook Utilities"
-Cohesion: 0.24
-Nodes (12): MNQ Walk-Forward And Backtest Specification, Acceptance Criteria, Backtest Engine Requirements, Classification, Data Split Rules, Evaluation Metrics, MNQ Walk-Forward And Backtest Specification, Purge And Embargo (+4 more)
+Cohesion: 0.14
+Nodes (22): MNQ Walk-Forward And Backtest Specification, Acceptance Criteria, Automated Leakage Tests, Execution Assumptions, Label Philosophy, Leakage Blacklist, MNQ Labeling And Leakage Specification, Purging Metadata (+14 more)
 
 ### Community 6 - "Reinforcement Learning Trading"
 Cohesion: 0.13
@@ -148,11 +151,15 @@ Nodes (21): 1. Concepts and Historical Origin of Volume-by-Price Studies, 2. Mic
 
 ### Community 9 - "MNQVolumeAI Test Utilities"
 Cohesion: 0.08
-Nodes (20): Engineering Rules, graphify, Mandatory Project Skills, Phase 1 Data Architecture, CME Session Definition, Trade Tape Contract, Decisions, Phase 1 Dependency Decisions (+12 more)
+Nodes (21): Engineering Rules, graphify, Mandatory Project Skills, Phase 1 Data Architecture, CME Session Definition, Trade Tape Contract, 2026-07-13 Update: `tzdata`, Decisions (+13 more)
 
 ### Community 10 - "Survival Analysis in Order Books"
 Cohesion: 0.26
 Nodes (12): int, Path, load_skill(), main(), parse_front_matter(), int, Path, str (+4 more)
+
+### Community 11 - "Community 11"
+Cohesion: 0.23
+Nodes (13): Acceptance Criteria, Checks, Chunking Strategy, MBO Trade Semantics, MNQ Data Audit Plan, Objectives, Price and size checks, Required Audit Outputs (+5 more)
 
 ### Community 12 - "LSTM Trend Forecasting"
 Cohesion: 0.12
@@ -163,12 +170,12 @@ Cohesion: 0.33
 Nodes (10): MNQ Deterministic Setup Engine Specification, Acceptance Criteria, Candidate Setups, Core Principle, Deduplication Rules, MNQ Deterministic Setup Engine Specification, Online State Requirements, Reason Codes (+2 more)
 
 ### Community 14 - "Reinforcement Learning for Trading"
-Cohesion: 0.10
-Nodes (38): Decimal, EntrySide, FVGType, Bar, build_h1_fvgs(), FailedFVGConfig, FailedFVGSetupEngine, FVG (+30 more)
+Cohesion: 0.11
+Nodes (37): Decimal, EntrySide, FVGType, Bar, build_h1_fvgs(), FailedFVGSetupEngine, FVG, _overlaps_zone() (+29 more)
 
 ### Community 15 - "LLM Debiasing Techniques"
-Cohesion: 0.38
-Nodes (9): Acceptance Criteria, Artifact Contract, Calibration, Class Imbalance, Decision Thresholds, Feature Inputs, Initial Model Set, MNQ Model And Calibration Specification (+1 more)
+Cohesion: 0.28
+Nodes (20): float, Phase1Config, Validated runtime configuration for MBO auditing and trade extraction., DataValidationError, Raised when raw rows violate fail-closed data-quality rules., object, _config(), float (+12 more)
 
 ### Community 16 - "Institutional Liquidity Impact"
 Cohesion: 0.22
@@ -192,7 +199,7 @@ Nodes (6): Acceptance Rule, Do Not Trigger, Evidence Types, quant-research-scout
 
 ### Community 21 - "Research Gaps Identification"
 Cohesion: 0.14
-Nodes (22): Allowed Feature Families, `auction_rejection_features`, `cvd_delta_features`, Feature Family Contracts, Feature Sidecar, Forbidden Directional Inputs, Global Rules, `intraday_context_features` (+14 more)
+Nodes (21): Allowed Feature Families, `auction_rejection_features`, `cvd_delta_features`, Feature Family Contracts, Feature Sidecar, Forbidden Directional Inputs, Global Rules, `intraday_context_features` (+13 more)
 
 ### Community 24 - "Riskfolio-Lib GitHub Repository"
 Cohesion: 0.33
@@ -218,8 +225,12 @@ Nodes (3): Deep Limit Order Book Forecasting, HLOB -- Information Persistence an
 Cohesion: 0.67
 Nodes (3): ATLAS: Adaptive Trading with LLM AgentS Through Dynamic Prompt Optimization and Multi-Agent Coordination, Large Language Models and Stock Investing: Is the Human Factor Required?, Learning to Aggregate Zero-Shot LLM Agents for Corporate Disclosure Classification
 
+### Community 66 - "Community 66"
+Cohesion: 0.29
+Nodes (10): datetime, float, int, object, Path, str, test_build_failed_fvg_candidates_cli_writes_manifest_and_parquet(), _trade() (+2 more)
+
 ## Knowledge Gaps
-- **188 isolated node(s):** `PreToolUse`, `int`, `str`, `object`, `int` (+183 more)
+- **193 isolated node(s):** `PreToolUse`, `int`, `str`, `object`, `int` (+188 more)
   These have ≤1 connection - possible missing edges or undocumented components.
 - **37 thin communities (<3 nodes) omitted from report** — run `graphify query` to explore isolated nodes.
 
@@ -227,15 +238,15 @@ Nodes (3): ATLAS: Adaptive Trading with LLM AgentS Through Dynamic Prompt Optimi
 _Questions this graph is uniquely positioned to answer:_
 
 - **Why does `Decimal` connect `Reinforcement Learning for Trading` to `Skill and Algorithm Policies`, `LLM Agents for Trading`?**
-  _High betweenness centrality (0.023) - this node is a cross-community bridge._
-- **Why does `MNQ Volume Profile AI Master Plan` connect `Limit Order Book Forecasting` to `LSTM Trend Forecasting`, `Reinforcement Learning Trading`?**
   _High betweenness centrality (0.022) - this node is a cross-community bridge._
-- **Why does `Comprehensive Research Report: Volume Profile Analysis in Financial Markets` connect `Reinforcement Learning Trading` to `Limit Order Book Forecasting`, `LSTM Trend Forecasting`, `Research Gaps Identification`?**
-  _High betweenness centrality (0.020) - this node is a cross-community bridge._
-- **Are the 7 inferred relationships involving `Decimal` (e.g. with `.from_mapping()` and `_bar()`) actually correct?**
-  _`Decimal` has 7 INFERRED edges - model-reasoned connections that need verification._
-- **Are the 13 inferred relationships involving `Phase1Config` (e.g. with `ArgumentParser` and `float`) actually correct?**
-  _`Phase1Config` has 13 INFERRED edges - model-reasoned connections that need verification._
+- **Why does `MNQ Volume Profile AI Master Plan` connect `Limit Order Book Forecasting` to `Community 11`, `LSTM Trend Forecasting`, `Reinforcement Learning Trading`?**
+  _High betweenness centrality (0.021) - this node is a cross-community bridge._
+- **Why does `Comprehensive Research Report: Volume Profile Analysis in Financial Markets` connect `Reinforcement Learning Trading` to `Hook Utilities`, `Limit Order Book Forecasting`, `LSTM Trend Forecasting`, `Research Gaps Identification`?**
+  _High betweenness centrality (0.019) - this node is a cross-community bridge._
+- **Are the 9 inferred relationships involving `Decimal` (e.g. with `main()` and `.from_mapping()`) actually correct?**
+  _`Decimal` has 9 INFERRED edges - model-reasoned connections that need verification._
+- **Are the 14 inferred relationships involving `Phase1Config` (e.g. with `ArgumentParser` and `float`) actually correct?**
+  _`Phase1Config` has 14 INFERRED edges - model-reasoned connections that need verification._
 - **Are the 3 inferred relationships involving `Comprehensive Research Report: Volume Profile Analysis in Financial Markets` (e.g. with `MNQ Volume Profile AI Master Plan` and `mnq_labeling_and_leakage_spec.md`) actually correct?**
   _`Comprehensive Research Report: Volume Profile Analysis in Financial Markets` has 3 INFERRED edges - model-reasoned connections that need verification._
 - **Are the 7 inferred relationships involving `ConfigurationError` (e.g. with `Any` and `bool`) actually correct?**
